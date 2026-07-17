@@ -1,0 +1,106 @@
+#	Venue	Official Website
+1	Casbah	https://www.casbahmusic.com
+2	Soda Bar	https://www.sodabarmusic.com
+3	Belly Up	https://bellyup.com
+4	Music Box	https://musicboxsd.com
+5	North Island Credit Union Amphitheatre	https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events
+6	Lou Lou's Jungle Room, Lafayette Hotel	https://www.thelafayette.com
+7	Dizzy's	https://dizzysjazz.com
+8	EQ	https://eqsd.com
+9	Rich's	https://richssandiego.com
+10	The Brass Rail	https://www.thebrassrailsd.com
+11	House of Blues	https://www.houseofblues.com/sandiego
+12	Voodoo Room, House of Blues	https://www.houseofblues.com/sandiego
+13	Banshee Bar	https://www.bansheebar.com
+14	Grand Ole BBQ, Flinn Springs	https://grandolebbq.com
+15	The Jazz Lounge	https://www.thejazzlounge.live
+16	McGuffie's Live	https://mcguffieslive.com
+17	California Center for the Arts, Escondido	https://artcenter.org
+18	Athenaeum Art Center | Barrio Logan	https://www.ljathenaeum.org
+19	Winston's	https://winstonsob.com
+20	Whistle Stop	https://www.whistlestopbar.com
+21	Humphrey's Backstage Live	https://www.humphreysbackstagelive.com
+22	Tower Bar	https://www.thetowerbar.com
+23	Moonlight Amphitheatre	https://moonlightstage.com
+24	The Old Globe	https://www.theoldglobe.org
+25	New Village Arts	https://newvillagearts.org
+26	Cygnet Theatre | The Joan at Liberty Station	https://cygnettheatre.org
+27	Lamb's Players Theatre	https://lambsplayers.org
+28	North Coast Repertory Theatre	https://northcoastrep.org
+29	Aquarius Bar & Grille	https://www.aquariusbargrille.com
+30	Mr. Peabody's	https://mrpeabodys.net
+31	Cannonball	https://www.cannonballsd.com
+32	The Holding Company	https://www.theholdingcompanyob.com
+33	Tio Leo's	https://tioleos.com
+34	Pour House	https://www.pourhousesd.com
+35	Pechanga Arena San Diego	https://pechangaarenasd.com
+36	Mixed Grounds Coffee	https://www.mixedgroundscoffee.com
+37	Coyote Bar & Grill, Carlsbad	https://www.coyotecarlsbad.com
+38	SPIN	https://spinnightclub.com
+39	Ken Club	https://www.kenclubsd.com
+40	Grand Lobby, Westgate Hotel	https://www.westgatehotel.com
+41	Aztec Brewing Company, Vista	https://aztecbrewing.com
+42	Luau Bar	https://www.luaubar.com
+43	710 Beach Club	https://www.710bc.com
+44	535 Robinson (Pride Block Party site)	Special event location – no official venue website
+45	The Observatory North Park	https://www.observatorysd.com
+46	The Sound	https://thesoundsd.com
+47	Balboa Theatre	https://www.sandiegotheatres.org
+48	The Rady Shell at Jacobs Park	https://www.theshell.org
+49	Panama 66	https://www.panama66.com
+50	Black Cat Bar	https://www.blackcatsd.com
+51	Brick By Brick	https://www.brickbybrick.com
+52	Fast Times	https://www.fasttimessd.com
+53	Riviera Supper Club	https://www.rivierasupperclub.com
+54	Moonshine Flats	https://moonshineflats.com
+55	San Diego Natural History Museum	https://www.sdnhm.org
+56	La Jolla Playhouse	https://lajollaplayhouse.org
+57	Oceanside Theatre Company at The Brooks	https://oceansidetheatre.org
+58	Adams Avenue Theater	https://adamsavenuetheater.com
+59	The Rabbit Hole	https://www.therabbitholesd.com
+60	5 o'Clock Somewhere Bar (Margaritaville Hotel)	https://www.margaritavilleresorts.com/margaritaville-hotel-san-diego-gaslamp-quarter
+61	LandShark Bar & Grill (Margaritaville Hotel)	https://www.margaritavilleresorts.com/margaritaville-hotel-san-diego-gaslamp-quarter
+62	Renegade Country	https://renegade.country
+63	Lobby Bar, Sycuan Casino Resort	https://www.sycuan.com
+64	Bull & Bourbon, Sycuan Casino Resort	https://www.sycuan.com
+65	Retreat Pool, Sycuan Casino Resort	https://www.sycuan.com
+66	Quartyard	https://www.quartyardsd.com
+67	Pop Up Winona	https://popupwinona.com
+68	Blind Lady Ale House	https://www.blindladyalehouse.com
+69	Mo's	https://mosuniverse.com
+70	Moonshine Beach	https://moonshinebeachsd.com
+Del Mar Racetrack	https://web.dmtc.com
+L’Auberge Del Mar	https://www.laubergedelmar.com
+University Ave & Richmond Ave	—
+Marston Point, Balboa Park	https://www.balboapark.org
+Humphrey's Concerts By The Bay	https://www.humphreysconcerts.com
+Platform 34	https://www.platform34sd.com
+Worldbeat Center	https://www.worldbeatcenter.org
+SOMA Sidestage	https://www.somasandiego.com
+Bayfront Amphitheatre, SeaWorld	https://seaworld.com/san-diego
+The Heart OB	https://www.theheartob.com
+Ramona Mainstage	https://ramonamainstage.com
+Bates Nut Farm	https://batesnutfarm.biz
+Museum of Making Music	https://www.museumofmakingmusic.org
+Frontwave Arena	https://www.frontwavearena.com
+Kate Sessions Park	https://www.sandiego.gov/park-and-recreation/parks/regional/balboa/kate-sessions
+Southwestern College, DeVore Stadium	https://swcathletics.com
+Orca Stadium, SeaWorld	https://seaworld.com/san-diego
+Fit Social, Belmont Park	https://fitathletic.com
+La Jolla Athenaeum Music & Arts Library	https://www.ljathenaeum.org
+Spreckels Organ Pavilion	https://spreckelsorgan.org
+Neon Moon	https://www.neonmoonsd.com
+Aztec Brewery, Vista	https://www.aztecbrewery.com
+Petco Park	https://www.mlb.com/padres/ballpark
+Snapdragon Stadium	https://snapdragonstadium.com
+Epstein Family Amphitheater	https://amphitheater.ucsd.edu
+Cal Coast Credit Union Open Air Theatre, SDSU	https://as.sdsu.edu/calcoast
+Corazon Del Barrio	https://corazondelbarrio.org
+Queen Bee's	https://queenbeessd.com
+Bancroft Bar	https://www.bancroftbar.com
+Fall Brewing	https://fallbrewingcompany.com
+Copley Auditorium, Panama 66	https://www.panama66.com
+Blind Lady Ale House | Live In The Hamm's Room	https://blindladyalehouse.com
+Southwestern College Performing Arts Center	https://www.swccd.edu/campus-life/performing-arts-center/index.aspx
+Hilton San Diego Gaslamp Quarter	https://www.hilton.com/en/hotels/sanhhhf-hilton-san-diego-gaslamp-quarter
+American Junkie	https://americanjunkiesd.com

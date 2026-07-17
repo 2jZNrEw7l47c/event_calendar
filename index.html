@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Diego Live — What's On</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead__inner">
+      <div class="masthead__brand">
+        <a class="masthead__title" href="#">San Diego Live</a>
+        <p class="masthead__tagline">Shows around town, night by night</p>
+      </div>
+      <nav class="masthead__nav">
+        <a href="#" class="masthead__link">Venues</a>
+        <a href="#" class="masthead__link">Newsletter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="toolbar">
+      <div class="toolbar__left">
+        <h1 class="toolbar__heading">What's&nbsp;On</h1>
+        <p class="toolbar__count" id="event-count"></p>
+      </div>
+
+      <div class="toolbar__right">
+        <div class="filters" id="category-filters" role="group" aria-label="Filter by category"></div>
+        <div class="flyer-buttons" id="flyer-buttons"></div>
+        <div class="view-switch" role="tablist" aria-label="View">
+          <button class="view-switch__btn is-active" id="btn-list" role="tab" aria-selected="true">List</button>
+          <button class="view-switch__btn" id="btn-calendar" role="tab" aria-selected="false">Calendar</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- List view -->
+    <section id="list-view" class="list-view" aria-label="Event list"></section>
+
+    <!-- Calendar view -->
+    <section id="calendar-view" class="calendar-view" hidden aria-label="Event calendar">
+      <div class="calendar__header">
+        <button class="calendar__nav" id="cal-prev" aria-label="Previous month">&larr;</button>
+        <h2 class="calendar__month" id="cal-month"></h2>
+        <button class="calendar__nav" id="cal-next" aria-label="Next month">&rarr;</button>
+      </div>
+      <div class="calendar__weekdays" id="cal-weekdays"></div>
+      <div class="calendar__grid" id="cal-grid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p id="footer-note">San Diego Live &middot; Show listings pulled from venue sites</p>
+      <p>Always confirm details on the venue's own page before heading out.</p>
+    </div>
+  </footer>
+
+  <!-- Event detail dialog -->
+  <div class="overlay" id="overlay" hidden>
+    <div class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail__close" id="detail-close" aria-label="Close">&times;</button>
+      <p class="detail__category" id="detail-category"></p>
+      <h2 class="detail__title" id="detail-title"></h2>
+      <p class="detail__when" id="detail-when"></p>
+      <p class="detail__venue" id="detail-venue"></p>
+      <p class="detail__desc" id="detail-desc"></p>
+      <p class="detail__price" id="detail-price"></p>
+      <a class="detail__ticket" id="detail-ticket" target="_blank" rel="noopener" hidden>Get tickets &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Flyer dialog (image-only venues, e.g. Deano's) -->
+  <div class="overlay" id="flyer-overlay" hidden>
+    <div class="flyer" role="dialog" aria-modal="true" aria-labelledby="flyer-title">
+      <button class="detail__close" id="flyer-close" aria-label="Close">&times;</button>
+      <h2 class="flyer__title" id="flyer-title"></h2>
+      <img class="flyer__img" id="flyer-img" alt="" />
+      <p class="flyer__meta">
+        This schedule is posted as an image on the venue's site.
+        <a id="flyer-source" href="#" target="_blank" rel="noopener">View on deanospub.com &rarr;</a>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/events-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

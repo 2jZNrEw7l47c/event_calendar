@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+
+# Scratch files (temporary investigation output)
+scratch_*
