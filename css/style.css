@@ -28,6 +28,9 @@
   --cat-holdingco: #2f6d5a;
   --cat-houseofblues: #6b1f1f;
   --cat-observatory: #3a5c1f;
+  --cat-bellyup: #1f4f8c;
+  --cat-brick: #8c5a1f;
+  --cat-thesound: #5a1f8c;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -418,6 +421,9 @@ a { color: inherit; }
 .cat-holdingco    { color: var(--cat-holdingco); }
 .cat-houseofblues { color: var(--cat-houseofblues); }
 .cat-observatory  { color: var(--cat-observatory); }
+.cat-bellyup      { color: var(--cat-bellyup); }
+.cat-brick        { color: var(--cat-brick); }
+.cat-thesound     { color: var(--cat-thesound); }
 
 /* ---------- Detail dialog ---------- */
 

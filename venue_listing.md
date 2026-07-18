@@ -2,8 +2,13 @@
 
 Source: `venue_listing.txt`
 
-**Scraper** column: ✅ Built = a scraper/generator exists in `/scraper` and feeds
-the events page; — = not built yet. See `scraper/README.md` for details.
+**Scraper** column key:
+- ✅ Built — a scraper/generator exists in `/scraper` and feeds the events page
+- 🟡 JS-only — events are rendered client-side (needs a headless browser)
+- 🔵 Ticketmaster — large arena on Ticketmaster/Live Nation (anti-bot; best linked out)
+- 🔴 Unreachable — domain does not resolve / refuses connections
+
+See `scraper/README.md` for details.
 
 ## Primary Venues
 
@@ -13,28 +18,28 @@ the events page; — = not built yet. See `scraper/README.md` for details.
 | 2 | McGuffie's Live | https://mcguffieslive.com | ✅ Built |
 | 3 | Deano's Pub | https://deanospub.com/ | ✅ Built (flyer) |
 | 4 | Camel's Bar | camelsbarandgrill.com | ✅ Built (recurring) |
-| 5 | Snapdragon Stadium | https://snapdragonstadium.com | — |
-| 6 | The Holding Company | https://www.theholdingcompanyob.com | — |
-| 7 | Ken Club | https://www.kenclubsd.com | — |
-| 8 | Queen Bee's | https://queenbeessd.com | — |
-| 9 | Black Cat Bar | https://www.blackcatsd.com | — |
-| 10 | Brick By Brick | https://www.brickbybrick.com | — |
-| 11 | Soda Bar | https://www.sodabarmusic.com | — |
-| 12 | Music Box | https://musicboxsd.com | — |
-| 13 | Banshee Bar | https://www.bansheebar.com | — |
-| 14 | Belly Up | https://bellyup.com | — |
-| 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events | — |
-| 16 | House of Blues | https://www.houseofblues.com/sandiego | — |
-| 17 | Voodoo Room, House of Blues | https://www.houseofblues.com/sandiego | — |
-| 18 | Grand Ole BBQ, Flinn Springs | https://grandolebbq.com | — |
-| 19 | The Jazz Lounge | https://www.thejazzlounge.live | — |
-| 20 | Winston's | https://winstonsob.com | — |
-| 21 | Tower Bar | https://www.thetowerbar.com | — |
-| 22 | The Observatory North Park | https://www.observatorysd.com | — |
-| 23 | The Sound | https://thesoundsd.com | — |
-| 24 | SOMA Sidestage | https://www.somasandiego.com | — |
-| 25 | Whistle Stop | https://www.whistlestopbar.com | — |
-| 26 | Petco Park | https://www.mlb.com/padres/ballpark | — |
+| 5 | Snapdragon Stadium | https://snapdragonstadium.com | 🔵 Ticketmaster |
+| 6 | The Holding Company | https://www.theholdingcompanyob.com | ✅ Built |
+| 7 | Ken Club | https://www.kenclubsd.com | 🔴 Unreachable |
+| 8 | Queen Bee's | https://queenbeessd.com | 🟡 JS-only (Wix) |
+| 9 | Black Cat Bar | https://www.blackcatsd.com | 🟡 JS-only (Squarespace) |
+| 10 | Brick By Brick | https://www.brickbybrick.com | ✅ Built |
+| 11 | Soda Bar | https://www.sodabarmusic.com | 🟡 JS-only |
+| 12 | Music Box | https://musicboxsd.com | 🟡 JS-only (TicketWeb) |
+| 13 | Banshee Bar | https://www.bansheebar.com | 🔴 Unreachable |
+| 14 | Belly Up | https://bellyup.com | ✅ Built |
+| 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events | 🔵 Ticketmaster |
+| 16 | House of Blues | https://www.houseofblues.com/sandiego | ✅ Built |
+| 17 | Voodoo Room, House of Blues | https://www.houseofblues.com/sandiego | ✅ Built (with #16) |
+| 18 | Grand Ole BBQ, Flinn Springs | https://grandolebbq.com | 🟡 JS-only |
+| 19 | The Jazz Lounge | https://www.thejazzlounge.live | 🟡 JS-only (Wix) |
+| 20 | Winston's | https://winstonsob.com | 🟡 JS-only |
+| 21 | Tower Bar | https://www.thetowerbar.com | 🟡 JS-only |
+| 22 | The Observatory North Park | https://www.observatorysd.com | ✅ Built |
+| 23 | The Sound | https://thesoundsd.com | ✅ Built |
+| 24 | SOMA Sidestage | https://www.somasandiego.com | 🟡 JS-only |
+| 25 | Whistle Stop | https://www.whistlestopbar.com | ✅ Built |
+| 26 | Petco Park | https://www.mlb.com/padres/ballpark | 🔵 Ticketmaster |
 
 ## Secondary Venues
 

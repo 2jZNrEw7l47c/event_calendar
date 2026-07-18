@@ -21,6 +21,9 @@ import scrape_whistlestop
 import scrape_holdingco
 import scrape_houseofblues
 import scrape_observatory
+import scrape_bellyup
+import scrape_brick
+import scrape_thesound
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -31,6 +34,9 @@ SCRAPERS = [
     ("holdingco", "The Holding Company", scrape_holdingco),
     ("houseofblues", "House of Blues", scrape_houseofblues),
     ("observatory", "Observatory North Park", scrape_observatory),
+    ("bellyup", "Belly Up", scrape_bellyup),
+    ("brick", "Brick By Brick", scrape_brick),
+    ("thesound", "The Sound", scrape_thesound),
 ]
 
 # Image-only venues: no structured events, just a flyer we show in a dialog.

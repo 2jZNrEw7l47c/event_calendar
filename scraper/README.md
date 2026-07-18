@@ -25,8 +25,23 @@ the data file the events page loads.
   hosted image after the "This week's events" heading — so it keeps working when
   they swap in a new flyer (the filename is a content hash that changes each
   update). The image is saved to `../data/deanos-flyer.<ext>`.
-- `common.py` — shared HTTP headers and date/time parsing (incl. year inference,
-  since neither text site prints a year).
+- `scrape_whistlestop.py`, `scrape_holdingco.py` — WordPress + **The Events
+  Calendar**. Thin wrappers over `tribe_events.py`, which reads the plugin's
+  clean REST API (`/wp-json/tribe/events/v1/events`).
+- `scrape_houseofblues.py`, `scrape_observatory.py` — pages that embed their
+  schedule as schema.org **JSON-LD**. Thin wrappers over `ld_events.py`, a
+  generic JSON-LD Event/MusicEvent extractor.
+- `scrape_bellyup.py`, `scrape_brick.py`, `scrape_thesound.py` — WordPress +
+  **TicketWeb** plugin. Thin wrappers over `ticketweb_events.py`, which parses
+  the server-rendered `tw-*` event rows.
+- `common.py` — shared HTTP headers, tolerant UTF-8/cp1252 decoding, and
+  date/time parsing (incl. year inference, since the text sites omit the year).
+
+### Shared source helpers (reused across venues)
+
+- `tribe_events.py` — The Events Calendar REST API
+- `ld_events.py` — schema.org JSON-LD events
+- `ticketweb_events.py` — TicketWeb server-rendered event rows
 - `build_events_data.py` — runs every scraper, merges + sorts the results, and
   writes:
   - `../js/events-data.js` — consumed by the page
