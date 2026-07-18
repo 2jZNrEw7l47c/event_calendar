@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18 07:17",
+  "generated": "2026-07-18 07:28",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -5994,10 +5994,24 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-18 07:17",
+      "fetched": "2026-07-18 07:28",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
+    }
+  ],
+  "linkouts": [
+    {
+      "venue": "Snapdragon Stadium",
+      "url": "https://www.ticketmaster.com/snapdragon-stadium-tickets-san-diego/venue/82847"
+    },
+    {
+      "venue": "North Island Amphitheatre",
+      "url": "https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events"
+    },
+    {
+      "venue": "Petco Park",
+      "url": "https://www.ticketmaster.com/petco-park-tickets-san-diego/venue/82561"
     }
   ]
 }

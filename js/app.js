@@ -311,7 +311,11 @@
     if (e.key === "Escape" && !flyerOverlay.hidden) closeFlyer();
   });
 
-  function renderFlyerButtons() {
+  var linkouts = Array.isArray(window.LINKOUTS) ? window.LINKOUTS : [];
+
+  // The special-case row: flyer button(s) first, then link-out pills (large
+  // arenas we don't scrape — these link straight to their ticketing page).
+  function renderSpecialRow() {
     var wrap = document.getElementById("flyer-buttons");
     wrap.innerHTML = "";
     flyers.forEach(function (flyer) {
@@ -321,6 +325,16 @@
       btn.title = "See " + flyer.venue + "'s weekly flyer";
       btn.addEventListener("click", function () { openFlyer(flyer); });
       wrap.appendChild(btn);
+    });
+    linkouts.forEach(function (lo) {
+      if (!lo.url) return;
+      var a = el("a", "linkout-btn", lo.venue);
+      a.href = lo.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.title = "Tickets for " + lo.venue + " (opens on their ticketing site)";
+      a.appendChild(el("span", "linkout-btn__ext", "↗"));
+      wrap.appendChild(a);
     });
   }
 
@@ -394,6 +408,6 @@
 
   renderWeekdayHeader();
   renderFilters();
-  renderFlyerButtons();
+  renderSpecialRow();
   render();
 })();

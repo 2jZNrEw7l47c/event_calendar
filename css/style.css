@@ -193,6 +193,36 @@ a { color: inherit; }
 
 .flyer-btn:hover { background: var(--accent); color: var(--paper); }
 
+/* Link-out pills (arenas we don't scrape — link to their ticketing page) */
+
+.linkout-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border: 1px dashed var(--rule-strong);
+  border-radius: 999px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: border-color 120ms ease, color 120ms ease, background-color 120ms ease;
+}
+
+.linkout-btn:hover {
+  border-style: solid;
+  border-color: var(--ink);
+  color: var(--ink);
+  background: var(--accent-soft);
+}
+
+.linkout-btn__ext {
+  font-size: 11px;
+  color: var(--ink-faint);
+}
+
+.linkout-btn:hover .linkout-btn__ext { color: var(--accent); }
+
 /* View switch */
 
 .view-switch {

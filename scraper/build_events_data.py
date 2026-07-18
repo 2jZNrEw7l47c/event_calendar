@@ -60,6 +60,18 @@ FLYER_SCRAPERS = [
     ("Deano's Pub", scrape_deanos),
 ]
 
+# Link-out venues: large arenas we don't scrape (Ticketmaster/Live Nation
+# anti-bot). Instead we surface a pill that links straight to their ticketing
+# page. Shown in the special-case row next to the flyer button(s).
+LINKOUTS = [
+    {"venue": "Snapdragon Stadium",
+     "url": "https://www.ticketmaster.com/snapdragon-stadium-tickets-san-diego/venue/82847"},
+    {"venue": "North Island Amphitheatre",
+     "url": "https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events"},
+    {"venue": "Petco Park",
+     "url": "https://www.ticketmaster.com/petco-park-tickets-san-diego/venue/82561"},
+]
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS_OUT = os.path.join(ROOT, "js", "events-data.js")
 JSON_OUT = os.path.join(ROOT, "data", "events.json")
@@ -137,6 +149,7 @@ def main():
     payload_events = json.dumps(all_events, indent=2, ensure_ascii=False)
     payload_cats = json.dumps(categories, indent=2, ensure_ascii=False)
     payload_flyers = json.dumps(flyers, indent=2, ensure_ascii=False)
+    payload_linkouts = json.dumps(LINKOUTS, indent=2, ensure_ascii=False)
     stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
     header = (
@@ -145,13 +158,14 @@ def main():
         "   Last built: %s\n"
         "   Sources: Casbah (casbahmusic.com), McGuffie's Live (mcguffieslive.com),\n"
         "            Camel's Bar (recurring events), Deano's Pub flyer (deanospub.com)\n"
-        "   Exposes window.CATEGORIES, window.EVENTS, window.FLYERS for js/app.js.\n"
+        "   Exposes window.CATEGORIES, window.EVENTS, window.FLYERS, window.LINKOUTS.\n"
         "   ------------------------------------------------------------------ */\n\n"
     ) % stamp
 
     js = header + "window.CATEGORIES = " + payload_cats + ";\n\n" \
         + "window.EVENTS = " + payload_events + ";\n\n" \
-        + "window.FLYERS = " + payload_flyers + ";\n"
+        + "window.FLYERS = " + payload_flyers + ";\n\n" \
+        + "window.LINKOUTS = " + payload_linkouts + ";\n"
 
     os.makedirs(os.path.dirname(JS_OUT), exist_ok=True)
     os.makedirs(os.path.dirname(JSON_OUT), exist_ok=True)
@@ -159,7 +173,7 @@ def main():
         f.write(js)
     with open(JSON_OUT, "w", encoding="utf-8") as f:
         json.dump({"generated": stamp, "categories": categories,
-                   "events": all_events, "flyers": flyers},
+                   "events": all_events, "flyers": flyers, "linkouts": LINKOUTS},
                   f, indent=2, ensure_ascii=False)
 
     print("Built %s" % os.path.relpath(JS_OUT, ROOT))
