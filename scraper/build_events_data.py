@@ -51,7 +51,7 @@ DEDUP_PREFER = [("thesound", "bellyup")]
 
 # Drop any event whose title or description matches one of these (whole-word,
 # case-insensitive). Keeps happy hours and metal nights out of the listings.
-EXCLUDE_KEYWORDS = [r"happy hour", r"metal"]
+EXCLUDE_KEYWORDS = [r"happy hour", r"metal", r"djs?"]
 _EXCLUDE_RE = re.compile(r"\b(?:%s)\b" % "|".join(EXCLUDE_KEYWORDS), re.I)
 
 # Image-only venues: no structured events, just a flyer we show in a dialog.
