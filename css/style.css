@@ -32,6 +32,7 @@
   --cat-brick: #8c5a1f;
   --cat-thesound: #5a1f8c;
   --cat-kensington: #7a3b1f;
+  --cat-banshee: #8c1f2f;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -403,10 +404,18 @@ a { color: inherit; }
 .cal-event__title { color: var(--ink); }
 
 .cal-more {
+  display: block;
+  width: calc(100% + 0px);
+  text-align: left;
   font-size: 11px;
+  font-weight: 600;
   color: var(--ink-faint);
-  padding-left: 8px;
+  padding: 2px 4px 2px 8px;
+  border-radius: 2px;
+  transition: background-color 120ms ease, color 120ms ease;
 }
+
+.cal-more:hover { background: var(--accent-soft); color: var(--accent); }
 
 /* Category colors */
 .cat-music     { color: var(--cat-music); }
@@ -426,6 +435,7 @@ a { color: inherit; }
 .cat-brick        { color: var(--cat-brick); }
 .cat-thesound     { color: var(--cat-thesound); }
 .cat-kensington   { color: var(--cat-kensington); }
+.cat-banshee      { color: var(--cat-banshee); }
 
 /* ---------- Detail dialog ---------- */
 
@@ -520,6 +530,56 @@ a { color: inherit; }
 .detail__ticket:hover { background: var(--accent); border-color: var(--accent); }
 
 .detail__ticket[hidden] { display: none; }
+
+/* ---------- Day dialog (calendar +N more) ---------- */
+
+.day-detail { width: min(460px, 100%); }
+
+.day-list {
+  margin-top: 14px;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.day-row {
+  display: grid;
+  grid-template-columns: 78px minmax(0, 1fr);
+  gap: 2px 14px;
+  align-items: baseline;
+  width: 100%;
+  text-align: left;
+  padding: 10px 6px;
+  margin: 0 -6px;
+  border-top: 1px dotted var(--rule);
+  transition: background-color 120ms ease;
+}
+
+.day-row:first-child { border-top: none; }
+.day-row:hover { background: var(--accent-soft); }
+
+.day-row__time {
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.day-row__main { min-width: 0; }
+
+.day-row__title {
+  display: block;
+  font-family: var(--serif);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.day-row__venue {
+  display: block;
+  font-size: 12.5px;
+  color: var(--ink-faint);
+  margin-top: 1px;
+}
 
 /* ---------- Flyer dialog ---------- */
 

@@ -25,6 +25,7 @@ import scrape_bellyup
 import scrape_brick
 import scrape_thesound
 import scrape_kensington
+import scrape_banshee
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -39,7 +40,12 @@ SCRAPERS = [
     ("brick", "Brick By Brick", scrape_brick),
     ("thesound", "The Sound", scrape_thesound),
     ("kensington", "The Kensington Club", scrape_kensington),
+    ("banshee", "Banshee Bar", scrape_banshee),
 ]
+
+# Belly Up's feed aggregates other rooms (incl. The Sound). When the same show
+# (same title + date) appears for both, keep The Sound's copy and drop Belly Up's.
+DEDUP_PREFER = [("thesound", "bellyup")]
 
 # Image-only venues: no structured events, just a flyer we show in a dialog.
 # (label, module) — each module.scrape(today) returns flyer metadata or None.
@@ -50,6 +56,29 @@ FLYER_SCRAPERS = [
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS_OUT = os.path.join(ROOT, "js", "events-data.js")
 JSON_OUT = os.path.join(ROOT, "data", "events.json")
+
+
+def _norm(title):
+    return re.sub(r"[^a-z0-9]+", "", title.lower())
+
+
+def _dedup_across_venues(events, per_venue):
+    """Drop cross-listed duplicates per DEDUP_PREFER (keep first venue, drop second)."""
+    for keep_cat, drop_cat in DEDUP_PREFER:
+        keep_keys = {(e["date"], _norm(e["title"])) for e in events if e["category"] == keep_cat}
+        if not keep_keys:
+            continue
+        kept = []
+        removed = 0
+        for e in events:
+            if e["category"] == drop_cat and (e["date"], _norm(e["title"])) in keep_keys:
+                removed += 1
+                continue
+            kept.append(e)
+        events = kept
+        if removed:
+            print("  (deduped %d %s events also listed by %s)" % (removed, drop_cat, keep_cat))
+    return events
 
 
 def main():
@@ -68,6 +97,8 @@ def main():
         if evs:
             categories[key] = label
             all_events.extend(evs)
+
+    all_events = _dedup_across_venues(all_events, per_venue)
 
     # Sort chronologically (date then time) — the page also sorts, but a tidy
     # file is easier to diff and eyeball.

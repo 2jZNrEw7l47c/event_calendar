@@ -27,7 +27,7 @@ See `scraper/README.md` for details.
 | 10 | Brick By Brick | https://www.brickbybrick.com | ✅ Built |
 | 11 | Soda Bar | https://www.sodabarmusic.com | 🟡 JS-only |
 | 12 | Music Box | https://musicboxsd.com | 🟡 JS-only (TicketWeb) |
-| 13 | Banshee Bar | https://thebansheebar.com/ | ⚪ No events posted |
+| 13 | Banshee Bar | https://thebansheebar.com/ | ✅ Built (DICE) |
 | 14 | Belly Up | https://bellyup.com | ✅ Built |
 | 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events | 🔵 Ticketmaster |
 | 16 | House of Blues | https://www.houseofblues.com/sandiego | ✅ Built |

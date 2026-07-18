@@ -164,33 +164,38 @@
     var MAX_SHOWN = 3;
 
     for (var day = 1; day <= daysInMonth; day++) {
-      var cell = el("div", "cal-cell");
-      var d = new Date(state.calYear, state.calMonth, day);
-      if (sameDay(d, today)) cell.classList.add("cal-cell--today");
-
-      cell.appendChild(el("div", "cal-cell__num", String(day)));
-
       var key = state.calYear + "-" +
         String(state.calMonth + 1).padStart(2, "0") + "-" +
         String(day).padStart(2, "0");
-
-      var dayEvents = byDate[key] || [];
-      dayEvents.slice(0, MAX_SHOWN).forEach(function (ev) {
-        var chip = el("button", "cal-event cat-" + ev.category);
-        chip.type = "button";
-        chip.title = ev.title + " — " + formatTime(ev.time);
-        chip.appendChild(el("span", "cal-event__time", shortTime(ev.time)));
-        chip.appendChild(el("span", "cal-event__title", ev.title));
-        chip.addEventListener("click", function () { openDetail(ev); });
-        cell.appendChild(chip);
-      });
-
-      if (dayEvents.length > MAX_SHOWN) {
-        cell.appendChild(el("div", "cal-more", "+" + (dayEvents.length - MAX_SHOWN) + " more"));
-      }
-
-      grid.appendChild(cell);
+      grid.appendChild(buildDayCell(new Date(state.calYear, state.calMonth, day),
+                                    byDate[key] || [], MAX_SHOWN));
     }
+  }
+
+  // Build one calendar cell. A separate function so each day's click handlers
+  // capture their own date/events (the render loop uses `var`).
+  function buildDayCell(d, dayEvents, maxShown) {
+    var cell = el("div", "cal-cell");
+    if (sameDay(d, today)) cell.classList.add("cal-cell--today");
+    cell.appendChild(el("div", "cal-cell__num", String(d.getDate())));
+
+    dayEvents.slice(0, maxShown).forEach(function (ev) {
+      var chip = el("button", "cal-event cat-" + ev.category);
+      chip.type = "button";
+      chip.title = ev.title + " — " + formatTime(ev.time);
+      chip.appendChild(el("span", "cal-event__time", shortTime(ev.time)));
+      chip.appendChild(el("span", "cal-event__title", ev.title));
+      chip.addEventListener("click", function () { openDetail(ev); });
+      cell.appendChild(chip);
+    });
+
+    if (dayEvents.length > maxShown) {
+      var more = el("button", "cal-more", "+" + (dayEvents.length - maxShown) + " more");
+      more.type = "button";
+      more.addEventListener("click", function () { openDay(d, dayEvents); });
+      cell.appendChild(more);
+    }
+    return cell;
   }
 
   function renderWeekdayHeader() {
@@ -237,6 +242,42 @@
   document.getElementById("detail-close").addEventListener("click", closeDetail);
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !overlay.hidden) closeDetail();
+  });
+
+  // ---------- Day dialog (calendar "+N more") ----------
+
+  var dayOverlay = document.getElementById("day-overlay");
+
+  function openDay(d, dayEvents) {
+    document.getElementById("day-title").textContent = formatDateHeading(d);
+    var list = document.getElementById("day-list");
+    list.innerHTML = "";
+    dayEvents.forEach(function (ev) {
+      var row = el("button", "day-row");
+      row.type = "button";
+      row.appendChild(el("span", "day-row__time", formatTime(ev.time)));
+      var main = el("span", "day-row__main");
+      main.appendChild(el("span", "day-row__title", ev.title));
+      main.appendChild(el("span", "day-row__venue", ev.venue));
+      row.appendChild(main);
+      row.addEventListener("click", function () {
+        closeDay();
+        openDetail(ev);
+      });
+      list.appendChild(row);
+    });
+    dayOverlay.hidden = false;
+    document.getElementById("day-close").focus();
+  }
+
+  function closeDay() { dayOverlay.hidden = true; }
+
+  dayOverlay.addEventListener("click", function (e) {
+    if (e.target === dayOverlay) closeDay();
+  });
+  document.getElementById("day-close").addEventListener("click", closeDay);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !dayOverlay.hidden) closeDay();
   });
 
   // ---------- Flyer venues (image-only schedules) ----------
