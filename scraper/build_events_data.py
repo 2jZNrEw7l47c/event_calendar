@@ -67,7 +67,7 @@ LINKOUTS = [
     {"venue": "Snapdragon Stadium",
      "url": "https://www.ticketmaster.com/snapdragon-stadium-tickets-san-diego/venue/82847"},
     {"venue": "North Island Amphitheatre",
-     "url": "https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events"},
+     "url": "https://www.livenation.com/venue/KovZpa2WZe/north-island-credit-union-amphitheatre-events"},
     {"venue": "Petco Park",
      "url": "https://www.ticketmaster.com/petco-park-tickets-san-diego/venue/82561"},
 ]

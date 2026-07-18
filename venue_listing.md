@@ -31,7 +31,7 @@ See `scraper/README.md` for details.
 | 12 | Music Box | https://musicboxsd.com | 🟡 JS-only (TicketWeb) |
 | 13 | Banshee Bar | https://thebansheebar.com/ | ✅ Built (DICE) |
 | 14 | Belly Up | https://bellyup.com | ✅ Built |
-| 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpZAJ6nlA/north-island-credit-union-amphitheatre-events | 🔗 Link-out (Ticketmaster) |
+| 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpa2WZe/north-island-credit-union-amphitheatre-events | 🔗 Link-out (Ticketmaster) |
 | 16 | House of Blues | https://www.houseofblues.com/sandiego | ✅ Built |
 | 17 | Voodoo Room, House of Blues | https://www.houseofblues.com/sandiego | ✅ Built (with #16) |
 | 18 | Grand Ole BBQ, Flinn Springs | https://grandolebbq.com | 🟡 JS-only |
