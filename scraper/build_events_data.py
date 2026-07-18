@@ -24,6 +24,7 @@ import scrape_observatory
 import scrape_bellyup
 import scrape_brick
 import scrape_thesound
+import scrape_kensington
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -37,6 +38,7 @@ SCRAPERS = [
     ("bellyup", "Belly Up", scrape_bellyup),
     ("brick", "Brick By Brick", scrape_brick),
     ("thesound", "The Sound", scrape_thesound),
+    ("kensington", "The Kensington Club", scrape_kensington),
 ]
 
 # Image-only venues: no structured events, just a flyer we show in a dialog.

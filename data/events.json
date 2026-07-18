@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17 20:22",
+  "generated": "2026-07-17 20:36",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -10,7 +10,8 @@
     "observatory": "Observatory North Park",
     "bellyup": "Belly Up",
     "brick": "Brick By Brick",
-    "thesound": "The Sound"
+    "thesound": "The Sound",
+    "kensington": "The Kensington Club"
   },
   "events": [
     {
@@ -47,6 +48,17 @@
       "url": null
     },
     {
+      "id": "kensington-2026-07-15-standup-comedy",
+      "title": "standup comedy",
+      "date": "2026-07-15",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
+    },
+    {
       "id": "mcg-s0i0",
       "title": "KARAOKE NIGHT",
       "date": "2026-07-15",
@@ -67,6 +79,17 @@
       "price": "$12 COVER",
       "description": "(STEVIE RAY VAUGHAN TRIBUTE) · As listed: July 16th at 8pm",
       "url": null
+    },
+    {
+      "id": "kensington-2026-07-16-vamp",
+      "title": "vamp",
+      "date": "2026-07-16",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "whistlestop-2026-07-17-friday-happy-hour-w-dj-shoeshine",
@@ -122,6 +145,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/emo-vs-punk-with-the-brick-by-brick-tickets/14221224?REFID=clientsitewp"
+    },
+    {
+      "id": "kensington-2026-07-17-grave-beat",
+      "title": "grave beat",
+      "date": "2026-07-17",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "bellyup-14950543",
@@ -232,6 +266,17 @@
       "price": "",
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/fulton-lee-sing-with-me-tour-san-diego-california-07-18-2026/event/0B0064369A053D1F"
+    },
+    {
+      "id": "kensington-2026-07-18-a-face-with-no-name-once-loved-low",
+      "title": "a face with no name once loved low points redwood vine",
+      "date": "2026-07-18",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "bellyup-14840403",
@@ -674,6 +719,17 @@
       "url": "https://www.ticketweb.com/event/atomic-grooves-summer-sparkle-dance-belly-up-tickets/14848323?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "kensington-2026-07-24-bloom-room-collective-electric-dri",
+      "title": "bloom room collective electric drip bambula",
+      "date": "2026-07-24",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
+    },
+    {
       "id": "mcg-s0i12",
       "title": "FRAXURES",
       "date": "2026-07-24",
@@ -782,6 +838,17 @@
       "price": "$10 COVER",
       "description": "ZEPTUNE · (RUSH & LED ZEPPLIN TRIBUTES) · As listed: July 25th at 8pm",
       "url": null
+    },
+    {
+      "id": "kensington-2026-07-25-headmaster-tormentors",
+      "title": "Headmaster tormentors",
+      "date": "2026-07-25",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "bellyup-14156464",
@@ -1266,6 +1333,17 @@
       "price": "",
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/electric-feels-indie-rock-electronic-dance-san-diego-california-07-31-2026/event/0B0064ABB7294A0E"
+    },
+    {
+      "id": "kensington-2026-07-31-headmaster-tormentors",
+      "title": "Headmaster tormentors",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "casbah-690175",
@@ -2357,6 +2435,17 @@
       "url": "https://www.ticketweb.com/event/common-sense-hazmatt-no-good-belly-up-tickets/14759033?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "kensington-2026-08-15-nuda-sine",
+      "title": "nuda sine",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
+    },
+    {
       "id": "mcg-s1i20",
       "title": "SO-CAL HEAVY JAMS",
       "date": "2026-08-15",
@@ -2753,6 +2842,17 @@
       "url": null
     },
     {
+      "id": "kensington-2026-08-22-ian-curtis-the-egg-factory-paint-t",
+      "title": "Ian curtis the egg factory paint Thinner Loose Lyon x Faeth DJ Nalla",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
+    },
+    {
       "id": "bellyup-14179024",
       "title": "Tainted Love",
       "date": "2026-08-22",
@@ -3059,6 +3159,17 @@
       "price": "",
       "description": "The Black Crowes Revival",
       "url": "https://www.ticketweb.com/event/led-zepagain-the-black-crowes-belly-up-tickets/14811373?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "kensington-2026-08-29-skelfigures-bunny-jagged-baptist-c",
+      "title": "Skelfigures bunny Jagged baptist club headworm Ricky! Mr. Bugs & Friends",
+      "date": "2026-08-29",
+      "time": "20:00",
+      "venue": "The Kensington Club",
+      "category": "kensington",
+      "price": "",
+      "description": "",
+      "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
       "id": "whistlestop-2026-08-29-booty-bassment-w-dj-dimitri-rob-mora",
@@ -6387,7 +6498,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-17 20:22",
+      "fetched": "2026-07-17 20:36",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
