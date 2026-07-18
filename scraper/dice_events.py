@@ -59,6 +59,9 @@ def scrape_dice(api_key, promoter, venue, category, today=None, page_size=50):
         name = (e.get("name") or "").strip()
         if not name:
             continue
+        # Drop sold-out and cancelled shows (DICE exposes both explicitly).
+        if e.get("sold_out") or e.get("status") == "cancelled":
+            continue
         date, time = _pacific(e.get("date"))
         if not date:
             continue

@@ -42,6 +42,12 @@ def scrape(today=None, html=None):
         if venue.strip().lower() != VENUE_LABEL:
             continue
 
+        # Drop sold-out / cancelled shows (See Tickets marks the buy button).
+        btn = card.select_one("a.seetickets-buy-btn")
+        btn_cls = " ".join(btn.get("class", [])) if btn else ""
+        if "button-soldout" in btn_cls or "button-cancelled" in btn_cls:
+            continue
+
         date_text = _text(card, ".event-date")          # e.g. "Sun Jan 10"
         m = re.search(r"([A-Za-z]+)\s+(\d{1,2})", date_text)
         if not m:

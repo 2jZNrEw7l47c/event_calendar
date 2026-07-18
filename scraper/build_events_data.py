@@ -49,6 +49,11 @@ SCRAPERS = [
 # (same title + date) appears for both, keep The Sound's copy and drop Belly Up's.
 DEDUP_PREFER = [("thesound", "bellyup")]
 
+# Drop any event whose title or description matches one of these (whole-word,
+# case-insensitive). Keeps happy hours and metal nights out of the listings.
+EXCLUDE_KEYWORDS = [r"happy hour", r"metal"]
+_EXCLUDE_RE = re.compile(r"\b(?:%s)\b" % "|".join(EXCLUDE_KEYWORDS), re.I)
+
 # Image-only venues: no structured events, just a flyer we show in a dialog.
 # (label, module) — each module.scrape(today) returns flyer metadata or None.
 FLYER_SCRAPERS = [
@@ -58,6 +63,11 @@ FLYER_SCRAPERS = [
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS_OUT = os.path.join(ROOT, "js", "events-data.js")
 JSON_OUT = os.path.join(ROOT, "data", "events.json")
+
+
+def _excluded(event):
+    return bool(_EXCLUDE_RE.search(event.get("title", "")) or
+                _EXCLUDE_RE.search(event.get("description", "")))
 
 
 def _norm(title):
@@ -89,16 +99,22 @@ def main():
     categories = {}
     per_venue = {}
 
+    excluded = 0
     for key, label, module in SCRAPERS:
         try:
             evs = module.scrape(today)
         except Exception as exc:                       # keep other venues if one fails
             print("!! %s failed: %s" % (label, exc))
             evs = []
-        per_venue[label] = len(evs)
-        if evs:
+        kept = [e for e in evs if not _excluded(e)]
+        excluded += len(evs) - len(kept)
+        per_venue[label] = len(kept)
+        if kept:
             categories[key] = label
-            all_events.extend(evs)
+            all_events.extend(kept)
+
+    if excluded:
+        print("  (filtered %d events matching %s)" % (excluded, "/".join(EXCLUDE_KEYWORDS)))
 
     all_events = _dedup_across_venues(all_events, per_venue)
 

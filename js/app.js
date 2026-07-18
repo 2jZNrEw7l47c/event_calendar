@@ -367,7 +367,13 @@
     all.addEventListener("click", function () { state.filter = null; renderFilters(); render(); });
     wrap.appendChild(all);
 
-    Object.keys(CATEGORIES).forEach(function (key) {
+    // Venue pills after "All", alphabetically by label (ignoring a leading "The").
+    function sortKey(key) {
+      return CATEGORIES[key].replace(/^the\s+/i, "").toLowerCase();
+    }
+    Object.keys(CATEGORIES).sort(function (a, b) {
+      return sortKey(a).localeCompare(sortKey(b));
+    }).forEach(function (key) {
       var pill = el("button", "filter-pill" + (state.filter === key ? " is-active" : ""), CATEGORIES[key]);
       pill.type = "button";
       pill.addEventListener("click", function () {
