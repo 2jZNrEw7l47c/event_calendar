@@ -17,12 +17,20 @@ import scrape_casbah
 import scrape_mcguffies
 import scrape_camels
 import scrape_deanos
+import scrape_whistlestop
+import scrape_holdingco
+import scrape_houseofblues
+import scrape_observatory
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
     ("casbah", "Casbah", scrape_casbah),
     ("mcguffies", "McGuffie's Live", scrape_mcguffies),
     ("camels", "Camel's Bar", scrape_camels),
+    ("whistlestop", "Whistle Stop", scrape_whistlestop),
+    ("holdingco", "The Holding Company", scrape_holdingco),
+    ("houseofblues", "House of Blues", scrape_houseofblues),
+    ("observatory", "Observatory North Park", scrape_observatory),
 ]
 
 # Image-only venues: no structured events, just a flyer we show in a dialog.

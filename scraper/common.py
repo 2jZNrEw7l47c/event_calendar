@@ -24,6 +24,21 @@ _MONTHS = {
 }
 
 
+def decode(resp):
+    """Decode a response body, tolerating the cp1252 some WP/Tribe sites emit.
+
+    Try strict UTF-8 first (correct for most sites); if that fails on stray
+    smart-quote / accented bytes, fall back to windows-1252.
+    """
+    raw = resp.content
+    for enc in ("utf-8", "cp1252", "latin-1"):
+        try:
+            return raw.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", "replace")
+
+
 def month_to_num(token):
     """'Jan', 'Sept.', 'July' -> 1..12, or None."""
     if not token:
