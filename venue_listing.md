@@ -24,23 +24,23 @@ See `scraper/README.md` for details.
 | 5 | Snapdragon Stadium | https://snapdragonstadium.com | 🔗 Link-out (Ticketmaster) |
 | 6 | The Holding Company | https://www.theholdingcompanyob.com | ✅ Built |
 | 7 | Ken Club (Kensington Club) | https://www.kensingtonclub1935.com/ | ✅ Built |
-| 8 | Queen Bee's | https://queenbeessd.com | 🟡 JS-only (Wix) |
-| 9 | Black Cat Bar | https://www.blackcatsd.com | 🟡 JS-only (Squarespace) |
+| 8 | Queen Bee's | https://www.queenbeessd.com | ✅ Built (recurring) |
+| 9 | Black Cat Bar | https://blackcatbar.wordpress.com | ✅ Built (flyer) |
 | 10 | Brick By Brick | https://www.brickbybrick.com | ✅ Built |
 | 11 | Soda Bar | https://sodabarmusic.com | ✅ Built (DICE) |
-| 12 | Music Box | https://musicboxsd.com | 🟡 JS-only (TicketWeb) |
+| 12 | Music Box | https://musicboxsd.com | ✅ Built |
 | 13 | Banshee Bar | https://thebansheebar.com/ | ✅ Built (DICE) |
 | 14 | Belly Up | https://bellyup.com | ✅ Built |
 | 15 | North Island Credit Union Amphitheatre | https://www.livenation.com/venue/KovZpa2WZe/north-island-credit-union-amphitheatre-events | 🔗 Link-out (Ticketmaster) |
 | 16 | House of Blues | https://www.houseofblues.com/sandiego | ✅ Built |
 | 17 | Voodoo Room, House of Blues | https://www.houseofblues.com/sandiego | ✅ Built (with #16) |
-| 18 | Grand Ole BBQ, Flinn Springs | https://grandolebbq.com | 🟡 JS-only |
-| 19 | The Jazz Lounge | https://www.thejazzlounge.live | 🟡 JS-only (Wix) |
-| 20 | Winston's | https://winstonsob.com | 🟡 JS-only |
-| 21 | Tower Bar | https://www.thetowerbar.com | 🟡 JS-only |
+| 18 | Grand Ole BBQ, Flinn Springs | https://grandolebbq.com | ⚪ No events posted |
+| 19 | The Jazz Lounge | https://www.thejazzlounge.live | ⚪ Broken calendar embed |
+| 20 | Winston's | https://winstonsob.com | ✅ Built |
+| 21 | Tower Bar | https://www.thetowerbar.com | ✅ Built |
 | 22 | The Observatory North Park | https://www.observatorysd.com | ✅ Built |
 | 23 | The Sound | https://thesoundsd.com | ✅ Built |
-| 24 | SOMA Sidestage | https://www.somasandiego.com | 🟡 JS-only |
+| 24 | SOMA (Mainstage + Sidestage) | https://www.somasandiego.com | ✅ Built |
 | 25 | Whistle Stop | https://www.whistlestopbar.com | ✅ Built |
 | 26 | Petco Park | https://www.mlb.com/padres/ballpark | 🔗 Link-out (Ticketmaster) |
 

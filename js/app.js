@@ -290,7 +290,8 @@
   var flyers = Array.isArray(window.FLYERS) ? window.FLYERS : [];
 
   function openFlyer(flyer) {
-    document.getElementById("flyer-title").textContent = flyer.venue + " — this week's events";
+    document.getElementById("flyer-title").textContent =
+      flyer.venue + " — " + (flyer.label || "this week's events");
     var img = document.getElementById("flyer-img");
     img.src = flyer.image || flyer.source;
     img.alt = flyer.venue + " events flyer";

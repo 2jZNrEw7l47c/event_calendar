@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18 07:31",
+  "generated": "2026-07-18 07:51",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -13,9 +13,47 @@
     "thesound": "The Sound",
     "kensington": "The Kensington Club",
     "banshee": "Banshee Bar",
-    "sodabar": "Soda Bar"
+    "sodabar": "Soda Bar",
+    "soma": "SOMA",
+    "winstons": "Winston's",
+    "musicbox": "Music Box",
+    "towerbar": "Tower Bar",
+    "queenbees": "Queen Bee's"
   },
   "events": [
+    {
+      "id": "qb-2026-07-01-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-07-01",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-07-05-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-07-05",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-07-07-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-07-07",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
     {
       "id": "camels-2026-07-07-blues-berry-jam",
       "title": "Blue's Berry Jam",
@@ -39,6 +77,28 @@
       "url": null
     },
     {
+      "id": "qb-2026-07-12-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-07-12",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-07-14-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-07-14",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-07-14-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-07-14",
@@ -48,6 +108,17 @@
       "price": "",
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null
+    },
+    {
+      "id": "qb-2026-07-15-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-07-15",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "kensington-2026-07-15-standup-comedy",
@@ -127,6 +198,17 @@
       "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
+      "id": "winstons-2026-07-18-fifa-world-cup-watch-party",
+      "title": "FIFA WORLD CUP WATCH PARTY",
+      "date": "2026-07-18",
+      "time": "14:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/fifa-world-cup-watch-party"
+    },
+    {
       "id": "holdingco-2026-07-18-beerhound-manvanfam-fest",
       "title": "BeerHound + ManVanFam FEST",
       "date": "2026-07-18",
@@ -136,6 +218,17 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/manvanfam-fest/"
+    },
+    {
+      "id": "winstons-2026-07-18-ghosts-of-the-track-and-left-coast",
+      "title": "Ghosts of the Track and Left Coast",
+      "date": "2026-07-18",
+      "time": "16:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/ghosts-track-and-left-coast"
     },
     {
       "id": "sodabar-2026-07-18-B8BF81EEE4CBD9F7",
@@ -158,6 +251,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/angst-of-the-era-celebrating-brick-by-brick-tickets/14214034?REFID=clientsitewp"
+    },
+    {
+      "id": "soma-2026-07-18-dwllrs",
+      "title": "DWLLRS",
+      "date": "2026-07-18",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/4tVEvly"
     },
     {
       "id": "observatory-2026-07-18-fulton-lee-sing-with-me-tour-2026",
@@ -226,6 +330,17 @@
       "url": "https://wl.seetickets.us/event/low-cut-connie-kate-clover/682682?afflky=Casbah"
     },
     {
+      "id": "winstons-2026-07-18-the-neighbors-stuck-here-and-white",
+      "title": "The Neighbors, Stuck Here, and White Girl Wednesday",
+      "date": "2026-07-18",
+      "time": "21:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/neighbors-stuck-here-and-white-girl-wednesday"
+    },
+    {
       "id": "sodabar-2026-07-18-B1F76F83F752B74F",
       "title": "CLUB XCX: A Charli XCX + Hyperpop Party",
       "date": "2026-07-18",
@@ -235,6 +350,17 @@
       "price": "$24.72",
       "description": "",
       "url": "https://link.dice.fm/a2c1ca897f8d"
+    },
+    {
+      "id": "winstons-2026-07-19-fifa-world-cup-watch-party",
+      "title": "FIFA WORLD CUP WATCH PARTY",
+      "date": "2026-07-19",
+      "time": "12:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/fifa-world-cup-watch-party-0"
     },
     {
       "id": "mcg-s0i4",
@@ -248,6 +374,17 @@
       "url": null
     },
     {
+      "id": "winstons-2026-07-19-viet-fest-2",
+      "title": "Viet fest #2",
+      "date": "2026-07-19",
+      "time": "15:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/viet-fest-2"
+    },
+    {
       "id": "mcg-s0i5",
       "title": "CHICAGO BLUES 1*4*5",
       "date": "2026-07-19",
@@ -257,6 +394,17 @@
       "price": "$5 COVER",
       "description": "(BLUES) · Party for Tyrone · As listed: July 19th at 4-7pm",
       "url": null
+    },
+    {
+      "id": "qb-2026-07-19-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-07-19",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "holdingco-2026-07-19-the-soapgirls",
@@ -303,6 +451,17 @@
       "url": "https://www.ticketweb.com/event/dakhabrakha-music-box-tickets/14820123?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14820123",
+      "title": "DakhaBrakha",
+      "date": "2026-07-19",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Desert Daze Present",
+      "url": "https://musicboxsd.com/event/14820123/dakhabrakha/"
+    },
+    {
       "id": "casbah-682684",
       "title": "Low Cut Connie, Kate Clover",
       "date": "2026-07-19",
@@ -312,6 +471,17 @@
       "price": "$30.00",
       "description": "Rock · 21+",
       "url": "https://wl.seetickets.us/event/low-cut-connie-kate-clover/682684?afflky=Casbah"
+    },
+    {
+      "id": "winstons-2026-07-19-oboke-karaoke",
+      "title": "OBoke Karaoke",
+      "date": "2026-07-19",
+      "time": "20:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/oboke-karaoke"
     },
     {
       "id": "bellyup-14768183",
@@ -369,6 +539,17 @@
       "url": null
     },
     {
+      "id": "winstons-2026-07-20-electric-waste-band",
+      "title": "Electric Waste Band",
+      "date": "2026-07-20",
+      "time": "20:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/electric-waste-band"
+    },
+    {
       "id": "casbah-686924",
       "title": "Wic Whitney, Zack Lloyd",
       "date": "2026-07-20",
@@ -389,6 +570,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/bloodsports-girljockey/"
+    },
+    {
+      "id": "qb-2026-07-21-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-07-21",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-07-21-blues-berry-jam",
@@ -422,6 +614,17 @@
       "price": "$9.79",
       "description": "",
       "url": "https://link.dice.fm/mdff4676861e"
+    },
+    {
+      "id": "musicbox-14243914",
+      "title": "David Cultura",
+      "date": "2026-07-21",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Do SD Series: Jazz Future · With Pocket Change, Riva b2b part time tough guy",
+      "url": "https://musicboxsd.com/event/14243914/david-cultura-pocket-change-riva-b2b-part-time-tough-guy/"
     },
     {
       "id": "whistlestop-2026-07-21-sketch-party-",
@@ -523,6 +726,28 @@
       "url": null
     },
     {
+      "id": "musicbox-14911693",
+      "title": "Chad Goes Deep",
+      "date": "2026-07-22",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14911693/chill-towards-enlightenment-a-stoke-seminar-with-chad-goes-deep/"
+    },
+    {
+      "id": "winstons-2026-07-22-rafael-pond-band",
+      "title": "Rafael Pondé Band",
+      "date": "2026-07-22",
+      "time": "21:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/rafael-ponde-band"
+    },
+    {
       "id": "whistlestop-2026-07-22-ricky-witness-buckets",
       "title": "RICKY, WITNESS, BUCKETS",
       "date": "2026-07-22",
@@ -543,6 +768,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/jiluka-with-special-guests-brick-by-brick-tickets/14844323?REFID=clientsitewp"
+    },
+    {
+      "id": "winstons-2026-07-23-mike-mcafee-hosts-trivia-and-benef",
+      "title": "Mike McAfee hosts Trivia and Benefit concert afterwards!",
+      "date": "2026-07-23",
+      "time": "19:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/mike-mcafee-hosts-trivia-and-benefit-concert-afterwards"
     },
     {
       "id": "sodabar-2026-07-23-DCB82280B7DD6EEE",
@@ -578,6 +814,17 @@
       "url": null
     },
     {
+      "id": "towerbar-2026-07-23-micah-and-the-mirrors-ex-fast-eddy",
+      "title": "Micah and the Mirrors (ex Fast Eddy/Dirty Few),  Solid State Radio, Shaguar, Razor Sharp",
+      "date": "2026-07-23",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/micah-and-the-mirrors-ex-fast-eddy-dirty-few/"
+    },
+    {
       "id": "bellyup-14879663",
       "title": "Monophonics",
       "date": "2026-07-23",
@@ -587,6 +834,17 @@
       "price": "",
       "description": "Kendra Morris",
       "url": "https://www.ticketweb.com/event/monophonics-kendra-morris-belly-up-tickets/14879663?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14262464",
+      "title": "Sean Solomon",
+      "date": "2026-07-23",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Wabie",
+      "url": "https://musicboxsd.com/event/14262464/sean-solomon-wabie/"
     },
     {
       "id": "casbah-697998",
@@ -633,6 +891,17 @@
       "url": "https://www.ticketweb.com/event/allison-euforia-usa-brick-by-brick-tickets/14789193?REFID=clientsitewp"
     },
     {
+      "id": "soma-2026-07-24-hermanos-espinoza",
+      "title": "Hermanos Espinoza",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Mainstage",
+      "url": "https://bit.ly/4vkDmFn"
+    },
+    {
       "id": "holdingco-2026-07-24-larry-his-flask",
       "title": "Larry & His Flask",
       "date": "2026-07-24",
@@ -642,6 +911,17 @@
       "price": "$22, $122",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/larry-his-flask/"
+    },
+    {
+      "id": "winstons-2026-07-24-plump",
+      "title": "Plump",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/plump"
     },
     {
       "id": "sodabar-2026-07-24-2BA95328E0FFCFB4",
@@ -699,6 +979,17 @@
       "url": "https://www.kensingtonclub1935.com/calendar"
     },
     {
+      "id": "musicbox-14953303",
+      "title": "Mosh Eisley",
+      "date": "2026-07-24",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14953303/mosh-eisley-the-best-party-in-the-galaxy/"
+    },
+    {
       "id": "sodabar-2026-07-24-E6C15ADE98EA1653",
       "title": "ArtDontSleep presents JAZZ IS DEAD w/ MARCOS VALLE",
       "date": "2026-07-24",
@@ -732,6 +1023,39 @@
       "url": "https://whistlestopbar.com/event/welcome-strawberry-sunder-memory-leak-sparkler/"
     },
     {
+      "id": "winstons-2026-07-24-karaoke-w-corey-glasper",
+      "title": "KARAOKE W/ COREY GLASPER",
+      "date": "2026-07-24",
+      "time": "21:30",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/karaoke-w-corey-glasper-2"
+    },
+    {
+      "id": "winstons-2026-07-25-forced-hammer",
+      "title": "Forced Hammer",
+      "date": "2026-07-25",
+      "time": "13:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/forced-hammer"
+    },
+    {
+      "id": "towerbar-2026-07-25-clover-s-curfew-half-man-jonny-wag",
+      "title": "Clover's Curfew, Half Man, Jonny Wagon Band, Damn Rats, PunchCard, Turnbuckle, Hardly Human - matinee show",
+      "date": "2026-07-25",
+      "time": "14:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/clovers-curfew-half-man-jonny-wagon-band-damn-rats-punchcard-turnbuckle-hardly-human-matinee-show/"
+    },
+    {
       "id": "sodabar-2026-07-25-12A53CD6278AEA20",
       "title": "I Set My Friends On Fire",
       "date": "2026-07-25",
@@ -741,6 +1065,17 @@
       "price": "",
       "description": "",
       "url": ""
+    },
+    {
+      "id": "soma-2026-07-25-i-set-my-friends-on-fire",
+      "title": "I SET MY FRIENDS ON FIRE",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 6pm - Sidestage",
+      "url": "https://bit.ly/428AIoT"
     },
     {
       "id": "observatory-2026-07-25-silverstein-story-of-the-year-camp-screa",
@@ -842,6 +1177,17 @@
       "url": "https://wl.seetickets.us/event/ten-bulls-lead-pony-the-film-company/693230?afflky=Casbah"
     },
     {
+      "id": "winstons-2026-07-25-the-great-divide-a-tribute-to-phis",
+      "title": "The Great Divide- A Tribute to Phish",
+      "date": "2026-07-25",
+      "time": "21:30",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/great-divide-tribute-phish"
+    },
+    {
       "id": "holdingco-2026-07-26-gemfest-2026",
       "title": "GemFest 2026",
       "date": "2026-07-26",
@@ -875,6 +1221,17 @@
       "url": "https://whistlestopbar.com/event/oslo-presents-fishmas-in-july-%f0%9f%8e%84%f0%9f%8e%a3%e2%9a%93%ef%b8%8f%f0%9f%8f%9d%ef%b8%8f-2/"
     },
     {
+      "id": "winstons-2026-07-26-shaky-feelin",
+      "title": "Shaky Feelin",
+      "date": "2026-07-26",
+      "time": "16:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/shaky-feelin"
+    },
+    {
       "id": "mcg-s0i15",
       "title": "SPLIT RAIL FENCE",
       "date": "2026-07-26",
@@ -895,6 +1252,17 @@
       "price": "$15.00",
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/jessie-lark-brianna-grace-lauren-leigh/692436?afflky=Casbah"
+    },
+    {
+      "id": "qb-2026-07-26-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-07-26",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "houseofblues-2026-07-26-eric-reprid",
@@ -952,6 +1320,17 @@
       "url": "https://bellyup.com/shows/"
     },
     {
+      "id": "winstons-2026-07-26-oboke-karaoke",
+      "title": "OBoke Karaoke",
+      "date": "2026-07-26",
+      "time": "20:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/oboke-karaoke"
+    },
+    {
       "id": "bellyup-14814343",
       "title": "Riff Wood",
       "date": "2026-07-26",
@@ -961,6 +1340,17 @@
       "price": "",
       "description": "The Cherry Bombs",
       "url": "https://www.ticketweb.com/event/riff-wood-butterfly-music-box-tickets/14814343?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14814343",
+      "title": "Riff Wood",
+      "date": "2026-07-26",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With The Cherry Bombs",
+      "url": "https://musicboxsd.com/event/14814343/riff-wood-butterfly-in-black-white-usa-2026-tour-w-the-cherry-bombs/"
     },
     {
       "id": "thesound-14770673",
@@ -1018,6 +1408,17 @@
       "url": "https://www.ticketmaster.com/villanelle-san-diego-california-07-27-2026/event/0A0064D860F91D54"
     },
     {
+      "id": "winstons-2026-07-27-electric-waste-band",
+      "title": "Electric Waste Band",
+      "date": "2026-07-27",
+      "time": "20:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/electric-waste-band"
+    },
+    {
       "id": "mcg-s0i17",
       "title": "GIRL DINNER",
       "date": "2026-07-27",
@@ -1027,6 +1428,28 @@
       "price": "$5 COVER",
       "description": "OLDER · TORCH BUG · BETTER BEFORE · (PUNK ROCK) · Touring bands · As listed: July 27th at 8pm",
       "url": null
+    },
+    {
+      "id": "winstons-2026-07-28-black-mountain-backstep",
+      "title": "Black Mountain Backstep",
+      "date": "2026-07-28",
+      "time": "18:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/black-mountain-backstep-0"
+    },
+    {
+      "id": "qb-2026-07-28-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-07-28",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-07-28-blues-berry-jam",
@@ -1095,6 +1518,17 @@
       "url": "https://www.ticketweb.com/event/dark-star-orchestra-humphreys-concerts-by-the-bay-tickets/14876523?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14244264",
+      "title": "Mitchum Yacoub",
+      "date": "2026-07-28",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Do SD Series: Latin Soul",
+      "url": "https://musicboxsd.com/event/14244264/mitchum-yacoub/"
+    },
+    {
       "id": "casbah-696462",
       "title": "The Egg Factory, Jackie Mendoza, Sebastian Alvarez",
       "date": "2026-07-28",
@@ -1104,6 +1538,17 @@
       "price": "$10.00",
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/the-egg-factory-jackie-mendoza-sebastian-alvarez/696462?afflky=Casbah"
+    },
+    {
+      "id": "winstons-2026-07-28-tuesday-open-jam",
+      "title": "Tuesday Open Jam",
+      "date": "2026-07-28",
+      "time": "21:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/tuesday-open-jam"
     },
     {
       "id": "houseofblues-2026-07-29-mack-keane-the-wide-eyed-tour-voodoo-roo",
@@ -1150,6 +1595,17 @@
       "url": "https://www.ticketweb.com/event/dailey-vincent-belly-up-tickets/14781903?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14228444",
+      "title": "Faux Fur",
+      "date": "2026-07-29",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Dolphins on Acid, The Resinators",
+      "url": "https://musicboxsd.com/event/14228444/faux-fur-dolphins-on-acid-the-resinators/"
+    },
+    {
       "id": "casbah-695273",
       "title": "LUCIUS ARTHUR",
       "date": "2026-07-29",
@@ -1159,6 +1615,17 @@
       "price": "$15.00-$20.00",
       "description": "The Big Machine US Tour · Indie · 21+",
       "url": "https://wl.seetickets.us/event/lucius-arthur/695273?afflky=Casbah"
+    },
+    {
+      "id": "winstons-2026-07-29-the-messengers",
+      "title": "The Messengers",
+      "date": "2026-07-29",
+      "time": "20:30",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/messengers"
     },
     {
       "id": "banshee-2026-07-30-0945911207B51193",
@@ -1227,6 +1694,17 @@
       "url": "https://www.ticketweb.com/event/tom-rush-accompanied-by-brendan-belly-up-tickets/14795953?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14236864",
+      "title": "Truly Lost",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "World Goth Day San Diego Presents · With Vanta After Dark, Astrodice",
+      "url": "https://musicboxsd.com/event/14236864/club-bataclysm/"
+    },
+    {
       "id": "casbah-694568",
       "title": "Ghee, Noon, Hot Coals",
       "date": "2026-07-30",
@@ -1236,6 +1714,17 @@
       "price": "$10.00",
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/ghee-noon-hot-coals/694568?afflky=Casbah"
+    },
+    {
+      "id": "winstons-2026-07-30-the-happys-with-skyler-lutes",
+      "title": "The Happys with  Skyler Lutes",
+      "date": "2026-07-30",
+      "time": "21:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/happys-skyler-lutes"
     },
     {
       "id": "houseofblues-2026-07-31-moviedates-with-special-guests-taja-any-",
@@ -1271,6 +1760,17 @@
       "url": "https://www.ticketweb.com/event/summer-noise-an-all-california-brick-by-brick-tickets/14244724?REFID=clientsitewp"
     },
     {
+      "id": "winstons-2026-07-31-the-lunar-conspiracy",
+      "title": "The Lunar Conspiracy",
+      "date": "2026-07-31",
+      "time": "19:00",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/lunar-conspiracy"
+    },
+    {
       "id": "holdingco-2026-07-31-andre-nickatina",
       "title": "Andre Nickatina",
       "date": "2026-07-31",
@@ -1291,6 +1791,28 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/atomic-groove-happy-hour-belly-up-tickets/14848333?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14808673",
+      "title": "Can't Feel My Face",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Blisspop Presents",
+      "url": "https://musicboxsd.com/event/14808673/can-t-feel-my-face-2010-s-dance-party/"
+    },
+    {
+      "id": "towerbar-2026-07-31-cave-bastard-yolquetza-reincarnte-",
+      "title": "Cave Bastard, Yolquetza, Reincarnte, Inheritance, Tlaquaxe",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/cave-bastard-2/"
     },
     {
       "id": "bellyup-14812603",
@@ -1337,6 +1859,17 @@
       "url": "https://whistlestopbar.com/event/begging-dog/"
     },
     {
+      "id": "winstons-2026-07-31-karaoke-w-corey-glasper",
+      "title": "KARAOKE W/ COREY GLASPER",
+      "date": "2026-07-31",
+      "time": "21:30",
+      "venue": "Winston's",
+      "category": "winstons",
+      "price": "",
+      "description": "",
+      "url": "https://winstonsob.com/calendar/week/karaoke-w-corey-glasper-2"
+    },
+    {
       "id": "holdingco-2026-08-01-mayzie-pocket-bureau",
       "title": "Mayzie + Pocket Bureau",
       "date": "2026-08-01",
@@ -1368,6 +1901,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/bird-and-byron-san-diego-california-08-01-2026/event/0A0064923BD8DEA3"
+    },
+    {
+      "id": "soma-2026-08-01-calle-24",
+      "title": "Calle 24",
+      "date": "2026-08-01",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "MAinstage - 7pm",
+      "url": "https://bit.ly/4dNls6o"
     },
     {
       "id": "houseofblues-2026-08-01-joyas-prestadas-the-jenni-rivera-tribute",
@@ -1414,6 +1958,17 @@
       "url": "https://www.ticketweb.com/event/black-moth-super-rainbow-giant-music-box-tickets/14799593?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14799593",
+      "title": "Black Moth Super Rainbow",
+      "date": "2026-08-01",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present · With Giant Day",
+      "url": "https://musicboxsd.com/event/14799593/black-moth-super-rainbow-giant-day/"
+    },
+    {
       "id": "bellyup-14936683",
       "title": "Tortoise",
       "date": "2026-08-01",
@@ -1434,6 +1989,17 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/gio-chamba/"
+    },
+    {
+      "id": "qb-2026-08-02-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-08-02",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "houseofblues-2026-08-02-rome-streetz-sock-it-to-my-pocket-tour-",
@@ -1469,6 +2035,17 @@
       "url": null
     },
     {
+      "id": "towerbar-2026-08-02-hoaxed-drowned-sun-plagued",
+      "title": "Hoaxed, Drowned Sun, Plagued",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/black-tusk-hoaxed-drowned-sun-plagued/"
+    },
+    {
       "id": "mcg-s1i2",
       "title": "ISLAND HEARTS",
       "date": "2026-08-02",
@@ -1489,6 +2066,17 @@
       "price": "",
       "description": "Brittney Carter",
       "url": "https://www.ticketweb.com/event/moonchild-waves-tour-w-brittney-music-box-tickets/14627353?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14627353",
+      "title": "Moonchild",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Brittney Carter",
+      "url": "https://musicboxsd.com/event/14627353/moonchild-waves-tour-w-brittney-carter/"
     },
     {
       "id": "bellyup-14840683",
@@ -1535,6 +2123,17 @@
       "url": null
     },
     {
+      "id": "musicbox-14884533",
+      "title": "Rio Da Yung OG",
+      "date": "2026-08-03",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14884533/rio-da-yung-og-the-world-is-m-i-n-e-tour/"
+    },
+    {
       "id": "casbah-696848",
       "title": "The Erasers, Nebula and the Cosmos, Mewtone",
       "date": "2026-08-03",
@@ -1544,6 +2143,17 @@
       "price": "$10.00",
       "description": "Alternative · 21+",
       "url": "https://wl.seetickets.us/event/the-erasers-nebula-and-the-cosmos-mewtone/696848?afflky=Casbah"
+    },
+    {
+      "id": "qb-2026-08-04-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-08-04",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "observatory-2026-08-04-bandalos-chinos",
@@ -1590,6 +2200,17 @@
       "url": "https://link.dice.fm/m90b8bcb1059"
     },
     {
+      "id": "musicbox-14595673",
+      "title": "clipping.",
+      "date": "2026-08-04",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Open Mike Eagle, Pedestrian Deposit",
+      "url": "https://musicboxsd.com/event/14595673/clipping-open-mike-eagle-pedestrian-deposit/"
+    },
+    {
       "id": "bellyup-14174784",
       "title": "Corinne Bailey Rae",
       "date": "2026-08-04",
@@ -1632,6 +2253,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/alejandro-aranda-san-diego-california-08-05-2026/event/0A00647AA3B0785E"
+    },
+    {
+      "id": "qb-2026-08-05-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-08-05",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "houseofblues-2026-08-05-willow-avalon-pink-pocket-pistol-tour",
@@ -1711,6 +2343,17 @@
       "url": "https://wl.seetickets.us/event/falling-sun-beth-and-the-baysides-overpour/696468?afflky=Casbah"
     },
     {
+      "id": "soma-2026-08-06-beach-bunny-the-beths",
+      "title": "Beach Bunny & The Beths",
+      "date": "2026-08-06",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4u1Ht8R"
+    },
+    {
       "id": "banshee-2026-08-06-D63B2B059A84B36D",
       "title": "Huck N' Pray, Croondog",
       "date": "2026-08-06",
@@ -1786,6 +2429,17 @@
       "price": "",
       "description": "Zzzahara",
       "url": "https://www.ticketweb.com/event/willis-zzzahara-the-flooks-music-box-tickets/14877893?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14877893",
+      "title": "WILLIS",
+      "date": "2026-08-06",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Soda Bar Present · With Zzzahara, The Flooks",
+      "url": "https://musicboxsd.com/event/14877893/willis-zzzahara-the-flooks/"
     },
     {
       "id": "casbah-691360",
@@ -1898,6 +2552,17 @@
       "url": "https://www.ticketweb.com/event/atomic-groove-happy-hour-belly-up-tickets/14919953?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "towerbar-2026-08-07-kit-major-and-tess-the-details",
+      "title": "Kit Major and Tess & the Details",
+      "date": "2026-08-07",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/kit-major-and-tess-the-details/"
+    },
+    {
       "id": "mcg-s1i9",
       "title": "SOMETIMES JULIE",
       "date": "2026-08-07",
@@ -1918,6 +2583,17 @@
       "price": "",
       "description": "Kids That Fly",
       "url": "https://www.ticketweb.com/event/the-strike-plus-special-guest-music-box-tickets/14855973?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14855973",
+      "title": "The Strike",
+      "date": "2026-08-07",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Soda Bar Present · With Kids That Fly",
+      "url": "https://musicboxsd.com/event/14855973/the-strike-plus-special-guest-kids-that-fly/"
     },
     {
       "id": "casbah-684730",
@@ -1975,6 +2651,17 @@
       "url": "https://www.ticketmaster.com/chris-mitchell-begging-for-sax-18-san-diego-california-08-08-2026/event/0A0064BCABD88E0D"
     },
     {
+      "id": "soma-2026-08-08-charles-wesley-godwin",
+      "title": "Charles Wesley Godwin",
+      "date": "2026-08-08",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/3RkXBDq"
+    },
+    {
       "id": "sodabar-2026-08-08-69C5BAA46BDC6740",
       "title": "Death Cab For Karaoke | live band karaoke!",
       "date": "2026-08-08",
@@ -1997,6 +2684,17 @@
       "url": "https://www.ticketmaster.com/ella-red-san-diego-california-08-08-2026/event/0A006490E2C69D16"
     },
     {
+      "id": "musicbox-14199014",
+      "title": "House of Funk",
+      "date": "2026-08-08",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14199014/house-of-funk/"
+    },
+    {
       "id": "bellyup-14745373",
       "title": "Old 97's",
       "date": "2026-08-08",
@@ -2006,6 +2704,17 @@
       "price": "",
       "description": "River Shook",
       "url": "https://www.ticketweb.com/event/old-97s-2026-belly-up-tickets/14745373?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "towerbar-2026-08-08-the-caraveliners-the-gizzards-hama",
+      "title": "The Caraveliners, The Gizzards, Hamapple",
+      "date": "2026-08-08",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/hamapple/"
     },
     {
       "id": "observatory-2026-08-08-club-90s-presents-mj-night",
@@ -2074,6 +2783,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-08-09-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-08-09",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "sodabar-2026-08-09-9E109FCFA6DAE7CD",
       "title": "Greg Mendez",
       "date": "2026-08-09",
@@ -2140,6 +2860,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-08-11-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-08-11",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-08-11-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-08-11",
@@ -2149,6 +2880,17 @@
       "price": "",
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null
+    },
+    {
+      "id": "soma-2026-08-11-krooked-kings",
+      "title": "Krooked Kings",
+      "date": "2026-08-11",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/4tWiK5p"
     },
     {
       "id": "banshee-2026-08-11-BD7B7580280C7C1C",
@@ -2184,6 +2926,17 @@
       "url": null
     },
     {
+      "id": "musicbox-14244404",
+      "title": "Your Moms Best Friend",
+      "date": "2026-08-11",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Do SD Series: Surf Rock · With suntan",
+      "url": "https://musicboxsd.com/event/14244404/your-moms-best-friend-suntan/"
+    },
+    {
       "id": "casbah-696826",
       "title": "Dark Alley Dogs, Bombshelter Alley, The Overdrives",
       "date": "2026-08-11",
@@ -2206,6 +2959,17 @@
       "url": "https://link.dice.fm/bde35a00f1f7"
     },
     {
+      "id": "soma-2026-08-12-gallant",
+      "title": "Gallant",
+      "date": "2026-08-12",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/4uIUaEK"
+    },
+    {
       "id": "brick-14987473",
       "title": "The Cybertronic Spree with special guests",
       "date": "2026-08-12",
@@ -2226,6 +2990,17 @@
       "price": "",
       "description": "",
       "url": ""
+    },
+    {
+      "id": "towerbar-2026-08-12-chico-detour-matthew-melton-the-re",
+      "title": "Chico Detour, Matthew Melton, The Reflectors",
+      "date": "2026-08-12",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/chico-detour-matthew-melton-minitruck/"
     },
     {
       "id": "mcg-s1i16",
@@ -2261,6 +3036,17 @@
       "url": "https://wl.seetickets.us/event/off-with-their-heads-mermaid-island/691595?afflky=Casbah"
     },
     {
+      "id": "soma-2026-08-13-momma",
+      "title": "Momma",
+      "date": "2026-08-13",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/41YY8x5"
+    },
+    {
       "id": "holdingco-2026-08-13-the-voices-of-cape-coast-castle-ras-",
       "title": "The Voices of Cape Coast Castle : RAS KASS, Layne Tadesse, Luam & The Organikz, Tony Dee 9",
       "date": "2026-08-13",
@@ -2281,6 +3067,17 @@
       "price": "$18.54",
       "description": "",
       "url": "https://link.dice.fm/X49e00d7125e"
+    },
+    {
+      "id": "musicbox-14224024",
+      "title": "E.N Young",
+      "date": "2026-08-13",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14224024/reggae-circus-dub-fest-with-e-n-young/"
     },
     {
       "id": "mcg-s1i17",
@@ -2382,6 +3179,28 @@
       "url": "https://www.ticketweb.com/event/earlybirds-club-dance-music-box-tickets/14988403?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14988403",
+      "title": "Earlybirds Club",
+      "date": "2026-08-14",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14988403/earlybirds-club-dance-party/"
+    },
+    {
+      "id": "towerbar-2026-08-14-the-kosmics-rough-houser-bloom-roo",
+      "title": "The Kosmics, Rough Houser, Bloom Room",
+      "date": "2026-08-14",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/the-kosmics-rough-houser-bloom-room/"
+    },
+    {
       "id": "thesound-14191424",
       "title": "Yachtley Crew",
       "date": "2026-08-14",
@@ -2448,6 +3267,28 @@
       "url": "https://www.ticketweb.com/event/common-sense-hazmatt-no-good-belly-up-tickets/14759033?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14885503",
+      "title": "Matte Blvck",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14885503/los-goths-x-modern-wav-present-paradise/"
+    },
+    {
+      "id": "towerbar-2026-08-15-mike-fest-8-punchcard-strike-twelv",
+      "title": "Mike Fest 8 - PunchCard, Strike Twelve, Making Incredible Time, GentrOside, A-Bortz",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/mike-fest-8-punchcard-strike-twelve-making-incredible-time-gentroside-a-bortz/"
+    },
+    {
       "id": "kensington-2026-08-15-nuda-sine",
       "title": "nuda sine",
       "date": "2026-08-15",
@@ -2503,6 +3344,17 @@
       "url": "https://theholdingcompanyob.com/show/croon-dog-faux-fur/"
     },
     {
+      "id": "qb-2026-08-16-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-08-16",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "sodabar-2026-08-16-8C1C4F249FE3BDA7",
       "title": "Computer",
       "date": "2026-08-16",
@@ -2523,6 +3375,17 @@
       "price": "",
       "description": "",
       "url": ""
+    },
+    {
+      "id": "musicbox-14949193",
+      "title": "Smooth Operator - A Tribute to Sade",
+      "date": "2026-08-16",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14949193/smooth-operator-a-tribute-to-sade/"
     },
     {
       "id": "bellyup-14957643",
@@ -2569,6 +3432,17 @@
       "url": "https://link.dice.fm/e11f05ad5535"
     },
     {
+      "id": "soma-2026-08-17-oakwood",
+      "title": "Oakwood",
+      "date": "2026-08-17",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/4vh85Td"
+    },
+    {
       "id": "casbah-690072",
       "title": "Black Joe Lewis & The Honeybears",
       "date": "2026-08-17",
@@ -2589,6 +3463,17 @@
       "price": "NO COVER",
       "description": "FREE Pool, Darts, Foosball & Ping Pong · DRAFT BEERS, SPECIALITY COCKTAILS · As listed: August 17 at 8pm",
       "url": null
+    },
+    {
+      "id": "qb-2026-08-18-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-08-18",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-08-18-blues-berry-jam",
@@ -2646,6 +3531,17 @@
       "url": "https://whistlestopbar.com/event/sketch-party-43/"
     },
     {
+      "id": "musicbox-14234184",
+      "title": "The Reckless",
+      "date": "2026-08-18",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Tigers in Cairo, nebtunes",
+      "url": "https://musicboxsd.com/event/14234184/the-reckless-tigers-in-cairo-nebtunes/"
+    },
+    {
       "id": "bellyup-14218144",
       "title": "The Sines, MojoPin, Josephine Starr",
       "date": "2026-08-18",
@@ -2655,6 +3551,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-sines-mojopin-josephine-starr-belly-up-tickets/14218144?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-08-19-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-08-19",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "sodabar-2026-08-19-4E6E43DDFDB2A744",
@@ -2688,6 +3595,17 @@
       "price": "DONATIONS/FREE SHOW",
       "description": "Professional comedians · Hosted by Sinan · CUTLOOSE COMEDY · As listed: August 19 at 8pm",
       "url": null
+    },
+    {
+      "id": "musicbox-14845823",
+      "title": "Duane Betts & Palmetto Motel",
+      "date": "2026-08-19",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Anna Ballew",
+      "url": "https://musicboxsd.com/event/14845823/duane-betts-palmetto-motel-anna-ballew/"
     },
     {
       "id": "banshee-2026-08-20-574BFEC1C6097839",
@@ -2734,6 +3652,17 @@
       "url": "https://www.ticketweb.com/event/rio-kosta-music-box-tickets/14840333?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14840333",
+      "title": "Rio Kosta",
+      "date": "2026-08-20",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present",
+      "url": "https://musicboxsd.com/event/14840333/rio-kosta/"
+    },
+    {
       "id": "mcg-s1i25",
       "title": "THE BACK ALLEY TRIO",
       "date": "2026-08-20",
@@ -2754,6 +3683,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-pine-mountain-logs-belly-up-tickets/14894283?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "soma-2026-08-21-pawpaw-rod",
+      "title": "PawPaw Rod",
+      "date": "2026-08-21",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/4aWxSZe"
     },
     {
       "id": "sodabar-2026-08-21-58B2686BDBAAF7AE",
@@ -2809,6 +3749,28 @@
       "price": "$10 COVER",
       "description": "COPY CAT KILLERS · (Originals & Rock Covers) · As listed: August 21 at 8pm",
       "url": null
+    },
+    {
+      "id": "towerbar-2026-08-21-the-crotches-let-me-downs-corporat",
+      "title": "The Crotches, Let Me Downs, Corporate Citizen",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/the-crotches-let-me-downs-corporate-citizen/"
+    },
+    {
+      "id": "musicbox-14825583",
+      "title": "The Midnight Pine",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With The Color Forty Nine",
+      "url": "https://musicboxsd.com/event/14825583/the-midnight-pine-presents-buried-the-final-midnight-the-color-forty-nine-with-secret-special-guest/"
     },
     {
       "id": "whistlestop-2026-08-21-f-kin-in-the-bushes",
@@ -2910,6 +3872,17 @@
       "url": "https://link.dice.fm/U6e1c77d2db9"
     },
     {
+      "id": "qb-2026-08-23-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-08-23",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "observatory-2026-08-23-hulvey-could-be-tonight-tour",
       "title": "Hulvey 'Could Be Tonight' Tour",
       "date": "2026-08-23",
@@ -2996,6 +3969,17 @@
       "price": "NO COVER",
       "description": "Full backline provided · All welcome · TYLER RAY HOSTING · As listed: August 24 at 8pm",
       "url": null
+    },
+    {
+      "id": "qb-2026-08-25-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-08-25",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-08-25-blues-berry-jam",
@@ -3130,6 +4114,17 @@
       "url": "https://www.ticketweb.com/event/tab-benoit-soul-belly-up-tickets/13992064?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "soma-2026-08-28-linea-personal",
+      "title": "Linea Personal",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Mainstage",
+      "url": "https://bit.ly/3SXMf96"
+    },
+    {
       "id": "holdingco-2026-08-28-whiskey-rocks-soul-mission",
       "title": "Whiskey & Rocks + Soul Mission",
       "date": "2026-08-28",
@@ -3174,6 +4169,17 @@
       "url": null
     },
     {
+      "id": "musicbox-14780613",
+      "title": "The Stinkfoot Orchestra",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14780613/the-stinkfoot-orchestra-a-14-piece-tribute-to-frank-zappa-feat-napoleon-murphy-brock/"
+    },
+    {
       "id": "sodabar-2026-08-28-816B34134451D1A2",
       "title": "CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT",
       "date": "2026-08-28",
@@ -3194,6 +4200,17 @@
       "price": "$35, $60",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/ghetto-roots-ras-tone-presents-steve-knight/"
+    },
+    {
+      "id": "musicbox-14845753",
+      "title": "AHEE",
+      "date": "2026-08-29",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Same Same But Different Presents",
+      "url": "https://musicboxsd.com/event/14845753/ahee/"
     },
     {
       "id": "mcg-s1i34",
@@ -3240,6 +4257,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-08-30-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-08-30",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "sodabar-2026-08-30-CF4C916FE4EBE664",
       "title": "Peliculas Geniales, Andru, Mermelada de Pepino, Nasmar",
       "date": "2026-08-30",
@@ -3249,6 +4277,17 @@
       "price": "$22.66",
       "description": "",
       "url": "https://link.dice.fm/Nc0bfe4695ad"
+    },
+    {
+      "id": "towerbar-2026-08-30-amor-y-powers-naim-amor-kid-congo-",
+      "title": "Amor Y Powers (Naim Amor & Kid Congo Powers)",
+      "date": "2026-08-30",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/amor-y-powers/"
     },
     {
       "id": "mcg-s1i36",
@@ -3284,6 +4323,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-09-01-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-09-01",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-09-01-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-09-01",
@@ -3315,6 +4365,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/sketch-party-44/"
+    },
+    {
+      "id": "qb-2026-09-02-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-09-02",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "holdingco-2026-09-02-the-neighborhood-kids-damag3",
@@ -3449,6 +4510,28 @@
       "url": "https://www.ticketweb.com/event/super-nacho-belly-up-tickets/14910953?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14884583",
+      "title": "Tijuana No",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Marujah, Giga Rat, Los Hijos Del Santo, El Funeral",
+      "url": "https://musicboxsd.com/event/14884583/tijuana-no-marujah-giga-rat-los-hijos-del-santo-el-funeral/"
+    },
+    {
+      "id": "soma-2026-09-04-william-black",
+      "title": "William Black",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 8pm",
+      "url": "https://bit.ly/4gd79L8"
+    },
+    {
       "id": "whistlestop-2026-09-05-flim-flam-revue",
       "title": "Flim Flam Revue",
       "date": "2026-09-05",
@@ -3482,6 +4565,17 @@
       "url": "https://www.ticketmaster.com/screeching-weasel-san-diego-california-09-05-2026/event/0B006391EE3C5037"
     },
     {
+      "id": "soma-2026-09-05-the-holdup",
+      "title": "The Holdup",
+      "date": "2026-09-05",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/4v2FEso"
+    },
+    {
       "id": "bellyup-14768383",
       "title": "Jerry's Middle Finger",
       "date": "2026-09-05",
@@ -3493,6 +4587,17 @@
       "url": "https://www.ticketweb.com/event/jerrys-middle-finger-music-box-tickets/14768383?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14768383",
+      "title": "Jerry's Middle Finger",
+      "date": "2026-09-05",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14768383/jerry-s-middle-finger/"
+    },
+    {
       "id": "bellyup-14084414",
       "title": "Roger Clyne & the Peacemakers",
       "date": "2026-09-05",
@@ -3502,6 +4607,17 @@
       "price": "",
       "description": "ZB Savoy",
       "url": "https://www.ticketweb.com/event/roger-clyne-the-peacemakers-belly-up-tickets/14084414?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-09-06-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-09-06",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "mcg-s2i5",
@@ -3568,6 +4684,28 @@
       "price": "",
       "description": "Junior Toots (Toots & the Maytals Tribute)",
       "url": "https://www.ticketweb.com/event/the-wailers-50-belly-up-tickets/14800753?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14244354",
+      "title": "Your Arms are my Cocoon",
+      "date": "2026-09-07",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Minty Boi Presents · With flyingfish, Arranged in April, imagine we had antlers",
+      "url": "https://musicboxsd.com/event/14244354/your-arms-are-my-cocoon-flyingfish-arranged-in-april-imagine-we-had-antlers/"
+    },
+    {
+      "id": "qb-2026-09-08-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-09-08",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-09-08-blues-berry-jam",
@@ -3645,6 +4783,28 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/atlanta-rhythm-section-belly-up-tickets/14796133?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "soma-2026-09-10-sub-urban",
+      "title": "Sub Urban",
+      "date": "2026-09-10",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 7pm",
+      "url": "https://bit.ly/47s769c"
+    },
+    {
+      "id": "musicbox-14768453",
+      "title": "PRIVATE EVENT",
+      "date": "2026-09-10",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14768453/closed-for-private-event/"
     },
     {
       "id": "thesound-14909413",
@@ -3733,6 +4893,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/kamasi-washington-music-box-tickets/14847933?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14847933",
+      "title": "Kamasi Washington",
+      "date": "2026-09-11",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14847933/kamasi-washington/"
     },
     {
       "id": "bellyup-14782433",
@@ -3845,6 +5016,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-09-13-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-09-13",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "observatory-2026-09-13-grief-sucks-a-one-man-show-by-kevonstage",
       "title": "Grief Sucks: A One Man Show By KevOnStage",
       "date": "2026-09-13",
@@ -3865,6 +5047,17 @@
       "price": "$13.60",
       "description": "",
       "url": "https://link.dice.fm/S61c47a3d09a"
+    },
+    {
+      "id": "musicbox-14234604",
+      "title": "The Bye Habibi Tour",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14234604/the-bye-habibi-tour/"
     },
     {
       "id": "bellyup-14796803",
@@ -3889,6 +5082,17 @@
       "url": "https://www.ticketmaster.com/arlo-parks-desire-tour-san-diego-california-09-14-2026/event/0B006463C07846BF"
     },
     {
+      "id": "soma-2026-09-14-masego",
+      "title": "Masego",
+      "date": "2026-09-14",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4nLbfvG"
+    },
+    {
       "id": "bellyup-14811453",
       "title": "Black Uhuru",
       "date": "2026-09-14",
@@ -3909,6 +5113,17 @@
       "price": "NO COVER",
       "description": "Full Backline provided · All welcome · TYLER RAY HOSTING · As listed: Sept 14th at 8pm",
       "url": null
+    },
+    {
+      "id": "qb-2026-09-15-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-09-15",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-09-15-blues-berry-jam",
@@ -3955,6 +5170,28 @@
       "url": "https://whistlestopbar.com/event/sketch-party-45/"
     },
     {
+      "id": "qb-2026-09-16-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-09-16",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "soma-2026-09-16-solya",
+      "title": "Solya",
+      "date": "2026-09-16",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/3YqrUZH"
+    },
+    {
       "id": "mcg-s2i17",
       "title": "COMEDY NIGHT",
       "date": "2026-09-16",
@@ -3988,6 +5225,17 @@
       "url": "https://www.ticketmaster.com/isaiah-falls-presents-lvrs-paradise-side-san-diego-california-09-17-2026/event/0B0064D0B75A3D2D"
     },
     {
+      "id": "musicbox-14916053",
+      "title": "Elder",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Brick by Brick Presents · With Blackwater Holylight",
+      "url": "https://musicboxsd.com/event/14916053/elder-blackwater-holylight/"
+    },
+    {
       "id": "mcg-s2i18",
       "title": "PEACEPIPE",
       "date": "2026-09-17",
@@ -4008,6 +5256,17 @@
       "price": "",
       "description": "Soul Disciples",
       "url": "https://www.ticketweb.com/event/talib-kweli-soul-disciples-riston-belly-up-tickets/14925543?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "soma-2026-09-18-the-midnight",
+      "title": "The Midnight",
+      "date": "2026-09-18",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/3PorpP1"
     },
     {
       "id": "holdingco-2026-09-18-tomboyce-avenue-single-release-party",
@@ -4043,6 +5302,17 @@
       "url": "https://www.ticketweb.com/event/peter-hook-the-light-the-sound-tickets/13958654?pl=The_Sound&REFID=TheSoundWS"
     },
     {
+      "id": "musicbox-14840523",
+      "title": "Satin Jackets",
+      "date": "2026-09-18",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Beard & Stache",
+      "url": "https://musicboxsd.com/event/14840523/satin-jackets-beard-stache/"
+    },
+    {
       "id": "mcg-s2i19",
       "title": "THE IMBESKULLS",
       "date": "2026-09-18",
@@ -4076,6 +5346,17 @@
       "url": "https://whistlestopbar.com/event/fkin-in-the-bushes-23/"
     },
     {
+      "id": "towerbar-2026-09-19-adversarial-productions-presents-i",
+      "title": "Adversarial Productions presents Insanity, Infestation of Evil, Antebellum666, Unblessed Domain, Asphyxiater, Enthrallment",
+      "date": "2026-09-19",
+      "time": "18:30",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/adversarial-productions-presents-insanity-infestation-of-evil-antebellum666-unblessed-domain-asphyxiater-enthrallment/"
+    },
+    {
       "id": "holdingco-2026-09-19-safety-orange-gun-shy-tropical-drip-",
       "title": "Safety Orange, Gun Shy, Tropical Drip, Open Window",
       "date": "2026-09-19",
@@ -4096,6 +5377,17 @@
       "price": "FUNDRAISER",
       "description": "THE VAQUITOS · BLIKIN · NV MEN · (Mixed Rock) · VINNIE PALOOZA Fundraiser · As listed: Sept 19 at 7pm",
       "url": null
+    },
+    {
+      "id": "soma-2026-09-19-slaughter-to-prevail",
+      "title": "Slaughter To Prevail",
+      "date": "2026-09-19",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4vS2WBr"
     },
     {
       "id": "observatory-2026-09-19-uncle-acid-the-deadbeats-north-america-2",
@@ -4131,6 +5423,17 @@
       "url": "https://www.ticketweb.com/event/sevendust-x-theory-of-a-the-sound-tickets/14894653?pl=The_Sound&REFID=TheSoundWS"
     },
     {
+      "id": "musicbox-14256624",
+      "title": "The Emo Night Tour",
+      "date": "2026-09-19",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14256624/the-emo-night-tour/"
+    },
+    {
       "id": "observatory-2026-09-20-bottomless-popcorn-soda-john-cameron-mit",
       "title": "Bottomless Popcorn + Soda - John Cameron Mitchell - Not a Ticket",
       "date": "2026-09-20",
@@ -4164,6 +5467,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-09-20-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-09-20",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "observatory-2026-09-20-john-cameron-mitchell-hedwig-25th-annive",
       "title": "John Cameron Mitchell: Hedwig 25th Anniversary Movie Tour",
       "date": "2026-09-20",
@@ -4173,6 +5487,17 @@
       "price": "",
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-san-diego-california-09-20-2026/event/0B006462913D2A7F"
+    },
+    {
+      "id": "soma-2026-09-20-millionaire-",
+      "title": "MILLIONAIRE$",
+      "date": "2026-09-20",
+      "time": "18:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 6 pm - Sidestage",
+      "url": "https://bit.ly/4on01xR"
     },
     {
       "id": "holdingco-2026-09-20-conway-the-machine-x-evidence-x-graf",
@@ -4219,6 +5544,17 @@
       "url": "https://www.ticketweb.com/event/patrick-warburton-patrick-belly-up-tickets/14890173?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14947493",
+      "title": "Rolling Quartz",
+      "date": "2026-09-20",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14947493/rolling-quartz-my-turn-2026-tour-in-san-diego/"
+    },
+    {
       "id": "thesound-14206214",
       "title": "Soulwax",
       "date": "2026-09-20",
@@ -4263,6 +5599,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-09-22-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-09-22",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-09-22-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-09-22",
@@ -4272,6 +5619,17 @@
       "price": "",
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null
+    },
+    {
+      "id": "soma-2026-09-22-lucki",
+      "title": "Lucki",
+      "date": "2026-09-22",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4ul5gjS"
     },
     {
       "id": "mcg-s2i25",
@@ -4340,6 +5698,17 @@
       "url": "https://www.ticketweb.com/event/jeff-bernat-luv-music-box-tickets/14958133?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14958133",
+      "title": "Jeff Bernat",
+      "date": "2026-09-23",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14958133/jeff-bernat-luv-language-tour/"
+    },
+    {
       "id": "mcg-s2i26",
       "title": "KARAOKE NIGHT",
       "date": "2026-09-23",
@@ -4360,6 +5729,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/kruder-dorfmeister-the-sound-tickets/14758343?pl=The_Sound&REFID=TheSoundWS"
+    },
+    {
+      "id": "soma-2026-09-24-west-22nd",
+      "title": "West 22nd",
+      "date": "2026-09-24",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/42rxk8V"
     },
     {
       "id": "holdingco-2026-09-24-what-s-golden-a-tribute-to-the-golde",
@@ -4439,6 +5819,17 @@
       "url": "https://www.ticketweb.com/event/don-west-belly-up-tickets/14796503?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14202314",
+      "title": "Fu Manchu",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14202314/fu-manchu/"
+    },
+    {
       "id": "bellyup-14918043",
       "title": "Waylon Wyatt",
       "date": "2026-09-25",
@@ -4516,6 +5907,28 @@
       "url": null
     },
     {
+      "id": "towerbar-2026-09-27-me-grimlock-strychnine-ninety-nine",
+      "title": "Me, Grimlock, Strychnine Ninety Nine, One Square Mile, Quid Punk Quo, Eye Mind Matinee",
+      "date": "2026-09-27",
+      "time": "16:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/me-grimlock-strychnine-ninety-nine-one-square-mile-quid-punk-quo-eye-mind-matinee/"
+    },
+    {
+      "id": "qb-2026-09-27-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-09-27",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14953493",
       "title": "The Lone Bellow",
       "date": "2026-09-27",
@@ -4558,6 +5971,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/live-from-laurel-canyon-belly-up-tickets/14971123?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-09-29-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-09-29",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-09-29-blues-berry-jam",
@@ -4626,6 +6050,17 @@
       "url": "https://theholdingcompanyob.com/show/molly-hatchet/"
     },
     {
+      "id": "soma-2026-10-01-the-number-twelve-looks-like-you",
+      "title": "The Number Twelve Looks Like You",
+      "date": "2026-10-01",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/4gzudE6"
+    },
+    {
       "id": "bellyup-14832503",
       "title": "JUTES",
       "date": "2026-10-01",
@@ -4635,6 +6070,17 @@
       "price": "",
       "description": "Mothica",
       "url": "https://www.ticketweb.com/event/jutes-smile-youre-music-box-tickets/14832503?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14832503",
+      "title": "JUTES",
+      "date": "2026-10-01",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Mothica, wilt",
+      "url": "https://musicboxsd.com/event/14832503/jutes-smile-you-re-on-tour-w-mothica-wilt/"
     },
     {
       "id": "bellyup-14984333",
@@ -4681,6 +6127,17 @@
       "url": "https://www.ticketweb.com/event/laundry-day-presents-the-larger-music-box-tickets/14921413?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14921413",
+      "title": "LAUNDRY DAY",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present",
+      "url": "https://musicboxsd.com/event/14921413/laundry-day-presents-the-larger-than-life-tour/"
+    },
+    {
       "id": "bellyup-14922383",
       "title": "Spafford",
       "date": "2026-10-02",
@@ -4690,6 +6147,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/spafford-belly-up-tickets/14922383?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "towerbar-2026-10-03-accoustic-revolt-presents-clover-s",
+      "title": "Accoustic Revolt presents Clover's Curfew  - Matinee",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/accoustic-revolt-presents-clovers-curfew-matinee/"
     },
     {
       "id": "holdingco-2026-10-03-buckingham-ween-ween-tribute-",
@@ -4714,6 +6182,17 @@
       "url": "https://whistlestopbar.com/event/flim-flam-revue-23/"
     },
     {
+      "id": "towerbar-2026-10-03-accoustic-revolt-presents-will-var",
+      "title": "Accoustic Revolt presents Will Varley, Beans on Toast and Ciaran O'Reilly.",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/accoustic-revolt-presents-will-varley-beans-on-toast-and-ciaran-oreilly/"
+    },
+    {
       "id": "bellyup-14977883",
       "title": "Chat Pile",
       "date": "2026-10-03",
@@ -4723,6 +6202,17 @@
       "price": "",
       "description": "Soul Glo",
       "url": "https://www.ticketweb.com/event/chat-pile-who-music-box-tickets/14977883?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14977883",
+      "title": "Chat Pile",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Soda Bar Present · With Soul Glo, Virga",
+      "url": "https://musicboxsd.com/event/14977883/chat-pile-who-loves-the-sun-tour-2026-w-soul-glo-virga/"
     },
     {
       "id": "thesound-14801893",
@@ -4747,6 +6237,17 @@
       "url": "https://www.ticketweb.com/event/the-mother-hips-belly-up-tickets/14739473?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "qb-2026-10-04-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-10-04",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14218644",
       "title": "Jackie Greene",
       "date": "2026-10-04",
@@ -4756,6 +6257,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/jackie-greene-belly-up-tickets/14218644?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14241014",
+      "title": "Mari Froes",
+      "date": "2026-10-04",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14241014/mari-froes/"
     },
     {
       "id": "thesound-14249964",
@@ -4769,6 +6281,17 @@
       "url": "https://www.ticketweb.com/event/michelle-branch-the-sound-tickets/14249964?pl=The_Sound&REFID=TheSoundWS"
     },
     {
+      "id": "qb-2026-10-06-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-10-06",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-10-06-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-10-06",
@@ -4780,6 +6303,17 @@
       "url": null
     },
     {
+      "id": "soma-2026-10-06-cameron-whitcomb",
+      "title": "Cameron Whitcomb",
+      "date": "2026-10-06",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4wmryDi"
+    },
+    {
       "id": "bellyup-14960023",
       "title": "Plini",
       "date": "2026-10-06",
@@ -4789,6 +6323,17 @@
       "price": "",
       "description": "Night Verses",
       "url": "https://www.ticketweb.com/event/plini-an-unnameable-music-box-tickets/14960023?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14960023",
+      "title": "Plini",
+      "date": "2026-10-06",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Night Verses, Portraits",
+      "url": "https://musicboxsd.com/event/14960023/plini-an-unnameable-desire-north-american-tour-w-night-verses-portraits/"
     },
     {
       "id": "bellyup-14907263",
@@ -4811,6 +6356,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/sketch-party-46/"
+    },
+    {
+      "id": "qb-2026-10-07-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-10-07",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "bellyup-14981693",
@@ -4846,6 +6402,17 @@
       "url": "https://www.ticketweb.com/event/josh-conway-the-music-box-tickets/14218474?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14218474",
+      "title": "josh conway",
+      "date": "2026-10-09",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With HOMESHAKE",
+      "url": "https://musicboxsd.com/event/14218474/josh-conway-the-plum-tour-w-homeshake/"
+    },
+    {
       "id": "bellyup-14856673",
       "title": "The Wallflowers",
       "date": "2026-10-09",
@@ -4855,6 +6422,28 @@
       "price": "",
       "description": "The Whitmore Sisters",
       "url": "https://www.ticketweb.com/event/the-wallflowers-the-whitmore-sisters-belly-up-tickets/14856673?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "soma-2026-10-10-the-living-tombstone",
+      "title": "The Living Tombstone",
+      "date": "2026-10-10",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4l5EGHm"
+    },
+    {
+      "id": "musicbox-14943583",
+      "title": "Evan Giia",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14943583/evan-giia/"
     },
     {
       "id": "holdingco-2026-10-11-bit-brigade-performs-mega-man-ii-cas",
@@ -4890,6 +6479,28 @@
       "url": "https://whistlestopbar.com/event/showdown-at-sundown-45/"
     },
     {
+      "id": "qb-2026-10-11-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-10-11",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "soma-2026-10-11-rin",
+      "title": "Rin",
+      "date": "2026-10-11",
+      "time": "18:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Sidestage - 6pm",
+      "url": "https://bit.ly/4oTDU2n"
+    },
+    {
       "id": "bellyup-14221304",
       "title": "Dinosaur Jr.",
       "date": "2026-10-11",
@@ -4912,6 +6523,17 @@
       "url": "https://www.ticketweb.com/event/ingrid-michaelson-cozy-music-box-tickets/14892973?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14892973",
+      "title": "Ingrid Michaelson",
+      "date": "2026-10-11",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Allie Moss, Hannah Winkler",
+      "url": "https://musicboxsd.com/event/14892973/ingrid-michaelson-cozy-fall-trio-tour-featuring-allie-moss-hannah-winkler/"
+    },
+    {
       "id": "thesound-14957503",
       "title": "Mastodon",
       "date": "2026-10-11",
@@ -4932,6 +6554,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/davide-de-pierro-belly-up-tickets/14939253?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-10-13-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-10-13",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-10-13-blues-berry-jam",
@@ -4978,6 +6611,17 @@
       "url": "https://www.ticketweb.com/event/davide-de-pierro-belly-up-tickets/14739323?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14191774",
+      "title": "Live Dead & Brothers",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14191774/live-dead-brothers/"
+    },
+    {
       "id": "thesound-14890213",
       "title": "LP",
       "date": "2026-10-14",
@@ -4987,6 +6631,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/lp-all-is-the-sound-tickets/14890213?pl=The_Sound&REFID=TheSoundWS"
+    },
+    {
+      "id": "soma-2026-10-15-saint-levant",
+      "title": "SAINT LEVANT",
+      "date": "2026-10-15",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4vjsqql"
     },
     {
       "id": "bellyup-14819503",
@@ -5000,6 +6655,17 @@
       "url": "https://www.ticketweb.com/event/akeem-ali-the-music-box-tickets/14819503?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14819503",
+      "title": "Akeem Ali",
+      "date": "2026-10-15",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14819503/akeem-ali-the-texture-tour/"
+    },
+    {
       "id": "holdingco-2026-10-16-nahko-and-medicine-for-the-people-ho",
       "title": "NAHKO AND MEDICINE FOR THE PEOPLE – HOKA 10TH ANNIVERSARY TOUR.",
       "date": "2026-10-16",
@@ -5011,6 +6677,17 @@
       "url": "https://theholdingcompanyob.com/show/nahko-and-medicine-for-the-people-hoka-10th-anniversary-tour/"
     },
     {
+      "id": "soma-2026-10-16-sex-pistols-steve-jones-paul-cook-",
+      "title": "SEX PISTOLS (Steve Jones, Paul Cook, Glen Matlock) featuring Frank Carter",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7:00pm",
+      "url": "https://bit.ly/3OAyxqJ"
+    },
+    {
       "id": "bellyup-14957973",
       "title": "Peter Bjorn and John",
       "date": "2026-10-16",
@@ -5020,6 +6697,17 @@
       "price": "",
       "description": "Josh Rouse",
       "url": "https://www.ticketweb.com/event/peter-bjorn-and-john-music-box-tickets/14957973?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14957973",
+      "title": "Peter Bjorn and John",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present · With Josh Rouse",
+      "url": "https://musicboxsd.com/event/14957973/peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-w-josh-rouse/"
     },
     {
       "id": "thesound-14906773",
@@ -5099,6 +6787,17 @@
       "url": "https://theholdingcompanyob.com/show/house-of-dawn/"
     },
     {
+      "id": "qb-2026-10-18-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-10-18",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "casbah-698720",
       "title": "Blitzkid",
       "date": "2026-10-18",
@@ -5121,6 +6820,17 @@
       "url": "https://www.ticketweb.com/event/moe-an-evening-belly-up-tickets/14940093?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14582163",
+      "title": "PRIVATE EVENT",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14582163/closed-for-private-event/"
+    },
+    {
       "id": "bellyup-14936963",
       "title": "The Core - Eric Clapton Tribute",
       "date": "2026-10-19",
@@ -5130,6 +6840,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-core-eric-belly-up-tickets/14936963?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-10-20-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-10-20",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-10-20-blues-berry-jam",
@@ -5154,6 +6875,17 @@
       "url": "https://whistlestopbar.com/event/sketch-party-47/"
     },
     {
+      "id": "qb-2026-10-21-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-10-21",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14203574",
       "title": "Automatic",
       "date": "2026-10-21",
@@ -5163,6 +6895,28 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/automatic-north-america-belly-up-tickets/14203574?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14890223",
+      "title": "The Adicts",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14890223/the-adicts/"
+    },
+    {
+      "id": "soma-2026-10-22-ho99o9-n8noface-sincerely-the-void",
+      "title": "Ho99o9 & N8NOFACE – Sincerely___ The Void",
+      "date": "2026-10-22",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/4vPYvax"
     },
     {
       "id": "holdingco-2026-10-22-balthvs",
@@ -5185,6 +6939,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/eric-bellinger-music-box-tickets/14939593?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14939593",
+      "title": "Eric Bellinger",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14939593/eric-bellinger/"
     },
     {
       "id": "bellyup-14988863",
@@ -5220,6 +6985,39 @@
       "url": "https://www.ticketweb.com/event/kishi-bashi-sonderlust-belly-up-tickets/14807593?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14534293",
+      "title": "PRIVATE EVENT",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14534293/closed-for-private-event/"
+    },
+    {
+      "id": "soma-2026-10-23-restricted",
+      "title": "Restricted",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 8pm",
+      "url": "https://bit.ly/4uCJW8Q"
+    },
+    {
+      "id": "musicbox-14808603",
+      "title": "Oingo Boingo Former Members",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With The Untouchables",
+      "url": "https://musicboxsd.com/event/14808603/oingo-boingo-former-members-the-untouchables/"
+    },
+    {
       "id": "thesound-14900413",
       "title": "Switchfoot",
       "date": "2026-10-24",
@@ -5231,6 +7029,39 @@
       "url": "https://www.ticketweb.com/event/switchfoot-with-anberlin-the-sound-tickets/14900413?pl=The_Sound&REFID=TheSoundWS"
     },
     {
+      "id": "qb-2026-10-25-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-10-25",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "soma-2026-10-25-mia-asano",
+      "title": "Mia Asano",
+      "date": "2026-10-25",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 7pm - Sidestage",
+      "url": "https://bit.ly/4y7g9rN"
+    },
+    {
+      "id": "musicbox-14793953",
+      "title": "Ax and the Hatchetmen",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14793953/ax-and-the-hatchetmen-the-late-checkout-tour-2026/"
+    },
+    {
       "id": "whistlestop-2026-10-26-the-blue-hour-w-the-ta-tomlinson-ban",
       "title": "The Blue Hour w/ The TA Tomlinson Band and Special Guests",
       "date": "2026-10-26",
@@ -5240,6 +7071,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-22/"
+    },
+    {
+      "id": "qb-2026-10-27-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-10-27",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-10-27-blues-berry-jam",
@@ -5286,6 +7128,17 @@
       "url": "https://www.ticketweb.com/event/failure-the-rising-music-box-tickets/14865793?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14865793",
+      "title": "Failure",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present · With Quannnic",
+      "url": "https://musicboxsd.com/event/14865793/failure-the-rising-skyline-tour-w-quannnic/"
+    },
+    {
       "id": "holdingco-2026-10-30-fight-the-neighborhood-last-caress-m",
       "title": "Fight The Neighborhood, Last Caress (Misfits Tribute), Bad Examples",
       "date": "2026-10-30",
@@ -5295,6 +7148,17 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/fight-the-neighborhood-last-caress-misfits-tribute-bad-examples/"
+    },
+    {
+      "id": "towerbar-2026-10-30-castle",
+      "title": "Castle",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/castle-2/"
     },
     {
       "id": "bellyup-14103374",
@@ -5319,6 +7183,39 @@
       "url": "https://www.ticketweb.com/event/theo-katzman-music-box-tickets/14902843?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14902843",
+      "title": "Theo Katzman",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present",
+      "url": "https://musicboxsd.com/event/14902843/theo-katzman/"
+    },
+    {
+      "id": "towerbar-2026-10-31-punk-rock-chili-dog-social-matinee",
+      "title": "Punk Rock Chili Dog Social Matinee",
+      "date": "2026-10-31",
+      "time": "14:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/punk-rock-chili-dog-social-matinee-2/"
+    },
+    {
+      "id": "soma-2026-10-31-6lack",
+      "title": "6LACK",
+      "date": "2026-10-31",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4f5VMnK"
+    },
+    {
       "id": "holdingco-2026-10-31-cydeways",
       "title": "Cydeways",
       "date": "2026-10-31",
@@ -5341,6 +7238,28 @@
       "url": "https://www.ticketweb.com/event/pigeons-playing-ping-pong-the-observatory-north-park-tickets/14981773?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14985883",
+      "title": "WonkyWilla",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With The Sponges",
+      "url": "https://musicboxsd.com/event/14985883/wonkywilla-x-same-same-but-different/"
+    },
+    {
+      "id": "qb-2026-11-01-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-11-01",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14204764",
       "title": "INOHA",
       "date": "2026-11-01",
@@ -5350,6 +7269,17 @@
       "price": "",
       "description": "Buddha Trixie",
       "url": "https://www.ticketweb.com/event/inoha-this-might-music-box-tickets/14204764?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14204764",
+      "title": "INOHA",
+      "date": "2026-11-01",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present · With Buddha Trixie, Flight By Nothing",
+      "url": "https://musicboxsd.com/event/14204764/inoha-this-might-be-useful-tour-w-buddha-trixie-flight-by-nothing/"
     },
     {
       "id": "bellyup-14203664",
@@ -5383,6 +7313,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/medium-build-presents-the-king-the-observatory-north-park-tickets/14216064?REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-11-03-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-11-03",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-11-03-blues-berry-jam",
@@ -5429,6 +7370,17 @@
       "url": "https://whistlestopbar.com/event/sketch-party-48/"
     },
     {
+      "id": "qb-2026-11-04-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-11-04",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14935903",
       "title": "Fitz and The Tantrums",
       "date": "2026-11-04",
@@ -5460,6 +7412,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/don-mclean-celebrating-belly-up-tickets/14140644?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14751333",
+      "title": "PRIVATE EVENT",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14751333/closed-for-private-event/"
     },
     {
       "id": "holdingco-2026-11-06-keller-williams",
@@ -5506,6 +7469,17 @@
       "url": "https://theholdingcompanyob.com/show/incomplete-elements-tumbleweeds/"
     },
     {
+      "id": "musicbox-14903773",
+      "title": "PRIVATE EVENT",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14903773/closed-for-private-event/"
+    },
+    {
       "id": "camels-2026-11-08-blues-jam-john-january",
       "title": "Blues Jam with John January",
       "date": "2026-11-08",
@@ -5539,6 +7513,17 @@
       "url": "https://whistlestopbar.com/event/showdown-at-sundown-46/"
     },
     {
+      "id": "qb-2026-11-08-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-11-08",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14757683",
       "title": "Bahamas",
       "date": "2026-11-08",
@@ -5561,6 +7546,17 @@
       "url": "https://www.ticketweb.com/event/stephen-day-the-music-box-tickets/14973783?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14973783",
+      "title": "Stephen Day",
+      "date": "2026-11-08",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Soda Bar Present",
+      "url": "https://musicboxsd.com/event/14973783/stephen-day-the-self-titled-tour/"
+    },
+    {
       "id": "thesound-14964383",
       "title": "The Psychedelic Furs",
       "date": "2026-11-08",
@@ -5581,6 +7577,28 @@
       "price": "",
       "description": "L.A. Witch",
       "url": "https://www.ticketweb.com/event/king-buffalo-la-witch-belly-up-tickets/14918073?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "soma-2026-11-10-under-ath",
+      "title": "UNDERØATH",
+      "date": "2026-11-10",
+      "time": "17:30",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 5:30pm",
+      "url": "https://bit.ly/43XXxfQ"
+    },
+    {
+      "id": "qb-2026-11-10-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-11-10",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-11-10-blues-berry-jam",
@@ -5627,6 +7645,17 @@
       "url": "https://www.ticketweb.com/event/jervis-campbell-good-music-box-tickets/14902753?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14902753",
+      "title": "Jervis Campbell",
+      "date": "2026-11-12",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present",
+      "url": "https://musicboxsd.com/event/14902753/jervis-campbell-good-grief-tour/"
+    },
+    {
       "id": "holdingco-2026-11-14-faux-fest-a-festival-of-tribute-cove",
       "title": "FAUX FEST – a festival of Tribute & Cover Bands (featuring the Faux Fighters)",
       "date": "2026-11-14",
@@ -5649,6 +7678,28 @@
       "url": "https://www.ticketweb.com/event/boombox-music-box-tickets/14891513?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14891513",
+      "title": "BoomBox",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14891513/boombox/"
+    },
+    {
+      "id": "qb-2026-11-15-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-11-15",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14856253",
       "title": "Marc Broussard",
       "date": "2026-11-15",
@@ -5658,6 +7709,17 @@
       "price": "",
       "description": "Cristina Vane",
       "url": "https://www.ticketweb.com/event/marc-broussard-cristina-vane-belly-up-tickets/14856253?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-11-17-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-11-17",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-11-17-blues-berry-jam",
@@ -5682,6 +7744,17 @@
       "url": "https://www.ticketweb.com/event/rachael-vilray-taylor-ashton-belly-up-tickets/14235644?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "qb-2026-11-18-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-11-18",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14989283",
       "title": "BERTHA: Grateful Drag",
       "date": "2026-11-18",
@@ -5691,6 +7764,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/bertha-grateful-drag-belly-up-tickets/14989283?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14212394",
+      "title": "Em Beihold",
+      "date": "2026-11-18",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Janani K. Jha",
+      "url": "https://musicboxsd.com/event/14212394/em-beihold-tales-of-a-failed-shapeshifter-tour/"
     },
     {
       "id": "thesound-14262974",
@@ -5715,6 +7799,28 @@
       "url": "https://www.ticketweb.com/event/son-volt-kelly-willis-music-box-tickets/14891433?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14891433",
+      "title": "Son Volt",
+      "date": "2026-11-21",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Kelly Willis",
+      "url": "https://musicboxsd.com/event/14891433/son-volt-kelly-willis/"
+    },
+    {
+      "id": "qb-2026-11-22-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-11-22",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14974153",
       "title": "Andrew McMahon",
       "date": "2026-11-22",
@@ -5735,6 +7841,28 @@
       "price": "",
       "description": "Worry Club",
       "url": "https://www.ticketweb.com/event/the-wrecks-finally-music-box-tickets/14204254?REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14204254",
+      "title": "The Wrecks",
+      "date": "2026-11-22",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "With Worry Club, Kid Sistr",
+      "url": "https://musicboxsd.com/event/14204254/the-wrecks-finally-outside-tour-w-worry-club-kid-sistr/"
+    },
+    {
+      "id": "qb-2026-11-24-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-11-24",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-11-24-blues-berry-jam",
@@ -5770,6 +7898,17 @@
       "url": "https://www.ticketweb.com/event/leonid-friends-balboa-theatre-san-tickets/14170334?REFID=bupwebsite"
     },
     {
+      "id": "soma-2026-11-28-saosin-20-years-of-self-titled",
+      "title": "Saosin: 20 Years of Self-Titled",
+      "date": "2026-11-28",
+      "time": "18:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Doors 6pm - Mainstage",
+      "url": "https://bit.ly/4dE1UlW"
+    },
+    {
       "id": "bellyup-14219064",
       "title": "B-Side Players, Elijah Emanuel",
       "date": "2026-11-28",
@@ -5779,6 +7918,28 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/b-side-players-elijah-emanuel-belly-up-tickets/14219064?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-11-29-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-11-29",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-12-01-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-12-01",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-12-01-blues-berry-jam",
@@ -5803,6 +7964,17 @@
       "url": "https://www.ticketweb.com/event/the-residents-eskimo-belly-up-tickets/14256704?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "qb-2026-12-02-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-12-02",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14203904",
       "title": "Squirrel Nut Zippers",
       "date": "2026-12-02",
@@ -5814,6 +7986,17 @@
       "url": "https://www.ticketweb.com/event/squirrel-nut-zippers-belly-up-tickets/14203904?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "soma-2026-12-05-eslabon-armado",
+      "title": "Eslabon Armado",
+      "date": "2026-12-05",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4vFbyLm"
+    },
+    {
       "id": "casbah-699083",
       "title": "The Beat Farmers, TK and the Deadlist",
       "date": "2026-12-06",
@@ -5823,6 +8006,28 @@
       "price": "$25.00",
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/the-beat-farmers-tk-and-the-deadlist/699083?afflky=Casbah"
+    },
+    {
+      "id": "qb-2026-12-06-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-12-06",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-12-08-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-12-08",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-12-08-blues-berry-jam",
@@ -5858,6 +8063,17 @@
       "url": "https://www.ticketweb.com/event/the-jayhawks-sanctuary-belly-up-tickets/14204024?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14935503",
+      "title": "PRIVATE EVENT",
+      "date": "2026-12-12",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14935503/closed-for-private-event/"
+    },
+    {
       "id": "camels-2026-12-13-blues-jam-john-january",
       "title": "Blues Jam with John January",
       "date": "2026-12-13",
@@ -5869,6 +8085,17 @@
       "url": null
     },
     {
+      "id": "qb-2026-12-13-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-12-13",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "bellyup-14907153",
       "title": "The Bobby Lees",
       "date": "2026-12-13",
@@ -5878,6 +8105,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-bobby-lees-belly-up-tickets/14907153?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "qb-2026-12-15-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-12-15",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-12-15-blues-berry-jam",
@@ -5902,6 +8140,39 @@
       "url": "https://www.ticketweb.com/event/feeble-little-horse-music-box-tickets/14936783?REFID=bupwebsite"
     },
     {
+      "id": "musicbox-14936783",
+      "title": "feeble little horse",
+      "date": "2026-12-15",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "Belly Up & Casbah Present · With MOP",
+      "url": "https://musicboxsd.com/event/14936783/feeble-little-horse-bitknot-tour-w-mop/"
+    },
+    {
+      "id": "qb-2026-12-16-line-dance-social",
+      "title": "Beginner Line Dance Social",
+      "date": "2026-12-16",
+      "time": "19:00",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15",
+      "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "musicbox-13996394",
+      "title": "PRIVATE EVENT",
+      "date": "2026-12-17",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/13996394/closed-for-private-event/"
+    },
+    {
       "id": "thesound-14974573",
       "title": "nimino",
       "date": "2026-12-19",
@@ -5911,6 +8182,28 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/nimino-keep-me-awake-tour-the-sound-tickets/14974573?pl=The_Sound&REFID=TheSoundWS"
+    },
+    {
+      "id": "qb-2026-12-20-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-12-20",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-12-22-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-12-22",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
     },
     {
       "id": "camels-2026-12-22-blues-berry-jam",
@@ -5935,6 +8228,28 @@
       "url": "https://bellyup.com/shows/"
     },
     {
+      "id": "qb-2026-12-27-salsa-sunday",
+      "title": "Salsa Sunday",
+      "date": "2026-12-27",
+      "time": "17:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 / $10 students",
+      "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
+      "id": "qb-2026-12-29-beginning-swing",
+      "title": "Beginning Swing with Mercedes Moore",
+      "date": "2026-12-29",
+      "time": "18:30",
+      "venue": "Queen Bee's",
+      "category": "queenbees",
+      "price": "$15 class + social / $10 social",
+      "description": "All-levels swing class at 6:30 PM, social dancing from 7:30 PM. Every Tuesday.",
+      "url": "https://www.queenbeessd.com/classes"
+    },
+    {
       "id": "camels-2026-12-29-blues-berry-jam",
       "title": "Blue's Berry Jam",
       "date": "2026-12-29",
@@ -5946,6 +8261,17 @@
       "url": null
     },
     {
+      "id": "musicbox-14204034",
+      "title": "PRIVATE EVENT",
+      "date": "2027-01-17",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14204034/closed-for-private-event/"
+    },
+    {
       "id": "bellyup-14236474",
       "title": "Five for Fighting",
       "date": "2027-01-26",
@@ -5955,6 +8281,17 @@
       "price": "",
       "description": "Lace and Lee",
       "url": "https://www.ticketweb.com/event/five-for-fighting-with-string-belly-up-tickets/14236474?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "musicbox-14866583",
+      "title": "PRIVATE EVENT",
+      "date": "2027-02-06",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14866583/closed-for-private-event/"
     },
     {
       "id": "thesound-14978503",
@@ -5988,16 +8325,124 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/wheeler-walker-jr-the-sound-tickets/14972463?pl=The_Sound&REFID=TheSoundWS"
+    },
+    {
+      "id": "musicbox-14851203",
+      "title": "PRIVATE EVENT",
+      "date": "2027-03-22",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14851203/closed-for-private-event/"
+    },
+    {
+      "id": "musicbox-14851213",
+      "title": "PRIVATE EVENT",
+      "date": "2027-03-23",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14851213/closed-for-private-event/"
+    },
+    {
+      "id": "musicbox-14851223",
+      "title": "PRIVATE EVENT",
+      "date": "2027-03-24",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14851223/closed-for-private-event/"
+    },
+    {
+      "id": "musicbox-14851243",
+      "title": "PRIVATE EVENT",
+      "date": "2027-03-25",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14851243/closed-for-private-event/"
+    },
+    {
+      "id": "musicbox-14195584",
+      "title": "PRIVATE EVENT",
+      "date": "2027-04-03",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14195584/closed-for-private-event/"
+    },
+    {
+      "id": "soma-2027-04-06-nothing-but-thieves",
+      "title": "Nothing But Thieves",
+      "date": "2027-04-06",
+      "time": "19:00",
+      "venue": "SOMA",
+      "category": "soma",
+      "price": "",
+      "description": "Mainstage - 7pm",
+      "url": "https://bit.ly/4v9D57q"
+    },
+    {
+      "id": "musicbox-14899733",
+      "title": "PRIVATE EVENT",
+      "date": "2027-05-01",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14899733/closed-for-private-event/"
+    },
+    {
+      "id": "musicbox-14832273",
+      "title": "French 79",
+      "date": "2027-05-08",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14832273/french-79/"
+    },
+    {
+      "id": "musicbox-14981473",
+      "title": "PRIVATE EVENT",
+      "date": "2027-05-10",
+      "time": "20:00",
+      "venue": "Music Box",
+      "category": "musicbox",
+      "price": "",
+      "description": "",
+      "url": "https://musicboxsd.com/event/14981473/closed-for-private-event/"
     }
   ],
   "flyers": [
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-18 07:31",
+      "fetched": "2026-07-18 07:51",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
+    },
+    {
+      "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/07/bcbjuly2026.jpg?w=2000",
+      "page": "https://blackcatbar.wordpress.com/calendar/",
+      "fetched": "2026-07-18 07:51",
+      "image": "data/blackcat-flyer.jpg",
+      "label": "this month's calendar",
+      "bytes": 817438,
+      "venue": "Black Cat Bar"
     }
   ],
   "linkouts": [

@@ -27,6 +27,12 @@ import scrape_thesound
 import scrape_kensington
 import scrape_banshee
 import scrape_sodabar
+import scrape_soma
+import scrape_winstons
+import scrape_musicbox
+import scrape_towerbar
+import scrape_queenbees
+import scrape_blackcat
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -43,6 +49,11 @@ SCRAPERS = [
     ("kensington", "The Kensington Club", scrape_kensington),
     ("banshee", "Banshee Bar", scrape_banshee),
     ("sodabar", "Soda Bar", scrape_sodabar),
+    ("soma", "SOMA", scrape_soma),
+    ("winstons", "Winston's", scrape_winstons),
+    ("musicbox", "Music Box", scrape_musicbox),
+    ("towerbar", "Tower Bar", scrape_towerbar),
+    ("queenbees", "Queen Bee's", scrape_queenbees),
 ]
 
 # Belly Up's feed aggregates other rooms (incl. The Sound). When the same show
@@ -58,6 +69,7 @@ _EXCLUDE_RE = re.compile(r"\b(?:%s)\b" % "|".join(EXCLUDE_KEYWORDS), re.I)
 # (label, module) — each module.scrape(today) returns flyer metadata or None.
 FLYER_SCRAPERS = [
     ("Deano's Pub", scrape_deanos),
+    ("Black Cat Bar", scrape_blackcat),
 ]
 
 # Link-out venues: large arenas we don't scrape (Ticketmaster/Live Nation
