@@ -33,6 +33,7 @@
   --cat-thesound: #5a1f8c;
   --cat-kensington: #7a3b1f;
   --cat-banshee: #8c1f2f;
+  --cat-sodabar: #1f6b5a;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -436,6 +437,7 @@ a { color: inherit; }
 .cat-thesound     { color: var(--cat-thesound); }
 .cat-kensington   { color: var(--cat-kensington); }
 .cat-banshee      { color: var(--cat-banshee); }
+.cat-sodabar      { color: var(--cat-sodabar); }
 
 /* ---------- Detail dialog ---------- */
 

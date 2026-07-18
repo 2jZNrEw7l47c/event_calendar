@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17 20:49",
+  "generated": "2026-07-17 21:02",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -12,7 +12,8 @@
     "brick": "Brick By Brick",
     "thesound": "The Sound",
     "kensington": "The Kensington Club",
-    "banshee": "Banshee Bar"
+    "banshee": "Banshee Bar",
+    "sodabar": "Soda Bar"
   },
   "events": [
     {
@@ -102,6 +103,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/friday-happy-hour-w-dj-shoeshine-41/"
+    },
+    {
+      "id": "sodabar-2026-07-17-DC9FD6A8C78A8A61",
+      "title": "Sincere Engineer - The Probable Claws Tour",
+      "date": "2026-07-17",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$30.39",
+      "description": "",
+      "url": "https://link.dice.fm/e2b3a2fbacc2"
     },
     {
       "id": "holdingco-2026-07-17-kekoa-the-artist",
@@ -247,6 +259,17 @@
       "url": "https://whistlestopbar.com/event/vinyl-junkies-dj-happy-hour-21/"
     },
     {
+      "id": "sodabar-2026-07-18-96774E6DDFC9F1AA",
+      "title": "Alex Lahey (Solo), Talker",
+      "date": "2026-07-18",
+      "time": "18:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$24.72",
+      "description": "",
+      "url": "https://link.dice.fm/h3969eee7bb0"
+    },
+    {
       "id": "brick-14214034",
       "title": "Angst of the Era: Celebrating the Best of 90's Aggressive Music",
       "date": "2026-07-18",
@@ -335,6 +358,17 @@
       "url": "https://whistlestopbar.com/event/80s-vs-90s-vs-y2k-with-dj-gabe-vega-and-guests-21/"
     },
     {
+      "id": "sodabar-2026-07-18-77B6782E6C007B4F",
+      "title": "CLUB XCX: A Charli XCX + Hyperpop Party",
+      "date": "2026-07-18",
+      "time": "21:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/a2c1ca897f8d"
+    },
+    {
       "id": "mcg-s0i4",
       "title": "BINGO DAY",
       "date": "2026-07-19",
@@ -390,6 +424,17 @@
       "url": "https://link.dice.fm/i40e83db0414"
     },
     {
+      "id": "sodabar-2026-07-19-C14068DD8A0B9F10",
+      "title": "Moondoggy, Sun Casino",
+      "date": "2026-07-19",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$24.36",
+      "description": "",
+      "url": "https://link.dice.fm/T5d050bcefaa"
+    },
+    {
       "id": "bellyup-14820123",
       "title": "DakhaBrakha",
       "date": "2026-07-19",
@@ -443,6 +488,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/i-promised-the-world-san-diego-california-07-20-2026/event/0A0064ADB74F9BCA"
+    },
+    {
+      "id": "sodabar-2026-07-20-E14BE650B7391385",
+      "title": "Edging, Loitering, Babe Ruthless",
+      "date": "2026-07-20",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$14.94",
+      "description": "",
+      "url": "https://link.dice.fm/O3469ab305e8"
     },
     {
       "id": "banshee-2026-07-20-02E81246964DF05E",
@@ -509,6 +565,17 @@
       "price": "$9.07",
       "description": "",
       "url": "https://link.dice.fm/O7abb6129bea"
+    },
+    {
+      "id": "sodabar-2026-07-21-241FC5F1340C9D07",
+      "title": "Midnight Ships, Moons Of Japan, Seatherny",
+      "date": "2026-07-21",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$9.79",
+      "description": "",
+      "url": "https://link.dice.fm/mdff4676861e"
     },
     {
       "id": "bellyup-14901583",
@@ -654,6 +721,17 @@
       "url": "https://www.ticketweb.com/event/jiluka-with-special-guests-brick-by-brick-tickets/14844323?REFID=clientsitewp"
     },
     {
+      "id": "sodabar-2026-07-23-DCB82280B7DD6EEE",
+      "title": "Guantanamo Baywatch, Sands, J Mau & The Kissoff",
+      "date": "2026-07-23",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/f89ab45381ae"
+    },
+    {
       "id": "holdingco-2026-07-23-out-da-house-productions-presents-le",
       "title": "Out Da House Productions Presents: Lefty Gunplay",
       "date": "2026-07-23",
@@ -753,6 +831,17 @@
       "url": "https://theholdingcompanyob.com/show/larry-his-flask/"
     },
     {
+      "id": "sodabar-2026-07-24-2BA95328E0FFCFB4",
+      "title": "Slow Joy - I Love You So Much I Could Die Tour",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$22.66",
+      "description": "",
+      "url": "https://link.dice.fm/k42f76594c70"
+    },
+    {
       "id": "banshee-2026-07-24-A1122296878059CC",
       "title": ".com, Famous Friend, and Cbarrgs",
       "date": "2026-07-24",
@@ -819,6 +908,17 @@
       "url": "https://www.ticketweb.com/event/part-time-lover-artdontsleep-belly-up-tickets/14856383?pl=bellyup&REFID=bupwebsite"
     },
     {
+      "id": "sodabar-2026-07-24-E6C15ADE98EA1653",
+      "title": "ArtDontSleep presents JAZZ IS DEAD w/ MARCOS VALLE",
+      "date": "2026-07-24",
+      "time": "20:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
+    },
+    {
       "id": "casbah-694507",
       "title": "SUNBENDR, American Actor, Sturdivant",
       "date": "2026-07-24",
@@ -850,6 +950,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/the-nephews/"
+    },
+    {
+      "id": "sodabar-2026-07-25-12A53CD6278AEA20",
+      "title": "I Set My Friends On Fire",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
     },
     {
       "id": "observatory-2026-07-25-silverstein-story-of-the-year-camp-screa",
@@ -894,6 +1005,17 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/a-nightmare-on-80s-street-80s-horror-3/"
+    },
+    {
+      "id": "sodabar-2026-07-25-7E049CF4EFE662DF",
+      "title": "Casket Cassette, Stare Away, Mercury Girl",
+      "date": "2026-07-25",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/n1e27e70e4ff"
     },
     {
       "id": "mcg-s0i13",
@@ -1050,6 +1172,17 @@
       "url": "https://link.dice.fm/A58d197201e7"
     },
     {
+      "id": "sodabar-2026-07-26-BE8C5D221ECED6BD",
+      "title": "Tony Hannah, The Lonesome Lowdowns, Ypsitucky",
+      "date": "2026-07-26",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$15.00",
+      "description": "",
+      "url": "https://link.dice.fm/pbe329c4bea0"
+    },
+    {
       "id": "houseofblues-2026-07-26-waterboyz-presents-chris-travis-performi",
       "title": "Waterboyz Presents: Chris Travis Performing Live!",
       "date": "2026-07-26",
@@ -1127,6 +1260,17 @@
       "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-19/"
     },
     {
+      "id": "sodabar-2026-07-27-2814FF70824B79E3",
+      "title": "The Body, Big Brave, Cinder Well",
+      "date": "2026-07-27",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$24.72",
+      "description": "",
+      "url": "https://link.dice.fm/m91d12f82594"
+    },
+    {
       "id": "houseofblues-2026-07-27-villanelle",
       "title": "Villanelle",
       "date": "2026-07-27",
@@ -1180,6 +1324,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/the-mainliners-with-special-guest-niis-san-diego-california-07-28-2026/event/0A0064C3BC0DA446"
+    },
+    {
+      "id": "sodabar-2026-07-28-FFB7659D0B9E64B5",
+      "title": "The Slashes, Doom Well, D.Wrex",
+      "date": "2026-07-28",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$12.88",
+      "description": "",
+      "url": "https://link.dice.fm/Wc338f6723cb"
     },
     {
       "id": "bellyup-2026-07-28-california-moon-the-traveling-",
@@ -1237,6 +1392,17 @@
       "url": null
     },
     {
+      "id": "sodabar-2026-07-29-B0AB07789FA8DA4B",
+      "title": "Adam Faucett, TK & The Deadlist",
+      "date": "2026-07-29",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$12.88",
+      "description": "",
+      "url": "https://link.dice.fm/D0f098cd0089"
+    },
+    {
       "id": "bellyup-14781903",
       "title": "Dailey & Vincent",
       "date": "2026-07-29",
@@ -1279,6 +1445,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/static-dress-san-diego-california-07-30-2026/event/0A006483C911F188"
+    },
+    {
+      "id": "sodabar-2026-07-30-8D11137AA260540A",
+      "title": "The Paranoyds, Doll Riot, Trash Day",
+      "date": "2026-07-30",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/o99309e4edea"
     },
     {
       "id": "holdingco-2026-07-30-dustbowl-revival",
@@ -1378,6 +1555,17 @@
       "price": "$75",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/andre-nickatina-2/"
+    },
+    {
+      "id": "sodabar-2026-07-31-146751DCC70B108D",
+      "title": "Johnny Dynamite, Catherine Moan, Cruelties, DJ 7th Stranger",
+      "date": "2026-07-31",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/x0ea93693026"
     },
     {
       "id": "mcg-s0i21",
@@ -1512,6 +1700,17 @@
       "url": "https://www.ticketmaster.com/murray-peter-present-the-marvelous-miss-san-diego-california-08-01-2026/event/0B006469ABC03349"
     },
     {
+      "id": "sodabar-2026-08-01-FF44B19FE698D291",
+      "title": "Paris Jackson",
+      "date": "2026-08-01",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$27.20",
+      "description": "",
+      "url": "https://link.dice.fm/sa32522ffccf"
+    },
+    {
       "id": "holdingco-2026-08-01-alific-porcelain-pocket-change-selek",
       "title": "Alific, Porcelain, Pocket Change + Selekta Dusbtin",
       "date": "2026-08-01",
@@ -1598,6 +1797,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/rome-streetz-sock-it-to-my-san-diego-california-08-02-2026/event/0A0064BD2DCC9B54"
+    },
+    {
+      "id": "sodabar-2026-08-02-64812AB035D54447",
+      "title": "Social Lovers, lovetempo, Shige",
+      "date": "2026-08-02",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/O8299893cc26"
     },
     {
       "id": "mcg-s1i1",
@@ -1732,6 +1942,17 @@
       "url": "https://www.ticketmaster.com/slayr-half-blood-tour-san-diego-california-08-04-2026/event/0A0064D20F4C9E93"
     },
     {
+      "id": "sodabar-2026-08-04-C2F2F2D050BB7C7E",
+      "title": "TwoLips, Mad Hunny, The Dimes",
+      "date": "2026-08-04",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$12.88",
+      "description": "",
+      "url": "https://link.dice.fm/m90b8bcb1059"
+    },
+    {
       "id": "bellyup-14174784",
       "title": "Corinne Bailey Rae",
       "date": "2026-08-04",
@@ -1785,6 +2006,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/willow-avalon-pink-pocket-pistol-tour-san-diego-california-08-05-2026/event/0A006497B873EA9A"
+    },
+    {
+      "id": "sodabar-2026-08-05-AE9E0F18E5FD75B3",
+      "title": "Zack Keim, Russ Blvd, Eric Schroeder",
+      "date": "2026-08-05",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$14.94",
+      "description": "",
+      "url": "https://link.dice.fm/sf0a2c499c10"
     },
     {
       "id": "holdingco-2026-08-05-celina-rescott-jessie-lark-sara-jade",
@@ -1862,6 +2094,28 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/monsieur-perine-instrucciones-para-ser-feliz-san-diego-california-08-06-2026/event/0A0064A6269C8884"
+    },
+    {
+      "id": "sodabar-2026-08-06-CB7FA03AB0D5675A",
+      "title": "WILLIS, The Flooks",
+      "date": "2026-08-06",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
+    },
+    {
+      "id": "sodabar-2026-08-06-63BEBD1A8B78E1B0",
+      "title": "The Technicolors",
+      "date": "2026-08-06",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
     },
     {
       "id": "bellyup-14800723",
@@ -1974,6 +2228,17 @@
       "url": "https://www.ticketmaster.com/siddhartha-tu-y-yo-y-tour-san-diego-california-08-07-2026/event/0B006481C3B95D27"
     },
     {
+      "id": "sodabar-2026-08-07-E3B425FB00486DF8",
+      "title": "The Strike",
+      "date": "2026-08-07",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
+    },
+    {
       "id": "brick-14209704",
       "title": "The Writhers with special guests",
       "date": "2026-08-07",
@@ -1983,6 +2248,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-writhers-with-special-guests-brick-by-brick-tickets/14209704?REFID=clientsitewp"
+    },
+    {
+      "id": "sodabar-2026-08-07-9E2F739096F0AADF",
+      "title": "Soft Palms, Poor Thing, The Egg Factory Band",
+      "date": "2026-08-07",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$15.45",
+      "description": "",
+      "url": "https://link.dice.fm/u30052ab6f31"
     },
     {
       "id": "bellyup-14919953",
@@ -2093,6 +2369,17 @@
       "price": "",
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/chris-mitchell-begging-for-sax-18-san-diego-california-08-08-2026/event/0A0064BCABD88E0D"
+    },
+    {
+      "id": "sodabar-2026-08-08-69C5BAA46BDC6740",
+      "title": "Death Cab For Karaoke | live band karaoke!",
+      "date": "2026-08-08",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/f2427a6f0d03"
     },
     {
       "id": "houseofblues-2026-08-08-ella-red",
@@ -2216,6 +2503,17 @@
       "url": null
     },
     {
+      "id": "sodabar-2026-08-09-9E109FCFA6DAE7CD",
+      "title": "Greg Mendez",
+      "date": "2026-08-09",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$22.15",
+      "description": "",
+      "url": "https://link.dice.fm/td75fa2fc772"
+    },
+    {
       "id": "banshee-2026-08-09-B480533EA8B5A693",
       "title": "Queen Serene, Kan Kan, Sugar World, and Colonel Macabre",
       "date": "2026-08-09",
@@ -2247,6 +2545,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-fabulous-thunderbirds-belly-up-tickets/14917223?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "sodabar-2026-08-10-669138F1A4CA703B",
+      "title": "Parlour Magic, TEEEL, Lizard Cohen",
+      "date": "2026-08-10",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/ifb4539ac82e"
     },
     {
       "id": "mcg-s1i14",
@@ -2315,6 +2624,17 @@
       "url": "https://wl.seetickets.us/event/dark-alley-dogs-bombshelter-alley-the-overdrives/696826?afflky=Casbah"
     },
     {
+      "id": "sodabar-2026-08-12-188B4042D533C5BD",
+      "title": "Alela Diane, Shannon Lay",
+      "date": "2026-08-12",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$27.30",
+      "description": "",
+      "url": "https://link.dice.fm/bde35a00f1f7"
+    },
+    {
       "id": "brick-14987473",
       "title": "The Cybertronic Spree with special guests",
       "date": "2026-08-12",
@@ -2324,6 +2644,17 @@
       "price": "",
       "description": "",
       "url": "https://www.ticketweb.com/event/the-cybertronic-spree-with-special-brick-by-brick-tickets/14987473?REFID=clientsitewp"
+    },
+    {
+      "id": "sodabar-2026-08-12-FA52685DF7FC0CC5",
+      "title": "Off With Their Heads, Mermaid Island",
+      "date": "2026-08-12",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
     },
     {
       "id": "mcg-s1i16",
@@ -2368,6 +2699,17 @@
       "price": "$10, $15",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/the-voices-of-cape-coast-castle-ras-kass-layne-tadesse-luam-the-organikz-tony-dee-9/"
+    },
+    {
+      "id": "sodabar-2026-08-13-AAE20E13F1BE5600",
+      "title": "Twin Fin - The Kings of the Coast Tour",
+      "date": "2026-08-13",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/X49e00d7125e"
     },
     {
       "id": "mcg-s1i17",
@@ -2425,6 +2767,17 @@
       "url": "https://www.ticketmaster.com/devildriver-strike-and-kill-tour-w-san-diego-california-08-14-2026/event/0B00648BE3F8765D"
     },
     {
+      "id": "sodabar-2026-08-14-DABEEC858FA67A5F",
+      "title": "Niina Soleil",
+      "date": "2026-08-14",
+      "time": "18:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$25.75",
+      "description": "",
+      "url": "https://link.dice.fm/U684a8043935"
+    },
+    {
       "id": "holdingco-2026-08-14-catching-klover",
       "title": "Catching Klover",
       "date": "2026-08-14",
@@ -2434,6 +2787,17 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/catching-klover/"
+    },
+    {
+      "id": "sodabar-2026-08-14-EB60CD1BA2B45153",
+      "title": "¿Qiensave?, Bachata Surf, Los Paisanos",
+      "date": "2026-08-14",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/Odfe456bcbc5"
     },
     {
       "id": "bellyup-14922813",
@@ -2522,6 +2886,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/vinyl-junkies-dj-happy-hour-22/"
+    },
+    {
+      "id": "sodabar-2026-08-15-25D26A431099CBFD",
+      "title": "Emily Afton, Omo Cloud, Nashelle Brown, Camden Aguilera",
+      "date": "2026-08-15",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$12.88",
+      "description": "",
+      "url": "https://link.dice.fm/Pbb2128ebba9"
     },
     {
       "id": "holdingco-2026-08-15-blink18true",
@@ -2623,6 +2998,28 @@
       "url": "https://theholdingcompanyob.com/show/croon-dog-faux-fur/"
     },
     {
+      "id": "sodabar-2026-08-16-8C1C4F249FE3BDA7",
+      "title": "Computer",
+      "date": "2026-08-16",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/beafd7cb883c"
+    },
+    {
+      "id": "sodabar-2026-08-16-F72844D79761C571",
+      "title": "Tijuana Panthers",
+      "date": "2026-08-16",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
+    },
+    {
       "id": "casbah-689030",
       "title": "PLOSIVS",
       "date": "2026-08-16",
@@ -2654,6 +3051,17 @@
       "price": "$25.00",
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/tijuana-panthers/697967?afflky=Casbah"
+    },
+    {
+      "id": "sodabar-2026-08-17-4810C1857512C199",
+      "title": "The Gravities, Joshua Taylor, Anna Ballew",
+      "date": "2026-08-17",
+      "time": "18:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$14.94",
+      "description": "",
+      "url": "https://link.dice.fm/I6d91d441989"
     },
     {
       "id": "banshee-2026-08-17-23018FBAC9633033",
@@ -2698,6 +3106,17 @@
       "price": "",
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null
+    },
+    {
+      "id": "sodabar-2026-08-18-6D676E5DDF7A11AF",
+      "title": "Will Sheff (of Okkervil River)",
+      "date": "2026-08-18",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$30.39",
+      "description": "",
+      "url": "https://link.dice.fm/fc47b067bc15"
     },
     {
       "id": "casbah-696020",
@@ -2755,6 +3174,17 @@
       "url": "https://wl.seetickets.us/event/robot-rock-wdjs-mark-quark-gabe-vega-heather-hxc/698070?afflky=Casbah"
     },
     {
+      "id": "sodabar-2026-08-19-4E6E43DDFDB2A744",
+      "title": "The Zurks, Noon, Ugly Beautiful Noise",
+      "date": "2026-08-19",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$12.88",
+      "description": "",
+      "url": "https://link.dice.fm/Efe1ffa0deb2"
+    },
+    {
       "id": "bellyup-14890113",
       "title": "Back to the Garden",
       "date": "2026-08-19",
@@ -2786,6 +3216,17 @@
       "price": "$4.99",
       "description": "",
       "url": "https://link.dice.fm/h526f1f15f37"
+    },
+    {
+      "id": "sodabar-2026-08-20-81BADFC60CF5922D",
+      "title": "The Asteroid No. 4, The Meeting Places, Sparkler",
+      "date": "2026-08-20",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/c361ce9ee763"
     },
     {
       "id": "thesound-14847733",
@@ -2841,6 +3282,17 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/friday-happy-hour-w-dj-shoeshine-43/"
+    },
+    {
+      "id": "sodabar-2026-08-21-58B2686BDBAAF7AE",
+      "title": "Los Tranquilos, Burgundy Blues, Los Paisanos",
+      "date": "2026-08-21",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/j8465c54bdfc"
     },
     {
       "id": "bellyup-14919963",
@@ -2931,6 +3383,28 @@
       "url": "https://link.dice.fm/X767f7ec3ba4"
     },
     {
+      "id": "sodabar-2026-08-22-1F08278ABF449D99",
+      "title": "Born At Midnite, Paycheque",
+      "date": "2026-08-22",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$22.66",
+      "description": "",
+      "url": "https://link.dice.fm/Mf9fa206c685"
+    },
+    {
+      "id": "sodabar-2026-08-22-6E98677A328CED61",
+      "title": "Cheekface, Catbite",
+      "date": "2026-08-22",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
+    },
+    {
       "id": "holdingco-2026-08-22-sandollar-sunny-day-album-release-pa",
       "title": "Sandollar: Sunny Day Album Release Party w/ Seapoodle + Rafa Ponde",
       "date": "2026-08-22",
@@ -3008,6 +3482,17 @@
       "url": "https://wl.seetickets.us/event/morricone-youth-the-nephews/698001?afflky=Casbah"
     },
     {
+      "id": "sodabar-2026-08-23-58A15A071B7A34AB",
+      "title": "Jejune",
+      "date": "2026-08-23",
+      "time": "17:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$35.02",
+      "description": "",
+      "url": "https://link.dice.fm/U6e1c77d2db9"
+    },
+    {
       "id": "observatory-2026-08-23-hulvey-could-be-tonight-tour",
       "title": "Hulvey 'Could Be Tonight' Tour",
       "date": "2026-08-23",
@@ -3030,6 +3515,17 @@
       "url": null
     },
     {
+      "id": "sodabar-2026-08-23-4FACAD2FB3DF4587",
+      "title": "The Film Company, Axxident, Sun Jelly",
+      "date": "2026-08-23",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": "https://link.dice.fm/Pefd7ba24561"
+    },
+    {
       "id": "banshee-2026-08-23-051110688A465084",
       "title": "The Punk Chef Presents: Subversive Intent, Saint Didacus, Mad Peaceful, and Ursula",
       "date": "2026-08-23",
@@ -3039,6 +3535,17 @@
       "price": "$9.07",
       "description": "",
       "url": "https://link.dice.fm/i1e290eb241c"
+    },
+    {
+      "id": "sodabar-2026-08-23-800B7D66DB89CA09",
+      "title": "WITCH",
+      "date": "2026-08-23",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": ""
     },
     {
       "id": "bellyup-14768593",
@@ -3085,6 +3592,17 @@
       "url": null
     },
     {
+      "id": "sodabar-2026-08-25-04337EEA9CD3F683",
+      "title": "Wayne Hancock, The Doohickeys",
+      "date": "2026-08-25",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$24.72",
+      "description": "",
+      "url": "https://link.dice.fm/i9e220bbf4c1"
+    },
+    {
       "id": "mcg-s1i30",
       "title": "OPEN MIC NIGHT",
       "date": "2026-08-25",
@@ -3118,6 +3636,17 @@
       "url": "https://theholdingcompanyob.com/show/chris-pierce/"
     },
     {
+      "id": "sodabar-2026-08-26-BE4DB1BF00E59748",
+      "title": "Sorry It's Over, The Cabriolets, Anime Titties, Nellies & Newports",
+      "date": "2026-08-26",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$9.79",
+      "description": "",
+      "url": "https://link.dice.fm/s2788699f50f"
+    },
+    {
       "id": "mcg-s1i31",
       "title": "ANIMO CRUZ",
       "date": "2026-08-26",
@@ -3138,6 +3667,17 @@
       "price": "",
       "description": "Jack Symes",
       "url": "https://www.ticketweb.com/event/mason-jennings-jack-symes-belly-up-tickets/14970983?pl=bellyup&REFID=bupwebsite"
+    },
+    {
+      "id": "sodabar-2026-08-27-40C6EF847BB9914B",
+      "title": "GLU",
+      "date": "2026-08-27",
+      "time": "19:30",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/Ca712ce94345"
     },
     {
       "id": "mcg-s1i32",
@@ -3226,6 +3766,17 @@
       "price": "$10 COVER",
       "description": "ST DOOM · RENETTE · (Original /Alternative Rock) · As listed: August 28 at 8pm",
       "url": null
+    },
+    {
+      "id": "sodabar-2026-08-28-816B34134451D1A2",
+      "title": "CLUB SLAYYY: SLAYYYTER + HYPERPOP NIGHT",
+      "date": "2026-08-28",
+      "time": "21:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$18.54",
+      "description": "",
+      "url": "https://link.dice.fm/O0ee16d8adef"
     },
     {
       "id": "holdingco-2026-08-29-ghetto-roots-ras-tone-presents-steve",
@@ -4801,17 +5352,6 @@
       "url": "https://theholdingcompanyob.com/show/molly-hatchet/"
     },
     {
-      "id": "bellyup-14832503",
-      "title": "JUTES",
-      "date": "2026-10-01",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "Mothica",
-      "url": "https://www.ticketweb.com/event/jutes-smile-youre-music-box-tickets/14832503?REFID=bupwebsite"
-    },
-    {
       "id": "bellyup-14984333",
       "title": "Spyro Gyra",
       "date": "2026-10-01",
@@ -6334,7 +6874,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-17 20:49",
+      "fetched": "2026-07-17 21:02",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"

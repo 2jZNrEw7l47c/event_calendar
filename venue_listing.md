@@ -25,7 +25,7 @@ See `scraper/README.md` for details.
 | 8 | Queen Bee's | https://queenbeessd.com | 🟡 JS-only (Wix) |
 | 9 | Black Cat Bar | https://www.blackcatsd.com | 🟡 JS-only (Squarespace) |
 | 10 | Brick By Brick | https://www.brickbybrick.com | ✅ Built |
-| 11 | Soda Bar | https://www.sodabarmusic.com | 🟡 JS-only |
+| 11 | Soda Bar | https://sodabarmusic.com | ✅ Built (DICE) |
 | 12 | Music Box | https://musicboxsd.com | 🟡 JS-only (TicketWeb) |
 | 13 | Banshee Bar | https://thebansheebar.com/ | ✅ Built (DICE) |
 | 14 | Belly Up | https://bellyup.com | ✅ Built |

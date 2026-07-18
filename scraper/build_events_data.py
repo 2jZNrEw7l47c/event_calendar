@@ -26,6 +26,7 @@ import scrape_brick
 import scrape_thesound
 import scrape_kensington
 import scrape_banshee
+import scrape_sodabar
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -41,6 +42,7 @@ SCRAPERS = [
     ("thesound", "The Sound", scrape_thesound),
     ("kensington", "The Kensington Club", scrape_kensington),
     ("banshee", "Banshee Bar", scrape_banshee),
+    ("sodabar", "Soda Bar", scrape_sodabar),
 ]
 
 # Belly Up's feed aggregates other rooms (incl. The Sound). When the same show
