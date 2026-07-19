@@ -40,7 +40,11 @@ def scrape_tribe(base_url, venue, category, today=None):
     seen = set()
     url = api
     for _ in range(MAX_PAGES):
-        resp = requests.get(url, headers=common.UA, params=params, timeout=30)
+        try:
+            resp = requests.get(url, headers=common.UA, params=params, timeout=75)
+        except (requests.Timeout, requests.ConnectionError):
+            # Some of these WP hosts are slow/flaky; one retry rescues most runs.
+            resp = requests.get(url, headers=common.UA, params=params, timeout=75)
         if resp.status_code != 200:
             break
         import json

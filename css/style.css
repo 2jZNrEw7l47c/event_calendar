@@ -39,6 +39,15 @@
   --cat-musicbox: #6b3fa0;
   --cat-towerbar: #a03f58;
   --cat-queenbees: #a06b1f;
+  --cat-loulous: #8c3f6b;
+  --cat-humphreys: #2f6b8c;
+  --cat-quartyard: #5d7a23;
+  --cat-ccae: #99522f;
+  --cat-humpbackstage: #337a6b;
+  --cat-newvillage: #6b2f8c;
+  --cat-pechanga: #6b6b1f;
+  --cat-worldbeat: #1f8c3f;
+  --cat-epstein: #3f5aa0;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -508,6 +517,15 @@ a { color: inherit; }
 .cat-musicbox     { color: var(--cat-musicbox); }
 .cat-towerbar     { color: var(--cat-towerbar); }
 .cat-queenbees    { color: var(--cat-queenbees); }
+.cat-loulous      { color: var(--cat-loulous); }
+.cat-humphreys    { color: var(--cat-humphreys); }
+.cat-quartyard    { color: var(--cat-quartyard); }
+.cat-ccae         { color: var(--cat-ccae); }
+.cat-humpbackstage { color: var(--cat-humpbackstage); }
+.cat-newvillage   { color: var(--cat-newvillage); }
+.cat-pechanga     { color: var(--cat-pechanga); }
+.cat-worldbeat    { color: var(--cat-worldbeat); }
+.cat-epstein      { color: var(--cat-epstein); }
 
 /* ---------- Detail dialog ---------- */
 

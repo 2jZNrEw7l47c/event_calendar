@@ -33,6 +33,15 @@ import scrape_musicbox
 import scrape_towerbar
 import scrape_queenbees
 import scrape_blackcat
+import scrape_loulous
+import scrape_humphreys
+import scrape_quartyard
+import scrape_ccae
+import scrape_humphreysbackstage
+import scrape_newvillage
+import scrape_pechanga
+import scrape_worldbeat
+import scrape_epstein
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -54,6 +63,17 @@ SCRAPERS = [
     ("musicbox", "Music Box", scrape_musicbox),
     ("towerbar", "Tower Bar", scrape_towerbar),
     ("queenbees", "Queen Bee's", scrape_queenbees),
+    # Secondary venues — shared Casbah Presents feed (one fetch, three venues)
+    ("loulous", "Lou Lou's Jungle Room", scrape_loulous),
+    ("humphreys", "Humphrey's Concerts", scrape_humphreys),
+    ("quartyard", "Quartyard", scrape_quartyard),
+    # Secondary venues — Tribe (The Events Calendar) REST API
+    ("ccae", "CCA Escondido", scrape_ccae),
+    ("humpbackstage", "Humphrey's Backstage", scrape_humphreysbackstage),
+    ("newvillage", "New Village Arts", scrape_newvillage),
+    ("pechanga", "Pechanga Arena", scrape_pechanga),
+    ("worldbeat", "Worldbeat Center", scrape_worldbeat),
+    ("epstein", "Epstein Amphitheater", scrape_epstein),
 ]
 
 # Belly Up's feed aggregates other rooms (incl. The Sound). When the same show

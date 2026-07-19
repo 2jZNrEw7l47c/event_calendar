@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18 23:42",
+  "generated": "2026-07-19 00:05",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -18,7 +18,16 @@
     "winstons": "Winston's",
     "musicbox": "Music Box",
     "towerbar": "Tower Bar",
-    "queenbees": "Queen Bee's"
+    "queenbees": "Queen Bee's",
+    "loulous": "Lou Lou's Jungle Room",
+    "humphreys": "Humphrey's Concerts",
+    "quartyard": "Quartyard",
+    "ccae": "CCA Escondido",
+    "humpbackstage": "Humphrey's Backstage",
+    "newvillage": "New Village Arts",
+    "pechanga": "Pechanga Arena",
+    "worldbeat": "Worldbeat Center",
+    "epstein": "Epstein Amphitheater"
   },
   "events": [
     {
@@ -130,18 +139,6 @@
       "added": null
     },
     {
-      "id": "kensington-2026-07-15-standup-comedy",
-      "title": "standup comedy",
-      "date": "2026-07-15",
-      "time": "20:00",
-      "venue": "The Kensington Club",
-      "category": "kensington",
-      "price": "",
-      "description": "",
-      "url": "https://www.kensingtonclub1935.com/calendar",
-      "added": null
-    },
-    {
       "id": "mcg-s0i0",
       "title": "KARAOKE NIGHT",
       "date": "2026-07-15",
@@ -202,42 +199,6 @@
       "added": null
     },
     {
-      "id": "winstons-2026-07-18-fifa-world-cup-watch-party",
-      "title": "FIFA WORLD CUP WATCH PARTY",
-      "date": "2026-07-18",
-      "time": "14:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/fifa-world-cup-watch-party",
-      "added": null
-    },
-    {
-      "id": "holdingco-2026-07-18-beerhound-manvanfam-fest",
-      "title": "BeerHound + ManVanFam FEST",
-      "date": "2026-07-18",
-      "time": "14:30",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/manvanfam-fest/",
-      "added": null
-    },
-    {
-      "id": "winstons-2026-07-18-ghosts-of-the-track-and-left-coast",
-      "title": "Ghosts of the Track and Left Coast",
-      "date": "2026-07-18",
-      "time": "16:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/ghosts-track-and-left-coast",
-      "added": null
-    },
-    {
       "id": "brick-14214034",
       "title": "Angst of the Era: Celebrating the Best of 90's Aggressive Music",
       "date": "2026-07-18",
@@ -250,30 +211,6 @@
       "added": null
     },
     {
-      "id": "soma-2026-07-18-dwllrs",
-      "title": "DWLLRS",
-      "date": "2026-07-18",
-      "time": "19:00",
-      "venue": "SOMA",
-      "category": "soma",
-      "price": "",
-      "description": "Sidestage - 7pm",
-      "url": "https://bit.ly/4tVEvly",
-      "added": null
-    },
-    {
-      "id": "observatory-2026-07-18-fulton-lee-sing-with-me-tour-2026",
-      "title": "Fulton Lee - Sing With Me Tour 2026",
-      "date": "2026-07-18",
-      "time": "19:00",
-      "venue": "Observatory North Park",
-      "category": "observatory",
-      "price": "",
-      "description": "The Observatory North Park",
-      "url": "https://www.ticketmaster.com/fulton-lee-sing-with-me-tour-san-diego-california-07-18-2026/event/0B0064369A053D1F",
-      "added": null
-    },
-    {
       "id": "kensington-2026-07-18-a-face-with-no-name-once-loved-low",
       "title": "a face with no name once loved low points redwood vine",
       "date": "2026-07-18",
@@ -283,18 +220,6 @@
       "price": "",
       "description": "",
       "url": "https://www.kensingtonclub1935.com/calendar",
-      "added": null
-    },
-    {
-      "id": "banshee-2026-07-18-E412F06060282CD7",
-      "title": "Exile, Cataract Stare, Enthrallment, and Asphyxiater",
-      "date": "2026-07-18",
-      "time": "20:00",
-      "venue": "Banshee Bar",
-      "category": "banshee",
-      "price": "$4.99",
-      "description": "",
-      "url": "https://link.dice.fm/x750019971ed",
       "added": null
     },
     {
@@ -328,33 +253,9 @@
       "time": "20:30",
       "venue": "Casbah",
       "category": "casbah",
-      "price": "$30.00",
-      "description": "Rock · 21+",
-      "url": "https://wl.seetickets.us/event/low-cut-connie-kate-clover/682682?afflky=Casbah",
-      "added": null
-    },
-    {
-      "id": "winstons-2026-07-18-the-neighbors-stuck-here-and-white",
-      "title": "The Neighbors, Stuck Here, and White Girl Wednesday",
-      "date": "2026-07-18",
-      "time": "21:00",
-      "venue": "Winston's",
-      "category": "winstons",
       "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/neighbors-stuck-here-and-white-girl-wednesday",
-      "added": null
-    },
-    {
-      "id": "sodabar-2026-07-18-B1F76F83F752B74F",
-      "title": "CLUB XCX: A Charli XCX + Hyperpop Party",
-      "date": "2026-07-18",
-      "time": "21:30",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$24.72",
-      "description": "",
-      "url": "https://link.dice.fm/a2c1ca897f8d",
+      "description": "Rock",
+      "url": "https://wl.seetickets.us/event/low-cut-connie-kate-clover/682682?afflky=Casbah",
       "added": null
     },
     {
@@ -370,6 +271,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-19-museum-adult-workshop-amoxtlis-print",
+      "title": "Museum Adult Workshop | Amoxtlis Printmaking with José Hugo Sánchez",
+      "date": "2026-07-19",
+      "time": "12:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/museum-adult-workshop-amoxtlis-printmaking-with-jose-hugo-sanchez/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-07-19-line-dancing-with-bryan-cleary",
+      "title": "Line Dancing with Bryan Cleary",
+      "date": "2026-07-19",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/line-dancing-with-bryan-cleary-2-3/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s0i4",
       "title": "BINGO DAY",
       "date": "2026-07-19",
@@ -380,6 +305,30 @@
       "description": "HOSTED BY YO · open to public · As listed: July 19th at 2pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-19-hairspray",
+      "title": "Hairspray",
+      "date": "2026-07-19",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/hairspray/2026-07-19/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-07-19-il-tabarro-presented-by-cinballera-e",
+      "title": "IL TABARRO presented by Cinballera Entertainment: Opera + Ballet",
+      "date": "2026-07-19",
+      "time": "15:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/iltabarro/",
+      "added": "2026-07-19"
     },
     {
       "id": "winstons-2026-07-19-viet-fest-2",
@@ -430,6 +379,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-19-rob-zinn-andrew-neu",
+      "title": "Rob Zinn / Andrew Neu",
+      "date": "2026-07-19",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/blue-four/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s0i6",
       "title": "ASTRONAUT FIGHT",
       "date": "2026-07-19",
@@ -452,6 +413,18 @@
       "description": "",
       "url": "https://link.dice.fm/i40e83db0414",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-19-the-ocean-hates-you-",
+      "title": "The Ocean Hates You!",
+      "date": "2026-07-19",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/the-ocean-hates-you/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14820123",
@@ -526,6 +499,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-20-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-07-20",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-13/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-20-i-promised-the-world",
       "title": "I Promised The World",
       "date": "2026-07-20",
@@ -536,6 +521,18 @@
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/i-promised-the-world-san-diego-california-07-20-2026/event/0A0064ADB74F9BCA",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-20-shanti-vibrations-solo-acoustic",
+      "title": "Shanti Vibrations Solo Acoustic",
+      "date": "2026-07-20",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/shanti-vibrations-solo-acoustic/2026-07-20/",
+      "added": "2026-07-19"
     },
     {
       "id": "banshee-2026-07-20-02E81246964DF05E",
@@ -598,6 +595,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-21-blame-betty",
+      "title": "Blame Betty",
+      "date": "2026-07-21",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/blame-betty/2026-07-21/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-07-21-beginning-swing",
       "title": "Beginning Swing with Mercedes Moore",
       "date": "2026-07-21",
@@ -644,6 +653,18 @@
       "description": "",
       "url": "https://link.dice.fm/mdff4676861e",
       "added": null
+    },
+    {
+      "id": "epstein-2026-07-21-shredding-the-multiverse",
+      "title": "Shredding the Multiverse",
+      "date": "2026-07-21",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/shredding-the-multiverse/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14243914",
@@ -706,6 +727,42 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-22-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-07-22",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-07-22/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-07-22-hep-tights",
+      "title": "Hep Tights",
+      "date": "2026-07-22",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hep-tights-w-ta-tomlinson/2026-07-22/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-07-22-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-07-22",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-07-22/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-22-8ro8-hammajang-tour",
       "title": "8RO8: HAMMAJANG Tour",
       "date": "2026-07-22",
@@ -740,6 +797,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/pinata-protest/",
       "added": null
+    },
+    {
+      "id": "epstein-2026-07-22-up-close-a-conversation-with-brad-bi",
+      "title": "Up Close: A Conversation with Brad Bird and Michael Giacchino",
+      "date": "2026-07-22",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/up-close-brad-bird-michael-giacchino/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14771913",
@@ -800,6 +869,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/ricky-witness-buckets/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-23-rosalea-s-birthday-bash-featuring-th",
+      "title": "Rosalea’s Birthday Bash Featuring The Sleepwalkers and Sue Palmer",
+      "date": "2026-07-23",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rosie-flores-bastard-sons-of-johnny-cash-the-sea-monks-celebrate-rosaleas-birthday/",
+      "added": "2026-07-19"
     },
     {
       "id": "brick-14844323",
@@ -920,6 +1001,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/meatbodies/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-24-hot-stone-meat-party",
+      "title": "Hot Stone Meat Party",
+      "date": "2026-07-24",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hot-stone-meat-party/2026-07-24/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-07-24-school-of-rock-all-stars",
@@ -1054,6 +1147,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-24-next-level",
+      "title": "Next Level",
+      "date": "2026-07-24",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/detroit-underground-40/2026-07-24/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-07-24-E6C15ADE98EA1653",
       "title": "ArtDontSleep presents JAZZ IS DEAD w/ MARCOS VALLE",
       "date": "2026-07-24",
@@ -1114,6 +1219,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-25-new-date-journey-of-a-persian-carpet",
+      "title": "NEW DATE: Journey of a Persian Carpet | Talk, Screening, and Family Art Activities",
+      "date": "2026-07-25",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/new-date-journey-of-a-persian-carpet-talk-screening-and-family-art-activities/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-07-25-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-07-25",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-60/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-07-25-clover-s-curfew-half-man-jonny-wag",
       "title": "Clover's Curfew, Half Man, Jonny Wagon Band, Damn Rats, PunchCard, Turnbuckle, Hardly Human - matinee show",
       "date": "2026-07-25",
@@ -1124,6 +1253,30 @@
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/clovers-curfew-half-man-jonny-wagon-band-damn-rats-punchcard-turnbuckle-hardly-human-matinee-show/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-25-mango-bay",
+      "title": "Mango Bay",
+      "date": "2026-07-25",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/mango-bay/2026-07-25/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-07-25-sweet-escape-dance-and-film-festival",
+      "title": "Sweet Escape: Dance and Film Festival",
+      "date": "2026-07-25",
+      "time": "17:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/sweetescape/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-07-25-12A53CD6278AEA20",
@@ -1162,6 +1315,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-25-the-2nd-annual-north-county-arts-awa",
+      "title": "The 2nd Annual North County Arts Awards",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/2nd-annual-north-county-arts-awards/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-25-louie-thesinger",
       "title": "Louie TheSinger",
       "date": "2026-07-25",
@@ -1184,6 +1349,18 @@
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/millington-plus-mattstagraham-all-hype-san-diego-california-07-25-2026/event/0A00648FBCE17060",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-25-soulful-summer-jazz-feel-the-rhythm-",
+      "title": "Soulful Summer Jazz: Feel the Rhythm, Feed the Soul",
+      "date": "2026-07-25",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/soulful-summer-jazz/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-07-25-a-nightmare-on-80-s-street-80-s-horr",
@@ -1220,6 +1397,18 @@
       "description": "ZEPTUNE · (RUSH & LED ZEPPLIN TRIBUTES) · As listed: July 25th at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-25-full-strength-funk",
+      "title": "Full Strength Funk",
+      "date": "2026-07-25",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/full-strength-funk-28/2026-07-25/",
+      "added": "2026-07-19"
     },
     {
       "id": "kensington-2026-07-25-headmaster-tormentors",
@@ -1294,6 +1483,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-26-line-dancing-with-bryan-cleary",
+      "title": "Line Dancing with Bryan Cleary",
+      "date": "2026-07-26",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/line-dancing-with-bryan-cleary-2/2026-07-26/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-07-26-oslo-presents-fishmas-in-july-",
       "title": "OSLO presents….FISHMAS IN JULY!! 🎄🎣⚓️🏝️",
       "date": "2026-07-26",
@@ -1342,6 +1543,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-26-body-rock-jr-2026",
+      "title": "Body Rock Jr. 2026",
+      "date": "2026-07-26",
+      "time": "17:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/body-rock-jr-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-07-26-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-07-26",
@@ -1352,6 +1565,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-26-nils-cd-release-party",
+      "title": "Nils – CD Release Party",
+      "date": "2026-07-26",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/nils/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-07-26-eric-reprid",
@@ -1474,6 +1699,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-07-27-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-07-27",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-15/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-07-27-jimmy-lewis-solo-acoustic",
+      "title": "Jimmy Lewis Solo Acoustic",
+      "date": "2026-07-27",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jimmy-lewis/2026-07-27/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-07-27-the-blue-hour-w-the-ta-tomlinson-ban",
       "title": "The Blue Hour w/ The TA Tomlinson Band and Special Guests",
       "date": "2026-07-27",
@@ -1484,6 +1733,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-19/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-27-hollywood-stars-of-magic-at-the-vill",
+      "title": "Hollywood Stars of Magic • at the Village",
+      "date": "2026-07-27",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/hollywood-stars-of-magic-4-2/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-07-27-2814FF70824B79E3",
@@ -1532,6 +1793,18 @@
       "description": "OLDER · TORCH BUG · BETTER BEFORE · (PUNK ROCK) · Touring bands · As listed: July 27th at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-28-concert-night",
+      "title": "Concert Night",
+      "date": "2026-07-28",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-07-28/",
+      "added": "2026-07-19"
     },
     {
       "id": "winstons-2026-07-28-black-mountain-backstep",
@@ -1630,6 +1903,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-28-drivin-the-bus",
+      "title": "Drivin’ the Bus",
+      "date": "2026-07-28",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/43028/2026-07-28/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14244264",
       "title": "Mitchum Yacoub",
       "date": "2026-07-28",
@@ -1666,6 +1951,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-29-concert-night",
+      "title": "Concert Night",
+      "date": "2026-07-29",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-07-29/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-07-29-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-07-29",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-07-29/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-29-mack-keane-the-wide-eyed-tour-voodoo-roo",
       "title": "Mack Keane - The Wide Eyed Tour - Voodoo Room",
       "date": "2026-07-29",
@@ -1676,6 +1985,30 @@
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/mack-keane-the-wide-eyed-tour-san-diego-california-07-29-2026/event/0A0064ACA28D88EF",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-29-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-07-29",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-07-29/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-07-29-michelle-lambert-in-concert",
+      "title": "Michelle Lambert in Concert",
+      "date": "2026-07-29",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/michelle-lambert/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s0i19",
@@ -1702,6 +2035,18 @@
       "added": null
     },
     {
+      "id": "humphreys-2026-07-2919:30",
+      "title": "Santigold",
+      "date": "2026-07-29",
+      "time": "19:30",
+      "venue": "Humphrey's Concerts",
+      "category": "humphreys",
+      "price": "$68.00",
+      "description": "Indie · All Ages",
+      "url": "https://www.ticketmaster.com/event/0A0064642ED4D520",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14781903",
       "title": "Dailey & Vincent",
       "date": "2026-07-29",
@@ -1726,6 +2071,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-29-michele-lundeen",
+      "title": "Michele Lundeen",
+      "date": "2026-07-29",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/michele-lundeen-55-2024-07-29/2026-07-29/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "casbah-695273",
       "title": "LUCIUS ARTHUR",
       "date": "2026-07-29",
@@ -1748,6 +2105,30 @@
       "description": "",
       "url": "https://winstonsob.com/calendar/week/messengers",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-07-30-jeff-ousley-s-live-music-showcase",
+      "title": "Jeff Ousley’s Live Music Showcase",
+      "date": "2026-07-30",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jeff-ousleys-live-music-showcase/2026-07-30/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-07-30-aja-monet-the-color-of-rain",
+      "title": "aja monet | the color of rain",
+      "date": "2026-07-30",
+      "time": "19:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/aja-monet-the-color-of-rain/",
+      "added": "2026-07-19"
     },
     {
       "id": "banshee-2026-07-30-0945911207B51193",
@@ -1796,6 +2177,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/dustbowl-revival/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-07-30-afabulous-the-untold-stories-of-san-",
+      "title": "AFABulous: The Untold Stories of San Diego’s Drag Performers",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/afabulous-july-2026/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s0i20",
@@ -1858,6 +2251,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-31-manzanita-blues-band",
+      "title": "Manzanita Blues Band",
+      "date": "2026-07-31",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/manzanita-blues-band/2026-07-31/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-31-moviedates-with-special-guests-taja-any-",
       "title": "MovieDates with special guests Taja, Any Last Words + more!",
       "date": "2026-07-31",
@@ -1870,6 +2275,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-07-31-a-walk-with-y-amay-artist-reception",
+      "title": "A Walk With Yáamay | Artist Reception",
+      "date": "2026-07-31",
+      "time": "18:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/a-walk-with-yamay-artist-reception/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-31-kevian-kraemer",
       "title": "Kevian Kraemer",
       "date": "2026-07-31",
@@ -1880,6 +2297,18 @@
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/kevian-kraemer-san-diego-california-07-31-2026/event/0A006490CD5F89FD",
       "added": null
+    },
+    {
+      "id": "ccae-2026-07-31-m-sica-en-la-plaza-los-rebeldes-roma",
+      "title": "Música en la Plaza: Los Rebeldes Romanticos",
+      "date": "2026-07-31",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/musica-en-la-plaza-los-rebeldes-romanticos/",
+      "added": "2026-07-19"
     },
     {
       "id": "brick-14244724",
@@ -1928,6 +2357,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/atomic-groove-happy-hour-belly-up-tickets/14848333?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "epstein-2026-07-31-ballet-under-the-stars",
+      "title": "BALLET UNDER THE STARS",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/next-generation-july31/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14808673",
@@ -1990,6 +2431,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-07-31-i-90",
+      "title": "I-90",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/i-90/2026-07-31/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-07-31-begging-dog",
       "title": "BEGGING DOG",
       "date": "2026-07-31",
@@ -2014,6 +2467,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-01-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-01",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-08-01/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-01-artful-start-back-to-school",
+      "title": "Artful Start: Back to School",
+      "date": "2026-08-01",
+      "time": "12:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/artful-start-back-to-school/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-01-mayzie-pocket-bureau",
       "title": "Mayzie + Pocket Bureau",
       "date": "2026-08-01",
@@ -2026,6 +2503,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-01-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-08-01",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-61/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-08-01-flim-flam-revue",
       "title": "Flim Flam Revue",
       "date": "2026-08-01",
@@ -2036,6 +2525,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/flim-flam-revue-21/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-01-amplified-live-a-night-with-the-loca",
+      "title": "Amplified Live: A Night With The Locals",
+      "date": "2026-08-01",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/amplified-spotlight-on-the-locals/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-01-bird-and-byron",
@@ -2098,6 +2599,18 @@
       "added": null
     },
     {
+      "id": "epstein-2026-08-01-the-cream-of-clapton-band",
+      "title": "The Cream of Clapton Band",
+      "date": "2026-08-01",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/the-cream-of-clapton-band-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14799593",
       "title": "Black Moth Super Rainbow",
       "date": "2026-08-01",
@@ -2122,6 +2635,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-01-the-tighten-ups",
+      "title": "The Tighten ups",
+      "date": "2026-08-01",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-tighten-ups/2026-08-01/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14936683",
       "title": "Tortoise",
       "date": "2026-08-01",
@@ -2132,6 +2657,30 @@
       "description": "Coffin Prick",
       "url": "https://www.ticketweb.com/event/tortoise-coffin-prick-belly-up-tickets/14936683?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-02-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-02",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-08-02/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-02-line-dancing-with-bryan-cleary",
+      "title": "Line Dancing with Bryan Cleary",
+      "date": "2026-08-02",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/line-dancing-with-bryan-cleary-2/2026-08-02/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-08-02-gio-chamba",
@@ -2180,6 +2729,18 @@
       "description": "",
       "url": "https://link.dice.fm/O8299893cc26",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-02-bushwalla-jeff-berkley-and-gregory-p",
+      "title": "Bushwalla, Jeff Berkley, and Gregory Page In Concert",
+      "date": "2026-08-02",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/bushwalla-in-concert/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i1",
@@ -2242,6 +2803,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-02-roni-lee",
+      "title": "Roni Lee",
+      "date": "2026-08-02",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/roni-lee-4/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14840683",
       "title": "Vonda Shepard",
       "date": "2026-08-02",
@@ -2264,6 +2837,30 @@
       "description": "DEVIATION · BETTER BEFORE · THE SHOGOS · (PUNK ROCK) · King Bat Entertainment · As listed: August 2 at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "ccae-2026-08-03-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-08-03",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-18/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-03-bj-jezbera",
+      "title": "BJ Jezbera",
+      "date": "2026-08-03",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/bj-jezbera/2026-08-03/",
+      "added": "2026-07-19"
     },
     {
       "id": "banshee-2026-08-03-9702FB28F0007B3E",
@@ -2312,6 +2909,18 @@
       "description": "Alternative · 21+",
       "url": "https://wl.seetickets.us/event/the-erasers-nebula-and-the-cosmos-mewtone/696848?afflky=Casbah",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-04-crimson-collar",
+      "title": "Crimson Collar",
+      "date": "2026-08-04",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/crimson-collar/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-08-04-beginning-swing",
@@ -2422,6 +3031,42 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-05-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-08-05",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-08-05/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-05-zavala-sol",
+      "title": "Zavala Sol",
+      "date": "2026-08-05",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-7-2023-09-29/2026-08-05/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-05-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-08-05",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-08-05/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-08-05-alejandro-aranda",
       "title": "Alejandro Aranda",
       "date": "2026-08-05",
@@ -2444,6 +3089,18 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "ccae-2026-08-05-first-wednesdays-mojalet-dance-compa",
+      "title": "First Wednesdays – Mojalet Dance Company",
+      "date": "2026-08-05",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/first-wednesdays-mojalet-dance-company/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-05-willow-avalon-pink-pocket-pistol-tour",
@@ -2530,6 +3187,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-06-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-06",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-08-06/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-08-06-beach-bunny-the-beths",
       "title": "Beach Bunny & The Beths",
       "date": "2026-08-06",
@@ -2588,6 +3257,18 @@
       "description": "",
       "url": "",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-06-rolando-rose",
+      "title": "Rolando Rose",
+      "date": "2026-08-06",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rolando-rose/2026-08-06/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14800723",
@@ -2660,6 +3341,18 @@
       "description": "(solo artist) · As listed: August 6 at 9:30pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-07-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-07",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-08-07/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-07-fem-m-x-astrid-emo-girls-vs-rave-girls",
@@ -2746,6 +3439,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-07-we-will-rock-you-previews",
+      "title": "We Will Rock You | Previews",
+      "date": "2026-08-07",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-previews/2026-08-07/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14919953",
       "title": "Atomic Groove",
       "date": "2026-08-07",
@@ -2758,6 +3463,18 @@
       "added": null
     },
     {
+      "id": "loulous-692068",
+      "title": "Creepxotica, Rey Wolf",
+      "date": "2026-08-07",
+      "time": "20:00",
+      "venue": "Lou Lou's Jungle Room",
+      "category": "loulous",
+      "price": "$0.00",
+      "description": "FREE · Instrumental",
+      "url": "https://wl.seetickets.us/event/creepxotica-rey-wolf/692068?afflky=Casbah",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-08-07-kit-major-and-tess-the-details",
       "title": "Kit Major and Tess & the Details",
       "date": "2026-08-07",
@@ -2768,6 +3485,30 @@
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/kit-major-and-tess-the-details/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-07-misfitz-drag-showcase-and-open-stage",
+      "title": "Misfitz Drag Showcase and Open Stage",
+      "date": "2026-08-07",
+      "time": "20:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/misfitz-drag-showcase-and-open-stage/2026-08-07/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-07-one-of-the-good-ones",
+      "title": "One Of The Good Ones",
+      "date": "2026-08-07",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/one-of-the-good-ones/2026-08-07/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i9",
@@ -2818,6 +3559,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-08-kintsugi-workshop",
+      "title": "Kintsugi Workshop",
+      "date": "2026-08-08",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$75",
+      "description": "",
+      "url": "https://artcenter.org/event/kintsugi-workshop-2/2026-08-08/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-08-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-08-08",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-62/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-08-the-fuction-vol-004",
       "title": "The Fuction Vol 004",
       "date": "2026-08-08",
@@ -2852,6 +3617,18 @@
       "description": "FLANNEL MIXED TAPE · (Covers) · As listed: August 8 at 4-7pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-08-memphis-soul-revue",
+      "title": "Memphis Soul Revue",
+      "date": "2026-08-08",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/memphis-soul-revue/2026-08-08/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-08-chris-mitchell-begging-for-sax-18-w-id-",
@@ -2902,6 +3679,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-08-planet-whammy-the-music-of-the-b52-s",
+      "title": "Planet Whammy! The Music of the B52’s featuring Hot Lava",
+      "date": "2026-08-08",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/planetwhammy_hotlava/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-08-we-will-rock-you-previews",
+      "title": "We Will Rock You | Previews",
+      "date": "2026-08-08",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-previews/2026-08-08/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14199014",
       "title": "House of Funk",
       "date": "2026-08-08",
@@ -2938,6 +3739,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-08-wildside",
+      "title": "Wildside",
+      "date": "2026-08-08",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/wildside-43/2026-08-08/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-08-08-club-90s-presents-mj-night",
       "title": "Club 90s Presents Mj Night",
       "date": "2026-08-08",
@@ -2962,6 +3775,18 @@
       "added": null
     },
     {
+      "id": "worldbeat-2026-08-09-community-market-august",
+      "title": "Community Market – August",
+      "date": "2026-08-09",
+      "time": "11:00",
+      "venue": "Worldbeat Center",
+      "category": "worldbeat",
+      "price": "",
+      "description": "",
+      "url": "https://www.worldbeatcenter.org/event/community-market-august/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "camels-2026-08-09-blues-jam-john-january",
       "title": "Blues Jam with John January",
       "date": "2026-08-09",
@@ -2972,6 +3797,30 @@
       "description": "Blues jam hosted by John January. Every 2nd Sunday, 1PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "ccae-2026-08-09-line-dancing-with-bryan-cleary",
+      "title": "Line Dancing with Bryan Cleary",
+      "date": "2026-08-09",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/line-dancing-with-bryan-cleary-2/2026-08-09/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-09-we-will-rock-you-previews",
+      "title": "We Will Rock You | Previews",
+      "date": "2026-08-09",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-previews/2026-08-09/",
+      "added": "2026-07-19"
     },
     {
       "id": "casbah-692660",
@@ -3022,6 +3871,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-09-slim-man",
+      "title": "Slim Man",
+      "date": "2026-08-09",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/slim-man/2026-08-09/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-09-9E109FCFA6DAE7CD",
       "title": "Greg Mendez",
       "date": "2026-08-09",
@@ -3044,6 +3905,18 @@
       "description": "",
       "url": "https://link.dice.fm/Xaf2bb11c36a",
       "added": null
+    },
+    {
+      "id": "epstein-2026-08-09-siudy-garrido-flamenco-company",
+      "title": "Siudy Garrido Flamenco Company",
+      "date": "2026-08-09",
+      "time": "19:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/siudy-garrido-flamenco-company/",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-09-tommy-newport-face-to-face-tour",
@@ -3070,6 +3943,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-10-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-08-10",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-16/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-10-ashley-norton",
+      "title": "Ashley Norton",
+      "date": "2026-08-10",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/ashley-norton-acoustic/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-10-669138F1A4CA703B",
       "title": "Parlour Magic, TEEEL, Lizard Cohen",
       "date": "2026-08-10",
@@ -3092,6 +3989,18 @@
       "description": "Full backline provided · all welcome · TYLER HOSTING · As listed: August 10 at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-11-rewind-band",
+      "title": "Rewind Band",
+      "date": "2026-08-11",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rewind-band-2/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-08-11-beginning-swing",
@@ -3190,6 +4099,54 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-12-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-12",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-12/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-12-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-08-12",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-08-12/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-12-salsa-bachata-dance-party",
+      "title": "Salsa & Bachata Dance Party",
+      "date": "2026-08-12",
+      "time": "18:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/salsa-bachata-dance-class-2-2/2026-08-12/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-12-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-08-12",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-08-12/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-12-188B4042D533C5BD",
       "title": "Alela Diane, Shannon Lay",
       "date": "2026-08-12",
@@ -3212,6 +4169,18 @@
       "description": "Sidestage - 7pm",
       "url": "https://bit.ly/4uIUaEK",
       "added": null
+    },
+    {
+      "id": "epstein-2026-08-12-helado-negro-reyna-tropical",
+      "title": "Helado Negro & Reyna Tropical",
+      "date": "2026-08-12",
+      "time": "19:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/helado-negro-reyna-tropical/",
+      "added": "2026-07-19"
     },
     {
       "id": "brick-14987473",
@@ -3274,6 +4243,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-12-syltr",
+      "title": "SYLTR",
+      "date": "2026-08-12",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/syltr/2026-08-12/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "casbah-691595",
       "title": "Off With Their Heads, Mermaid Island",
       "date": "2026-08-12",
@@ -3284,6 +4265,18 @@
       "description": "Indie · 21+",
       "url": "https://wl.seetickets.us/event/off-with-their-heads-mermaid-island/691595?afflky=Casbah",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-13-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-13",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-13/",
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-08-13-momma",
@@ -3322,6 +4315,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-13-we-will-rock-you-previews",
+      "title": "We Will Rock You | Previews",
+      "date": "2026-08-13",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-previews/2026-08-13/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14224024",
       "title": "E.N Young",
       "date": "2026-08-13",
@@ -3332,6 +4337,18 @@
       "description": "",
       "url": "https://musicboxsd.com/event/14224024/reggae-circus-dub-fest-with-e-n-young/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-13-maverick",
+      "title": "Maverick",
+      "date": "2026-08-13",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/maverick-2/2026-08-13/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i17",
@@ -3370,6 +4387,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-14-rock-the-goat",
+      "title": "Rock The Goat",
+      "date": "2026-08-14",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rock-the-goat/2026-08-14/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-08-14-devildriver-strike-and-kill-tour-w-upon-",
       "title": "DEVILDRIVER - STRIKE AND KILL TOUR w/ Upon A Burning Body and Ov Sulfu",
       "date": "2026-08-14",
@@ -3394,6 +4423,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-14-hidden-city-sounds-bill-magee-blues-",
+      "title": "Hidden City Sounds: Bill Magee Blues Band with Special Guests Anthony Cullins Trio",
+      "date": "2026-08-14",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/hidden-city-sounds-bill-magee-blues-band-with-special-guests-anthony-cullins-trio/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-14-catching-klover",
       "title": "Catching Klover",
       "date": "2026-08-14",
@@ -3404,6 +4445,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/catching-klover/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-14-we-will-rock-you-previews",
+      "title": "We Will Rock You | Previews",
+      "date": "2026-08-14",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-previews/2026-08-14/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-14-EB60CD1BA2B45153",
@@ -3454,6 +4507,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-14-evidence-band",
+      "title": "Evidence Band",
+      "date": "2026-08-14",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/evidence-band-3/2026-08-14/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-08-14-the-kosmics-rough-houser-bloom-roo",
       "title": "The Kosmics, Rough Houser, Bloom Room",
       "date": "2026-08-14",
@@ -3490,6 +4555,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-15-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-08-15",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-63/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-15-the-cometeers-afro-cuban-funk-psych-",
       "title": "The Cometeers: Afro Cuban Funk Psych Day Party!",
       "date": "2026-08-15",
@@ -3500,6 +4577,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/the-cometeers-afro-cuban-funk-psych-day-party/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-15-the-party-crashers",
+      "title": "The Party Crashers",
+      "date": "2026-08-15",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-party-crashers-2/2026-08-15/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-15-25D26A431099CBFD",
@@ -3526,6 +4615,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-15-we-will-rock-you-opening-night",
+      "title": "We Will Rock You | Opening Night",
+      "date": "2026-08-15",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-opening/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-08-15-benson-boone-wanted-man-tour-2026",
+      "title": "Benson Boone: Wanted Man Tour 2026",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Benson Boone: Wanted Man Tour 2026 is coming to Pechanga Arena San Diego on August 15, 2026.",
+      "url": "https://pechangaarenasd.com/event/benson-boone-the-wanted-man-tour/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14759033",
       "title": "Common Sense",
       "date": "2026-08-15",
@@ -3536,6 +4649,18 @@
       "description": "Hazmatt",
       "url": "https://www.ticketweb.com/event/common-sense-hazmatt-no-good-belly-up-tickets/14759033?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-15-detroit-underground",
+      "title": "Detroit Underground",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/detroit-underground-39/2026-08-15/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14885503",
@@ -3610,6 +4735,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-16-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-16",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-16/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-16-croon-dog-faux-fur",
       "title": "Croon Dog, Faux Fur",
       "date": "2026-08-16",
@@ -3632,6 +4769,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-16-patrick-yandall",
+      "title": "Patrick Yandall",
+      "date": "2026-08-16",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/patrick-yandall/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-16-8C1C4F249FE3BDA7",
@@ -3694,6 +4843,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-17-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-08-17",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-17/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-17-hugh-gaskins-the-geoff-corey-5",
+      "title": "Hugh Gaskins & The Geoff Corey 5",
+      "date": "2026-08-17",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hugh-gaskins-the-geoff-corey-5/2026-08-17/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-17-4810C1857512C199",
       "title": "The Gravities, Joshua Taylor, Anna Ballew",
       "date": "2026-08-17",
@@ -3754,6 +4927,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-18-musical-theatre-ensemble-singing-wit",
+      "title": "Musical Theatre Ensemble Singing with the Silver Singers!",
+      "date": "2026-08-18",
+      "time": "10:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ensemble-singing-silver-singers/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-18-chickenbone-slim",
+      "title": "Chickenbone Slim",
+      "date": "2026-08-18",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/chickenbone-slim-2/2026-08-18/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-08-18-beginning-swing",
       "title": "Beginning Swing with Mercedes Moore",
       "date": "2026-08-18",
@@ -3776,6 +4973,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-18-opera-la-carte",
+      "title": "Opera à La Carte",
+      "date": "2026-08-18",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/opera-la-carte/2026-08-18/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-18-6D676E5DDF7A11AF",
@@ -3850,6 +5059,42 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-19-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-08-19",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-08-19/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-19-haala",
+      "title": "HAALA",
+      "date": "2026-08-19",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rewind-band/2026-08-19/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-19-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-08-19",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-08-19/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-08-19-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-08-19",
@@ -3860,6 +5105,18 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-19-cozmic-comedy-presents-night-of-come",
+      "title": "Cozmic Comedy Presents Night of Comedy",
+      "date": "2026-08-19",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/cozmic-comedy/2026-08-19/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-19-4E6E43DDFDB2A744",
@@ -3910,6 +5167,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-20-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-20",
+      "time": "07:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-20/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-20-drivin-the-bus",
+      "title": "Drivin’ the Bus",
+      "date": "2026-08-20",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/43028/2026-08-20/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "banshee-2026-08-20-574BFEC1C6097839",
       "title": "Lastima, Fainting Dreams, D. Wrex, and Breadth",
       "date": "2026-08-20",
@@ -3932,6 +5213,18 @@
       "description": "",
       "url": "https://link.dice.fm/c361ce9ee763",
       "added": null
+    },
+    {
+      "id": "ccae-2026-08-20-the-young-dubliners",
+      "title": "The Young Dubliners",
+      "date": "2026-08-20",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/the-young-dubliners/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14847733",
@@ -3994,6 +5287,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-21-brian-jones-rock-n-roll-revival",
+      "title": "Brian Jones Rock’n’ Roll Revival",
+      "date": "2026-08-21",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/brian-jones/2026-08-21/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-08-21-pawpaw-rod",
       "title": "PawPaw Rod",
       "date": "2026-08-21",
@@ -4018,6 +5323,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-08-21-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-21",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-21/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14919963",
       "title": "Atomic Groove",
       "date": "2026-08-21",
@@ -4040,6 +5357,30 @@
       "description": "Never Die Young -  A James Taylor Show",
       "url": "https://www.ticketweb.com/event/billy-nation-never-die-young-belly-up-tickets/14739443?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "epstein-2026-08-21-expressions-of-magic-in-the-moonligh",
+      "title": "EXPRESSIONS OF MAGIC IN THE MOONLIGHT: SERENADE",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/three-city-ballet/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-21-groove-therapy",
+      "title": "Groove Therapy",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/groove-therapy/2026-08-21/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14978533",
@@ -4102,6 +5443,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-22-kintsugi-workshop",
+      "title": "Kintsugi Workshop",
+      "date": "2026-08-22",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$75",
+      "description": "",
+      "url": "https://artcenter.org/event/kintsugi-workshop-2/2026-08-22/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-22-kublaii-postcards-for-sympathy",
       "title": "Kublaii, Postcards for Sympathy",
       "date": "2026-08-22",
@@ -4112,6 +5465,42 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/kublaii/",
       "added": null
+    },
+    {
+      "id": "ccae-2026-08-22-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-08-22",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-64/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-22-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-22",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-22/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-22-manzanita-blues-band",
+      "title": "Manzanita Blues Band",
+      "date": "2026-08-22",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/manzanita-blues-band/2026-08-22/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-22-1F08278ABF449D99",
@@ -4150,6 +5539,30 @@
       "added": null
     },
     {
+      "id": "epstein-2026-08-22-expressions-of-magic-in-the-moonligh",
+      "title": "EXPRESSIONS OF MAGIC IN THE MOONLIGHT: SERENADE",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/expressions-of-magic-in-the-moonlight-serenade-aug22/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-22-groove-squad",
+      "title": "Groove Squad",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/groove-squad-21/2026-08-22/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i27",
       "title": "HAZMATT",
       "date": "2026-08-22",
@@ -4162,6 +5575,18 @@
       "added": null
     },
     {
+      "id": "worldbeat-2026-08-22-marcus-garvey-day-feat-dezarie",
+      "title": "Marcus Garvey Day feat Dezarie",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "Worldbeat Center",
+      "category": "worldbeat",
+      "price": "$25 – $30",
+      "description": "",
+      "url": "https://www.worldbeatcenter.org/event/dezarie-live-2/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "casbah-684920",
       "title": "Cheekface, Catbite",
       "date": "2026-08-22",
@@ -4172,6 +5597,42 @@
       "description": "Rock · 21+",
       "url": "https://wl.seetickets.us/event/cheekface-catbite/684920?afflky=Casbah",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-23-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-23",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-23/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "worldbeat-2026-08-23-passport-to-wellness",
+      "title": "Passport to Wellness",
+      "date": "2026-08-23",
+      "time": "11:00",
+      "venue": "Worldbeat Center",
+      "category": "worldbeat",
+      "price": "",
+      "description": "",
+      "url": "https://www.worldbeatcenter.org/event/44513/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-23-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-23",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-23/",
+      "added": "2026-07-19"
     },
     {
       "id": "casbah-698001",
@@ -4222,6 +5683,18 @@
       "added": null
     },
     {
+      "id": "quartyard-2026-08-2318:00",
+      "title": "Jejune",
+      "date": "2026-08-23",
+      "time": "18:00",
+      "venue": "Quartyard",
+      "category": "quartyard",
+      "price": "$35.02-$39.14",
+      "description": "Indie · All Ages",
+      "url": "https://link.dice.fm/jejune26qy",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i28",
       "title": "SUPER BUFFET",
       "date": "2026-08-23",
@@ -4270,6 +5743,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-23-pocket-change",
+      "title": "Pocket Change",
+      "date": "2026-08-23",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/pocket-change/2026-08-23/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14768593",
       "title": "Toad the Wet Sprocket",
       "date": "2026-08-23",
@@ -4294,6 +5779,42 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-24-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-08-24",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-19/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-24-shanti-vibrations-solo-acoustic",
+      "title": "Shanti Vibrations Solo Acoustic",
+      "date": "2026-08-24",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/shanti-vibrations-solo-acoustic/2026-08-24/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-24-hollywood-stars-of-magic-at-the-vill",
+      "title": "Hollywood Stars of Magic • at the Village",
+      "date": "2026-08-24",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/hollywood-stars-of-magic-4/2026-08-24/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i29",
       "title": "BLUES JAM",
       "date": "2026-08-24",
@@ -4304,6 +5825,18 @@
       "description": "Full backline provided · All welcome · TYLER RAY HOSTING · As listed: August 24 at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-25-the-long-view-band",
+      "title": "The Long View Band",
+      "date": "2026-08-25",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-longview-band/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-08-25-beginning-swing",
@@ -4366,6 +5899,54 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-26-from-page-to-space-drawing-design-fo",
+      "title": "From Page to Space: Drawing & Design for Storytelling",
+      "date": "2026-08-26",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-08-26/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-26-michele-lundeen",
+      "title": "Michele Lundeen",
+      "date": "2026-08-26",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/michele-lundeen-55-2024-07-29/2026-08-26/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-26-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-08-26",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-08-26/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-26-asian-women-comedians-show",
+      "title": "Asian Women Comedians Show",
+      "date": "2026-08-26",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/asian-women-comedians-show/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-26-chris-pierce",
       "title": "Chris Pierce",
       "date": "2026-08-26",
@@ -4414,6 +5995,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-27-jeff-ousley-s-live-music-showcase",
+      "title": "Jeff Ousley’s Live Music Showcase",
+      "date": "2026-08-27",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jeff-ousleys-live-music-showcase/2026-08-27/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-27-40C6EF847BB9914B",
       "title": "GLU",
       "date": "2026-08-27",
@@ -4424,6 +6017,18 @@
       "description": "",
       "url": "https://link.dice.fm/Ca712ce94345",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-27-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-27",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-27/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i32",
@@ -4462,6 +6067,42 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-28-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-28",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-28/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-28-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-28",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-28/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-08-28-carnaval-of-new-latinx-musicals",
+      "title": "Carnaval of New Latinx Musicals",
+      "date": "2026-08-28",
+      "time": "18:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/carnaval-of-new-latinx-musicals-2/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-08-28-linea-personal",
       "title": "Linea Personal",
       "date": "2026-08-28",
@@ -4474,6 +6115,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-28-m-sica-en-la-plaza-sabrosas-latin-or",
+      "title": "Música en la Plaza: Sabrosas Latin Orchestra",
+      "date": "2026-08-28",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/musica-en-la-plaza-sabrosas-latin-orchestra-3/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-28-whiskey-rocks-soul-mission",
       "title": "Whiskey & Rocks + Soul Mission",
       "date": "2026-08-28",
@@ -4484,6 +6137,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/whiskey-rocks-soul-mission-2/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-28-improv-comedy-show",
+      "title": "Improv Comedy Show",
+      "date": "2026-08-28",
+      "time": "19:45",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/improv-comedy-show-2/2026-08-28/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14919973",
@@ -4508,6 +6173,18 @@
       "description": "PLAYDEAD",
       "url": "https://www.ticketweb.com/event/built-to-spill-playdead-belly-up-tickets/14737943?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-28-kyla-jako",
+      "title": "Kyla & Jako",
+      "date": "2026-08-28",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/kyla-jako/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i33",
@@ -4546,6 +6223,78 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-08-29-concert-night",
+      "title": "Concert Night",
+      "date": "2026-08-29",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-29/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-29-monoprinting-the-paul-klee-method",
+      "title": "Monoprinting: The Paul Klee Method",
+      "date": "2026-08-29",
+      "time": "13:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$75",
+      "description": "",
+      "url": "https://artcenter.org/event/monoprinting-the-paul-klee-method/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-08-29-carnaval-of-new-latinx-musicals",
+      "title": "Carnaval of New Latinx Musicals",
+      "date": "2026-08-29",
+      "time": "13:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/carnaval-of-new-latinx-musicals-3/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-29-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-08-29",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-65/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-29-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-29",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-29/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-08-29-southern-california-ballet-company-d",
+      "title": "Southern California Ballet Company – Dancing Through the Decades",
+      "date": "2026-08-29",
+      "time": "18:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/southerncaliforniaballetco/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-29-ghetto-roots-ras-tone-presents-steve",
       "title": "Ghetto Roots & Ras Tone Presents: Steve Knight + Mara Sulu Backed by The Roots Collective + MORE",
       "date": "2026-08-29",
@@ -4568,6 +6317,18 @@
       "description": "Same Same But Different Presents",
       "url": "https://musicboxsd.com/event/14845753/ahee/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-29-come-together-beatles-tribute-",
+      "title": "Come Together (Beatles Tribute)",
+      "date": "2026-08-29",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/come-together-beatles-tribute-3/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i34",
@@ -4606,6 +6367,30 @@
       "added": null
     },
     {
+      "id": "epstein-2026-08-30-carnaval-of-new-latinx-musicals",
+      "title": "Carnaval of New Latinx Musicals",
+      "date": "2026-08-30",
+      "time": "13:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/carnaval-of-new-latinx-musicals/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-08-30-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-08-30",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-08-30/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i35",
       "title": "ROCK CRUSHER",
       "date": "2026-08-30",
@@ -4628,6 +6413,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-08-30-the-silver-lining-serenaders",
+      "title": "The Silver Lining Serenaders",
+      "date": "2026-08-30",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-silver-lining-seranaders/",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-08-30-CF4C916FE4EBE664",
@@ -4666,6 +6463,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-08-31-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-08-31",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-20/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-08-31-jimmy-lewis-solo-acoustic",
+      "title": "Jimmy Lewis Solo Acoustic",
+      "date": "2026-08-31",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jimmy-lewis/2026-08-31/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-08-31-the-blue-hour-w-the-ta-tomlinson-ban",
       "title": "The Blue Hour w/ The TA Tomlinson Band and Special Guests",
       "date": "2026-08-31",
@@ -4676,6 +6497,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-20/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-08-31-we-will-rock-you-dea-hurston-industr",
+      "title": "We Will Rock You | Dea Hurston Industry Night",
+      "date": "2026-08-31",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/wwry-industry/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i37",
@@ -4738,6 +6571,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-02-trade-winds",
+      "title": "Trade Winds",
+      "date": "2026-09-02",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/trade-winds-9-2025-09-16/2026-09-02/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-02-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-09-02",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-09-02/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-09-02-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-09-02",
@@ -4748,6 +6605,18 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "epstein-2026-09-02-ritchie-forever",
+      "title": "Ritchie Forever",
+      "date": "2026-09-02",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/ritchie-forever/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-09-02-the-neighborhood-kids-damag3",
@@ -4784,6 +6653,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/sara-petite-belly-up-tickets/14931153?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-03-rolando-rose",
+      "title": "Rolando Rose",
+      "date": "2026-09-03",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rolando-rose/2026-09-03/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-09-03-garden-groove-sublime-tribute-",
@@ -4834,6 +6715,18 @@
       "added": "2026-07-18"
     },
     {
+      "id": "newvillage-2026-09-03-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-03",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-03/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s2i2",
       "title": "FAULT LINE",
       "date": "2026-09-03",
@@ -4856,6 +6749,30 @@
       "description": "Cody Carter",
       "url": "https://www.ticketweb.com/event/the-staples-chris-belly-up-tickets/14890693?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-04-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-04",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-04/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-04-blue-healers",
+      "title": "Blue Healers",
+      "date": "2026-09-04",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/blue-healers/2026-09-04/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14896393",
@@ -4894,6 +6811,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-04-fmera",
+      "title": "FMera",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/fmera/2026-09-04/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-09-04-judah-lourde",
       "title": "Judah Lourde",
       "date": "2026-09-04",
@@ -4904,6 +6833,18 @@
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/judah-lourde/",
       "added": "2026-07-18"
+    },
+    {
+      "id": "newvillage-2026-09-04-misfitz-drag-showcase-and-open-stage",
+      "title": "Misfitz Drag Showcase and Open Stage",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/misfitz-drag-showcase-and-open-stage/2026-09-04/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14910953",
@@ -4942,6 +6883,42 @@
       "added": null
     },
     {
+      "id": "epstein-2026-09-05-pacific-soul-jazz-festival-2026",
+      "title": "Pacific Soul Jazz Festival 2026",
+      "date": "2026-09-05",
+      "time": "12:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/jazz-festival-day1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-05-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-09-05",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-66/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-05-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-05",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-05/1/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-09-05-flim-flam-revue",
       "title": "Flim Flam Revue",
       "date": "2026-09-05",
@@ -4952,6 +6929,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/flim-flam-revue-22/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-05-memphis-soul-revue",
+      "title": "Memphis Soul Revue",
+      "date": "2026-09-05",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/memphis-soul-revue/2026-09-05/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-09-05-everybody-s-compromised-jayo-felony",
@@ -4990,6 +6979,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-05-groove-line",
+      "title": "Groove Line",
+      "date": "2026-09-05",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/groove-line-2/2026-09-05/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14768383",
       "title": "Jerry's Middle Finger",
       "date": "2026-09-05",
@@ -5026,6 +7027,30 @@
       "added": null
     },
     {
+      "id": "epstein-2026-09-06-pacific-soul-jazz-festival-2026",
+      "title": "Pacific Soul Jazz Festival 2026",
+      "date": "2026-09-06",
+      "time": "12:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/pacific-soul-jazz-festival-day2/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-06-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-06/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-09-06-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-09-06",
@@ -5036,6 +7061,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-06-labor-day-jazz-festival",
+      "title": "Labor Day Jazz Festival",
+      "date": "2026-09-06",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/labor-day-jazz-festival/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s2i5",
@@ -5170,6 +7207,42 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-09-09-salsa-bachata-dance-party",
+      "title": "Salsa & Bachata Dance Party",
+      "date": "2026-09-09",
+      "time": "18:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/salsa-bachata-dance-class-2-2/2026-09-09/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-09-the-boneshakers",
+      "title": "The Boneshakers",
+      "date": "2026-09-09",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-boneshakers-halloween-bash-costume-contest/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-09-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-09-09",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-09-09/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-09-manchester-orchestra-i-m-like-a-virgin-l",
       "title": "Manchester Orchestra-I'm Like a Virgin Losing a Child 20th Anniv Tour",
       "date": "2026-09-09",
@@ -5218,6 +7291,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-09-10-dragonfly-music-festival-2026",
+      "title": "Dragonfly Music Festival 2026",
+      "date": "2026-09-10",
+      "time": "17:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/dragonfly-day1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-10-gainsville-the-band",
+      "title": "Gainsville the Band",
+      "date": "2026-09-10",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/gainsville-the-band/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-09-10-sub-urban",
       "title": "Sub Urban",
       "date": "2026-09-10",
@@ -5228,6 +7325,18 @@
       "description": "Sidestage - 7pm",
       "url": "https://bit.ly/47s769c",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-10-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-10",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-10/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14768453",
@@ -5278,6 +7387,54 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-11-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-11",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-2/2026-09-11/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-11-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-11",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-11/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-11-dragonfly-music-festival-2026",
+      "title": "Dragonfly Music Festival 2026",
+      "date": "2026-09-11",
+      "time": "16:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/dragonfly-day2/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-11-canceled-hidden-city-sounds-daring-g",
+      "title": "CANCELED: Hidden City Sounds: Daring Greatly with Special Guests Lonesome Roses",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/hidden-city-sounds-daring-greatly-with-special-guests-lonesome-roses/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-09-11-pentagram-string-band",
       "title": "Pentagram String Band",
       "date": "2026-09-11",
@@ -5290,6 +7447,18 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-09-11-ringling-bros-and-barnum-bailey",
+      "title": "Ringling Bros and Barnum & Bailey",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Ringling Bros. and Barnum & Bailey are bringing the fun to Pechanga Arena San Diego September 11-13, 2026!",
+      "url": "https://pechangaarenasd.com/event/ringling-bro-and-barnum-bailey-2/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-11-the-frights",
       "title": "The Frights",
       "date": "2026-09-11",
@@ -5300,6 +7469,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/the-frights-san-diego-california-09-11-2026/event/0B006495B6DC4D2A",
       "added": null
+    },
+    {
+      "id": "epstein-2026-09-11-so-good-the-neil-diamond-experience-",
+      "title": "So Good! The Neil Diamond Experience starring Robert Neary",
+      "date": "2026-09-11",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/neil_diamond_experience/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14988933",
@@ -5362,6 +7543,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-11-the-sticky-sweets",
+      "title": "The Sticky Sweets",
+      "date": "2026-09-11",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/sticky-sweets/2026-09-11/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-12-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-12",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-09-12/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-09-12-my-town-fest",
       "title": "My Town Fest",
       "date": "2026-09-12",
@@ -5374,6 +7579,18 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-09-12-ringling-bros-and-barnum-bailey",
+      "title": "Ringling Bros and Barnum & Bailey",
+      "date": "2026-09-12",
+      "time": "11:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Ringling Bros. and Barnum & Bailey are bringing the fun to Pechanga Arena San Diego September 11-13, 2026!",
+      "url": "https://pechangaarenasd.com/event/ringling-bro-and-barnum-bailey-3/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-09-12-my-town-fest-day-one",
       "title": "My Town Fest Day One",
       "date": "2026-09-12",
@@ -5384,6 +7601,42 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/my-town-fest-day-one/",
       "added": null
+    },
+    {
+      "id": "ccae-2026-09-12-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-09-12",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-67/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-12-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-12",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-12/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-12-dragonfly-music-festival-2026",
+      "title": "Dragonfly Music Festival 2026",
+      "date": "2026-09-12",
+      "time": "15:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/dragonfly-day3/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14893263",
@@ -5410,6 +7663,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-12-jacquou-jazz",
+      "title": "Jacquou Jazz",
+      "date": "2026-09-12",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jacquou-jazz/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14229634",
       "title": "Osees",
       "date": "2026-09-12",
@@ -5420,6 +7685,18 @@
       "description": "Unwritten Law",
       "url": "https://www.ticketweb.com/event/osees-unwritten-law-bully-yoke-cardiff-state-beach-seaside-tickets/14229634?REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "pechanga-2026-09-13-ringling-bros-and-barnum-bailey",
+      "title": "Ringling Bros and Barnum & Bailey",
+      "date": "2026-09-13",
+      "time": "12:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Ringling Bros. and Barnum & Bailey are bringing the fun to Pechanga Arena San Diego September 11-13, 2026!",
+      "url": "https://pechangaarenasd.com/event/ringling-bro-and-barnum-bailey-6/",
+      "added": "2026-07-19"
     },
     {
       "id": "camels-2026-09-13-blues-jam-john-january",
@@ -5444,6 +7721,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/my-town-fest-day-two/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-13-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-13",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-13/",
+      "added": "2026-07-19"
     },
     {
       "id": "whistlestop-2026-09-13-showdown-at-sundown",
@@ -5480,6 +7769,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-13-david-stevens",
+      "title": "David Stevens",
+      "date": "2026-09-13",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/david-stevens/",
+      "added": "2026-07-19"
     },
     {
       "id": "observatory-2026-09-13-grief-sucks-a-one-man-show-by-kevonstage",
@@ -5530,6 +7831,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-09-14-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-09-14",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-22/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-14-arlo-parks-desire-tour",
       "title": "ARLO PARKS - DESIRE TOUR",
       "date": "2026-09-14",
@@ -5552,6 +7865,18 @@
       "description": "Mainstage - 7pm",
       "url": "https://bit.ly/4nLbfvG",
       "added": null
+    },
+    {
+      "id": "pechanga-2026-09-14-journey-final-frontier-tour-2026",
+      "title": "Journey: Final Frontier Tour 2026",
+      "date": "2026-09-14",
+      "time": "19:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Journey: Final Frontier Tour is coming to Pechanga Arena San Diego on 9/14/2026.",
+      "url": "https://pechangaarenasd.com/event/journey-final-frontier-tour-2026/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14811453",
@@ -5638,6 +7963,42 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-16-ristband",
+      "title": "Ristband",
+      "date": "2026-09-16",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/ristband-2025-05-09-2025-06-21/2026-09-16/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-16-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-09-16",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-09-16/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-09-16-the-red-clay-strays-grateful-tour-20",
+      "title": "The Red Clay Strays: Grateful Tour 2026",
+      "date": "2026-09-16",
+      "time": "18:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "The Red Clay Strays presents Grateful Tour 2026 coming to Pechanga Arena San Diego on Wednesday, September 16!",
+      "url": "https://pechangaarenasd.com/event/the-red-clay-strays-grateful-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-09-16-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-09-16",
@@ -5648,6 +8009,18 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-16-cozmic-comedy-presents-night-of-come",
+      "title": "Cozmic Comedy Presents Night of Comedy",
+      "date": "2026-09-16",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/cozmic-comedy/2026-09-16/",
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-09-16-solya",
@@ -5674,6 +8047,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-17-sugaray-rayford",
+      "title": "Sugaray Rayford",
+      "date": "2026-09-17",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/sugaray-rayford-w-michele-lundeen/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "brick-14913543",
       "title": "Elder with special guests",
       "date": "2026-09-17",
@@ -5696,6 +8081,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/isaiah-falls-presents-lvrs-paradise-side-san-diego-california-09-17-2026/event/0B0064D0B75A3D2D",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-17-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-17",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-17/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14916053",
@@ -5732,6 +8129,42 @@
       "description": "Soul Disciples",
       "url": "https://www.ticketweb.com/event/talib-kweli-soul-disciples-riston-belly-up-tickets/14925543?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "pechanga-2026-09-17-zach-top-cold-beer-country-music-tou",
+      "title": "Zach Top: Cold Beer & Country Music Tour 2026",
+      "date": "2026-09-17",
+      "time": "20:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Zach Top: Cold Beer & Country Music Tour is coming to Pechanga Arena San Diego on September 17, 2026.",
+      "url": "https://pechangaarenasd.com/event/zach-top-cold-beer-country-music-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-18-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-18",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-18/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-18-mango-bay",
+      "title": "Mango Bay",
+      "date": "2026-09-18",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/mango-bay/2026-09-18/",
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-09-18-the-midnight",
@@ -5818,6 +8251,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-18-totally-80-s",
+      "title": "Totally 80’s",
+      "date": "2026-09-18",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/totally-80s-2/2026-09-18/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-09-18-f-kin-in-the-bushes",
       "title": "F#!KIN’ IN THE BUSHES",
       "date": "2026-09-18",
@@ -5828,6 +8273,42 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/fkin-in-the-bushes-23/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-19-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-19",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-11/2026-09-19/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-19-beginner-swing-classes-with-mercedes",
+      "title": "Beginner Swing Classes with Mercedes Moore",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$20",
+      "description": "",
+      "url": "https://artcenter.org/event/beginner-swing-classes-with-mercedes-moore-68/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-19-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-19/1/",
+      "added": "2026-07-19"
     },
     {
       "id": "towerbar-2026-09-19-adversarial-productions-presents-i",
@@ -5890,6 +8371,30 @@
       "added": null
     },
     {
+      "id": "epstein-2026-09-19-jos-gonz-lez-against-the-dying-of-th",
+      "title": "José González | Against The Dying Of The Light Tour",
+      "date": "2026-09-19",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/jose-gonzalez/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-19-the-graduates-the-sound-of-simon-gar",
+      "title": "the GRADUATES – the Sound of Simon & Garfunkel",
+      "date": "2026-09-19",
+      "time": "19:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/thegraduates/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14988183",
       "title": "Hot Lava - A Tribute to the B-52's",
       "date": "2026-09-19",
@@ -5900,6 +8405,18 @@
       "description": "Through Being Cool",
       "url": "https://www.ticketweb.com/event/hot-lava-80s-belly-up-tickets/14988183?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-19-radio-thieves",
+      "title": "Radio Thieves",
+      "date": "2026-09-19",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "🌴🍹 Escape the ordinary and immerse yourself in the soulful tunes at San Diego’s premier live music club. Let the music transport you to paradise while sipping on your favorite cocktail! 🍸🎵 #paradisein",
+      "url": "https://www.humphreysbackstagelive.com/event/radio-thieves/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14894653",
@@ -5926,6 +8443,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-20-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-20",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-09-20/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-20-bottomless-popcorn-soda-john-cameron-mit",
       "title": "Bottomless Popcorn + Soda - John Cameron Mitchell - Not a Ticket",
       "date": "2026-09-20",
@@ -5948,6 +8477,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-san-diego-california-09-20-2026/event/0B0064888EF729F8",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-20-we-will-rock-you",
+      "title": "We Will Rock You",
+      "date": "2026-09-20",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/we-will-rock-you/2026-09-20/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s2i22",
@@ -6046,6 +8587,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-20-pocket-change",
+      "title": "Pocket Change",
+      "date": "2026-09-20",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/pocket-change/2026-09-20/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14947493",
       "title": "Rolling Quartz",
       "date": "2026-09-20",
@@ -6068,6 +8621,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/soulwax-land-of-the-sound-tickets/14206214?pl=The_Sound&REFID=TheSoundWS",
       "added": null
+    },
+    {
+      "id": "ccae-2026-09-21-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-09-21",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-23/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14964243",
@@ -6166,6 +8731,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-23-jeff-ousley-s-live-music-showcase",
+      "title": "Jeff Ousley’s Live Music Showcase",
+      "date": "2026-09-23",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jeff-ousleys-live-music-showcase/2026-09-23/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-23-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-09-23",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-09-23/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-23-kelela-new-avatar-live",
       "title": "Kelela: new avatar live",
       "date": "2026-09-23",
@@ -6250,6 +8839,42 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-24-t-a-tomlinson-company",
+      "title": "T.A. Tomlinson & Company",
+      "date": "2026-09-24",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/t-a-tomlinson-company/2026-09-24/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-09-24-carin-leon-de-sonora-para-el-mundo-t",
+      "title": "Carin Leon: De Sonora Para El Mundo Tour",
+      "date": "2026-09-24",
+      "time": "19:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Carin Leon is coming to Pechanga Arena San Diego on September 24, 2026!",
+      "url": "https://pechangaarenasd.com/event/carin-leon-north-american-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-09-24-vieux-farka-tour-",
+      "title": "Vieux Farka Touré",
+      "date": "2026-09-24",
+      "time": "19:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/vieux-farke-toure/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-09-24-west-22nd",
       "title": "West 22nd",
       "date": "2026-09-24",
@@ -6298,6 +8923,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-25-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-25",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-09-25/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-25-m-sica-en-la-plaza-manny-cepeda-orch",
+      "title": "Música en la Plaza: Manny Cepeda Orchestra",
+      "date": "2026-09-25",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/musica-en-la-plaza-manny-cepeda-orchestra-2/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "observatory-2026-09-25-waylon-wyatt-dustpiles-world-tour",
       "title": "Waylon Wyatt - Dustpiles World Tour",
       "date": "2026-09-25",
@@ -6308,6 +8957,42 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/waylon-wyatt-dustpiles-world-tour-san-diego-california-09-25-2026/event/0B0064AC8F0C294C",
       "added": null
+    },
+    {
+      "id": "epstein-2026-09-25-ghostbusters-in-concert",
+      "title": "Ghostbusters in Concert",
+      "date": "2026-09-25",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/ghostbusters-in-concert/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-25-teada",
+      "title": "Teada",
+      "date": "2026-09-25",
+      "time": "19:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/teada/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-25-improv-comedy-show",
+      "title": "Improv Comedy Show",
+      "date": "2026-09-25",
+      "time": "19:45",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/improv-comedy-show-2/2026-09-25/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14988953",
@@ -6358,6 +9043,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-25-toga-party-band",
+      "title": "Toga Party Band",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/toga-party/2026-09-25/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14918043",
       "title": "Waylon Wyatt",
       "date": "2026-09-25",
@@ -6382,6 +9079,30 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-09-26-hot-wheels-monster-trucks-live-glow-",
+      "title": "Hot Wheels Monster Trucks Live: Glow-N-Fire",
+      "date": "2026-09-26",
+      "time": "11:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Hot Wheels Monster Trucks Live: Glow N Fire is coming to Pechanga Arena September 26-27!",
+      "url": "https://pechangaarenasd.com/event/hot-wheels-monster-trucks-live-glow-n-fire/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-26-manzanita-blues-band",
+      "title": "Manzanita Blues Band",
+      "date": "2026-09-26",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/manzanita-blues-band/2026-09-26/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-09-26-mattfest-a-birthday-party",
       "title": "MattFest – A Birthday Party",
       "date": "2026-09-26",
@@ -6392,6 +9113,42 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/mattfest-a-birthday-party/",
       "added": null
+    },
+    {
+      "id": "epstein-2026-09-26-sugar-skull-a-d-a-de-muertos-musical",
+      "title": "SUGAR SKULL! | A Día de Muertos Musical Adventure",
+      "date": "2026-09-26",
+      "time": "18:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/sugar-skull/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-09-26-detroit-underground",
+      "title": "Detroit Underground",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/detroit-underground-39/2026-09-26/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-09-26-doors-of-change-concert-of-hope-2026",
+      "title": "Doors of Change, Concert of Hope 2026 – The Pettybreakers",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/concertofhope_thepettybreakers/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14894363",
@@ -6416,6 +9173,30 @@
       "description": "MIDNIGHT SWEATS · JOHNNY TACO · ISLAND HEART · (ROCKABILLY/SKA MIX) · As listed: Sept 26th at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-09-27-concert-night",
+      "title": "Concert Night",
+      "date": "2026-09-27",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-09-27/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-09-27-hot-wheels-monster-trucks-live-glow-",
+      "title": "Hot Wheels Monster Trucks Live: Glow-N-Fire",
+      "date": "2026-09-27",
+      "time": "13:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Hot Wheels Monster Trucks Live: Glow N Fire is coming to Pechanga Arena September 26-27!",
+      "url": "https://pechangaarenasd.com/event/hot-wheels-monster-trucks-live-glow-n-fire-3/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-09-27-smooth-operator-sade-tribute-",
@@ -6466,6 +9247,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-09-27-stick-men",
+      "title": "STICK MEN",
+      "date": "2026-09-27",
+      "time": "19:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/stick-men/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14953493",
       "title": "The Lone Bellow",
       "date": "2026-09-27",
@@ -6478,6 +9271,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-09-28-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-09-28",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-24/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-09-28-the-blue-hour-w-the-ta-tomlinson-ban",
       "title": "The Blue Hour w/ The TA Tomlinson Band and Special Guests",
       "date": "2026-09-28",
@@ -6488,6 +9293,30 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-21/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-09-28-hollywood-stars-of-magic-at-the-vill",
+      "title": "Hollywood Stars of Magic • at the Village",
+      "date": "2026-09-28",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/hollywood-stars-of-magic-4/2026-09-28/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-09-28-billy-strings-fall-2026",
+      "title": "Billy Strings Fall 2026",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Billy Strings is coming to Pechanga Arena San Diego on September 28, 2026.",
+      "url": "https://pechangaarenasd.com/event/billy-strings/",
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s2i31",
@@ -6550,6 +9379,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-09-30-blue-largo",
+      "title": "Blue Largo",
+      "date": "2026-09-30",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rick-holmstrom-with-blue-largo/2026-09-30/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-09-30-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-09-30",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-09-30/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14921103",
       "title": "DeVotchKa",
       "date": "2026-09-30",
@@ -6584,6 +9437,18 @@
       "description": "Sign ups start at 7:30 pm · As listed: Sept 30th at 8pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-01-chris-james-patrick-rynn",
+      "title": "Chris James & Patrick Rynn",
+      "date": "2026-10-01",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/blue-four-2/2026-10-01/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-10-01-molly-hatchet-rescheduled-from-april",
@@ -6658,6 +9523,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-02-hep-tights",
+      "title": "Hep Tights",
+      "date": "2026-10-02",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hep-tights-w-ta-tomlinson/2026-10-02/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-02-bow-wow-wow",
       "title": "Bow Wow Wow",
       "date": "2026-10-02",
@@ -6694,6 +9571,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-02-maverick",
+      "title": "Maverick",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/maverick-3/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-02-misfitz-drag-showcase-and-open-stage",
+      "title": "Misfitz Drag Showcase and Open Stage",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/misfitz-drag-showcase-and-open-stage/2026-10-02/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14922383",
       "title": "Spafford",
       "date": "2026-10-02",
@@ -6704,6 +9605,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/spafford-belly-up-tickets/14922383?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-03-concert-night",
+      "title": "Concert Night",
+      "date": "2026-10-03",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-10-03/",
+      "added": "2026-07-19"
     },
     {
       "id": "towerbar-2026-10-03-accoustic-revolt-presents-clover-s",
@@ -6730,6 +9643,18 @@
       "added": null
     },
     {
+      "id": "ccae-2026-10-03-san-diego-tijuana-international-jazz",
+      "title": "San Diego Tijuana International Jazz Festival",
+      "date": "2026-10-03",
+      "time": "15:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/san-diego-tijuana-international-jazz-festival/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-10-03-flim-flam-revue",
       "title": "Flim Flam Revue",
       "date": "2026-10-03",
@@ -6740,6 +9665,18 @@
       "description": "",
       "url": "https://whistlestopbar.com/event/flim-flam-revue-23/",
       "added": null
+    },
+    {
+      "id": "ccae-2026-10-03-ticket-to-ride",
+      "title": "Ticket to Ride",
+      "date": "2026-10-03",
+      "time": "19:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/ticket-to-ride/",
+      "added": "2026-07-19"
     },
     {
       "id": "towerbar-2026-10-03-accoustic-revolt-presents-will-var",
@@ -6778,6 +9715,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-03-groove-squad",
+      "title": "Groove Squad",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/groove-squad-21/2026-10-03/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "thesound-14801893",
       "title": "Sammy Rae & The Friends",
       "date": "2026-10-03",
@@ -6814,6 +9763,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-04-burt-brion",
+      "title": "Burt Brion",
+      "date": "2026-10-04",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/burt-brion/2026-10-04/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14218644",
       "title": "Jackie Greene",
       "date": "2026-10-04",
@@ -6848,6 +9809,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/michelle-branch-the-sound-tickets/14249964?pl=The_Sound&REFID=TheSoundWS",
       "added": null
+    },
+    {
+      "id": "ccae-2026-10-05-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-10-05",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-21/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-10-06-beginning-swing",
@@ -6934,6 +9907,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-07-rock-the-goat",
+      "title": "Rock The Goat",
+      "date": "2026-10-07",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rock-the-goat/2026-10-07/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-07-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-10-07",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-10-07/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-10-07-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-10-07",
@@ -6958,6 +9955,18 @@
       "added": null
     },
     {
+      "id": "epstein-2026-10-08-le-patin-libre",
+      "title": "Le Patin Libre",
+      "date": "2026-10-08",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/le-patin-libre/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14856633",
       "title": "The Wallflowers",
       "date": "2026-10-08",
@@ -6968,6 +9977,66 @@
       "description": "The Whitmore Sisters",
       "url": "https://www.ticketweb.com/event/the-wallflowers-the-whitmore-sisters-belly-up-tickets/14856633?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-08-west-of-5",
+      "title": "West of 5",
+      "date": "2026-10-08",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/west-of-5/2026-10-08/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-10-09-hot-stone-meat-party",
+      "title": "Hot Stone Meat Party",
+      "date": "2026-10-09",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hot-stone-meat-party/2026-10-09/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-10-09-hidden-city-sounds-lp-and-the-vinyl-",
+      "title": "Hidden City Sounds: LP and the Vinyl with a Community Jazz Jam",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "Free",
+      "description": "",
+      "url": "https://artcenter.org/event/hidden-city-sounds-lp-and-the-vinyl-with-a-community-jazz-jam/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-10-09-punch-brothers",
+      "title": "Punch Brothers",
+      "date": "2026-10-09",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/punch-brothers/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-10-09-brian-jones-rockn-roll-revival",
+      "title": "Brian Jones Rockn’ Roll Revival",
+      "date": "2026-10-09",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/rockn-roll-revival-2/2026-10-09/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14218474",
@@ -7006,6 +10075,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-10-trade-winds",
+      "title": "Trade Winds",
+      "date": "2026-10-10",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/trade-winds-9-2025-09-16/2026-10-10/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-10-10-the-living-tombstone",
       "title": "The Living Tombstone",
       "date": "2026-10-10",
@@ -7028,6 +10109,18 @@
       "description": "",
       "url": "https://musicboxsd.com/event/14943583/evan-giia/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-10-wildside",
+      "title": "Wildside",
+      "date": "2026-10-10",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/wildside-43/2026-10-10/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-10-11-bit-brigade-performs-mega-man-ii-cas",
@@ -7088,6 +10181,18 @@
       "description": "Sidestage - 6pm",
       "url": "https://bit.ly/4oTDU2n",
       "added": null
+    },
+    {
+      "id": "ccae-2026-10-11-john-green",
+      "title": "John Green",
+      "date": "2026-10-11",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "$54",
+      "description": "",
+      "url": "https://artcenter.org/event/john-green/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14221304",
@@ -7174,6 +10279,18 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-10-13-sombr-you-are-the-reason-tour-2026",
+      "title": "SOMBR: You Are The Reason Tour 2026",
+      "date": "2026-10-13",
+      "time": "19:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "SOMBR: You Are The Reason Tour coming to Pechanga Arena San Diego on October 13, 2026!",
+      "url": "https://pechangaarenasd.com/event/sombr-you-are-the-reason-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14762043",
       "title": "Deer Tick",
       "date": "2026-10-13",
@@ -7184,6 +10301,30 @@
       "description": "Presley Haile",
       "url": "https://www.ticketweb.com/event/deer-tick-tour-belly-up-tickets/14762043?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-14-hugh-gaskins-the-geoff-corey-5",
+      "title": "Hugh Gaskins & The Geoff Corey 5",
+      "date": "2026-10-14",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hugh-gaskins-the-geoff-corey-5/2026-10-14/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-14-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-10-14",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-10-14/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-10-14-ron-killings-aka-wwe-superstar-r-tru",
@@ -7234,6 +10375,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-15-tim-flannery-lunatic-fringe",
+      "title": "Tim Flannery & Lunatic Fringe",
+      "date": "2026-10-15",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/tim-flannery-lunatic-fringe/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-10-15-saint-levant",
       "title": "SAINT LEVANT",
       "date": "2026-10-15",
@@ -7270,6 +10423,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-16-mango-bay",
+      "title": "Mango Bay",
+      "date": "2026-10-16",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/mango-bay/2026-10-16/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-16-nahko-and-medicine-for-the-people-ho",
       "title": "NAHKO AND MEDICINE FOR THE PEOPLE – HOKA 10TH ANNIVERSARY TOUR.",
       "date": "2026-10-16",
@@ -7294,6 +10459,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-10-16-as-you-like-it-previews",
+      "title": "As You Like It | Previews",
+      "date": "2026-10-16",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-16/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-10-16-contra-tiempo-activist-dance-theater",
+      "title": "CONTRA-TIEMPO: Activist Dance Theater",
+      "date": "2026-10-16",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/contra-tiempo-activist-dance-theater/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14957973",
       "title": "Peter Bjorn and John",
       "date": "2026-10-16",
@@ -7316,6 +10505,18 @@
       "description": "Belly Up & Casbah Present · With Josh Rouse",
       "url": "https://musicboxsd.com/event/14957973/peter-bjorn-and-john-writer-s-block-20th-anniversary-tour-w-josh-rouse/",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-16-serious-guise",
+      "title": "Serious Guise",
+      "date": "2026-10-16",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/serious-guise/2026-10-16/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14906773",
@@ -7354,6 +10555,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-10-17-as-you-like-it-previews",
+      "title": "As You Like It | Previews",
+      "date": "2026-10-17",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-17/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-17-jon-mclaughlin-the-scenarios-tour",
       "title": "Jon McLaughlin: The Scenarios Tour",
       "date": "2026-10-17",
@@ -7376,6 +10589,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/10000-maniacs-humphreys-concerts-by-the-bay-tickets/14768573?REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-17-a-day-in-the-80-s",
+      "title": "A Day in the 80’s",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/a-day-in-the-80s/2026-10-17/",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14978423",
@@ -7402,6 +10627,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-10-18-as-you-like-it-previews",
+      "title": "As You Like It | Previews",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-18/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-10-18-tribute-to-rod-stewart",
+      "title": "Tribute to Rod Stewart",
+      "date": "2026-10-18",
+      "time": "15:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/tribute-to-rod-stewart/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-10-18-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-10-18",
@@ -7412,6 +10661,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-18-cynthia-gonzalez-band",
+      "title": "Cynthia Gonzalez Band",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/cynthia-gonzales-band/2026-10-18/",
+      "added": "2026-07-19"
     },
     {
       "id": "casbah-698720",
@@ -7436,6 +10697,30 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/moe-an-evening-belly-up-tickets/14940093?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "ccae-2026-10-19-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-10-19",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-35/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-10-19-wwe-presents-monday-night-raw",
+      "title": "WWE Presents: Monday Night RAW",
+      "date": "2026-10-19",
+      "time": "16:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "WWE Monday Night RAW is coming to Pechanga Arena San Diego on October 19, 2026.",
+      "url": "https://pechangaarenasd.com/event/wwe-presents-wwe-monday-night-raw/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14582163",
@@ -7486,6 +10771,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-10-20-opera-la-carte",
+      "title": "Opera à La Carte",
+      "date": "2026-10-20",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/opera-la-carte/2026-10-20/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-10-20-sketch-party-",
       "title": "Sketch Party!",
       "date": "2026-10-20",
@@ -7498,6 +10795,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-21-michele-lundeen",
+      "title": "Michele Lundeen",
+      "date": "2026-10-21",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/michele-lundeen-55-2024-07-29/2026-10-21/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-21-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-10-21",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-10-21/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-10-21-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-10-21",
@@ -7508,6 +10829,30 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-10-21-cozmic-comedy-presents-night-of-come",
+      "title": "Cozmic Comedy Presents Night of Comedy",
+      "date": "2026-10-21",
+      "time": "19:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/cozmic-comedy/2026-10-21/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-10-21-thee-sinseers",
+      "title": "Thee Sinseers",
+      "date": "2026-10-21",
+      "time": "19:00",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/thee-sinseers/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14203574",
@@ -7534,6 +10879,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-22-jeff-ousley-s-live-music-showcase",
+      "title": "Jeff Ousley’s Live Music Showcase",
+      "date": "2026-10-22",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/jeff-ousleys-live-music-showcase/2026-10-22/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-10-22-ho99o9-n8noface-sincerely-the-void",
       "title": "Ho99o9 & N8NOFACE – Sincerely___ The Void",
       "date": "2026-10-22",
@@ -7544,6 +10901,18 @@
       "description": "Doors 7pm - Sidestage",
       "url": "https://bit.ly/4vPYvax",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-10-22-as-you-like-it-previews",
+      "title": "As You Like It | Previews",
+      "date": "2026-10-22",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-22/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-10-22-balthvs",
@@ -7594,6 +10963,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-23-hillandale-drive",
+      "title": "Hillandale Drive",
+      "date": "2026-10-23",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/hillandale-drive/2026-10-23/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-23-as-you-like-it-previews",
+      "title": "As You Like It | Previews",
+      "date": "2026-10-23",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-23/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-23-band-bordel-quel-bordel-usa-band-par",
       "title": "BandáBordel = QUEL BORDEL! (USA) + BandápArt (FRANCE)",
       "date": "2026-10-23",
@@ -7604,6 +10997,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/bandabordel-quel-bordel-usa-bandapart-france/",
       "added": null
+    },
+    {
+      "id": "epstein-2026-10-23-la-santa-cecilia-los-a-os",
+      "title": "La Santa Cecilia | Los Años",
+      "date": "2026-10-23",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/la-santa-cecillia-los-anos/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14807593",
@@ -7642,6 +11047,78 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-23-toga-party-band",
+      "title": "Toga Party Band",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/toga-party/2026-10-23/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-10-24-concert-night",
+      "title": "Concert Night",
+      "date": "2026-10-24",
+      "time": "00:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-10-24/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-10-24-let-her-sing-2026",
+      "title": "Let Her Sing – 2026",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/let-her-sing-2026/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-24-as-you-like-it-opening-night",
+      "title": "As You Like It | Opening Night",
+      "date": "2026-10-24",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/as-you-like-it-opening-night/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-10-24-julian-lage-quartet-feat-john-medesk",
+      "title": "Julian Lage Quartet feat. John Medeski, Jorge Roeder, Kenny Wollesen",
+      "date": "2026-10-24",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/julian-lage-quartet/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-10-24-detroit-underground",
+      "title": "Detroit Underground",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/detroit-underground-39/2026-10-24/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14808603",
       "title": "Oingo Boingo Former Members",
       "date": "2026-10-24",
@@ -7666,6 +11143,30 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-10-25-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-10-25",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-10-25/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-10-25-an-evening-with-celtic-thunder-2026-",
+      "title": "An Evening with Celtic Thunder 2026: Celebrate your Favorite Songs",
+      "date": "2026-10-25",
+      "time": "15:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/celticthunder/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-10-25-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-10-25",
@@ -7676,6 +11177,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "humpbackstage-2026-10-25-darryl-williams",
+      "title": "Darryl WIlliams",
+      "date": "2026-10-25",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/37850/2026-10-25/",
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-10-25-mia-asano",
@@ -7690,6 +11203,18 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-10-25-gorillaz-the-mountain-tour-2026",
+      "title": "Gorillaz: The Mountain Tour 2026",
+      "date": "2026-10-25",
+      "time": "19:30",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Gorillaz- The Mountain Tour 2026 is coming to Pechanga Arena San Diego on October 25, 2026.",
+      "url": "https://pechangaarenasd.com/event/gorillaz-the-mountain-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14793953",
       "title": "Ax and the Hatchetmen",
       "date": "2026-10-25",
@@ -7700,6 +11225,18 @@
       "description": "",
       "url": "https://musicboxsd.com/event/14793953/ax-and-the-hatchetmen-the-late-checkout-tour-2026/",
       "added": null
+    },
+    {
+      "id": "ccae-2026-10-26-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-10-26",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-25/",
+      "added": "2026-07-19"
     },
     {
       "id": "whistlestop-2026-10-26-the-blue-hour-w-the-ta-tomlinson-ban",
@@ -7762,6 +11299,54 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-28-new-brown-sugar-band",
+      "title": "New Brown Sugar Band",
+      "date": "2026-10-28",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/new-brown-sugar-band/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-28-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-10-28/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "humpbackstage-2026-10-29-blue-healers",
+      "title": "Blue Healers",
+      "date": "2026-10-29",
+      "time": "18:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/blue-healers/2026-10-29/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-29-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-10-29",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-10-29/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14865793",
       "title": "Failure",
       "date": "2026-10-29",
@@ -7786,6 +11371,30 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-30-the-party-crashers",
+      "title": "The Party Crashers",
+      "date": "2026-10-30",
+      "time": "17:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/the-party-crashers-2/2026-10-30/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-10-30-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-10-30",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-10-30/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-30-fight-the-neighborhood-last-caress-m",
       "title": "Fight The Neighborhood, Last Caress (Misfits Tribute), Bad Examples",
       "date": "2026-10-30",
@@ -7796,6 +11405,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/fight-the-neighborhood-last-caress-misfits-tribute-bad-examples/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-10-30-improv-comedy-show",
+      "title": "Improv Comedy Show",
+      "date": "2026-10-30",
+      "time": "19:45",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/improv-comedy-show-2/2026-10-30/",
+      "added": "2026-07-19"
     },
     {
       "id": "towerbar-2026-10-30-castle",
@@ -7822,6 +11443,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-30-fleetwood-max",
+      "title": "Fleetwood Max",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/fleetwood-max/2026-10-30/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14902843",
       "title": "Theo Katzman",
       "date": "2026-10-30",
@@ -7844,6 +11477,18 @@
       "description": "Belly Up & Casbah Present",
       "url": "https://musicboxsd.com/event/14902843/theo-katzman/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-10-31-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-10-31",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-10-31/1/",
+      "added": "2026-07-19"
     },
     {
       "id": "towerbar-2026-10-31-punk-rock-chili-dog-social-matinee",
@@ -7882,6 +11527,18 @@
       "added": null
     },
     {
+      "id": "humpbackstage-2026-10-31-kisstroyer-halloween-bash",
+      "title": "KISStroyer Halloween Bash",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/kisstroyer/2026-10-31/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14981773",
       "title": "Pigeons Playing Ping Pong",
       "date": "2026-10-31",
@@ -7904,6 +11561,18 @@
       "description": "With The Sponges",
       "url": "https://musicboxsd.com/event/14985883/wonkywilla-x-same-same-but-different/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-11-01-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-01",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-01/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-11-01-salsa-sunday",
@@ -7964,6 +11633,18 @@
       "description": "GHOSTWOMAN",
       "url": "https://www.ticketweb.com/event/the-black-angels-passover-2026-the-observatory-north-park-tickets/14845983?REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "ccae-2026-11-02-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-11-02",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-26/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14216064",
@@ -8038,6 +11719,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-11-04-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-11-04",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-11-04/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-11-04-line-dance-social",
       "title": "Beginner Line Dance Social",
       "date": "2026-11-04",
@@ -8074,6 +11767,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-11-05-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-05",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-05/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14140644",
       "title": "Don McLean",
       "date": "2026-11-05",
@@ -8096,6 +11801,18 @@
       "description": "",
       "url": "https://musicboxsd.com/event/14751333/closed-for-private-event/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-11-06-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-06",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-06/1/",
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-11-06-keller-williams",
@@ -8122,6 +11839,30 @@
       "added": null
     },
     {
+      "id": "pechanga-2026-11-07-national-university-bill-walton-clas",
+      "title": "National University Bill Walton Classic",
+      "date": "2026-11-07",
+      "time": "00:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "National University presents the Bill Walton Classic coming to Pechanga Arena San Diego on November 7, 2026.",
+      "url": "https://pechangaarenasd.com/event/national-university-bill-walton-classic/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-11-07-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-07",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-07/1/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "whistlestop-2026-11-07-flim-flam-revue",
       "title": "Flim Flam Revue",
       "date": "2026-11-07",
@@ -8144,6 +11885,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/incomplete-elements-tumbleweeds/",
       "added": null
+    },
+    {
+      "id": "ccae-2026-11-07-shine-on-a-tribute-to-pink-floyd",
+      "title": "Shine On A Tribute to Pink Floyd",
+      "date": "2026-11-07",
+      "time": "19:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/shineon_atributetopinkfloyd/",
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14903773",
@@ -8180,6 +11933,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/bad-marriage-kickin-valentina-more/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-11-08-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-08",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-08/",
+      "added": "2026-07-19"
     },
     {
       "id": "whistlestop-2026-11-08-showdown-at-sundown",
@@ -8254,6 +12019,30 @@
       "added": null
     },
     {
+      "id": "ccae-2026-11-09-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-11-09",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-27/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-11-09-as-you-like-it-dea-hurston-industry-",
+      "title": "As You Like It | Dea Hurston Industry Night",
+      "date": "2026-11-09",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli-industry/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14918073",
       "title": "King Buffalo",
       "date": "2026-11-09",
@@ -8302,6 +12091,18 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-11-11-drop-in-improv-with-patrick-mcinnis",
+      "title": "Drop-in Improv with Patrick McInnis",
+      "date": "2026-11-11",
+      "time": "18:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/drop-in-improv-with-patrick-mcinnis-2/2026-11-11/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14837403",
       "title": "Nick Shoulders",
       "date": "2026-11-11",
@@ -8312,6 +12113,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/nick-shoulders-apocalypse-belly-up-tickets/14837403?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-11-12-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-12",
+      "time": "19:30",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-12/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14232964",
@@ -8350,6 +12163,54 @@
       "added": null
     },
     {
+      "id": "newvillage-2026-11-13-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-13",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-13/1/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-11-13-teddy-swims-the-ugly-tour-2026",
+      "title": "Teddy Swims: The UGLY Tour 2026",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Teddy Swims: The UGLY Tour 2026 is coming to Pechanga Arena San Diego on Friday, November 13, 2026.",
+      "url": "https://pechangaarenasd.com/event/teddy-swims-the-ugly-tour-2026/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ccae-2026-11-13-toast-the-best-of-bread",
+      "title": "Toast – The Best of Bread",
+      "date": "2026-11-13",
+      "time": "19:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/toast_thebestofbread/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "epstein-2026-11-13-las-migas",
+      "title": "Las Migas",
+      "date": "2026-11-13",
+      "time": "19:30",
+      "venue": "Epstein Amphitheater",
+      "category": "epstein",
+      "price": "",
+      "description": "",
+      "url": "https://amphitheater.ucsd.edu/event/las-migas-2026/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-11-14-faux-fest-a-festival-of-tribute-cove",
       "title": "FAUX FEST – a festival of Tribute & Cover Bands (featuring the Faux Fighters)",
       "date": "2026-11-14",
@@ -8360,6 +12221,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/faux-fest-tribute-fest-w-faux-fighters/",
       "added": null
+    },
+    {
+      "id": "newvillage-2026-11-14-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-14",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-14/1/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14891513",
@@ -8386,6 +12259,42 @@
       "added": null
     },
     {
+      "id": "ccae-2026-11-14-journey-usa-the-hits-of-journey",
+      "title": "Journey USA – The Hits of Journey",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/journeyusa/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "pechanga-2026-11-14-los-tigres-del-norte-los-tigres-del-",
+      "title": "Los Tigres Del Norte: Los Tigres Del Mundo",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "Los Tigres Del Norte is coming to Pechanga Arena San Diego on Saturday, November 14, 2026.",
+      "url": "https://pechangaarenasd.com/event/los-tigres-del-norte-los-tigres-del-mundo/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "newvillage-2026-11-15-as-you-like-it",
+      "title": "As You Like It",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "venue": "New Village Arts",
+      "category": "newvillage",
+      "price": "",
+      "description": "",
+      "url": "https://newvillagearts.org/event/ayli/2026-11-15/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-11-15-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-11-15",
@@ -8408,6 +12317,18 @@
       "description": "Cristina Vane",
       "url": "https://www.ticketweb.com/event/marc-broussard-cristina-vane-belly-up-tickets/14856253?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "ccae-2026-11-16-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2026-11-16",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-28/",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-11-17-beginning-swing",
@@ -9194,7 +13115,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-18 23:42",
+      "fetched": "2026-07-19 00:05",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
@@ -9202,7 +13123,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/07/bcbjuly2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-07-18 23:42",
+      "fetched": "2026-07-19 00:05",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 817438,
