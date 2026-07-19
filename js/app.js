@@ -18,6 +18,7 @@
   var state = {
     view: "list",           // "list" | "calendar"
     filter: null,           // category key or null for all
+    newOnly: false,         // show only events added by the latest scrape batch
     calYear: null,
     calMonth: null          // 0-indexed
   };
@@ -26,6 +27,18 @@
   today.setHours(0, 0, 0, 0);
   state.calYear = today.getFullYear();
   state.calMonth = today.getMonth();
+
+  // The scraper stamps each event with the build date it first appeared
+  // ("added"). The newest stamp present marks the latest batch of additions —
+  // that's what the "New" toggle shows, so re-running an update that finds
+  // nothing new doesn't wipe the view.
+  var NEWEST_ADDED = EVENTS.reduce(function (max, e) {
+    return e.added && e.added > max ? e.added : max;
+  }, "");
+
+  function isNew(ev) {
+    return !!NEWEST_ADDED && ev.added === NEWEST_ADDED;
+  }
 
   // ---------- Helpers ----------
 
@@ -65,6 +78,9 @@
 
   function visibleEvents() {
     var list = EVENTS.slice();
+    if (state.newOnly) {
+      list = list.filter(isNew);
+    }
     if (state.filter) {
       list = list.filter(function (e) { return e.category === state.filter; });
     }
@@ -94,6 +110,7 @@
     });
     document.getElementById("event-count").textContent =
       events.length + " listing" + (events.length === 1 ? "" : "s") +
+      (state.newOnly ? " · new since last scrape" : "") +
       (state.filter ? " · " + CATEGORIES[state.filter] : "");
 
     if (!events.length) {
@@ -125,6 +142,7 @@
 
       var main = el("span", "event-row__main");
       main.appendChild(el("span", "event-row__title", ev.title));
+      if (isNew(ev)) main.appendChild(el("span", "event-row__newbadge", "New"));
       main.appendChild(el("br"));
       main.appendChild(el("span", "event-row__venue", ev.venue));
       row.appendChild(main);
@@ -152,6 +170,7 @@
 
     document.getElementById("event-count").textContent =
       events.length + " listing" + (events.length === 1 ? "" : "s") +
+      (state.newOnly ? " · new since last scrape" : "") +
       (state.filter ? " · " + CATEGORIES[state.filter] : "");
 
     var firstDay = new Date(state.calYear, state.calMonth, 1).getDay();
@@ -293,7 +312,10 @@
     document.getElementById("flyer-title").textContent =
       flyer.venue + " — " + (flyer.label || "this week's events");
     var img = document.getElementById("flyer-img");
-    img.src = flyer.image || flyer.source;
+    // Cache-bust with the fetch timestamp so a re-scraped flyer replaces the
+    // browser's cached copy of the same filename.
+    img.src = (flyer.image || flyer.source) +
+      (flyer.image ? "?t=" + encodeURIComponent(flyer.fetched || "") : "");
     img.alt = flyer.venue + " events flyer";
     var src = document.getElementById("flyer-source");
     src.href = flyer.page || flyer.source;
@@ -376,6 +398,23 @@
   function renderFilters() {
     var wrap = document.getElementById("category-filters");
     wrap.innerHTML = "";
+
+    // "New" toggle first: only what the latest scrape added. Combines with
+    // the venue pills (e.g. New + Casbah = new Casbah shows).
+    var newCount = EVENTS.filter(isNew).length;
+    if (newCount) {
+      var newPill = el("button",
+        "filter-pill filter-pill--new" + (state.newOnly ? " is-active" : ""),
+        "New (" + newCount + ")");
+      newPill.type = "button";
+      newPill.title = "Events added by the latest scrape (" + NEWEST_ADDED + ")";
+      newPill.addEventListener("click", function () {
+        state.newOnly = !state.newOnly;
+        renderFilters();
+        render();
+      });
+      wrap.appendChild(newPill);
+    }
 
     var all = el("button", "filter-pill" + (state.filter === null ? " is-active" : ""), "All");
     all.type = "button";

@@ -117,6 +117,42 @@ def _dedup_across_venues(events, per_venue):
     return events
 
 
+def _identity(e):
+    """Stable cross-build identity for an event. Some scraper ids embed
+    volatile bits (e.g. DICE checksums), so compare on venue+date+title."""
+    return "%s|%s|%s" % (e["category"], e["date"], _norm(e["title"]))
+
+
+def _stamp_added(events, today):
+    """Mark each event with the build date it was first seen ("added").
+
+    Compares against the previous data/events.json: events already known keep
+    their original stamp; genuinely new ones get today's date. The page uses
+    the newest batch of stamps to show "what's new since the last scrape".
+    Returns the number of newly added events this run.
+    """
+    prev = None
+    try:
+        with open(JSON_OUT, encoding="utf-8") as f:
+            prev = {_identity(e): e.get("added")
+                    for e in json.load(f).get("events", [])}
+    except (OSError, ValueError):
+        pass
+
+    today_str = today.isoformat()
+    new_count = 0
+    for e in events:
+        if prev is None:
+            # First build with tracking: no baseline, so nothing is "new".
+            e["added"] = None
+        elif _identity(e) in prev:
+            e["added"] = prev[_identity(e)]
+        else:
+            e["added"] = today_str
+            new_count += 1
+    return new_count
+
+
 def main():
     today = datetime.date.today()
     all_events = []
@@ -145,6 +181,10 @@ def main():
     # Sort chronologically (date then time) — the page also sorts, but a tidy
     # file is easier to diff and eyeball.
     all_events.sort(key=lambda e: (e["date"], e["time"], e["title"].lower()))
+
+    new_count = _stamp_added(all_events, today)
+    if new_count:
+        print("  (%d newly added events since last build)" % new_count)
 
     # Image-only venues: fetch each flyer.
     flyers = []

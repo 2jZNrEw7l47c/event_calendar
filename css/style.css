@@ -178,6 +178,21 @@ a { color: inherit; }
   color: var(--paper);
 }
 
+/* "New since last scrape" toggle */
+.filter-pill--new {
+  border-color: var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.filter-pill--new:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+
+.filter-pill--new.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
 /* Flyer venue buttons */
 
 .flyer-buttons {
@@ -308,6 +323,21 @@ a { color: inherit; }
   font-size: 13px;
   color: var(--ink-faint);
   margin-top: 1px;
+}
+
+.event-row__newbadge {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 7px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--paper);
+  background: var(--accent);
+  border-radius: 999px;
+  vertical-align: 2px;
 }
 
 .event-row__cat {
