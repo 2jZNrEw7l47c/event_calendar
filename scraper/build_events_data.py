@@ -42,6 +42,17 @@ import scrape_newvillage
 import scrape_pechanga
 import scrape_worldbeat
 import scrape_epstein
+import scrape_panama66
+import scrape_blindlady
+import scrape_sycuan
+import scrape_calcoast
+import scrape_ramona
+import scrape_makingmusic
+import scrape_spreckels
+import scrape_heartob
+import scrape_spin
+import scrape_710bc
+import scrape_batesnut
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -74,6 +85,18 @@ SCRAPERS = [
     ("pechanga", "Pechanga Arena", scrape_pechanga),
     ("worldbeat", "Worldbeat Center", scrape_worldbeat),
     ("epstein", "Epstein Amphitheater", scrape_epstein),
+    # Secondary venues — net-new scrapers
+    ("panama66", "Panama 66", scrape_panama66),
+    ("blindlady", "Blind Lady Ale House", scrape_blindlady),
+    ("sycuan", "Sycuan Casino", scrape_sycuan),
+    ("calcoast", "Cal Coast Open Air Theatre", scrape_calcoast),
+    ("ramona", "Ramona Mainstage", scrape_ramona),
+    ("makingmusic", "Museum of Making Music", scrape_makingmusic),
+    ("spreckels", "Spreckels Organ Pavilion", scrape_spreckels),
+    ("heartob", "The Heart OB", scrape_heartob),
+    ("spin", "SPIN", scrape_spin),
+    ("beach710", "710 Beach Club", scrape_710bc),
+    ("batesnut", "Bates Nut Farm", scrape_batesnut),
 ]
 
 # Belly Up's feed aggregates other rooms (incl. The Sound). When the same show

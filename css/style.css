@@ -48,6 +48,17 @@
   --cat-pechanga: #6b6b1f;
   --cat-worldbeat: #1f8c3f;
   --cat-epstein: #3f5aa0;
+  --cat-panama66: #2f7a8c;
+  --cat-blindlady: #8c6b2f;
+  --cat-sycuan: #7a2f52;
+  --cat-calcoast: #a04023;
+  --cat-ramona: #237a3f;
+  --cat-makingmusic: #3f52a0;
+  --cat-spreckels: #6b7a1f;
+  --cat-heartob: #a0233f;
+  --cat-spin: #703fa0;
+  --cat-beach710: #1f8c6b;
+  --cat-batesnut: #8c522f;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -526,6 +537,17 @@ a { color: inherit; }
 .cat-pechanga     { color: var(--cat-pechanga); }
 .cat-worldbeat    { color: var(--cat-worldbeat); }
 .cat-epstein      { color: var(--cat-epstein); }
+.cat-panama66     { color: var(--cat-panama66); }
+.cat-blindlady    { color: var(--cat-blindlady); }
+.cat-sycuan       { color: var(--cat-sycuan); }
+.cat-calcoast     { color: var(--cat-calcoast); }
+.cat-ramona       { color: var(--cat-ramona); }
+.cat-makingmusic  { color: var(--cat-makingmusic); }
+.cat-spreckels    { color: var(--cat-spreckels); }
+.cat-heartob      { color: var(--cat-heartob); }
+.cat-spin         { color: var(--cat-spin); }
+.cat-beach710     { color: var(--cat-beach710); }
+.cat-batesnut     { color: var(--cat-batesnut); }
 
 /* ---------- Detail dialog ---------- */
 

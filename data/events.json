@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19 00:05",
+  "generated": "2026-07-19 02:35",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -27,7 +27,17 @@
     "newvillage": "New Village Arts",
     "pechanga": "Pechanga Arena",
     "worldbeat": "Worldbeat Center",
-    "epstein": "Epstein Amphitheater"
+    "epstein": "Epstein Amphitheater",
+    "panama66": "Panama 66",
+    "blindlady": "Blind Lady Ale House",
+    "sycuan": "Sycuan Casino",
+    "calcoast": "Cal Coast Open Air Theatre",
+    "ramona": "Ramona Mainstage",
+    "makingmusic": "Museum of Making Music",
+    "spreckels": "Spreckels Organ Pavilion",
+    "heartob": "The Heart OB",
+    "spin": "SPIN",
+    "batesnut": "Bates Nut Farm"
   },
   "events": [
     {
@@ -41,6 +51,18 @@
       "description": "One-hour beginner line dance class and social. 1st & 3rd Wednesday, 7:00 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-07-05-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-07-05",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-07-05-salsa-sunday",
@@ -89,6 +111,18 @@
       "description": "Blues jam hosted by John January. Every 2nd Sunday, 1PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "spreckels-2026-07-12-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-07-12",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-07-12-salsa-sunday",
@@ -319,6 +353,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "spreckels-2026-07-19-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-07-19",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
       "id": "ccae-2026-07-19-il-tabarro-presented-by-cinballera-e",
       "title": "IL TABARRO presented by Cinballera Entertainment: Opera + Ballet",
       "date": "2026-07-19",
@@ -355,6 +401,18 @@
       "added": null
     },
     {
+      "id": "panama66-2026-07-19-sandpiper-ensemble",
+      "title": "Sandpiper Ensemble",
+      "date": "2026-07-19",
+      "time": "17:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 10am-7pm / Bar 8pm SANDPIPER ENSEMBLE 5-7pm",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-07-19-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-07-19",
@@ -377,6 +435,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/the-soapgirls/",
       "added": null
+    },
+    {
+      "id": "heartob-2026-07-19-boozewa-insomnia-dead-tension-",
+      "title": "Boozewa | Insomnia | Dead Tension | No Avail",
+      "date": "2026-07-19",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/boozewa-insomnia-dead-tension-no-avail",
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-07-19-rob-zinn-andrew-neu",
@@ -424,6 +494,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/the-ocean-hates-you/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "blindlady-2026-07-19-world-cup-fina",
+      "title": "World Cup Fina",
+      "date": "2026-07-19",
+      "time": "19:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: Noon-10pm Beer: Noon-11pm WORLD CUP FINA L @ NOON (🔈+📺) & Nick & Rosie, 7-9pm",
+      "url": "https://www.blindladyalehouse.com",
       "added": "2026-07-19"
     },
     {
@@ -508,6 +590,18 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-13/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "blindlady-2026-07-20-meatless-monday",
+      "title": "Meatless Monday",
+      "date": "2026-07-20",
+      "time": "17:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: 5pm-10pm Beer: 5pm-11pm MEATLESS MONDAY Every Monday our Specials Boards go Meat Less with ALL Veg & Vegan Specials. Plus, vegan Truf",
+      "url": "https://www.blindladyalehouse.com",
       "added": "2026-07-19"
     },
     {
@@ -667,6 +761,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "calcoast-2026-07-21-ca7riel-paco-amoroso",
+      "title": "Ca7riel & Paco Amoroso",
+      "date": "2026-07-21",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14243914",
       "title": "David Cultura",
       "date": "2026-07-21",
@@ -751,6 +857,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "heartob-2026-07-22-black-garnet-blaargh-fantom",
+      "title": "Black Garnet | BLAARGH | Fantom",
+      "date": "2026-07-22",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/black-garnet-blaargh-fantom",
+      "added": "2026-07-19"
+    },
+    {
       "id": "newvillage-2026-07-22-drop-in-improv-with-patrick-mcinnis",
       "title": "Drop-in Improv with Patrick McInnis",
       "date": "2026-07-22",
@@ -787,6 +905,18 @@
       "added": null
     },
     {
+      "id": "blindlady-2026-07-22-live-in-the-hamm-s-room",
+      "title": "Live In The Hamm'S Room",
+      "date": "2026-07-22",
+      "time": "19:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: 5pm-10pm Beer: 5pm-11pm LIVE IN THE HAMM'S ROOM with ROBIN HENKLE , 7-9pm San Diego Blues Legend",
+      "url": "https://www.blindladyalehouse.com",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-07-22-pi-ata-protest",
       "title": "Piñata Protest",
       "date": "2026-07-22",
@@ -797,6 +927,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/pinata-protest/",
       "added": null
+    },
+    {
+      "id": "panama66-2026-07-22-the-jam-session-presented-by-g",
+      "title": "The Jam Session Presented By Gilbert Castellanos Young Lions",
+      "date": "2026-07-22",
+      "time": "19:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 4pm-9pm / Bar 10pm THE JAM SESSION PRESENTED BY GILBERT CASTELLANOS YOUNG LIONS , 7-7:50pm JAM SESSION , 8-10:30pm The Wednesday Night ",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
     },
     {
       "id": "epstein-2026-07-22-up-close-a-conversation-with-brad-bi",
@@ -883,6 +1025,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "panama66-2026-07-23-uptown-rhythm-makers",
+      "title": "Uptown Rhythm Makers",
+      "date": "2026-07-23",
+      "time": "18:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 11am-9pm / Bar 10pm UPTOWN RHYTHM MAKERS , 6-7:50pm",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
       "id": "brick-14844323",
       "title": "JILUKA with special guests",
       "date": "2026-07-23",
@@ -943,6 +1097,18 @@
       "added": null
     },
     {
+      "id": "sycuan-2026-07-23-ingrid-andress",
+      "title": "Ingrid Andress",
+      "date": "2026-07-23",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "The River · Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-07-23-micah-and-the-mirrors-ex-fast-eddy",
       "title": "Micah and the Mirrors (ex Fast Eddy/Dirty Few),  Solid State Radio, Shaguar, Razor Sharp",
       "date": "2026-07-23",
@@ -952,7 +1118,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/micah-and-the-mirrors-ex-fast-eddy-dirty-few/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14879663",
@@ -1015,6 +1181,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "heartob-2026-07-24-neighborhood-watch-ones-own-ha",
+      "title": "Neighborhood Watch | One's Own Haven | Reality Session",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/neighborhood-watch-ones-own-haven-reality-session",
+      "added": "2026-07-19"
+    },
+    {
       "id": "houseofblues-2026-07-24-school-of-rock-all-stars",
       "title": "School of Rock All Stars",
       "date": "2026-07-24",
@@ -1027,6 +1205,30 @@
       "added": null
     },
     {
+      "id": "panama66-2026-07-24-the-lonesome-lowdowns",
+      "title": "The Lonesome Lowdowns",
+      "date": "2026-07-24",
+      "time": "18:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 11am-9pm / Bar 10pm THE LONESOME LOWDOWNS , 6-8pm",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "calcoast-2026-07-24-howard-jones-things-can-only-g",
+      "title": "Howard Jones Things Can Only Get Better Tour + Wang Chung, The English Beat, Modern English, Richard Blade",
+      "date": "2026-07-24",
+      "time": "18:30",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "brick-14789193",
       "title": "Allison – Euforia USA Tour with special guests",
       "date": "2026-07-24",
@@ -1037,6 +1239,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/allison-euforia-usa-brick-by-brick-tickets/14789193?REFID=clientsitewp",
       "added": null
+    },
+    {
+      "id": "blindlady-2026-07-24-andrew-mcgranahan-mike-turi",
+      "title": "Andrew Mcgranahan & Mike Turi",
+      "date": "2026-07-24",
+      "time": "19:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: 3pm-10pm Beer: 3pm-Midnight $6 BEER 3PM-6PM Yes, every Friday & Saturday every beer is just $6 until 6pm. VINYL SLICES featuring SD F",
+      "url": "https://www.blindladyalehouse.com",
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-07-24-hermanos-espinoza",
@@ -1252,7 +1466,19 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/clovers-curfew-half-man-jonny-wagon-band-damn-rats-punchcard-turnbuckle-hardly-human-matinee-show/",
-      "added": null
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spin-2026-07-25-grown-folks-saturdays",
+      "title": "Grown Folks Saturdays",
+      "date": "2026-07-25",
+      "time": "15:00",
+      "venue": "SPIN",
+      "category": "spin",
+      "price": "$26.38",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/grown-folks-saturdays-tickets-1993296987949",
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-07-25-mango-bay",
@@ -1276,6 +1502,30 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/sweetescape/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "blindlady-2026-07-25-beer-noon-til-6-soul-slices",
+      "title": "Beer Noon 'Til 6 & Soul Slices",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: Noon-10pm Beer: Noon-Midnight $6 BEER NOON 'TIL 6 & SOUL SLICES with KING DUTTY , 7-11pm spinning NORTHERN SOUL, SKA & REGGAE",
+      "url": "https://www.blindladyalehouse.com",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "panama66-2026-07-25-chunky-hustle-brass-band",
+      "title": "Chunky Hustle Brass Band",
+      "date": "2026-07-25",
+      "time": "18:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 10am-9pm / Bar 10pm CHUNKY HUSTLE BRASS BAND , 6-8pm",
+      "url": "https://www.panama66.com/livemusic",
       "added": "2026-07-19"
     },
     {
@@ -1360,6 +1610,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/soulful-summer-jazz/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "calcoast-2026-07-25-the-fray-dashboard-confessiona",
+      "title": "The Fray + Dashboard Confessional & Colony House",
+      "date": "2026-07-25",
+      "time": "19:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
       "added": "2026-07-19"
     },
     {
@@ -1459,6 +1721,18 @@
       "added": null
     },
     {
+      "id": "panama66-2026-07-26-claudia-gomez-tap-jam",
+      "title": "Claudia Gomez & Tap Jam",
+      "date": "2026-07-26",
+      "time": "05:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 10am-7pm / Bar 8pm CLAUDIA GOMEZ & TAP JAM , 5-7pm",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-07-26-gemfest-2026",
       "title": "GemFest 2026",
       "date": "2026-07-26",
@@ -1492,6 +1766,18 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/line-dancing-with-bryan-cleary-2/2026-07-26/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-07-26-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-07-26",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -1576,6 +1862,18 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/nils/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "heartob-2026-07-26-reese-castin-ra-blue-park-suit",
+      "title": "Reese Castin | RA | Blue Park Suites | Night Swim",
+      "date": "2026-07-26",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/reese-castin-ra-blue-park-suites-night-swim",
       "added": "2026-07-19"
     },
     {
@@ -1708,6 +2006,18 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-15/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "blindlady-2026-07-27-meatless-monday",
+      "title": "Meatless Monday",
+      "date": "2026-07-27",
+      "time": "17:00",
+      "venue": "Blind Lady Ale House",
+      "category": "blindlady",
+      "price": "",
+      "description": "Pizza: 5pm-10pm Beer: 5pm-11pm MEATLESS MONDAY Every Monday our Specials Boards go Meat Less with ALL Veg & Vegan Specials. Plus, vegan Truf",
+      "url": "https://www.blindladyalehouse.com",
       "added": "2026-07-19"
     },
     {
@@ -1987,6 +2297,18 @@
       "added": null
     },
     {
+      "id": "heartob-2026-07-29-the-joeys-az-kimiko-full-moon-",
+      "title": "The Joeys (AZ) | Kimiko | Full Moon Special",
+      "date": "2026-07-29",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/the-joeys-az-kimiko-full-moon-special",
+      "added": "2026-07-19"
+    },
+    {
       "id": "newvillage-2026-07-29-drop-in-improv-with-patrick-mcinnis",
       "title": "Drop-in Improv with Patrick McInnis",
       "date": "2026-07-29",
@@ -2021,6 +2343,18 @@
       "description": "As listed: July 29th at 7pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "panama66-2026-07-29-the-jam-session-presented-by-g",
+      "title": "The Jam Session Presented By Gilbert Castellanos Young Lions",
+      "date": "2026-07-29",
+      "time": "19:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 4pm-9pm / Bar 10pm THE JAM SESSION PRESENTED BY GILBERT CASTELLANOS YOUNG LIONS , 7-7:50pm JAM SESSION , 8-10:30pm The Wednesday Night ",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
     },
     {
       "id": "sodabar-2026-07-29-B0AB07789FA8DA4B",
@@ -2107,6 +2441,18 @@
       "added": null
     },
     {
+      "id": "panama66-2026-07-30-thursday",
+      "title": "Thursday",
+      "date": "2026-07-30",
+      "time": "11:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 11am-9pm / Bar 10pm 5TH THURSDAY",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
       "id": "humpbackstage-2026-07-30-jeff-ousley-s-live-music-showcase",
       "title": "Jeff Ousley’s Live Music Showcase",
       "date": "2026-07-30",
@@ -2128,6 +2474,18 @@
       "price": "",
       "description": "",
       "url": "https://amphitheater.ucsd.edu/event/aja-monet-the-color-of-rain/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "makingmusic-2026-07-30-andy-mckee",
+      "title": "Andy McKee",
+      "date": "2026-07-30",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "$45",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/andy-mckee",
       "added": "2026-07-19"
     },
     {
@@ -2188,6 +2546,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/afabulous-july-2026/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "sycuan-2026-07-30-la-sonora-santanera-tributo-a-",
+      "title": "La Sonora Santanera Tributo a Carlos Colorado y La Gran Sonora Dinamita",
+      "date": "2026-07-30",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "El Rio · Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
       "added": "2026-07-19"
     },
     {
@@ -2284,6 +2654,30 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/a-walk-with-yamay-artist-reception/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "heartob-2026-07-31-kid-judo-khymera-prizecard-dan",
+      "title": "Kid Judo | Khymera | Prizecard | Danya C",
+      "date": "2026-07-31",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/kid-judo-khymera-prizecard-danya-c",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "panama66-2026-07-31-mochillero",
+      "title": "Mochillero",
+      "date": "2026-07-31",
+      "time": "18:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 11am-9pm / Bar 10pm MOCHILLERO , 6-8pm",
+      "url": "https://www.panama66.com/livemusic",
       "added": "2026-07-19"
     },
     {
@@ -2392,7 +2786,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/cave-bastard-2/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14812603",
@@ -2476,6 +2870,30 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-08-01/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-08-01-community-yard-sale-august",
+      "title": "Community Yard Sale | August",
+      "date": "2026-08-01",
+      "time": "07:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 7:00am - 12:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-08-01-pony-rides-in-august",
+      "title": "Pony Rides in August",
+      "date": "2026-08-01",
+      "time": "10:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 10:00am - 2:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-07-19"
     },
     {
@@ -2611,6 +3029,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "ramona-2026-08-01-beatles-vs-stones-a-musical-sh",
+      "title": "Beatles vs. Stones – A Musical Showdown",
+      "date": "2026-08-01",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10342",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14799593",
       "title": "Black Moth Super Rainbow",
       "date": "2026-08-01",
@@ -2695,6 +3125,30 @@
       "added": null
     },
     {
+      "id": "spreckels-2026-08-02-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-08-02",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "panama66-2026-08-02-quinteto-caballero",
+      "title": "Quinteto Caballero",
+      "date": "2026-08-02",
+      "time": "17:00",
+      "venue": "Panama 66",
+      "category": "panama66",
+      "price": "",
+      "description": "Food 10am-7pm / Bar 8pm QUINTETO CABALLERO , 5-7pm",
+      "url": "https://www.panama66.com/livemusic",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-08-02-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-08-02",
@@ -2705,6 +3159,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "heartob-2026-08-02-no-exit-long-distance-driver-a",
+      "title": "No Exit | Long Distance Driver | and more",
+      "date": "2026-08-02",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/no-exit-long-distance-driver-and-more",
+      "added": "2026-07-19"
     },
     {
       "id": "houseofblues-2026-08-02-rome-streetz-sock-it-to-my-pocket-tour-",
@@ -2764,7 +3230,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/black-tusk-hoaxed-drowned-sun-plagued/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i2",
@@ -2848,6 +3314,18 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-18/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "makingmusic-2026-08-03-new-horizons-band-info-session",
+      "title": "New Horizons Band Info Session",
+      "date": "2026-08-03",
+      "time": "16:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/new-horizons-band-info-session",
       "added": "2026-07-19"
     },
     {
@@ -3040,6 +3518,18 @@
       "price": "",
       "description": "",
       "url": "https://artcenter.org/event/from-page-to-space-drawing-design-for-storytelling/2026-08-05/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "heartob-2026-08-05-open-mic-night-22",
+      "title": "Open Mic Night!",
+      "date": "2026-08-05",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/open-mic-night-22",
       "added": "2026-07-19"
     },
     {
@@ -3257,6 +3747,18 @@
       "description": "",
       "url": "",
       "added": null
+    },
+    {
+      "id": "sycuan-2026-08-06-queensr-che",
+      "title": "Queensrÿche",
+      "date": "2026-08-06",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-08-06-rolando-rose",
@@ -3484,7 +3986,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/kit-major-and-tess-the-details/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "newvillage-2026-08-07-misfitz-drag-showcase-and-open-stage",
@@ -3736,7 +4238,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/hamapple/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-08-08-wildside",
@@ -3811,6 +4313,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "spreckels-2026-08-09-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-08-09",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
       "id": "newvillage-2026-08-09-we-will-rock-you-previews",
       "title": "We Will Rock You | Previews",
       "date": "2026-08-09",
@@ -3880,6 +4394,30 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/slim-man/2026-08-09/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "heartob-2026-08-09-the-rolling-blackouts-the-eyes",
+      "title": "The Rolling Blackouts | The Eyesores and More",
+      "date": "2026-08-09",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/the-rolling-blackouts-the-eyesores-and-more",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "calcoast-2026-08-09-o-a-r-gavin-degraw-lisa-loeb",
+      "title": "O.A.R + Gavin DeGraw & Lisa Loeb",
+      "date": "2026-08-09",
+      "time": "18:30",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
       "added": "2026-07-19"
     },
     {
@@ -4216,7 +4754,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/chico-detour-matthew-melton-minitruck/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i16",
@@ -4276,6 +4814,18 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/concert-night/2026-08-13/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "calcoast-2026-08-13-goose",
+      "title": "Goose",
+      "date": "2026-08-13",
+      "time": "19:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
       "added": "2026-07-19"
     },
     {
@@ -4351,6 +4901,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "sycuan-2026-08-13-mitchell-tenpenny",
+      "title": "Mitchell Tenpenny",
+      "date": "2026-08-13",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "The River · Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i17",
       "title": "THE COLOUR MONDAY",
       "date": "2026-08-13",
@@ -4396,6 +4958,18 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/rock-the-goat/2026-08-14/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "heartob-2026-08-14-buffalo-runs-deep-half-dreamin",
+      "title": "BUFFALO  | Runs Deep | Half Dreaming | Tardigrade Collective",
+      "date": "2026-08-14",
+      "time": "18:00",
+      "venue": "The Heart OB",
+      "category": "heartob",
+      "price": "",
+      "description": "",
+      "url": "https://www.theheartob.com/event-details/buffalo-runs-deep-half-dreaming-tardigrade-collective",
       "added": "2026-07-19"
     },
     {
@@ -4528,7 +5102,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/the-kosmics-rough-houser-bloom-room/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14191424",
@@ -4555,6 +5129,18 @@
       "added": null
     },
     {
+      "id": "batesnut-2026-08-15-camping-under-the-stars-august",
+      "title": "Camping Under The Stars  August",
+      "date": "2026-08-15",
+      "time": "10:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: Saturday 10:00am - Sunday 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "ccae-2026-08-15-beginner-swing-classes-with-mercedes",
       "title": "Beginner Swing Classes with Mercedes Moore",
       "date": "2026-08-15",
@@ -4577,6 +5163,30 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/the-cometeers-afro-cuban-funk-psych-day-party/",
       "added": null
+    },
+    {
+      "id": "batesnut-2026-08-15-summer-food-festival-august",
+      "title": "Summer Food Festival | August",
+      "date": "2026-08-15",
+      "time": "16:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 4:00pm - 8:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-08-15-live-music-with-the-smokin-gun",
+      "title": "Live Music with The Smokin Guns",
+      "date": "2026-08-15",
+      "time": "16:30",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 4:30pm - 7:30pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-08-15-the-party-crashers",
@@ -4663,6 +5273,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "calcoast-2026-08-15-jorge-medina",
+      "title": "Jorge Medina",
+      "date": "2026-08-15",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14885503",
       "title": "Matte Blvck",
       "date": "2026-08-15",
@@ -4684,7 +5306,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/mike-fest-8-punchcard-strike-twelve-making-incredible-time-gentroside-a-bortz/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "kensington-2026-08-15-nuda-sine",
@@ -4733,6 +5355,18 @@
       "description": "HOSTED BY YO · All welcome · As listed: August 16 at 2-4pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "spreckels-2026-08-16-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-08-16",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "newvillage-2026-08-16-we-will-rock-you",
@@ -5395,6 +6029,18 @@
       "added": null
     },
     {
+      "id": "sycuan-2026-08-21-masters-of-illusion",
+      "title": "Masters of Illusion",
+      "date": "2026-08-21",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s1i26",
       "title": "SONIC MOONSHINE",
       "date": "2026-08-21",
@@ -5416,7 +6062,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/the-crotches-let-me-downs-corporate-citizen/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "musicbox-14825583",
@@ -5503,6 +6149,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "makingmusic-2026-08-22-paul-pigat",
+      "title": "Paul Pigat",
+      "date": "2026-08-22",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "$45",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/paul-pigat",
+      "added": "2026-07-19"
+    },
+    {
       "id": "sodabar-2026-08-22-1F08278ABF449D99",
       "title": "Born At Midnite, Paycheque",
       "date": "2026-08-22",
@@ -5537,6 +6195,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/sandollar-seapoodle-rafa-ponde/",
       "added": null
+    },
+    {
+      "id": "ramona-2026-08-22-classic-journey-tribute",
+      "title": "Classic Journey Tribute",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=9939",
+      "added": "2026-07-19"
     },
     {
       "id": "epstein-2026-08-22-expressions-of-magic-in-the-moonligh",
@@ -5587,6 +6257,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "sycuan-2026-08-22-the-commodores-the-spinners",
+      "title": "The Commodores & The Spinners",
+      "date": "2026-08-22",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-07-19"
+    },
+    {
       "id": "casbah-684920",
       "title": "Cheekface, Catbite",
       "date": "2026-08-22",
@@ -5620,6 +6302,18 @@
       "price": "",
       "description": "",
       "url": "https://www.worldbeatcenter.org/event/44513/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-08-23-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-08-23",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -5741,6 +6435,18 @@
       "description": "",
       "url": "",
       "added": null
+    },
+    {
+      "id": "calcoast-2026-08-23-omar-courtz-cancelled-moved-to",
+      "title": "Omar Courtz CANCELLED Moved to Viejas arena, same date and time!",
+      "date": "2026-08-23",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
     },
     {
       "id": "humpbackstage-2026-08-23-pocket-change",
@@ -6043,6 +6749,18 @@
       "added": null
     },
     {
+      "id": "calcoast-2026-08-27-david-byrne-who-is-the-sky-tou",
+      "title": "David Byrne Who is the Sky Tour",
+      "date": "2026-08-27",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-08-27-little-miss-nasty",
       "title": "Little Miss Nasty",
       "date": "2026-08-27",
@@ -6235,6 +6953,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "batesnut-2026-08-29-2026-wildfire-safety-fair",
+      "title": "2026 Wildfire Safety Fair",
+      "date": "2026-08-29",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am - 1:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "ccae-2026-08-29-monoprinting-the-paul-klee-method",
       "title": "Monoprinting: The Paul Klee Method",
       "date": "2026-08-29",
@@ -6367,6 +7097,18 @@
       "added": null
     },
     {
+      "id": "spin-2026-08-29-club-sabbat-back-2-school-at-spi",
+      "title": "Club Sabbat: Back 2 School at Spin Nightclub",
+      "date": "2026-08-29",
+      "time": "21:00",
+      "venue": "SPIN",
+      "category": "spin",
+      "price": "$17.85",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/club-sabbat-back-2-school-at-spin-nightclub-tickets-1993296449338",
+      "added": "2026-07-19"
+    },
+    {
       "id": "epstein-2026-08-30-carnaval-of-new-latinx-musicals",
       "title": "Carnaval of New Latinx Musicals",
       "date": "2026-08-30",
@@ -6376,6 +7118,30 @@
       "price": "",
       "description": "",
       "url": "https://amphitheater.ucsd.edu/event/carnaval-of-new-latinx-musicals/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "makingmusic-2026-08-30-north-coast-strings-summer-con",
+      "title": "North Coast Strings Summer Concert",
+      "date": "2026-08-30",
+      "time": "14:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/ncs-summer-concert-26",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-08-30-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-08-30",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -6448,7 +7214,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/amor-y-powers/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "mcg-s1i36",
@@ -6832,7 +7598,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/judah-lourde/",
-      "added": "2026-07-18"
+      "added": "2026-07-19"
     },
     {
       "id": "newvillage-2026-09-04-misfitz-drag-showcase-and-open-stage",
@@ -6844,6 +7610,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/misfitz-drag-showcase-and-open-stage/2026-09-04/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ramona-2026-09-04-smells-like-nirvana",
+      "title": "Smells Like Nirvana",
+      "date": "2026-09-04",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=7462",
       "added": "2026-07-19"
     },
     {
@@ -6967,6 +7745,18 @@
       "added": null
     },
     {
+      "id": "sodabar-2026-09-05-6799171C0714D7B0",
+      "title": "The Holdup",
+      "date": "2026-09-05",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "",
+      "description": "",
+      "url": "",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-09-05-the-holdup",
       "title": "The Holdup",
       "date": "2026-09-05",
@@ -7036,6 +7826,18 @@
       "price": "",
       "description": "",
       "url": "https://amphitheater.ucsd.edu/event/pacific-soul-jazz-festival-day2/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-09-06-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -7435,6 +8237,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "makingmusic-2026-09-11-old-blind-dogs",
+      "title": "Old Blind Dogs",
+      "date": "2026-09-11",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "$45-",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/old-blind-dogs",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-09-11-pentagram-string-band",
       "title": "Pentagram String Band",
       "date": "2026-09-11",
@@ -7552,6 +8366,18 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/sticky-sweets/2026-09-11/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "calcoast-2026-09-11-wave-to-earth",
+      "title": "Wave to Earth",
+      "date": "2026-09-11",
+      "time": "20:15",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
       "added": "2026-07-19"
     },
     {
@@ -7675,6 +8501,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "ramona-2026-09-12-micromania-micro-athletes-and-",
+      "title": "MicroMania – Micro Athletes and Wrestling",
+      "date": "2026-09-12",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=6669",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14229634",
       "title": "Osees",
       "date": "2026-09-12",
@@ -7721,6 +8559,18 @@
       "description": "",
       "url": "https://theholdingcompanyob.com/show/my-town-fest-day-two/",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-09-13-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-09-13",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "newvillage-2026-09-13-we-will-rock-you",
@@ -8167,6 +9017,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "makingmusic-2026-09-18-dom-flemons-and-the-traveling-",
+      "title": "Dom Flemons and The Traveling Wildfires",
+      "date": "2026-09-18",
+      "time": "18:30",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "$55",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/dom-flemons",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-09-18-the-midnight",
       "title": "The Midnight",
       "date": "2026-09-18",
@@ -8287,6 +9149,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "batesnut-2026-09-19-community-yard-sale-september-",
+      "title": "Community Yard Sale September 2026",
+      "date": "2026-09-19",
+      "time": "07:30",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 7:30am - 12:30pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "ccae-2026-09-19-beginner-swing-classes-with-mercedes",
       "title": "Beginner Swing Classes with Mercedes Moore",
       "date": "2026-09-19",
@@ -8320,7 +9194,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/adversarial-productions-presents-insanity-infestation-of-evil-antebellum666-unblessed-domain-asphyxiater-enthrallment/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-09-19-safety-orange-gun-shy-tropical-drip-",
@@ -8431,6 +9305,18 @@
       "added": null
     },
     {
+      "id": "ramona-2026-09-19-so-petty-tribute-to-the-music-",
+      "title": "So Petty – Tribute to the Music of Tom Petty & the Heartbreakers",
+      "date": "2026-09-19",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=7321",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14256624",
       "title": "The Emo Night Tour",
       "date": "2026-09-19",
@@ -8452,6 +9338,18 @@
       "price": "",
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/concert-night-3/2026-09-20/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-09-20-american-truck-historical-soci",
+      "title": "American Truck Historical Society San Diego Chapter's 12th Annual Show at Bates Nut Farm",
+      "date": "2026-09-20",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-07-19"
     },
     {
@@ -8477,6 +9375,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/john-cameron-mitchell-hedwig-25th-anniversary-san-diego-california-09-20-2026/event/0B0064888EF729F8",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-09-20-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-09-20",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "newvillage-2026-09-20-we-will-rock-you",
@@ -8573,6 +9483,18 @@
       "description": "All welcome · As listed: Sept 20th fm 2-4pm",
       "url": null,
       "added": null
+    },
+    {
+      "id": "calcoast-2026-09-20-freya-skye-alex-sampson",
+      "title": "Freya Skye + Alex Sampson",
+      "date": "2026-09-20",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14890173",
@@ -9007,6 +9929,18 @@
       "added": null
     },
     {
+      "id": "calcoast-2026-09-25-codiciado",
+      "title": "Codiciado",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s2i28",
       "title": "DIEGO DEAD",
       "date": "2026-09-25",
@@ -9077,6 +10011,42 @@
       "description": "Punk · 21+",
       "url": "https://wl.seetickets.us/event/melt-banana/699413?afflky=Casbah",
       "added": null
+    },
+    {
+      "id": "batesnut-2026-09-26-early-days-gas-engine-tractor-",
+      "title": "Early Days Gas Engine & Tractor Association Regional Show",
+      "date": "2026-09-26",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am - 5:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-09-26-celebrating-farm-life-farm-edu",
+      "title": "Celebrating Farm Life, Farm Education and Youth Day",
+      "date": "2026-09-26",
+      "time": "10:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 10:00am - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-09-26-kids-market-valley-center",
+      "title": "Kids Market Valley Center",
+      "date": "2026-09-26",
+      "time": "10:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 10:00am - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
     },
     {
       "id": "pechanga-2026-09-26-hot-wheels-monster-trucks-live-glow-",
@@ -9151,6 +10121,30 @@
       "added": "2026-07-19"
     },
     {
+      "id": "calcoast-2026-09-26-erykah-badu-smino-the-alchemis",
+      "title": "Erykah Badu + Smino & The Alchemist",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ramona-2026-09-26-nerd-halen-tribute-to-van-hale",
+      "title": "Nerd Halen – Tribute to Van Halen",
+      "date": "2026-09-26",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10355",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14894363",
       "title": "RHCP Tribute - The Red NOT Chili Peppers",
       "date": "2026-09-26",
@@ -9211,6 +10205,18 @@
       "added": null
     },
     {
+      "id": "spreckels-2026-09-27-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-09-27",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
       "id": "mcg-s2i30",
       "title": "HUGHES TAYLOR BAND",
       "date": "2026-09-27",
@@ -9232,7 +10238,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/me-grimlock-strychnine-ninety-nine-one-square-mile-quid-punk-quo-eye-mind-matinee/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-09-27-salsa-sunday",
@@ -9245,6 +10251,18 @@
       "description": "Salsa & Bachata lessons with Positive Energy Dance Company, then social dancing. Every Sunday, 5:30 PM.",
       "url": "https://www.queenbeessd.com/classes",
       "added": null
+    },
+    {
+      "id": "observatory-2026-09-27-geoff-tate-operation-mindcrime-the-final",
+      "title": "Geoff Tate Operation: Mindcrime - The Final Chapter",
+      "date": "2026-09-27",
+      "time": "19:00",
+      "venue": "Observatory North Park",
+      "category": "observatory",
+      "price": "",
+      "description": "The Observatory North Park",
+      "url": "https://www.ticketmaster.com/geoff-tate-operation-mindcrime-the-final-san-diego-california-09-27-2026/event/0B006471C53E55CF",
+      "added": "2026-07-19"
     },
     {
       "id": "ccae-2026-09-27-stick-men",
@@ -9547,6 +10565,18 @@
       "added": null
     },
     {
+      "id": "ramona-2026-10-02-count-s-77",
+      "title": "Count’s 77",
+      "date": "2026-10-02",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10329",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14921413",
       "title": "LAUNDRY DAY",
       "date": "2026-10-02",
@@ -9619,6 +10649,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "batesnut-2026-10-03-pumpkin-festival-craft-fair",
+      "title": "Pumpkin Festival Craft Fair",
+      "date": "2026-10-03",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-10-03-accoustic-revolt-presents-clover-s",
       "title": "Accoustic Revolt presents Clover's Curfew  - Matinee",
       "date": "2026-10-03",
@@ -9628,7 +10670,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/accoustic-revolt-presents-clovers-curfew-matinee/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "holdingco-2026-10-03-buckingham-ween-ween-tribute-",
@@ -9688,7 +10730,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/accoustic-revolt-presents-will-varley-beans-on-toast-and-ciaran-oreilly/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14977883",
@@ -9727,6 +10769,30 @@
       "added": "2026-07-19"
     },
     {
+      "id": "calcoast-2026-10-03-julieta-venegas-norte-a-tour",
+      "title": "Julieta Venegas Norteña Tour",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ramona-2026-10-03-plush",
+      "title": "Plush",
+      "date": "2026-10-03",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10333",
+      "added": "2026-07-19"
+    },
+    {
       "id": "thesound-14801893",
       "title": "Sammy Rae & The Friends",
       "date": "2026-10-03",
@@ -9749,6 +10815,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/the-mother-hips-belly-up-tickets/14739473?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-10-04-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-10-04-salsa-sunday",
@@ -10075,6 +11153,18 @@
       "added": null
     },
     {
+      "id": "batesnut-2026-10-10-34th-annual-scarecrow-contest",
+      "title": "34th Annual Scarecrow Contest",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "humpbackstage-2026-10-10-trade-winds",
       "title": "Trade Winds",
       "date": "2026-10-10",
@@ -10145,6 +11235,18 @@
       "description": "Blues jam hosted by John January. Every 2nd Sunday, 1PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "spreckels-2026-10-11-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-10-11",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "whistlestop-2026-10-11-showdown-at-sundown",
@@ -10277,6 +11379,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "calcoast-2026-10-13-role-model-samia",
+      "title": "Role Model + Samia",
+      "date": "2026-10-13",
+      "time": "19:30",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
     },
     {
       "id": "pechanga-2026-10-13-sombr-you-are-the-reason-tour-2026",
@@ -10615,6 +11729,18 @@
       "added": null
     },
     {
+      "id": "ramona-2026-10-17-stevie-nicks-illusion-tribute-",
+      "title": "Stevie Nicks Illusion – Tribute to Fleetwood Mac & Stevie Nicks",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=8454",
+      "added": "2026-07-19"
+    },
+    {
       "id": "holdingco-2026-10-18-house-of-dawn",
       "title": "House of Dawn",
       "date": "2026-10-18",
@@ -10636,6 +11762,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/as-you-like-it/2026-10-18/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-10-18-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -10927,6 +12065,18 @@
       "added": null
     },
     {
+      "id": "calcoast-2026-10-22-dermot-kennedy-the-weight-of-t",
+      "title": "Dermot Kennedy The Weight of the Woods Tour + Jonah Kagen",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "bellyup-14939593",
       "title": "Eric Bellinger",
       "date": "2026-10-22",
@@ -11071,6 +12221,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "makingmusic-2026-10-24-alexandr-misko",
+      "title": "Alexandr Misko",
+      "date": "2026-10-24",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/alexandr-misko",
+      "added": "2026-07-19"
+    },
+    {
       "id": "ccae-2026-10-24-let-her-sing-2026",
       "title": "Let Her Sing – 2026",
       "date": "2026-10-24",
@@ -11119,6 +12281,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "ramona-2026-10-24-gethen-jenkins",
+      "title": "Gethen Jenkins",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=6730",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14808603",
       "title": "Oingo Boingo Former Members",
       "date": "2026-10-24",
@@ -11152,6 +12326,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/ayli/2026-10-25/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-10-25-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-10-25",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -11419,6 +12605,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "calcoast-2026-10-30-caifanes",
+      "title": "Caifanes",
+      "date": "2026-10-30",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "towerbar-2026-10-30-castle",
       "title": "Castle",
       "date": "2026-10-30",
@@ -11428,7 +12626,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/castle-2/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14103374",
@@ -11500,7 +12698,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/punk-rock-chili-dog-social-matinee-2/",
-      "added": null
+      "added": "2026-07-19"
     },
     {
       "id": "soma-2026-10-31-6lack",
@@ -11551,6 +12749,18 @@
       "added": null
     },
     {
+      "id": "calcoast-2026-10-31-ub40",
+      "title": "UB40",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14985883",
       "title": "WonkyWilla",
       "date": "2026-10-31",
@@ -11572,6 +12782,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/ayli/2026-11-01/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-11-01-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-11-01",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -11827,6 +13049,18 @@
       "added": null
     },
     {
+      "id": "ramona-2026-11-06-danny-seraphine-s-chicago-lega",
+      "title": "Danny Seraphine’s Chicago Legacy",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10350",
+      "added": "2026-07-19"
+    },
+    {
       "id": "thesound-14248134",
       "title": "The Billy Joel Legacy",
       "date": "2026-11-06",
@@ -11848,6 +13082,18 @@
       "price": "",
       "description": "National University presents the Bill Walton Classic coming to Pechanga Arena San Diego on November 7, 2026.",
       "url": "https://pechangaarenasd.com/event/national-university-bill-walton-classic/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "batesnut-2026-11-07-east-county-cruisers-car-show-",
+      "title": "East County Cruisers Car Show and Toy Drive",
+      "date": "2026-11-07",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am to 2:30pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-07-19"
     },
     {
@@ -11899,6 +13145,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "ramona-2026-11-07-maiden-united-iron-maiden-trib",
+      "title": "Maiden United – Iron Maiden Tribute",
+      "date": "2026-11-07",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=10361",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14903773",
       "title": "PRIVATE EVENT",
       "date": "2026-11-07",
@@ -11944,6 +13202,18 @@
       "price": "",
       "description": "",
       "url": "https://newvillagearts.org/event/ayli/2026-11-08/",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "spreckels-2026-11-08-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-11-08",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
     },
     {
@@ -12295,6 +13565,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "spreckels-2026-11-15-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
       "id": "qb-2026-11-15-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-11-15",
@@ -12353,6 +13635,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "calcoast-2026-11-17-alice-cooper-alice-s-attic-tou",
+      "title": "Alice Cooper Alice's Attic Tour",
+      "date": "2026-11-17",
+      "time": "20:00",
+      "venue": "Cal Coast Open Air Theatre",
+      "category": "calcoast",
+      "price": "",
+      "description": "",
+      "url": "https://as.sdsu.edu/calcoast/events",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14235644",
@@ -12437,6 +13731,18 @@
       "description": "With Kelly Willis",
       "url": "https://musicboxsd.com/event/14891433/son-volt-kelly-willis/",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-11-22-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-11-22",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-11-22-salsa-sunday",
@@ -12535,6 +13841,18 @@
       "added": null
     },
     {
+      "id": "batesnut-2026-11-27-santa-s-coming-craft-fair",
+      "title": "Santa's Coming! Craft Fair",
+      "date": "2026-11-27",
+      "time": "09:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 9:00am to 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "soma-2026-11-28-saosin-20-years-of-self-titled",
       "title": "Saosin: 20 Years of Self-Titled",
       "date": "2026-11-28",
@@ -12557,6 +13875,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/b-side-players-elijah-emanuel-belly-up-tickets/14219064?pl=bellyup&REFID=bupwebsite",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-11-29-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-11-29",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-11-29-salsa-sunday",
@@ -12643,6 +13973,18 @@
       "added": null
     },
     {
+      "id": "spreckels-2026-12-06-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-12-06",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
+    },
+    {
       "id": "casbah-699083",
       "title": "The Beat Farmers, TK and the Deadlist",
       "date": "2026-12-06",
@@ -12715,6 +14057,18 @@
       "added": null
     },
     {
+      "id": "batesnut-2026-12-11-christmas-in-valley-center-dat",
+      "title": "Christmas in Valley Center Date & Time: Friday, December 11, 2026 from 4:00pm - 8:00pm Date & Time: Saturday, December 12, 2026 from 9:00am - 3:00pm Learn more",
+      "date": "2026-12-11",
+      "time": "23:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: Friday, December 11, 2026 from 4:00pm - 8:00pm Date & Time: Saturday, December 12, 2026 from 9:00am - 3:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-07-19"
+    },
+    {
       "id": "musicbox-14935503",
       "title": "PRIVATE EVENT",
       "date": "2026-12-12",
@@ -12737,6 +14091,18 @@
       "description": "Blues jam hosted by John January. Every 2nd Sunday, 1PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "spreckels-2026-12-13-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-12-13",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-12-13-salsa-sunday",
@@ -12835,6 +14201,30 @@
       "added": null
     },
     {
+      "id": "makingmusic-2026-12-18-pokey-lafarge",
+      "title": "Pokey LaFarge",
+      "date": "2026-12-18",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "$50-",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/pokey-lafarge",
+      "added": "2026-07-19"
+    },
+    {
+      "id": "ramona-2026-12-18-gary-hoey-ho-ho-hoey-s-rockin-",
+      "title": "Gary Hoey – Ho Ho Hoey’s Rockin’ Holiday Tour",
+      "date": "2026-12-18",
+      "time": "20:00",
+      "venue": "Ramona Mainstage",
+      "category": "ramona",
+      "price": "",
+      "description": "",
+      "url": "https://ramonamainstage.com/?p=4232",
+      "added": "2026-07-19"
+    },
+    {
       "id": "thesound-14974573",
       "title": "nimino",
       "date": "2026-12-19",
@@ -12845,6 +14235,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/nimino-keep-me-awake-tour-the-sound-tickets/14974573?pl=The_Sound&REFID=TheSoundWS",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-12-20-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-12-20",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-12-20-salsa-sunday",
@@ -12893,6 +14295,18 @@
       "description": "",
       "url": "https://bellyup.com/shows/",
       "added": null
+    },
+    {
+      "id": "spreckels-2026-12-27-sunday-concert",
+      "title": "Sunday Organ Concert",
+      "date": "2026-12-27",
+      "time": "14:00",
+      "venue": "Spreckels Organ Pavilion",
+      "category": "spreckels",
+      "price": "Free",
+      "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
+      "url": "https://spreckelsorgan.org/sundays",
+      "added": "2026-07-19"
     },
     {
       "id": "qb-2026-12-27-salsa-sunday",
@@ -12965,6 +14379,18 @@
       "description": "",
       "url": "https://musicboxsd.com/event/14866583/closed-for-private-event/",
       "added": null
+    },
+    {
+      "id": "makingmusic-2027-02-27-kavita-shah",
+      "title": "Kavita Shah",
+      "date": "2027-02-27",
+      "time": "19:00",
+      "venue": "Museum of Making Music",
+      "category": "makingmusic",
+      "price": "",
+      "description": "",
+      "url": "https://www.museumofmakingmusic.org/events/kavita-shah",
+      "added": "2026-07-19"
     },
     {
       "id": "thesound-14978503",
@@ -13115,7 +14541,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-19 00:05",
+      "fetched": "2026-07-19 02:35",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
@@ -13123,7 +14549,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/07/bcbjuly2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-07-19 00:05",
+      "fetched": "2026-07-19 02:35",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 817438,

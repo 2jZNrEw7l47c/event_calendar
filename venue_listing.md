@@ -57,12 +57,12 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | # | Venue | Official Website | Scraper |
 |---|-------|------------------|---------|
 | 27 | Lou Lou's Jungle Room, Lafayette Hotel | https://www.thelafayette.com | ✅ Built (Casbah feed) |
-| 28 | Dizzy's | https://dizzysjazz.com | 🕐 Deferred (net-new) |
+| 28 | Dizzy's | https://dizzysjazz.com | ⚪ Site has placeholder calendar link |
 | 29 | EQ | https://eqsd.com | 🕐 Deferred (net-new) |
 | 30 | Rich's | https://richssandiego.com | ⚪ Tribe API live, 0 events |
 | 31 | The Brass Rail | https://www.thebrassrailsd.com | 🕐 Deferred (net-new) |
 | 32 | California Center for the Arts, Escondido | https://artcenter.org | ✅ Built (Tribe) |
-| 33 | Athenaeum Art Center \| Barrio Logan | https://www.ljathenaeum.org | 🕐 Deferred (net-new) |
+| 33 | Athenaeum Art Center \| Barrio Logan | https://www.ljathenaeum.org | 🕐 Deferred (thin series pages) |
 | 34 | Humphrey's Backstage Live | https://www.humphreysbackstagelive.com | ✅ Built (Tribe) |
 | 35 | Moonlight Amphitheatre | https://moonlightstage.com | 🕐 Deferred (net-new) |
 | 36 | The Old Globe | https://www.theoldglobe.org | 🕐 Deferred (net-new) |
@@ -73,23 +73,23 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 41 | Aquarius Bar & Grille | https://www.aquariusbargrille.com | 🕐 Deferred (net-new) |
 | 42 | Mr. Peabody's | https://mrpeabodys.net | 🔴 Unreachable |
 | 43 | Cannonball | https://www.cannonballsd.com | 🕐 Deferred (net-new) |
-| 44 | Tio Leo's | https://tioleos.com | 🕐 Deferred (net-new) |
+| 44 | Tio Leo's | https://tioleos.com | ⚪ No schedule in site HTML |
 | 45 | Pour House | https://www.pourhousesd.com | 🕐 Deferred (net-new) |
 | 46 | Pechanga Arena San Diego | https://pechangaarenasd.com | ✅ Built (Tribe) |
 | 47 | Mixed Grounds Coffee | https://www.mixedgroundscoffee.com | 🔴 Unreachable |
-| 48 | Coyote Bar & Grill, Carlsbad | https://www.coyotecarlsbad.com | 🕐 Deferred (net-new) |
-| 49 | SPIN | https://spinnightclub.com | 🕐 Deferred (net-new) |
+| 48 | Coyote Bar & Grill, Carlsbad | https://www.coyotecarlsbad.com | ⚪ Tribe link dead / no events |
+| 49 | SPIN | https://spinnightclub.com | ✅ Built (Eventbrite) |
 | 50 | Grand Lobby, Westgate Hotel | https://www.westgatehotel.com | 🕐 Deferred (net-new) |
 | 51 | Aztec Brewing Company, Vista | https://aztecbrewing.com | 🕐 Deferred (net-new) |
 | 52 | Luau Bar | https://www.luaubar.com | 🔴 Unreachable |
-| 53 | 710 Beach Club | https://www.710bc.com | 🕐 Deferred (net-new) |
+| 53 | 710 Beach Club | https://www.710bc.com | ✅ Built (Eventbrite) |
 | 54 | 535 Robinson (Pride Block Party site) | Special event location — no official venue website | ⚪ No venue website |
 | 55 | Balboa Theatre | https://www.sandiegotheatres.org | 🕐 Deferred (net-new) |
 | 56 | The Rady Shell at Jacobs Park | https://www.theshell.org | 🕐 Deferred (net-new) |
-| 57 | Panama 66 | https://www.panama66.com | 🕐 Deferred (net-new) |
+| 57 | Panama 66 | https://www.panama66.com | ✅ Built |
 | 58 | Fast Times | https://www.fasttimessd.com | 🕐 Deferred (net-new) |
 | 59 | Riviera Supper Club | https://www.rivierasupperclub.com | 🕐 Deferred (net-new) |
-| 60 | Moonshine Flats | https://moonshineflats.com | 🕐 Deferred (net-new) |
+| 60 | Moonshine Flats | https://moonshineflats.com | 🕐 Deferred (uv-calendar widget) |
 | 61 | San Diego Natural History Museum | https://www.sdnhm.org | 🕐 Deferred (net-new) |
 | 62 | La Jolla Playhouse | https://lajollaplayhouse.org | 🕐 Deferred (net-new) |
 | 63 | Oceanside Theatre Company at The Brooks | https://oceansidetheatre.org | 🕐 Deferred (net-new) |
@@ -98,12 +98,12 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 66 | 5 o'Clock Somewhere Bar (Margaritaville Hotel) | https://www.margaritavilleresorts.com/margaritaville-hotel-san-diego-gaslamp-quarter | 🕐 Deferred (net-new) |
 | 67 | LandShark Bar & Grill (Margaritaville Hotel) | https://www.margaritavilleresorts.com/margaritaville-hotel-san-diego-gaslamp-quarter | 🕐 Deferred (net-new) |
 | 68 | Renegade Country | https://renegade.country | 🔴 Unreachable |
-| 69 | Lobby Bar, Sycuan Casino Resort | https://www.sycuan.com | 🕐 Deferred (net-new) |
+| 69 | Lobby Bar, Sycuan Casino Resort | https://www.sycuan.com | ✅ Built |
 | 70 | Quartyard | https://www.quartyardsd.com | ✅ Built (Casbah feed) |
 | 71 | Pop Up Winona | https://popupwinona.com | 🔴 Unreachable |
-| 72 | Blind Lady Ale House | https://www.blindladyalehouse.com | 🕐 Deferred (net-new) |
+| 72 | Blind Lady Ale House | https://www.blindladyalehouse.com | ✅ Built |
 | 73 | Mo's | https://mosuniverse.com | 🕐 Deferred (net-new) |
-| 74 | Moonshine Beach | https://moonshinebeachsd.com | 🕐 Deferred (net-new) |
+| 74 | Moonshine Beach | https://moonshinebeachsd.com | 🕐 Deferred (uv-calendar widget) |
 | 75 | Del Mar Racetrack | https://web.dmtc.com | 🔴 Unreachable |
 | 76 | L'Auberge Del Mar | https://www.laubergedelmar.com | 🕐 Deferred (net-new) |
 | 77 | University Ave & Richmond Ave | — | ⚪ No venue website |
@@ -111,26 +111,26 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 79 | Humphrey's Concerts By The Bay | https://www.humphreysconcerts.com | ✅ Built (Casbah feed) |
 | 80 | Platform 34 | https://www.platform34sd.com | 🔴 Unreachable |
 | 81 | Worldbeat Center | https://www.worldbeatcenter.org | ✅ Built (Tribe) |
-| 82 | Bayfront Amphitheatre, SeaWorld | https://seaworld.com/san-diego | 🕐 Deferred (net-new) |
-| 83 | The Heart OB | https://www.theheartob.com | 🕐 Deferred (Wix JS) |
-| 84 | Ramona Mainstage | https://ramonamainstage.com | 🕐 Deferred (net-new) |
-| 85 | Bates Nut Farm | https://batesnutfarm.biz | 🕐 Deferred (net-new) |
-| 86 | Museum of Making Music | https://www.museumofmakingmusic.org | 🕐 Deferred (net-new) |
-| 87 | Frontwave Arena | https://www.frontwavearena.com | 🕐 Deferred (net-new) |
+| 82 | Bayfront Amphitheatre, SeaWorld | https://seaworld.com/san-diego | ⚪ Park shows only (no concert feed) |
+| 83 | The Heart OB | https://www.theheartob.com | ✅ Built (Wix JSON) |
+| 84 | Ramona Mainstage | https://ramonamainstage.com | ✅ Built |
+| 85 | Bates Nut Farm | https://batesnutfarm.biz | ✅ Built |
+| 86 | Museum of Making Music | https://www.museumofmakingmusic.org | ✅ Built |
+| 87 | Frontwave Arena | https://www.frontwavearena.com | 🕐 Deferred (AXS, JS-only) |
 | 88 | Kate Sessions Park | https://www.sandiego.gov/park-and-recreation/parks/regional/balboa/kate-sessions | 🕐 Deferred (net-new) |
 | 89 | Southwestern College, DeVore Stadium | https://swcathletics.com | 🔴 Unreachable |
 | 90 | Orca Stadium, SeaWorld | https://seaworld.com/san-diego | 🕐 Deferred (net-new) |
-| 91 | Fit Social, Belmont Park | https://fitathletic.com | 🕐 Deferred (net-new) |
-| 92 | La Jolla Athenaeum Music & Arts Library | https://www.ljathenaeum.org | 🕐 Deferred (net-new) |
-| 93 | Spreckels Organ Pavilion | https://spreckelsorgan.org | 🕐 Deferred (net-new) |
+| 91 | Fit Social, Belmont Park | https://fitathletic.com | 🕐 Deferred (Eventbrite, fitness events) |
+| 92 | La Jolla Athenaeum Music & Arts Library | https://www.ljathenaeum.org | 🕐 Deferred (thin series pages) |
+| 93 | Spreckels Organ Pavilion | https://spreckelsorgan.org | ✅ Built (recurring) |
 | 94 | Neon Moon | https://www.neonmoonsd.com | 🕐 Deferred (net-new) |
 | 95 | Epstein Family Amphitheater | https://amphitheater.ucsd.edu | ✅ Built (Tribe) |
-| 96 | Cal Coast Credit Union Open Air Theatre, SDSU | https://as.sdsu.edu/calcoast | 🕐 Deferred (net-new) |
+| 96 | Cal Coast Credit Union Open Air Theatre, SDSU | https://as.sdsu.edu/calcoast | ✅ Built |
 | 97 | Corazon Del Barrio | https://corazondelbarrio.org | 🕐 Deferred (Wix JS) |
 | 98 | Bancroft Bar | https://www.bancroftbar.com | 🕐 Deferred (net-new) |
 | 99 | Fall Brewing | https://fallbrewingcompany.com | 🕐 Deferred (net-new) |
-| 100 | Copley Auditorium, Panama 66 | https://www.panama66.com | 🕐 Deferred (net-new) |
-| 101 | Blind Lady Ale House \| Live In The Hamm's Room | https://blindladyalehouse.com | 🕐 Deferred (net-new) |
+| 100 | Copley Auditorium, Panama 66 | https://www.panama66.com | ✅ Built (with #57) |
+| 101 | Blind Lady Ale House \| Live In The Hamm's Room | https://blindladyalehouse.com | ✅ Built (with #72) |
 | 102 | Southwestern College Performing Arts Center | https://www.swccd.edu/campus-life/performing-arts-center/index.aspx | 🕐 Deferred (net-new) |
 | 103 | Hilton San Diego Gaslamp Quarter | https://www.hilton.com/en/hotels/sanhhhf-hilton-san-diego-gaslamp-quarter | 🕐 Deferred (net-new) |
 | 104 | American Junkie | https://americanjunkiesd.com | 🕐 Deferred (net-new) |
