@@ -67,12 +67,12 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 35 | Moonlight Amphitheatre | https://moonlightstage.com | 🕐 Deferred (net-new) |
 | 36 | The Old Globe | https://www.theoldglobe.org | 🕐 Deferred (net-new) |
 | 37 | New Village Arts | https://newvillagearts.org | ✅ Built (Tribe) |
-| 38 | Cygnet Theatre \| The Joan at Liberty Station | https://cygnettheatre.org | 🕐 Deferred (net-new) |
+| 38 | Cygnet Theatre \| The Joan at Liberty Station | https://cygnettheatre.org | ✅ Built |
 | 39 | Lamb's Players Theatre | https://lambsplayers.org | 🕐 Deferred (net-new) |
 | 40 | North Coast Repertory Theatre | https://northcoastrep.org | 🕐 Deferred (net-new) |
 | 41 | Aquarius Bar & Grille | https://www.aquariusbargrille.com | 🕐 Deferred (net-new) |
 | 42 | Mr. Peabody's | https://mrpeabodys.net | 🔴 Unreachable |
-| 43 | Cannonball | https://www.cannonballsd.com | 🕐 Deferred (net-new) |
+| 43 | Cannonball | https://www.belmontpark.com | ⚪ Now a Belmont Park restaurant page; no events |
 | 44 | Tio Leo's | https://tioleos.com | ⚪ No schedule in site HTML |
 | 45 | Pour House | https://www.pourhousesd.com | 🕐 Deferred (net-new) |
 | 46 | Pechanga Arena San Diego | https://pechangaarenasd.com | ✅ Built (Tribe) |
@@ -89,7 +89,7 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 57 | Panama 66 | https://www.panama66.com | ✅ Built |
 | 58 | Fast Times | https://www.fasttimessd.com | 🕐 Deferred (net-new) |
 | 59 | Riviera Supper Club | https://www.rivierasupperclub.com | 🕐 Deferred (net-new) |
-| 60 | Moonshine Flats | https://moonshineflats.com | 🕐 Deferred (uv-calendar widget) |
+| 60 | Moonshine Flats | https://moonshineflats.com | ✅ Built (via Beach calendar) |
 | 61 | San Diego Natural History Museum | https://www.sdnhm.org | 🕐 Deferred (net-new) |
 | 62 | La Jolla Playhouse | https://lajollaplayhouse.org | 🕐 Deferred (net-new) |
 | 63 | Oceanside Theatre Company at The Brooks | https://oceansidetheatre.org | 🕐 Deferred (net-new) |
@@ -102,12 +102,12 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 70 | Quartyard | https://www.quartyardsd.com | ✅ Built (Casbah feed) |
 | 71 | Pop Up Winona | https://popupwinona.com | 🔴 Unreachable |
 | 72 | Blind Lady Ale House | https://www.blindladyalehouse.com | ✅ Built |
-| 73 | Mo's | https://mosuniverse.com | 🕐 Deferred (net-new) |
-| 74 | Moonshine Beach | https://moonshinebeachsd.com | 🕐 Deferred (uv-calendar widget) |
-| 75 | Del Mar Racetrack | https://web.dmtc.com | 🔴 Unreachable |
+| 73 | Mo's (Urban MO's) | https://urbanmos.com | ✅ Built (Tribe) |
+| 74 | Moonshine Beach | https://moonshinebeachsd.com | ✅ Built |
+| 75 | Del Mar Racetrack | https://www.dmtc.com | 🕐 Deferred (JS calendar) |
 | 76 | L'Auberge Del Mar | https://www.laubergedelmar.com | 🕐 Deferred (net-new) |
 | 77 | University Ave & Richmond Ave | — | ⚪ No venue website |
-| 78 | Marston Point, Balboa Park | https://www.balboapark.org | 🕐 Deferred (Tribe=219 park-wide; needs curation) |
+| 78 | Marston Point, Balboa Park | https://www.balboapark.org | ✅ Built (park-wide Tribe feed) |
 | 79 | Humphrey's Concerts By The Bay | https://www.humphreysconcerts.com | ✅ Built (Casbah feed) |
 | 80 | Platform 34 | https://www.platform34sd.com | 🔴 Unreachable |
 | 81 | Worldbeat Center | https://www.worldbeatcenter.org | ✅ Built (Tribe) |

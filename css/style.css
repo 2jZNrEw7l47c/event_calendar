@@ -59,6 +59,11 @@
   --cat-spin: #703fa0;
   --cat-beach710: #1f8c6b;
   --cat-batesnut: #8c522f;
+  --cat-urbanmos: #c2366b;
+  --cat-balboapark: #3f7a52;
+  --cat-moonshinebeach: #8c7a1f;
+  --cat-moonshineflats: #6b5223;
+  --cat-cygnet: #23528c;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -548,6 +553,11 @@ a { color: inherit; }
 .cat-spin         { color: var(--cat-spin); }
 .cat-beach710     { color: var(--cat-beach710); }
 .cat-batesnut     { color: var(--cat-batesnut); }
+.cat-urbanmos       { color: var(--cat-urbanmos); }
+.cat-balboapark     { color: var(--cat-balboapark); }
+.cat-moonshinebeach { color: var(--cat-moonshinebeach); }
+.cat-moonshineflats { color: var(--cat-moonshineflats); }
+.cat-cygnet         { color: var(--cat-cygnet); }
 
 /* ---------- Detail dialog ---------- */
 

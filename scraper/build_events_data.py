@@ -53,6 +53,10 @@ import scrape_heartob
 import scrape_spin
 import scrape_710bc
 import scrape_batesnut
+import scrape_urbanmos
+import scrape_balboapark
+import scrape_moonshine
+import scrape_cygnet
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -97,11 +101,17 @@ SCRAPERS = [
     ("spin", "SPIN", scrape_spin),
     ("beach710", "710 Beach Club", scrape_710bc),
     ("batesnut", "Bates Nut Farm", scrape_batesnut),
+    ("urbanmos", "Urban MO's", scrape_urbanmos),
+    ("balboapark", "Balboa Park", scrape_balboapark),
+    ("moonshinebeach", "Moonshine Beach", scrape_moonshine.scrape_beach),
+    ("moonshineflats", "Moonshine Flats", scrape_moonshine.scrape_flats),
+    ("cygnet", "Cygnet Theatre", scrape_cygnet),
 ]
 
-# Belly Up's feed aggregates other rooms (incl. The Sound). When the same show
-# (same title + date) appears for both, keep The Sound's copy and drop Belly Up's.
-DEDUP_PREFER = [("thesound", "bellyup")]
+# Belly Up's feed aggregates other rooms (incl. The Sound and Music Box). When
+# the same show (same title + date) appears for both, keep the room's own copy
+# and drop Belly Up's.
+DEDUP_PREFER = [("thesound", "bellyup"), ("musicbox", "bellyup")]
 
 # Drop any event whose title or description matches one of these (whole-word,
 # case-insensitive). Keeps happy hours and metal nights out of the listings.
@@ -206,7 +216,10 @@ def main():
     excluded = 0
     for key, label, module in SCRAPERS:
         try:
-            evs = module.scrape(today)
+            # entries are usually modules exposing scrape(); bare callables
+            # (e.g. scrape_moonshine.scrape_beach) are accepted too
+            fn = getattr(module, "scrape", module)
+            evs = fn(today)
         except Exception as exc:                       # keep other venues if one fails
             print("!! %s failed: %s" % (label, exc))
             evs = []
