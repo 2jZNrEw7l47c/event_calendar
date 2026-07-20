@@ -28,16 +28,14 @@
   state.calYear = today.getFullYear();
   state.calMonth = today.getMonth();
 
-  // The scraper stamps each event with the build date it first appeared
-  // ("added"). The newest stamp present marks the latest batch of additions —
-  // that's what the "New" toggle shows, so re-running an update that finds
-  // nothing new doesn't wipe the view.
-  var NEWEST_ADDED = EVENTS.reduce(function (max, e) {
-    return e.added && e.added > max ? e.added : max;
-  }, "");
+  // The scraper stamps each event with the run timestamp of the build that
+  // first saw it ("added"), and records the latest run's stamp as LAST_RUN.
+  // "New" means exactly: added by the most recent run — nothing older, even
+  // from earlier the same day, and nothing if the last run added no events.
+  var LAST_RUN = window.LAST_RUN || "";
 
   function isNew(ev) {
-    return !!NEWEST_ADDED && ev.added === NEWEST_ADDED;
+    return !!LAST_RUN && ev.added === LAST_RUN;
   }
 
   // ---------- Helpers ----------
@@ -407,7 +405,7 @@
         "filter-pill filter-pill--new" + (state.newOnly ? " is-active" : ""),
         "New (" + newCount + ")");
       newPill.type = "button";
-      newPill.title = "Events added by the latest scrape (" + NEWEST_ADDED + ")";
+      newPill.title = "Events added by the latest scrape (" + LAST_RUN + ")";
       newPill.addEventListener("click", function () {
         state.newOnly = !state.newOnly;
         renderFilters();

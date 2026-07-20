@@ -166,12 +166,14 @@ def _identity(e):
     return "%s|%s|%s" % (e["category"], e["date"], _norm(e["title"]))
 
 
-def _stamp_added(events, today):
-    """Mark each event with the build date it was first seen ("added").
+def _stamp_added(events, run_stamp):
+    """Mark each event with the run stamp of the build that first saw it.
 
     Compares against the previous data/events.json: events already known keep
-    their original stamp; genuinely new ones get today's date. The page uses
-    the newest batch of stamps to show "what's new since the last scrape".
+    their original stamp; genuinely new ones get this run's full timestamp.
+    The page shows as "New" exactly the events whose stamp equals the latest
+    run's stamp — so only the most recent run's additions ever show as New,
+    even across multiple runs on the same day.
     Returns the number of newly added events this run.
     """
     prev = None
@@ -182,7 +184,6 @@ def _stamp_added(events, today):
     except (OSError, ValueError):
         pass
 
-    today_str = today.isoformat()
     new_count = 0
     for e in events:
         if prev is None:
@@ -191,7 +192,7 @@ def _stamp_added(events, today):
         elif _identity(e) in prev:
             e["added"] = prev[_identity(e)]
         else:
-            e["added"] = today_str
+            e["added"] = run_stamp
             new_count += 1
     return new_count
 
@@ -225,7 +226,9 @@ def main():
     # file is easier to diff and eyeball.
     all_events.sort(key=lambda e: (e["date"], e["time"], e["title"].lower()))
 
-    new_count = _stamp_added(all_events, today)
+    # One stamp per run (minute precision) — identifies this run's additions.
+    stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    new_count = _stamp_added(all_events, stamp)
     if new_count:
         print("  (%d newly added events since last build)" % new_count)
 
@@ -245,7 +248,6 @@ def main():
     payload_cats = json.dumps(categories, indent=2, ensure_ascii=False)
     payload_flyers = json.dumps(flyers, indent=2, ensure_ascii=False)
     payload_linkouts = json.dumps(LINKOUTS, indent=2, ensure_ascii=False)
-    stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 
     header = (
         "/* ------------------------------------------------------------------\n"
@@ -260,7 +262,8 @@ def main():
     js = header + "window.CATEGORIES = " + payload_cats + ";\n\n" \
         + "window.EVENTS = " + payload_events + ";\n\n" \
         + "window.FLYERS = " + payload_flyers + ";\n\n" \
-        + "window.LINKOUTS = " + payload_linkouts + ";\n"
+        + "window.LINKOUTS = " + payload_linkouts + ";\n\n" \
+        + "window.LAST_RUN = " + json.dumps(stamp) + ";\n"
 
     os.makedirs(os.path.dirname(JS_OUT), exist_ok=True)
     os.makedirs(os.path.dirname(JSON_OUT), exist_ok=True)

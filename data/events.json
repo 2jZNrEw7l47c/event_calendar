@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19 19:17",
+  "generated": "2026-07-19 19:21",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -7757,6 +7757,18 @@
       "added": "2026-07-19"
     },
     {
+      "id": "bellyup-14768383",
+      "title": "Jerry's Middle Finger",
+      "date": "2026-09-05",
+      "time": "20:00",
+      "venue": "Belly Up",
+      "category": "bellyup",
+      "price": "",
+      "description": "",
+      "url": "https://www.ticketweb.com/event/jerrys-middle-finger-music-box-tickets/14768383?REFID=bupwebsite",
+      "added": "2026-07-19 19:21"
+    },
+    {
       "id": "musicbox-14768383",
       "title": "Jerry's Middle Finger",
       "date": "2026-09-05",
@@ -14505,7 +14517,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-19 19:16",
+      "fetched": "2026-07-19 19:21",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
@@ -14513,7 +14525,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/07/bcbjuly2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-07-19 19:16",
+      "fetched": "2026-07-19 19:21",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 817438,
