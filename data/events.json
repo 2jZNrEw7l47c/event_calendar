@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19 02:35",
+  "generated": "2026-07-19 19:17",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -233,18 +233,6 @@
       "added": null
     },
     {
-      "id": "brick-14214034",
-      "title": "Angst of the Era: Celebrating the Best of 90's Aggressive Music",
-      "date": "2026-07-18",
-      "time": "19:00",
-      "venue": "Brick By Brick",
-      "category": "brick",
-      "price": "",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/angst-of-the-era-celebrating-brick-by-brick-tickets/14214034?REFID=clientsitewp",
-      "added": null
-    },
-    {
       "id": "kensington-2026-07-18-a-face-with-no-name-once-loved-low",
       "title": "a face with no name once loved low points redwood vine",
       "date": "2026-07-18",
@@ -257,18 +245,6 @@
       "added": null
     },
     {
-      "id": "bellyup-14840403",
-      "title": "Journey USA",
-      "date": "2026-07-18",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "Assisted Living",
-      "url": "https://www.ticketweb.com/event/journey-usa-assisted-living-belly-up-tickets/14840403?pl=bellyup&REFID=bupwebsite",
-      "added": null
-    },
-    {
       "id": "mcg-s0i3",
       "title": "SHIELD OF SNAKES",
       "date": "2026-07-18",
@@ -278,18 +254,6 @@
       "price": "$10 COVER",
       "description": "DESERT SONS · MEZZOA · (HARD ROCK ORIGINALS) · As listed: July 18th at 8pm",
       "url": null,
-      "added": null
-    },
-    {
-      "id": "casbah-682682",
-      "title": "Low Cut Connie, Kate Clover",
-      "date": "2026-07-18",
-      "time": "20:30",
-      "venue": "Casbah",
-      "category": "casbah",
-      "price": "",
-      "description": "Rock",
-      "url": "https://wl.seetickets.us/event/low-cut-connie-kate-clover/682682?afflky=Casbah",
       "added": null
     },
     {
@@ -431,7 +395,7 @@
       "time": "17:30",
       "venue": "The Holding Company",
       "category": "holdingco",
-      "price": "$17",
+      "price": "",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/the-soapgirls/",
       "added": null
@@ -473,7 +437,7 @@
       "added": null
     },
     {
-      "id": "banshee-2026-07-19-3533C69CBC3D6096",
+      "id": "banshee-2026-07-19-FCD28D19DC6BE079",
       "title": "Calabio Twins, Transmutation, and Violuminescence",
       "date": "2026-07-19",
       "time": "19:00",
@@ -1071,6 +1035,18 @@
       "description": "",
       "url": "https://link.dice.fm/f89ab45381ae",
       "added": null
+    },
+    {
+      "id": "holdingco-2026-07-23-jeff-dewine-friends-mini-market",
+      "title": "Jeff Dewine & Friends: Mini Market",
+      "date": "2026-07-23",
+      "time": "19:30",
+      "venue": "The Holding Company",
+      "category": "holdingco",
+      "price": "",
+      "description": "",
+      "url": "https://theholdingcompanyob.com/show/jeff-dewine-friends-mini-market/",
+      "added": "2026-07-19"
     },
     {
       "id": "bellyup-14872643",
@@ -7779,18 +7755,6 @@
       "description": "",
       "url": "https://www.humphreysbackstagelive.com/event/groove-line-2/2026-09-05/",
       "added": "2026-07-19"
-    },
-    {
-      "id": "bellyup-14768383",
-      "title": "Jerry's Middle Finger",
-      "date": "2026-09-05",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/jerrys-middle-finger-music-box-tickets/14768383?REFID=bupwebsite",
-      "added": null
     },
     {
       "id": "musicbox-14768383",
@@ -14541,7 +14505,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/349a88823b26138210dbc63c16581221e2d0afcaf99e22.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-07-19 02:35",
+      "fetched": "2026-07-19 19:16",
       "image": "data/deanos-flyer.jpg",
       "bytes": 472680,
       "venue": "Deano's Pub"
@@ -14549,7 +14513,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/07/bcbjuly2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-07-19 02:35",
+      "fetched": "2026-07-19 19:16",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 817438,
