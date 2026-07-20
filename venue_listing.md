@@ -104,7 +104,7 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 72 | Blind Lady Ale House | https://www.blindladyalehouse.com | ✅ Built |
 | 73 | Mo's (Urban MO's) | https://urbanmos.com | ✅ Built (Tribe) |
 | 74 | Moonshine Beach | https://moonshinebeachsd.com | ✅ Built |
-| 75 | Del Mar Racetrack | https://www.dmtc.com | 🕐 Deferred (JS calendar) |
+| 75 | Del Mar Racetrack / Fairgrounds | https://www.dmtc.com | ✅ Built (racing events filtered out; dedup defers to The Sound) |
 | 76 | L'Auberge Del Mar | https://www.laubergedelmar.com | 🕐 Deferred (net-new) |
 | 77 | University Ave & Richmond Ave | — | ⚪ No venue website |
 | 78 | Marston Point, Balboa Park | https://www.balboapark.org | ✅ Built (park-wide Tribe feed) |
@@ -134,3 +134,12 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 102 | Southwestern College Performing Arts Center | https://www.swccd.edu/campus-life/performing-arts-center/index.aspx | 🕐 Deferred (net-new) |
 | 103 | Hilton San Diego Gaslamp Quarter | https://www.hilton.com/en/hotels/sanhhhf-hilton-san-diego-gaslamp-quarter | 🕐 Deferred (net-new) |
 | 104 | American Junkie | https://americanjunkiesd.com | 🕐 Deferred (net-new) |
+
+## Additional Sources
+
+| Source | Website | Status |
+|--------|---------|--------|
+| La Mesa Village Association | https://www.lamesavillageassociation.org/la-mesa-village-calendar-of-events | ✅ Built (titles prefixed "La Mesa Village - "; flagged Local) |
+| San Diego Reader events | https://www.sandiegoreader.com/events/ | ✅ Built (aggregator — loses all dedup conflicts) |
+| KPBS community calendar | https://www.kpbs.org/events/all | ✅ Built (aggregator — loses all dedup conflicts) |
+| sandiego.org events | https://www.sandiego.org/events-festivals | 🟡 Bot-blocked (Cloudflare 403 to scripts; loads only in a real browser — needs headless) |

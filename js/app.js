@@ -19,9 +19,12 @@
     view: "list",           // "list" | "calendar"
     filter: null,           // category key or null for all
     newOnly: false,         // show only events added by the latest scrape batch
+    localOnly: false,       // show only venues flagged Local (window.LOCALS)
     calYear: null,
     calMonth: null          // 0-indexed
   };
+
+  var LOCALS = Array.isArray(window.LOCALS) ? window.LOCALS : [];
 
   var today = new Date();
   today.setHours(0, 0, 0, 0);
@@ -79,6 +82,9 @@
     if (state.newOnly) {
       list = list.filter(isNew);
     }
+    if (state.localOnly) {
+      list = list.filter(function (e) { return LOCALS.indexOf(e.category) !== -1; });
+    }
     if (state.filter) {
       list = list.filter(function (e) { return e.category === state.filter; });
     }
@@ -109,6 +115,7 @@
     document.getElementById("event-count").textContent =
       events.length + " listing" + (events.length === 1 ? "" : "s") +
       (state.newOnly ? " · new since last scrape" : "") +
+      (state.localOnly ? " · local venues" : "") +
       (state.filter ? " · " + CATEGORIES[state.filter] : "");
 
     if (!events.length) {
@@ -169,6 +176,7 @@
     document.getElementById("event-count").textContent =
       events.length + " listing" + (events.length === 1 ? "" : "s") +
       (state.newOnly ? " · new since last scrape" : "") +
+      (state.localOnly ? " · local venues" : "") +
       (state.filter ? " · " + CATEGORIES[state.filter] : "");
 
     var firstDay = new Date(state.calYear, state.calMonth, 1).getDay();
@@ -412,6 +420,23 @@
         render();
       });
       wrap.appendChild(newPill);
+    }
+
+    // "Local" toggle: neighborhood venues flagged in window.LOCALS.
+    if (LOCALS.length) {
+      var localPill = el("button",
+        "filter-pill filter-pill--local" + (state.localOnly ? " is-active" : ""),
+        "Local");
+      localPill.type = "button";
+      localPill.title = "Neighborhood spots: " + LOCALS.map(function (k) {
+        return CATEGORIES[k] || k;
+      }).join(", ") + " (plus Deano's flyer)";
+      localPill.addEventListener("click", function () {
+        state.localOnly = !state.localOnly;
+        renderFilters();
+        render();
+      });
+      wrap.appendChild(localPill);
     }
 
     var all = el("button", "filter-pill" + (state.filter === null ? " is-active" : ""), "All");

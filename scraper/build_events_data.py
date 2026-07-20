@@ -57,6 +57,10 @@ import scrape_urbanmos
 import scrape_balboapark
 import scrape_moonshine
 import scrape_cygnet
+import scrape_delmar
+import scrape_lamesa
+import scrape_sdreader
+import scrape_kpbs
 
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
@@ -106,12 +110,27 @@ SCRAPERS = [
     ("moonshinebeach", "Moonshine Beach", scrape_moonshine.scrape_beach),
     ("moonshineflats", "Moonshine Flats", scrape_moonshine.scrape_flats),
     ("cygnet", "Cygnet Theatre", scrape_cygnet),
+    ("delmar", "Del Mar Fairgrounds", scrape_delmar),
+    ("lamesa", "La Mesa Village", scrape_lamesa),
+    ("sdreader", "SD Reader picks", scrape_sdreader),
+    ("kpbs", "KPBS calendar", scrape_kpbs),
 ]
+
+# Aggregator feeds (not real venues). If an aggregator event matches any
+# venue-scraped event on (date, title), the venue's copy wins; between
+# aggregators, the earlier-listed category wins.
+AGGREGATOR_CATS = ("sdreader", "kpbs")
+
+# Venues flagged as "Local" neighborhood spots — the page shows a Local pill
+# filtering to these. (Deano's Pub is also local but is a flyer venue with no
+# list events.)
+LOCAL_CATEGORIES = ["mcguffies", "camels", "lamesa"]
 
 # Belly Up's feed aggregates other rooms (incl. The Sound and Music Box). When
 # the same show (same title + date) appears for both, keep the room's own copy
 # and drop Belly Up's.
-DEDUP_PREFER = [("thesound", "bellyup"), ("musicbox", "bellyup")]
+DEDUP_PREFER = [("thesound", "bellyup"), ("musicbox", "bellyup"),
+                ("thesound", "delmar")]
 
 # Drop any event whose title or description matches one of these (whole-word,
 # case-insensitive). Keeps happy hours and metal nights out of the listings.
@@ -168,6 +187,27 @@ def _dedup_across_venues(events, per_venue):
         if removed:
             print("  (deduped %d %s events also listed by %s)" % (removed, drop_cat, keep_cat))
     return events
+
+
+def _dedup_aggregators(events):
+    """Aggregator events lose every (date, title) conflict: first against any
+    venue-scraped event, then against earlier-listed aggregators."""
+    venue_keys = {(e["date"], _norm(e["title"]))
+                  for e in events if e["category"] not in AGGREGATOR_CATS}
+    kept = []
+    removed = 0
+    agg_seen = set()
+    for e in events:
+        if e["category"] in AGGREGATOR_CATS:
+            key = (e["date"], _norm(e["title"]))
+            if key in venue_keys or key in agg_seen:
+                removed += 1
+                continue
+            agg_seen.add(key)
+        kept.append(e)
+    if removed:
+        print("  (deduped %d aggregator events already covered by venues)" % removed)
+    return kept
 
 
 def _identity(e):
@@ -234,6 +274,7 @@ def main():
         print("  (filtered %d events matching %s)" % (excluded, "/".join(EXCLUDE_KEYWORDS)))
 
     all_events = _dedup_across_venues(all_events, per_venue)
+    all_events = _dedup_aggregators(all_events)
 
     # Sort chronologically (date then time) — the page also sorts, but a tidy
     # file is easier to diff and eyeball.
@@ -276,7 +317,8 @@ def main():
         + "window.EVENTS = " + payload_events + ";\n\n" \
         + "window.FLYERS = " + payload_flyers + ";\n\n" \
         + "window.LINKOUTS = " + payload_linkouts + ";\n\n" \
-        + "window.LAST_RUN = " + json.dumps(stamp) + ";\n"
+        + "window.LAST_RUN = " + json.dumps(stamp) + ";\n\n" \
+        + "window.LOCALS = " + json.dumps(LOCAL_CATEGORIES) + ";\n"
 
     os.makedirs(os.path.dirname(JS_OUT), exist_ok=True)
     os.makedirs(os.path.dirname(JSON_OUT), exist_ok=True)

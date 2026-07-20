@@ -64,6 +64,12 @@
   --cat-moonshinebeach: #8c7a1f;
   --cat-moonshineflats: #6b5223;
   --cat-cygnet: #23528c;
+  --cat-delmar: #1f7a52;
+  --cat-lamesa: #a0522f;
+  --cat-sdreader: #52527a;
+  --cat-kpbs: #7a5252;
+
+  --local: #2f5d3a;
 
   --serif: "Fraunces", Georgia, serif;
   --sans: "Inter", -apple-system, "Segoe UI", sans-serif;
@@ -200,6 +206,21 @@ a { color: inherit; }
 .filter-pill.is-active {
   background: var(--ink);
   border-color: var(--ink);
+  color: var(--paper);
+}
+
+/* "Local" venues toggle */
+.filter-pill--local {
+  border-color: var(--local);
+  color: var(--local);
+  font-weight: 600;
+}
+
+.filter-pill--local:hover { border-color: var(--local); color: var(--local); background: rgba(47, 93, 58, 0.09); }
+
+.filter-pill--local.is-active {
+  background: var(--local);
+  border-color: var(--local);
   color: var(--paper);
 }
 
@@ -558,6 +579,10 @@ a { color: inherit; }
 .cat-moonshinebeach { color: var(--cat-moonshinebeach); }
 .cat-moonshineflats { color: var(--cat-moonshineflats); }
 .cat-cygnet         { color: var(--cat-cygnet); }
+.cat-delmar         { color: var(--cat-delmar); }
+.cat-lamesa         { color: var(--cat-lamesa); }
+.cat-sdreader       { color: var(--cat-sdreader); }
+.cat-kpbs           { color: var(--cat-kpbs); }
 
 /* ---------- Detail dialog ---------- */
 
