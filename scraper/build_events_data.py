@@ -62,6 +62,8 @@ import scrape_lamesa
 import scrape_sdreader
 import scrape_kpbs
 
+import failure_log
+
 # (category key, human label, module). Order controls filter-pill order.
 SCRAPERS = [
     ("casbah", "Casbah", scrape_casbah),
@@ -159,6 +161,7 @@ LINKOUTS = [
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS_OUT = os.path.join(ROOT, "js", "events-data.js")
 JSON_OUT = os.path.join(ROOT, "data", "events.json")
+LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "failure_log.xlsx")
 
 
 def _excluded(event):
@@ -214,6 +217,45 @@ def _identity(e):
     """Stable cross-build identity for an event. Some scraper ids embed
     volatile bits (e.g. DICE checksums), so compare on venue+date+title."""
     return "%s|%s|%s" % (e["category"], e["date"], _norm(e["title"]))
+
+
+def _run_with_retry(items, today, now, log, newly_frequent):
+    """Run each (label, fn) once, retry failures once, and keep `log` (a
+    failure_log dict) in sync. Returns {label: result}, with result None for
+    any label still failing after its retry. Appends to `newly_frequent` the
+    label of any source whose consecutive-fail streak just crossed
+    failure_log.FREQUENT_FAIL_THRESHOLD on this call."""
+    results = {}
+    pending = []
+    for label, fn in items:
+        print("Updating %s.." % label)
+        try:
+            result = fn(today)
+        except Exception:
+            pending.append((label, fn))
+            continue
+        failure_log.record_success(log, label)
+        results[label] = result
+
+    for label, fn in pending:
+        print("Retrying %s.." % label)
+        try:
+            result = fn(today)
+        except Exception as exc:
+            error_code, error_message = failure_log.classify(exc)
+            was_frequent = (log.get(label, {}).get("consecutive_fails", 0)
+                            >= failure_log.FREQUENT_FAIL_THRESHOLD)
+            failure_log.record_failure(log, label, error_code, error_message, now)
+            if not was_frequent and (log[label]["consecutive_fails"]
+                                      >= failure_log.FREQUENT_FAIL_THRESHOLD):
+                newly_frequent.append(label)
+            print("!! %s failed: %s" % (label, exc))
+            results[label] = None
+            continue
+        failure_log.record_success(log, label)
+        results[label] = result
+
+    return results
 
 
 def _stamp_added(events, run_stamp):
