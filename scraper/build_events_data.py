@@ -295,16 +295,20 @@ def main():
     categories = {}
     per_venue = {}
 
+    now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    log = failure_log.load(LOG_PATH)
+    newly_frequent = []
+
+    # entries are usually modules exposing scrape(); bare callables
+    # (e.g. scrape_moonshine.scrape_beach) are accepted too
+    venue_items = [(label, getattr(module, "scrape", module)) for key, label, module in SCRAPERS]
+    venue_results = _run_with_retry(venue_items, today, now, log, newly_frequent)
+
     excluded = 0
     for key, label, module in SCRAPERS:
-        try:
-            # entries are usually modules exposing scrape(); bare callables
-            # (e.g. scrape_moonshine.scrape_beach) are accepted too
-            fn = getattr(module, "scrape", module)
-            evs = fn(today)
-        except Exception as exc:                       # keep other venues if one fails
-            print("!! %s failed: %s" % (label, exc))
-            evs = []
+        evs = venue_results.get(label)
+        if evs is None:                                 # still failing after retry
+            continue
         kept = [e for e in evs if not _excluded(e)]
         excluded += len(evs) - len(kept)
         per_venue[label] = len(kept)
@@ -329,16 +333,18 @@ def main():
         print("  (%d newly added events since last build)" % new_count)
 
     # Image-only venues: fetch each flyer.
+    flyer_items = [(label, module.scrape) for label, module in FLYER_SCRAPERS]
+    flyer_results = _run_with_retry(flyer_items, today, now, log, newly_frequent)
+
     flyers = []
     for label, module in FLYER_SCRAPERS:
-        try:
-            info = module.scrape(today)
-        except Exception as exc:
-            print("!! %s flyer failed: %s" % (label, exc))
-            info = None
+        info = flyer_results.get(label)
         if info:
-            info = dict(info, venue=label)
-            flyers.append(info)
+            flyers.append(dict(info, venue=label))
+
+    failure_log.save(LOG_PATH, log)
+    for flagged in newly_frequent:
+        print("!! %s has failed 5+ runs in a row - script may need a rewrite" % flagged)
 
     payload_events = json.dumps(all_events, indent=2, ensure_ascii=False)
     payload_cats = json.dumps(categories, indent=2, ensure_ascii=False)
@@ -377,6 +383,17 @@ def main():
     print("  %-16s %3d events total" % ("=>", len(all_events)))
     for fl in flyers:
         print("  %-16s flyer -> %s" % (fl["venue"], fl.get("image") or fl["source"]))
+
+    still_failing = sorted(log)
+    print()
+    if still_failing:
+        print("failures:")
+        for label in still_failing:
+            print(label)
+    else:
+        print("failures: none")
+    print()
+    print("the updates are available here: https://2jznrew7l47c.github.io/event_calendar/")
 
 
 if __name__ == "__main__":
