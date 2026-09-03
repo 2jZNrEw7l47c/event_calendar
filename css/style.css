@@ -440,7 +440,7 @@ a { color: inherit; }
 
 .calendar__weekdays {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   border-bottom: 1px solid var(--rule-strong);
   padding-bottom: 6px;
 }
@@ -456,7 +456,7 @@ a { color: inherit; }
 
 .calendar__grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   border-left: 1px solid var(--rule);
 }
 
@@ -618,6 +618,19 @@ a { color: inherit; }
 }
 
 .detail__close:hover { color: var(--ink); }
+
+.detail__back {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.detail__back:hover { color: var(--ink); }
+
+.detail__back[hidden] { display: none; }
 
 .detail__category {
   font-size: 11px;

@@ -233,8 +233,9 @@
   // ---------- Detail dialog ----------
 
   var overlay = document.getElementById("overlay");
+  var dayReturnContext = null;
 
-  function openDetail(ev) {
+  function openDetail(ev, fromDay) {
     var d = parseDate(ev.date);
     var cat = document.getElementById("detail-category");
     cat.textContent = CATEGORIES[ev.category];
@@ -255,6 +256,8 @@
       ticket.hidden = true;
     }
 
+    document.getElementById("detail-back").hidden = !fromDay;
+
     overlay.hidden = false;
     document.getElementById("detail-close").focus();
   }
@@ -265,6 +268,12 @@
     if (e.target === overlay) closeDetail();
   });
   document.getElementById("detail-close").addEventListener("click", closeDetail);
+  document.getElementById("detail-back").addEventListener("click", function () {
+    closeDetail();
+    if (dayReturnContext) {
+      openDay(dayReturnContext.d, dayReturnContext.events);
+    }
+  });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && !overlay.hidden) closeDetail();
   });
@@ -274,6 +283,7 @@
   var dayOverlay = document.getElementById("day-overlay");
 
   function openDay(d, dayEvents) {
+    dayReturnContext = { d: d, events: dayEvents };
     document.getElementById("day-title").textContent = formatDateHeading(d);
     var list = document.getElementById("day-list");
     list.innerHTML = "";
@@ -286,8 +296,8 @@
       main.appendChild(el("span", "day-row__venue", ev.venue));
       row.appendChild(main);
       row.addEventListener("click", function () {
-        closeDay();
-        openDetail(ev);
+        dayOverlay.hidden = true;
+        openDetail(ev, true);
       });
       list.appendChild(row);
     });

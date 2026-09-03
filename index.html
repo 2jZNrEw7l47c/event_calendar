@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=13">
+  <link rel="stylesheet" href="css/style.css?v=14">
 </head>
 <body>
 
@@ -66,6 +66,7 @@
   <!-- Event detail dialog -->
   <div class="overlay" id="overlay" hidden>
     <div class="detail" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <button class="detail__back" id="detail-back" hidden>&larr; Back to full list</button>
       <button class="detail__close" id="detail-close" aria-label="Close">&times;</button>
       <p class="detail__category" id="detail-category"></p>
       <h2 class="detail__title" id="detail-title"></h2>
@@ -100,6 +101,6 @@
   </div>
 
   <script src="js/events-data.js?v=13"></script>
-  <script src="js/app.js?v=13"></script>
+  <script src="js/app.js?v=14"></script>
 </body>
 </html>
