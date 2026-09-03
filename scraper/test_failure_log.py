@@ -67,6 +67,18 @@ def test_save_then_load_round_trip(tmp_path):
     assert loaded == log
 
 
+def test_save_with_illegal_xml_character_does_not_raise(tmp_path, capsys):
+    path = str(tmp_path / "failure_log.xlsx")
+    log = {
+        "Casbah": {"error_code": "HTTP 500", "error_message": "server error\x0bboom",
+                   "consecutive_fails": 1, "last_failed": "2026-09-03 10:00"},
+    }
+    failure_log.save(path, log)
+
+    captured = capsys.readouterr()
+    assert "could not write" in captured.out
+
+
 def test_save_writes_frequent_failures_sheet_filtered_by_threshold(tmp_path):
     path = str(tmp_path / "failure_log.xlsx")
     log = {

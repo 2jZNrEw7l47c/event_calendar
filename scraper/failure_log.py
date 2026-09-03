@@ -74,25 +74,26 @@ def record_success(log, venue):
 
 def save(path, log):
     """Write both sheets from the current log dict. Warns (doesn't raise)
-    if the file can't be written, e.g. it's open in Excel."""
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.title = _SHEET_FAILURES
-    ws.append(_HEADERS)
-    for venue in sorted(log):
-        entry = log[venue]
-        ws.append([venue, entry["error_code"], entry["error_message"],
-                   entry["consecutive_fails"], entry["last_failed"]])
-
-    ws2 = wb.create_sheet(_SHEET_FREQUENT)
-    ws2.append(_HEADERS)
-    for venue in sorted(log):
-        entry = log[venue]
-        if entry["consecutive_fails"] >= FREQUENT_FAIL_THRESHOLD:
-            ws2.append([venue, entry["error_code"], entry["error_message"],
-                        entry["consecutive_fails"], entry["last_failed"]])
-
+    if the file can't be written, e.g. it's open in Excel, or a value
+    contains characters Excel can't store."""
     try:
+        wb = openpyxl.Workbook()
+        ws = wb.active
+        ws.title = _SHEET_FAILURES
+        ws.append(_HEADERS)
+        for venue in sorted(log):
+            entry = log[venue]
+            ws.append([venue, entry["error_code"], entry["error_message"],
+                       entry["consecutive_fails"], entry["last_failed"]])
+
+        ws2 = wb.create_sheet(_SHEET_FREQUENT)
+        ws2.append(_HEADERS)
+        for venue in sorted(log):
+            entry = log[venue]
+            if entry["consecutive_fails"] >= FREQUENT_FAIL_THRESHOLD:
+                ws2.append([venue, entry["error_code"], entry["error_message"],
+                            entry["consecutive_fails"], entry["last_failed"]])
+
         wb.save(path)
-    except OSError as exc:
+    except Exception as exc:
         print("!! could not write %s: %s" % (path, exc))
