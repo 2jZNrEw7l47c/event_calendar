@@ -1,13 +1,19 @@
 """Lou Lou's Jungle Room @ the Lafayette Hotel — booked by Casbah Presents;
-events come from the shared casbahmusic.com feed (see scrape_casbah), which is
-fetched once per build. Only this venue's cards are extracted here.
+events come from casbahmusic.com (see scrape_casbah). Unlike Quartyard/Casbah,
+Lou Lou's shows are unreliable on the homepage's event widget — it's a
+curated subset that often drops this room's cards entirely — so we pull from
+the venue's own casbahmusic.com page instead, where its shows are appended
+after the same generic list.
 """
 
 import scrape_casbah
 
+URL = "https://www.casbahmusic.com/venues/lou-lous/"
+
 
 def scrape(today=None):
-    return scrape_casbah.scrape_for_venue("lou lou", "Lou Lou's Jungle Room", "loulous", today)
+    return scrape_casbah.scrape_for_venue(
+        "lou lou", "Lou Lou's Jungle Room", "loulous", today, page_url=URL)
 
 
 if __name__ == "__main__":

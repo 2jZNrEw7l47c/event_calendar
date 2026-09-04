@@ -6,12 +6,22 @@ execution needed). Each event is a `.seetickets-list-event-container` block with
 semantic sub-classes.
 
 The homepage is the hub for the whole "Casbah Presents" family, so the same
-feed also lists shows at rooms we don't scrape anywhere else — Lou Lou's
-Jungle Room, Humphrey's Concerts by the Bay, Quartyard. `scrape_for_venue`
-extracts any one venue from the shared page (fetched once per build via a
-module-level cache); the thin scrape_loulous / scrape_humphreys /
-scrape_quartyard modules reuse it. Rooms with their own scrapers (Belly Up,
-Soda Bar, ...) are ignored here.
+feed also lists shows at rooms we don't scrape anywhere else — Quartyard, and
+(as of this writing) occasional Lou Lou's Jungle Room dates. `scrape_for_venue`
+extracts any one venue from a shared page (fetched once per build per URL via
+a module-level cache); the thin scrape_loulous / scrape_quartyard modules
+reuse it. Rooms with their own scrapers (Belly Up, Soda Bar, ...) are ignored
+here.
+
+Caveat: the homepage's event widget is a curated subset, not a full listing —
+it doesn't reliably include every family venue's shows (Lou Lou's cards are
+often missing there entirely even when the venue's own page,
+casbahmusic.com/venues/lou-lous/, lists them). Callers that hit this gap
+should pass `page_url` to `scrape_for_venue` to pull from that venue's own
+page instead of the homepage; see scrape_loulous.py. Humphrey's Concerts by
+the Bay no longer appears anywhere on casbahmusic.com at all (dropped from
+the venue nav and site search too) and is scraped directly from
+humphreysconcerts.com instead — see scrape_humphreys.py.
 """
 
 import re
@@ -24,17 +34,21 @@ import common
 
 URL = "https://www.casbahmusic.com"
 
-# One shared fetch per build (keyed by date so long-lived processes refetch).
-_cache = {"day": None, "html": None}
+# One shared fetch per build per URL (keyed by date so long-lived processes
+# refetch; keyed by URL so a venue-specific page doesn't clobber the
+# homepage's cached copy or vice versa).
+_cache = {}
 
 
-def _get_html():
+def _get_html(url=URL):
     today = datetime.date.today()
-    if _cache["day"] != today:
-        resp = requests.get(URL, headers=common.UA, timeout=30)
+    entry = _cache.get(url)
+    if entry is None or entry["day"] != today:
+        resp = requests.get(url, headers=common.UA, timeout=30)
         resp.raise_for_status()
-        _cache.update(day=today, html=resp.text)
-    return _cache["html"]
+        entry = {"day": today, "html": resp.text}
+        _cache[url] = entry
+    return entry["html"]
 
 
 def _text(node, selector):
@@ -42,15 +56,20 @@ def _text(node, selector):
     return el.get_text(" ", strip=True) if el else ""
 
 
-def scrape_for_venue(venue_match, venue_name, category, today=None, html=None):
-    """Extract one venue's shows from the shared Casbah Presents feed.
+def scrape_for_venue(venue_match, venue_name, category, today=None, html=None,
+                      page_url=URL):
+    """Extract one venue's shows from a Casbah Presents feed page.
 
     venue_match: lowercase substring matched against the card's `.venue` text
     (e.g. "at casbah" matches exactly; "lou lou" matches the longer label).
+    page_url: which page to pull `.seetickets-list-event-container` cards
+    from — defaults to the homepage, but a venue whose shows the homepage
+    widget doesn't reliably surface (Lou Lou's) should pass that venue's own
+    casbahmusic.com page instead; see scrape_loulous.py.
     """
     today = today or datetime.date.today()
     if html is None:
-        html = _get_html()
+        html = _get_html(page_url)
 
     soup = BeautifulSoup(html, "html.parser")
     events = []
