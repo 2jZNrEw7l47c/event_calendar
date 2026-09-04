@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 17:42",
+  "generated": "2026-09-03 17:44",
   "categories": {
     "casbah": "Casbah",
     "camels": "Camel's Bar",
@@ -20234,7 +20234,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/ChatGPT%20Image%20Aug%2031%2C%202026%2C%2008_57_50%20AM.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-09-03 17:42",
+      "fetched": "2026-09-03 17:44",
       "image": "data/deanos-flyer.jpg",
       "bytes": 335782,
       "venue": "Deano's Pub"
@@ -20242,7 +20242,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/09/bcbseptember2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-09-03 17:42",
+      "fetched": "2026-09-03 17:44",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 711510,
