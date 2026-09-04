@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03 17:15",
+  "generated": "2026-09-03 17:33",
   "categories": {
     "casbah": "Casbah",
     "camels": "Camel's Bar",
@@ -13078,6 +13078,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "humpbackstage-2026-10-23-come-together-beatles-tribute-",
+      "title": "Come Together (Beatles Tribute)",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "venue": "Humphrey's Backstage",
+      "category": "humpbackstage",
+      "price": "",
+      "description": "",
+      "url": "https://www.humphreysbackstagelive.com/event/come-together-beatles-tribute-3/2026-10-23/",
+      "added": "2026-09-03 17:33"
+    },
+    {
       "id": "bellyup-14807593",
       "title": "Kishi Bashi",
       "date": "2026-10-23",
@@ -13124,18 +13136,6 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/toga-party-band-happy-hour-belly-up-tickets/15046423?REFID=bupwebsite&theme=bellyup",
       "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "humpbackstage-2026-10-23-toga-party-band",
-      "title": "Toga Party Band",
-      "date": "2026-10-23",
-      "time": "20:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/toga-party/2026-10-23/",
-      "added": "2026-08-08 11:30"
     },
     {
       "id": "urbanmos-2026-10-23-rawr-w-jinx-mirage",
@@ -20234,7 +20234,7 @@
     {
       "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/ChatGPT%20Image%20Aug%2031%2C%202026%2C%2008_57_50%20AM.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-09-03 17:15",
+      "fetched": "2026-09-03 17:33",
       "image": "data/deanos-flyer.jpg",
       "bytes": 335782,
       "venue": "Deano's Pub"
@@ -20242,7 +20242,7 @@
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/09/bcbseptember2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-09-03 17:15",
+      "fetched": "2026-09-03 17:33",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 711510,
