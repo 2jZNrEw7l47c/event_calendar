@@ -6,7 +6,11 @@ for. Two sheets in one workbook:
   Failures          - one row per source currently failing.
   Frequent Failures - the subset of Failures with consecutive_fails >= 3,
                        a signal the source site changed and the scraper
-                       needs a rewrite.
+                       needs a rewrite. A venue a human has confirmed is
+                       "known quiet" (genuinely has nothing posted, not
+                       broken) is excluded from this sheet - it's still
+                       retried and still shows in Failures, just not
+                       re-flagged for attention every run.
 """
 
 import os
@@ -94,10 +98,14 @@ def record_success(log, venue):
     log.pop(venue, None)
 
 
-def save(path, log):
-    """Write both sheets from the current log dict. Warns (doesn't raise)
-    if the file can't be written, e.g. it's open in Excel, or a value
-    contains characters Excel can't store."""
+def save(path, log, known_quiet=None):
+    """Write both sheets from the current log dict. `known_quiet` (optional,
+    a set of venue names) is excluded from the Frequent Failures sheet even
+    if it meets the threshold - still tracked in Failures, still retried
+    every run, just not re-flagged for attention. Warns (doesn't raise) if
+    the file can't be written, e.g. it's open in Excel, or a value contains
+    characters Excel can't store."""
+    known_quiet = known_quiet or set()
     try:
         wb = openpyxl.Workbook()
         ws = wb.active
@@ -113,7 +121,7 @@ def save(path, log):
         ws2.append(_HEADERS)
         for venue in sorted(log):
             entry = log[venue]
-            if entry["consecutive_fails"] >= FREQUENT_FAIL_THRESHOLD:
+            if entry["consecutive_fails"] >= FREQUENT_FAIL_THRESHOLD and venue not in known_quiet:
                 ws2.append([_excel_safe(venue), _excel_safe(entry["error_code"]),
                             _excel_safe(entry["error_message"]),
                             entry["consecutive_fails"], entry["last_failed"]])

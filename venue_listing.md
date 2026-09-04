@@ -82,7 +82,7 @@ Blind Lady, SeaWorld, Margaritaville, Athenaeum) only need one scraper each.
 | 50 | Grand Lobby, Westgate Hotel | https://www.westgatehotel.com | 🕐 Deferred (net-new) |
 | 51 | Aztec Brewing Company, Vista | https://aztecbrewing.com | 🕐 Deferred (net-new) |
 | 52 | Luau Bar | https://www.luaubar.com | 🔴 Unreachable |
-| 53 | 710 Beach Club | https://www.710bc.com | ✅ Built (Eventbrite) |
+| 53 | 710 Beach Club | https://www.710bc.com | 🟡 JS-only (site moved events to a client-side Popmenu widget, no static/JSON fallback; scraper retired 2026-09-04) |
 | 54 | 535 Robinson (Pride Block Party site) | Special event location — no official venue website | ⚪ No venue website |
 | 55 | Balboa Theatre | https://www.sandiegotheatres.org | 🕐 Deferred (net-new) |
 | 56 | The Rady Shell at Jacobs Park | https://www.theshell.org | 🕐 Deferred (net-new) |

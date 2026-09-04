@@ -133,3 +133,23 @@ def test_save_writes_frequent_failures_sheet_filtered_by_threshold(tmp_path):
     ws = wb["Frequent Failures"]
     rows = list(ws.iter_rows(min_row=2, values_only=True))
     assert [r[0] for r in rows] == ["Casbah"]
+
+
+def test_save_excludes_known_quiet_venue_from_frequent_failures_sheet(tmp_path):
+    path = str(tmp_path / "failure_log.xlsx")
+    log = {
+        "Casbah": {"error_code": "HTTP 500", "error_message": "server error",
+                   "consecutive_fails": 5, "last_failed": "2026-09-03 10:00"},
+        "Worldbeat Center": {"error_code": "NoEventsFound",
+                              "error_message": "scraper returned 0 events",
+                              "consecutive_fails": 7, "last_failed": "2026-09-03 10:00"},
+    }
+    failure_log.save(path, log, known_quiet={"Worldbeat Center"})
+
+    wb = openpyxl.load_workbook(path)
+    # Still tracked in Failures despite being known-quiet.
+    failures = [r[0] for r in wb["Failures"].iter_rows(min_row=2, values_only=True)]
+    assert set(failures) == {"Casbah", "Worldbeat Center"}
+    # But excluded from Frequent Failures even though it's past the threshold.
+    frequent = [r[0] for r in wb["Frequent Failures"].iter_rows(min_row=2, values_only=True)]
+    assert frequent == ["Casbah"]

@@ -51,7 +51,6 @@ import scrape_makingmusic
 import scrape_spreckels
 import scrape_heartob
 import scrape_spin
-import scrape_710bc
 import scrape_batesnut
 import scrape_urbanmos
 import scrape_balboapark
@@ -108,7 +107,6 @@ SCRAPERS = [
     ("spreckels", "Spreckels Organ Pavilion", scrape_spreckels),
     ("heartob", "The Heart OB", scrape_heartob),
     ("spin", "SPIN", scrape_spin),
-    ("beach710", "710 Beach Club", scrape_710bc),
     ("batesnut", "Bates Nut Farm", scrape_batesnut),
     ("urbanmos", "Urban MO's", scrape_urbanmos),
     ("balboapark", "Balboa Park", scrape_balboapark),
@@ -130,6 +128,18 @@ AGGREGATOR_CATS = ("sdreader", "kpbs")
 # filtering to these. (Deano's Pub is also local but is a flyer venue with no
 # list events.)
 LOCAL_CATEGORIES = ["mcguffies", "camels", "lamesa"]
+
+# Venues confirmed (by checking the venue's own site) to genuinely have zero
+# upcoming events, not a broken scraper — still retried and logged every run
+# like anything else, just excluded from the "N+ runs in a row" frequent-
+# failure flag so a permanently quiet booking calendar doesn't keep crying
+# wolf. Remove an entry here if the venue starts posting again and later
+# goes quiet for an unrelated (possibly real) reason.
+KNOWN_QUIET_VENUES = {
+    # Confirmed 2026-09-03: Tribe calendar's only entry is dated 2027-10-06
+    # (13+ months out); the venue's own /events/ page shows the same thing.
+    "Worldbeat Center",
+}
 
 # Belly Up's feed aggregates other rooms (incl. The Sound and Music Box). When
 # the same show (same title + date) appears for both, keep the room's own copy
@@ -371,8 +381,10 @@ def main():
         if info:
             flyers.append(dict(info, venue=label))
 
-    failure_log.save(LOG_PATH, log)
+    failure_log.save(LOG_PATH, log, known_quiet=KNOWN_QUIET_VENUES)
     for flagged in newly_frequent:
+        if flagged in KNOWN_QUIET_VENUES:
+            continue
         print("!! %s has failed %d+ runs in a row - script may need a rewrite" %
               (flagged, failure_log.FREQUENT_FAIL_THRESHOLD))
 
