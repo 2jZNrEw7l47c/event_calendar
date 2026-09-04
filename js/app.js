@@ -32,13 +32,17 @@
   state.calMonth = today.getMonth();
 
   // The scraper stamps each event with the run timestamp of the build that
-  // first saw it ("added"), and records the latest run's stamp as LAST_RUN.
-  // "New" means exactly: added by the most recent run — nothing older, even
-  // from earlier the same day, and nothing if the last run added no events.
-  var LAST_RUN = window.LAST_RUN || "";
+  // first saw it ("added"), and records in NEW_SINCE the stamp of the most
+  // recent run that actually added something. "New" means: added by that
+  // run. Anchoring to LAST_RUN instead would blank the New filter out as
+  // soon as the scraper ran twice (the second run adds nothing, so no event
+  // carries its stamp); NEW_SINCE keeps the last real batch visible until a
+  // newer one replaces it. LAST_RUN is the fallback for data files
+  // generated before NEW_SINCE existed.
+  var NEW_SINCE = window.NEW_SINCE || window.LAST_RUN || "";
 
   function isNew(ev) {
-    return !!LAST_RUN && ev.added === LAST_RUN;
+    return !!NEW_SINCE && ev.added === NEW_SINCE;
   }
 
   // ---------- Helpers ----------
@@ -423,7 +427,7 @@
         "filter-pill filter-pill--new" + (state.newOnly ? " is-active" : ""),
         "New (" + newCount + ")");
       newPill.type = "button";
-      newPill.title = "Events added by the latest scrape (" + LAST_RUN + ")";
+      newPill.title = "Events added by the latest scrape (" + NEW_SINCE + ")";
       newPill.addEventListener("click", function () {
         state.newOnly = !state.newOnly;
         renderFilters();

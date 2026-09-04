@@ -204,3 +204,88 @@ def test_default_is_empty_never_treats_a_successful_none_as_failure(capsys):
     assert log == {}
     out = capsys.readouterr().out
     assert "Retrying" not in out
+
+
+# ---------- "New since" marker ----------
+
+def test_new_since_is_this_run_when_it_added_events():
+    events = [{"added": "2026-09-03 10:00"}, {"added": "2026-09-04 07:44"}]
+    assert bed._new_since(events, "2026-09-04 07:44", 1) == "2026-09-04 07:44"
+
+
+def test_new_since_holds_the_last_run_that_added_something():
+    # A re-run that adds nothing must not blank out the New filter — it stays
+    # pointed at the most recent run that actually brought events in.
+    events = [{"added": "2026-08-08 11:30"}, {"added": "2026-09-03 16:18"}]
+    assert bed._new_since(events, "2026-09-04 07:44", 0) == "2026-09-03 16:18"
+
+
+def test_new_since_is_none_when_nothing_has_ever_been_stamped():
+    events = [{"added": None}, {"added": None}]
+    assert bed._new_since(events, "2026-09-04 07:44", 0) is None
+
+
+def test_new_since_ignores_unstamped_events_when_picking_the_latest():
+    events = [{"added": None}, {"added": "2026-09-03 16:18"}, {"added": None}]
+    assert bed._new_since(events, "2026-09-04 07:44", 0) == "2026-09-03 16:18"
+
+
+# ---------- index.html cache-buster ----------
+
+def test_cache_token_is_compact_and_sortable():
+    assert bed._cache_token("2026-09-04 07:32") == "20260904-0732"
+
+
+def _index_with(tag, tmp_path):
+    path = tmp_path / "index.html"
+    path.write_text(
+        '<html><body>\n'
+        '  <script src="js/events-data.js%s"></script>\n'
+        '  <script src="js/app.js?v=14"></script>\n'
+        '</body></html>\n' % tag, encoding="utf-8")
+    return str(path)
+
+
+def test_stamp_index_html_replaces_existing_version(tmp_path):
+    path = _index_with("?v=13", tmp_path)
+
+    assert bed._stamp_index_html("2026-09-04 07:32", path) is True
+
+    html = open(path, encoding="utf-8").read()
+    assert 'src="js/events-data.js?v=20260904-0732"' in html
+    assert "?v=13" not in html
+    # Hand-versioned assets are left alone.
+    assert 'src="js/app.js?v=14"' in html
+
+
+def test_stamp_index_html_adds_version_when_missing(tmp_path):
+    path = _index_with("", tmp_path)
+
+    assert bed._stamp_index_html("2026-09-04 07:32", path) is True
+
+    html = open(path, encoding="utf-8").read()
+    assert 'src="js/events-data.js?v=20260904-0732"' in html
+
+
+def test_stamp_index_html_is_a_noop_when_token_unchanged(tmp_path):
+    path = _index_with("?v=20260904-0732", tmp_path)
+
+    # Same stamp -> nothing rewritten, so re-running a build doesn't churn
+    # index.html (and git) for no reason.
+    assert bed._stamp_index_html("2026-09-04 07:32", path) is False
+
+
+def test_stamp_index_html_warns_and_continues_when_tag_absent(tmp_path, capsys):
+    path = str(tmp_path / "index.html")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("<html><body>no data script here</body></html>")
+
+    assert bed._stamp_index_html("2026-09-04 07:32", path) is False
+    assert "no events-data.js script tag" in capsys.readouterr().out
+
+
+def test_stamp_index_html_warns_and_continues_when_file_missing(tmp_path, capsys):
+    missing = str(tmp_path / "nope" / "index.html")
+
+    assert bed._stamp_index_html("2026-09-04 07:32", missing) is False
+    assert "could not read" in capsys.readouterr().out

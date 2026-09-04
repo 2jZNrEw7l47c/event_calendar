@@ -174,7 +174,50 @@ LINKOUTS = [
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JS_OUT = os.path.join(ROOT, "js", "events-data.js")
 JSON_OUT = os.path.join(ROOT, "data", "events.json")
+INDEX_HTML = os.path.join(ROOT, "index.html")
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "failure_log.xlsx")
+
+# index.html loads the generated data file with a ?v= cache-buster. That file
+# is rewritten on *every* run, so the buster has to move every run too —
+# leaving it on a hand-maintained number means browsers keep serving a stale
+# copy and the page silently shows yesterday's listings. _stamp_index_html
+# below rewrites it from the run stamp. (css/style.css and js/app.js keep
+# their hand-bumped numbers: they only change when someone edits them.)
+_DATA_SRC_RE = re.compile(r'(src="js/events-data\.js)(?:\?v=[^"]*)?(")')
+
+
+def _cache_token(stamp):
+    """'2026-09-04 07:32' -> '20260904-0732' (URL-safe, sorts chronologically)."""
+    return re.sub(r"[^0-9]", "", stamp)[:8] + "-" + re.sub(r"[^0-9]", "", stamp)[8:12]
+
+
+def _stamp_index_html(stamp, path=INDEX_HTML):
+    """Point index.html's events-data.js tag at this run's cache token.
+
+    Returns True if the file was changed. Missing/unwritable index.html is
+    warned about, not fatal — the data files matter more than the tag.
+    """
+    token = _cache_token(stamp)
+    try:
+        with open(path, encoding="utf-8") as f:
+            html = f.read()
+    except OSError as exc:
+        print("!! could not read %s: %s" % (path, exc))
+        return False
+
+    updated, n = _DATA_SRC_RE.subn(r'\g<1>?v=%s\g<2>' % token, html)
+    if not n:
+        print("!! no events-data.js script tag found in %s" % path)
+        return False
+    if updated == html:
+        return False
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(updated)
+    except OSError as exc:
+        print("!! could not write %s: %s" % (path, exc))
+        return False
+    return True
 
 
 def _excluded(event):
@@ -298,9 +341,6 @@ def _stamp_added(events, run_stamp):
 
     Compares against the previous data/events.json: events already known keep
     their original stamp; genuinely new ones get this run's full timestamp.
-    The page shows as "New" exactly the events whose stamp equals the latest
-    run's stamp — so only the most recent run's additions ever show as New,
-    even across multiple runs on the same day.
     Returns the number of newly added events this run.
     """
     prev = None
@@ -322,6 +362,22 @@ def _stamp_added(events, run_stamp):
             e["added"] = run_stamp
             new_count += 1
     return new_count
+
+
+def _new_since(events, run_stamp, new_count):
+    """The 'added' stamp the page should treat as New.
+
+    Anchoring New to the *latest run* breaks as soon as the scraper runs
+    twice: the second run adds nothing, so no event carries its stamp and
+    the New pill silently disappears — losing the listing of what the
+    refresh before it actually brought in. So: if this run added anything,
+    New is this run; otherwise it stays on the most recent run that did add
+    something. Returns None when nothing has ever been stamped.
+    """
+    if new_count:
+        return run_stamp
+    stamps = [e.get("added") for e in events if e.get("added")]
+    return max(stamps) if stamps else None
 
 
 def main():
@@ -368,6 +424,7 @@ def main():
     # One stamp per run (minute precision) — identifies this run's additions.
     stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
     new_count = _stamp_added(all_events, stamp)
+    new_since = _new_since(all_events, stamp, new_count)
     if new_count:
         print("  (%d newly added events since last build)" % new_count)
 
@@ -408,6 +465,7 @@ def main():
         + "window.FLYERS = " + payload_flyers + ";\n\n" \
         + "window.LINKOUTS = " + payload_linkouts + ";\n\n" \
         + "window.LAST_RUN = " + json.dumps(stamp) + ";\n\n" \
+        + "window.NEW_SINCE = " + json.dumps(new_since) + ";\n\n" \
         + "window.LOCALS = " + json.dumps(LOCAL_CATEGORIES) + ";\n"
 
     os.makedirs(os.path.dirname(JS_OUT), exist_ok=True)
@@ -415,9 +473,15 @@ def main():
     with open(JS_OUT, "w", encoding="utf-8") as f:
         f.write(js)
     with open(JSON_OUT, "w", encoding="utf-8") as f:
-        json.dump({"generated": stamp, "categories": categories,
+        json.dump({"generated": stamp, "new_since": new_since, "categories": categories,
                    "events": all_events, "flyers": flyers, "linkouts": LINKOUTS},
                   f, indent=2, ensure_ascii=False)
+
+    # Move index.html's ?v= for the data file so browsers actually pick this
+    # build up instead of serving a cached copy of the previous one.
+    if _stamp_index_html(stamp):
+        print("Built %s (cache token %s)" %
+              (os.path.relpath(INDEX_HTML, ROOT), _cache_token(stamp)))
 
     print("Built %s" % os.path.relpath(JS_OUT, ROOT))
     for label, n in per_venue.items():
