@@ -84,7 +84,10 @@ SCRAPERS = [
     ("musicbox", "Music Box", scrape_musicbox),
     ("towerbar", "Tower Bar", scrape_towerbar),
     ("queenbees", "Queen Bee's", scrape_queenbees),
-    # Secondary venues — shared Casbah Presents feed (one fetch, three venues)
+    # Secondary venues — casbahmusic.com family. Quartyard and Lou Lou's each
+    # fetch their own casbahmusic.com page (homepage's widget doesn't list
+    # every room); Humphrey's Concerts is no longer on casbahmusic.com at all
+    # and scrapes humphreysconcerts.com directly (see scrape_humphreys.py).
     ("loulous", "Lou Lou's Jungle Room", scrape_loulous),
     ("humphreys", "Humphrey's Concerts", scrape_humphreys),
     ("quartyard", "Quartyard", scrape_quartyard),
