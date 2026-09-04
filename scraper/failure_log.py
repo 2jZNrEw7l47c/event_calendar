@@ -19,6 +19,26 @@ _HEADERS = ["Venue", "Error Code", "Error Message", "Consecutive Fails", "Last F
 _SHEET_FAILURES = "Failures"
 _SHEET_FREQUENT = "Frequent Failures"
 
+# Leading characters openpyxl/Excel treat as "this cell is a formula".
+_INJECTION_PREFIXES = ("=", "+", "-", "@", "\t", "\r")
+
+
+def _excel_safe(value):
+    """Prefix a value that Excel/openpyxl would otherwise interpret as a
+    formula (leading =, +, -, @, tab, or CR) with a single quote, so it's
+    stored as inert text rather than a live formula/DDE payload."""
+    if isinstance(value, str) and value and value[0] in _INJECTION_PREFIXES:
+        return "'" + value
+    return value
+
+
+def _unescape_excel_safe(value):
+    """Undo _excel_safe's leading-quote guard when reading a value back."""
+    if isinstance(value, str) and len(value) > 1 and value[0] == "'" \
+            and value[1] in _INJECTION_PREFIXES:
+        return value[1:]
+    return value
+
 
 def classify(exc):
     """Return (error_code, error_message) for a caught scraper exception."""
@@ -38,7 +58,8 @@ def load(path):
     try:
         wb = openpyxl.load_workbook(path)
         ws = wb[_SHEET_FAILURES]
-    except Exception:
+    except Exception as exc:
+        print("!! could not read %s: %s" % (path, exc))
         return {}
 
     log = {}
@@ -46,9 +67,10 @@ def load(path):
         if not row or row[0] is None:
             continue
         venue, error_code, error_message, consecutive_fails, last_failed = row[:5]
+        venue = _unescape_excel_safe(venue)
         log[venue] = {
-            "error_code": error_code,
-            "error_message": error_message,
+            "error_code": _unescape_excel_safe(error_code),
+            "error_message": _unescape_excel_safe(error_message),
             "consecutive_fails": int(consecutive_fails or 0),
             "last_failed": last_failed,
         }
@@ -83,7 +105,8 @@ def save(path, log):
         ws.append(_HEADERS)
         for venue in sorted(log):
             entry = log[venue]
-            ws.append([venue, entry["error_code"], entry["error_message"],
+            ws.append([_excel_safe(venue), _excel_safe(entry["error_code"]),
+                       _excel_safe(entry["error_message"]),
                        entry["consecutive_fails"], entry["last_failed"]])
 
         ws2 = wb.create_sheet(_SHEET_FREQUENT)
@@ -91,7 +114,8 @@ def save(path, log):
         for venue in sorted(log):
             entry = log[venue]
             if entry["consecutive_fails"] >= FREQUENT_FAIL_THRESHOLD:
-                ws2.append([venue, entry["error_code"], entry["error_message"],
+                ws2.append([_excel_safe(venue), _excel_safe(entry["error_code"]),
+                            _excel_safe(entry["error_message"]),
                             entry["consecutive_fails"], entry["last_failed"]])
 
         wb.save(path)

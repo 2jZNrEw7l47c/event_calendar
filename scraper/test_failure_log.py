@@ -67,6 +67,46 @@ def test_save_then_load_round_trip(tmp_path):
     assert loaded == log
 
 
+def test_save_escapes_formula_injection_in_error_message(tmp_path):
+    path = str(tmp_path / "failure_log.xlsx")
+    log = {
+        "Casbah": {"error_code": "HTTP 500",
+                   "error_message": "=cmd|'/c calc'!A1",
+                   "consecutive_fails": 1, "last_failed": "2026-09-03 10:00"},
+    }
+    failure_log.save(path, log)
+
+    wb = openpyxl.load_workbook(path)
+    ws = wb["Failures"]
+    cell = list(ws.iter_rows(min_row=2, max_row=2))[0][2]
+    assert cell.data_type == "s"
+
+
+def test_save_then_load_round_trip_preserves_formula_like_message(tmp_path):
+    path = str(tmp_path / "failure_log.xlsx")
+    log = {
+        "Casbah": {"error_code": "HTTP 500",
+                   "error_message": "=cmd|'/c calc'!A1",
+                   "consecutive_fails": 1, "last_failed": "2026-09-03 10:00"},
+    }
+    failure_log.save(path, log)
+
+    loaded = failure_log.load(path)
+    assert loaded == log
+
+
+def test_load_unreadable_file_prints_warning_and_returns_empty_dict(tmp_path, capsys):
+    path = str(tmp_path / "failure_log.xlsx")
+    with open(path, "wb") as f:
+        f.write(b"not a real xlsx file")
+
+    result = failure_log.load(path)
+
+    captured = capsys.readouterr()
+    assert result == {}
+    assert "could not read" in captured.out
+
+
 def test_save_with_illegal_xml_character_does_not_raise(tmp_path, capsys):
     path = str(tmp_path / "failure_log.xlsx")
     log = {
