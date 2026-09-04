@@ -4,7 +4,7 @@ Tracks, across runs, which venues/flyer sources failed to update and how
 many consecutive runs (with no successful run in between) each has failed
 for. Two sheets in one workbook:
   Failures          - one row per source currently failing.
-  Frequent Failures - the subset of Failures with consecutive_fails >= 5,
+  Frequent Failures - the subset of Failures with consecutive_fails >= 3,
                        a signal the source site changed and the scraper
                        needs a rewrite.
 """
@@ -13,7 +13,7 @@ import os
 
 import openpyxl
 
-FREQUENT_FAIL_THRESHOLD = 5
+FREQUENT_FAIL_THRESHOLD = 3
 
 _HEADERS = ["Venue", "Error Code", "Error Message", "Consecutive Fails", "Last Failed"]
 _SHEET_FAILURES = "Failures"

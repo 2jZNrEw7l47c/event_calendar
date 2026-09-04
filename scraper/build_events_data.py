@@ -219,12 +219,31 @@ def _identity(e):
     return "%s|%s|%s" % (e["category"], e["date"], _norm(e["title"]))
 
 
-def _run_with_retry(items, today, now, log, newly_frequent):
+def _run_with_retry(items, today, now, log, newly_frequent, is_empty=None):
     """Run each (label, fn) once, retry failures once, and keep `log` (a
-    failure_log dict) in sync. Returns {label: result}, with result None for
-    any label still failing after its retry. Appends to `newly_frequent` the
-    label of any source whose consecutive-fail streak just crossed
+    failure_log dict) in sync. A result for which `is_empty(result)` is true
+    (default: never) is treated the same as a raised exception — retried,
+    and if still empty after the retry, logged as a failure. This lets
+    callers require "found at least something" for sources that should
+    never legitimately come back empty (venues), while leaving it off for
+    sources with a genuine empty state (e.g. a flyer venue with no flyer
+    posted this week, which returns None on success).
+
+    Returns {label: result}, with result None for any label still failing
+    after its retry. Appends to `newly_frequent` the label of any source
+    whose consecutive-fail streak just crossed
     failure_log.FREQUENT_FAIL_THRESHOLD on this call."""
+    is_empty = is_empty or (lambda result: False)
+
+    def log_failure(label, error_code, error_message):
+        was_frequent = (log.get(label, {}).get("consecutive_fails", 0)
+                        >= failure_log.FREQUENT_FAIL_THRESHOLD)
+        failure_log.record_failure(log, label, error_code, error_message, now)
+        if not was_frequent and (log[label]["consecutive_fails"]
+                                  >= failure_log.FREQUENT_FAIL_THRESHOLD):
+            newly_frequent.append(label)
+        print("!! %s failed: %s" % (label, error_message))
+
     results = {}
     pending = []
     for label, fn in items:
@@ -232,6 +251,9 @@ def _run_with_retry(items, today, now, log, newly_frequent):
         try:
             result = fn(today)
         except Exception:
+            pending.append((label, fn))
+            continue
+        if is_empty(result):
             pending.append((label, fn))
             continue
         failure_log.record_success(log, label)
@@ -243,13 +265,11 @@ def _run_with_retry(items, today, now, log, newly_frequent):
             result = fn(today)
         except Exception as exc:
             error_code, error_message = failure_log.classify(exc)
-            was_frequent = (log.get(label, {}).get("consecutive_fails", 0)
-                            >= failure_log.FREQUENT_FAIL_THRESHOLD)
-            failure_log.record_failure(log, label, error_code, error_message, now)
-            if not was_frequent and (log[label]["consecutive_fails"]
-                                      >= failure_log.FREQUENT_FAIL_THRESHOLD):
-                newly_frequent.append(label)
-            print("!! %s failed: %s" % (label, exc))
+            log_failure(label, error_code, error_message)
+            results[label] = None
+            continue
+        if is_empty(result):
+            log_failure(label, "NoEventsFound", "scraper returned 0 events")
             results[label] = None
             continue
         failure_log.record_success(log, label)
@@ -302,7 +322,11 @@ def main():
     # entries are usually modules exposing scrape(); bare callables
     # (e.g. scrape_moonshine.scrape_beach) are accepted too
     venue_items = [(label, getattr(module, "scrape", module)) for key, label, module in SCRAPERS]
-    venue_results = _run_with_retry(venue_items, today, now, log, newly_frequent)
+    # A venue scraper that raises 0 events is treated the same as one that
+    # raises an exception — there should always be something found, and a
+    # scraper coming back empty usually means the venue's site changed.
+    venue_results = _run_with_retry(venue_items, today, now, log, newly_frequent,
+                                     is_empty=lambda result: not result)
 
     excluded = 0
     for key, label, module in SCRAPERS:
@@ -344,7 +368,8 @@ def main():
 
     failure_log.save(LOG_PATH, log)
     for flagged in newly_frequent:
-        print("!! %s has failed 5+ runs in a row - script may need a rewrite" % flagged)
+        print("!! %s has failed %d+ runs in a row - script may need a rewrite" %
+              (flagged, failure_log.FREQUENT_FAIL_THRESHOLD))
 
     payload_events = json.dumps(all_events, indent=2, ensure_ascii=False)
     payload_cats = json.dumps(categories, indent=2, ensure_ascii=False)

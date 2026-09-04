@@ -64,16 +64,16 @@ def test_flags_newly_frequent_failure_only_once():
         raise ConnectionError("boom")
 
     log = {"Casbah": {"error_code": "ConnectionError", "error_message": "boom",
-                       "consecutive_fails": 4, "last_failed": "2026-09-02 10:00"}}
+                       "consecutive_fails": 2, "last_failed": "2026-09-02 10:00"}}
     newly_frequent = []
     bed._run_with_retry([("Casbah", always_fails)], TODAY, NOW, log, newly_frequent)
-    assert log["Casbah"]["consecutive_fails"] == 5
+    assert log["Casbah"]["consecutive_fails"] == 3
     assert newly_frequent == ["Casbah"]
 
     # A second run that also fails both attempts must not re-flag it.
     newly_frequent2 = []
     bed._run_with_retry([("Casbah", always_fails)], TODAY, NOW, log, newly_frequent2)
-    assert log["Casbah"]["consecutive_fails"] == 6
+    assert log["Casbah"]["consecutive_fails"] == 4
     assert newly_frequent2 == []
 
 
@@ -92,3 +92,75 @@ def test_multiple_items_are_independent(capsys):
     assert results == {"Casbah": ["event"], "Soda Bar": None}
     assert "Casbah" not in log
     assert log["Soda Bar"]["consecutive_fails"] == 1
+
+
+# ---------- is_empty (0-events-found) behavior ----------
+
+def _not_empty(result):
+    return not result
+
+
+def test_empty_result_on_first_try_is_retried_and_succeeds(capsys):
+    calls = {"n": 0}
+
+    def flaky(today):
+        calls["n"] += 1
+        return [] if calls["n"] == 1 else ["event"]
+
+    log = {}
+    newly_frequent = []
+    results = bed._run_with_retry([("Casbah", flaky)], TODAY, NOW, log, newly_frequent,
+                                   is_empty=_not_empty)
+
+    assert results == {"Casbah": ["event"]}
+    assert log == {}
+    out = capsys.readouterr().out
+    assert "Updating Casbah.." in out
+    assert "Retrying Casbah.." in out
+
+
+def test_empty_result_both_times_is_logged_as_failure(capsys):
+    def always_empty(today):
+        return []
+
+    log = {}
+    newly_frequent = []
+    results = bed._run_with_retry([("Casbah", always_empty)], TODAY, NOW, log, newly_frequent,
+                                   is_empty=_not_empty)
+
+    assert results == {"Casbah": None}
+    assert log["Casbah"]["consecutive_fails"] == 1
+    assert log["Casbah"]["error_code"] == "NoEventsFound"
+    assert log["Casbah"]["last_failed"] == NOW
+    out = capsys.readouterr().out
+    assert "!! Casbah failed: scraper returned 0 events" in out
+
+
+def test_empty_result_failures_also_count_toward_frequent_threshold():
+    def always_empty(today):
+        return []
+
+    log = {"Casbah": {"error_code": "NoEventsFound", "error_message": "scraper returned 0 events",
+                       "consecutive_fails": 2, "last_failed": "2026-09-02 10:00"}}
+    newly_frequent = []
+    bed._run_with_retry([("Casbah", always_empty)], TODAY, NOW, log, newly_frequent,
+                         is_empty=_not_empty)
+
+    assert log["Casbah"]["consecutive_fails"] == 3
+    assert newly_frequent == ["Casbah"]
+
+
+def test_default_is_empty_never_treats_a_successful_none_as_failure(capsys):
+    # Flyer scrapers return None on success (no flyer posted this week) —
+    # without an explicit is_empty, that must not be retried or logged.
+    def returns_none(today):
+        return None
+
+    log = {}
+    newly_frequent = []
+    results = bed._run_with_retry([("Deano's Pub", returns_none)], TODAY, NOW, log, newly_frequent)
+
+    assert results == {"Deano's Pub": None}
+    assert log == {}
+    out = capsys.readouterr().out
+    assert "Retrying" not in out
