@@ -233,7 +233,7 @@ def _run_with_retry(items, today, now, log, newly_frequent, is_empty=None):
     after its retry. Appends to `newly_frequent` the label of any source
     whose consecutive-fail streak just crossed
     failure_log.FREQUENT_FAIL_THRESHOLD on this call."""
-    is_empty = is_empty or (lambda result: False)
+    is_empty = is_empty if is_empty is not None else (lambda result: False)
 
     def log_failure(label, error_code, error_message):
         was_frequent = (log.get(label, {}).get("consecutive_fails", 0)
@@ -250,10 +250,11 @@ def _run_with_retry(items, today, now, log, newly_frequent, is_empty=None):
         print("Updating %s.." % label)
         try:
             result = fn(today)
+            empty = is_empty(result)
         except Exception:
             pending.append((label, fn))
             continue
-        if is_empty(result):
+        if empty:
             pending.append((label, fn))
             continue
         failure_log.record_success(log, label)
@@ -263,12 +264,13 @@ def _run_with_retry(items, today, now, log, newly_frequent, is_empty=None):
         print("Retrying %s.." % label)
         try:
             result = fn(today)
+            empty = is_empty(result)
         except Exception as exc:
             error_code, error_message = failure_log.classify(exc)
             log_failure(label, error_code, error_message)
             results[label] = None
             continue
-        if is_empty(result):
+        if empty:
             log_failure(label, "NoEventsFound", "scraper returned 0 events")
             results[label] = None
             continue

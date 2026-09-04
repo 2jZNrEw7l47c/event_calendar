@@ -2,6 +2,16 @@
 
 Date: 2026-09-03
 
+> **Update (2026-09-03, later same day):** two changes shipped after this
+> doc was written and reviewed: (1) a venue scraper returning 0 events (no
+> exception) is now treated the same as a raised exception — retried once,
+> and logged as a failure (`error_code` `"NoEventsFound"`) if still empty
+> after the retry, since a real venue should always have *something* found;
+> flyer scrapers are unaffected, since `None` is their legitimate "nothing
+> posted this week" result. (2) `FREQUENT_FAIL_THRESHOLD` dropped from 5 to
+> 3 consecutive failed runs. The "5" references below are the original
+> design and are left as-is for history; the shipped value is 3.
+
 ## Problem
 
 `scraper/build_events_data.py` currently swallows per-venue scraper failures

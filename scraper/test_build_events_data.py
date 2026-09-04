@@ -150,6 +150,46 @@ def test_empty_result_failures_also_count_toward_frequent_threshold():
     assert newly_frequent == ["Casbah"]
 
 
+def test_is_empty_does_not_fire_on_a_normal_successful_result(capsys):
+    def ok(today):
+        return ["event"]
+
+    log = {}
+    newly_frequent = []
+    results = bed._run_with_retry([("Casbah", ok)], TODAY, NOW, log, newly_frequent,
+                                   is_empty=_not_empty)
+
+    assert results == {"Casbah": ["event"]}
+    assert log == {}
+    out = capsys.readouterr().out
+    assert "Retrying" not in out
+
+
+def test_is_empty_exception_is_contained_like_a_scraper_exception(capsys):
+    # A badly-behaved is_empty predicate must not crash the whole run — it's
+    # contained per-item exactly like an exception from fn() itself.
+    calls = {"n": 0}
+
+    def ok(today):
+        calls["n"] += 1
+        return ["event"]
+
+    def bad_is_empty(result):
+        if calls["n"] == 1:
+            raise TypeError("predicate blew up")
+        return not result
+
+    log = {}
+    newly_frequent = []
+    results = bed._run_with_retry([("Casbah", ok)], TODAY, NOW, log, newly_frequent,
+                                   is_empty=bad_is_empty)
+
+    assert results == {"Casbah": ["event"]}
+    assert log == {}
+    out = capsys.readouterr().out
+    assert "Retrying Casbah.." in out
+
+
 def test_default_is_empty_never_treats_a_successful_none_as_failure(capsys):
     # Flyer scrapers return None on success (no flyer posted this week) —
     # without an explicit is_empty, that must not be retried or logged.
