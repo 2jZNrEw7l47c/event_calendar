@@ -4,9 +4,18 @@ The site is GoDaddy Website Builder. There's no ticketing platform or events
 API, but the schedule is laid out with GoDaddy's "Menu" widget, so each show is
 a menu item with stable `data-aid` attributes:
 
-    MENU_SECTION<n>_ITEM<m>_TITLE  ->  "July 16th at 8pm"   (date + time)
+    MENU_SECTION<n>_ITEM<m>_TITLE  ->  "TUE SEPT 1/8pm" (weekday + date + time)
     MENU_SECTION<n>_ITEM<m>_PRICE  ->  "$12 COVER" / "NO COVER"
     MENU_SECTION<n>_ITEM<m>_DESC   ->  act name + genre (one or more <p> lines)
+
+The `data-aid` naming and grouping is unchanged, but GoDaddy (or the venue)
+reworded the TITLE text at some point: it used to read "July 16th at 8pm" and
+now reads "TUE SEPT 1/8pm" (a leading weekday abbreviation, no "at" before the
+time, and either "/" or ", " as the day/time separator, e.g. "SUN NOV 1, 5 pm").
+We don't try to match the whole string from the start any more -- we search
+for the first "<word> <day-number>" run, which skips over the weekday
+abbreviation (none of "MON/TUE/WED/THUR/FRI/SAT/SUN" parse as a month) and
+lands on the month, then take whatever follows the day number as the time.
 
 The data is present in the raw HTML (a plain GET works — no headless browser
 needed). The TITLE times are hand-typed and loose, so we keep the original
@@ -56,7 +65,9 @@ def scrape(today=None, html=None):
     events = []
     for key, fields in items.items():
         title_text = fields["TITLE"].get_text(" ", strip=True) if "TITLE" in fields else ""
-        m = re.match(r"([A-Za-z]+)\s+(\d{1,2})", title_text)   # "July 16th ..."
+        # search (not match) so a leading weekday like "TUE" is skipped over
+        # to find the actual month word, e.g. "TUE SEPT 1/8pm" -> "SEPT 1".
+        m = re.search(r"([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?\s*[,/]?\s*(.*)$", title_text)
         if not m:
             continue
         month = common.month_to_num(m.group(1))
@@ -66,10 +77,7 @@ def scrape(today=None, html=None):
         if not d:
             continue
 
-        time_part = ""
-        tm = re.search(r"\bat\s+(.+)$", title_text)
-        if tm:
-            time_part = tm.group(1).strip()
+        time_part = m.group(3).strip()
         clock = common.parse_loose_time(time_part) or "20:00"
 
         desc_lines = _paragraphs(fields.get("DESC"))
