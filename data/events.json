@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25 15:03",
-  "new_since": "2026-09-25 15:03",
+  "generated": "2026-09-28 14:42",
+  "new_since": "2026-09-28 14:42",
   "categories": {
     "casbah": "Casbah",
     "mcguffies": "McGuffie's Live",
@@ -278,30 +278,6 @@
       "added": "2026-09-04 07:32"
     },
     {
-      "id": "kensington-2026-09-23-standup-comedy",
-      "title": "standup comedy",
-      "date": "2026-09-23",
-      "time": "20:00",
-      "venue": "The Kensington Club",
-      "category": "kensington",
-      "price": "",
-      "description": "",
-      "url": "https://www.kensingtonclub1935.com/calendar",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "kensington-2026-09-23-vinyl-wednesdays",
-      "title": "vinyl Wednesdays",
-      "date": "2026-09-23",
-      "time": "20:00",
-      "venue": "The Kensington Club",
-      "category": "kensington",
-      "price": "",
-      "description": "",
-      "url": "https://www.kensingtonclub1935.com/calendar",
-      "added": "2026-09-03 16:18"
-    },
-    {
       "id": "mcg-s0i2",
       "title": "101 REBOOTS",
       "date": "2026-09-24",
@@ -314,1158 +290,6 @@
       "added": "2026-09-04 07:32"
     },
     {
-      "id": "kensington-2026-09-24-no-avail-equilibrium-hypno-toads-t",
-      "title": "no avail equilibrium hypno toads television face",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "venue": "The Kensington Club",
-      "category": "kensington",
-      "price": "",
-      "description": "",
-      "url": "https://www.kensingtonclub1935.com/calendar",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "humpbackstage-2026-09-25-concert-night",
-      "title": "Concert Night",
-      "date": "2026-09-25",
-      "time": "00:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/concert-night-4/2026-09-25/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-25-haunted-trails",
-      "title": "Haunted Trails",
-      "date": "2026-09-25",
-      "time": "00:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "$35.00 – $50.00",
-      "description": "",
-      "url": "https://balboapark.org/event/haunted-trails/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-25-topdog-underdog",
-      "title": "Topdog/Underdog",
-      "date": "2026-09-25",
-      "time": "00:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/topdog-underdog/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "kpbs-2026-09-25-celebrate-hispanic-heritage-mo",
-      "title": "Celebrate Hispanic Heritage Month On Third Avenue",
-      "date": "2026-09-25",
-      "time": "07:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Third Avenue",
-      "url": "https://www.kpbs.org/events/ongoing/celebrate-hispanic-heritage-month-on-third-avenue",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-mcas-miramar-air-show",
-      "title": "MCAS Miramar Air Show",
-      "date": "2026-09-25",
-      "time": "08:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "MCAS Miramar",
-      "url": "https://www.kpbs.org/events/ongoing/mcas-miramar-air-show-2026",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "kpbs-2026-09-25-bates-nut-farm-pumpkin-patch-2",
-      "title": "Bates Nut Farm Pumpkin Patch 2026",
-      "date": "2026-09-25",
-      "time": "09:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Bates Nut Farm",
-      "url": "https://www.kpbs.org/events/ongoing/bates-nut-farm-pumpkin-patch-2026",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-california-gourd-society-2026-",
-      "title": "California Gourd Society 2026 Gourd Competition at Welburn Gourd Farm",
-      "date": "2026-09-25",
-      "time": "09:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Welburn Gourd Farm",
-      "url": "https://www.kpbs.org/events/ongoing/california-gourd-society-2026-gourd-competition-at-welburn-gourd-farm",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-goff-family-pumpkin-patch-at-l",
-      "title": "Goff Family Pumpkin Patch at Liberty Station",
-      "date": "2026-09-25",
-      "time": "09:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Goff Family Pumpkin Patch",
-      "url": "https://www.kpbs.org/events/ongoing/goff-family-pumpkin-patch-at-liberty-station-2026",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-zip-zoom-ziplines-at-la-jolla-",
-      "title": "Zip Zoom Ziplines at La Jolla Indian Adventure Park",
-      "date": "2026-09-25",
-      "time": "09:30",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Zip Zoom Ziplines",
-      "url": "https://www.kpbs.org/events/ongoing/zip-zoom-ziplines-at-la-jolla-indian-adventure-park",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-harvest-fest-2026-at-julian-fa",
-      "title": "Harvest Fest 2026 at Julian Farm and Orchard",
-      "date": "2026-09-25",
-      "time": "10:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Julian Farm and Orchard",
-      "url": "https://www.kpbs.org/events/ongoing/harvest-fest-2026-at-julian-farm-and-orchard",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "balboapark-2026-09-25-coffee-and-conversations",
-      "title": "Coffee and Conversations",
-      "date": "2026-09-25",
-      "time": "10:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "$12.00 – $20.00",
-      "description": "",
-      "url": "https://balboapark.org/event/coffee-and-conversations-3/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-becoming-heirlooms-a-craft-desert-exhibi",
-      "title": "Becoming Heirlooms: A Craft Desert Exhibition",
-      "date": "2026-09-25",
-      "time": "12:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Central Library",
-      "url": "https://www.sandiegoreader.com/events/ongoing/becoming-heirlooms-a-craft-desert-e/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-draft-belmont-park-debuts-new-",
-      "title": "Draft Belmont Park Debuts New Menu with Birria Mac & Cheese, New Burgers + More",
-      "date": "2026-09-25",
-      "time": "12:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Draft at Belmont Park",
-      "url": "https://www.kpbs.org/events/ongoing/draft-belmont-park-debuts-new-menu-with-birria-mac-cheese-new-burgers-more",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-san-diego-vintage-crawl",
-      "title": "San Diego Vintage Crawl",
-      "date": "2026-09-25",
-      "time": "12:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Multiple locations",
-      "url": "https://www.kpbs.org/events/2026/09/25/san-diego-vintage-crawl",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "sdreader-2026-09-25-autumn-concert-series-vania-pimentel",
-      "title": "Autumn Concert Series: Vania Pimentel",
-      "date": "2026-09-25",
-      "time": "13:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Coronado Library",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/autumn-concert-series-vania-pimente-ccccbad0/?et=365599",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "balboapark-2026-09-25-the-flight-of-jackie-cochran-documen",
-      "title": "The Flight of Jackie Cochran Documentary Screening",
-      "date": "2026-09-25",
-      "time": "13:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/the-flight-of-jackie-cochran-documentary-screening/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-boo-bash-escondido",
-      "title": "Boo Bash Escondido",
-      "date": "2026-09-25",
-      "time": "15:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Mershops North County Mall",
-      "url": "https://www.sandiegoreader.com/events/ongoing/boo-bash-escondido-san-diegos-new-1/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-boo-bash-escondido-san-diego-s",
-      "title": "Boo Bash Escondido: San Diego’s New 100,000-Square-Foot Pumpkin Patch",
-      "date": "2026-09-25",
-      "time": "15:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Mershops North County Mall",
-      "url": "https://www.kpbs.org/events/ongoing/boo-bash-escondido-san-diegos-new-100-000-square-foot-pumpkin-patch",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-la-mesa-farmers-market",
-      "title": "La Mesa Farmers Market",
-      "date": "2026-09-25",
-      "time": "15:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Along La Mesa Boulevard between 4th Street and Palm Avenue",
-      "url": "https://www.sandiegoreader.com/events/ongoing/la-mesa-village-farmers-market-a65cddb0/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "lamesa-2026-09-25-farmers-market",
-      "title": "La Mesa Village - Farmers Market",
-      "date": "2026-09-25",
-      "time": "15:00",
-      "venue": "La Mesa Village",
-      "category": "lamesa",
-      "price": "",
-      "description": "",
-      "url": "https://www.lamesavillageassociation.org/la-mesa-village-calendar-of-events",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "sdreader-2026-09-25-rancho-pe-asquitos-farmers-market",
-      "title": "Rancho Peñasquitos Farmers Market",
-      "date": "2026-09-25",
-      "time": "15:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Radiant Life Church",
-      "url": "https://www.sandiegoreader.com/events/ongoing/rancho-penasquitos-farmers-market/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-25-explore-italy-at-garibaldi-s-f",
-      "title": "Explore Italy at Garibaldi’s Fall 'Sip & Savor' Series",
-      "date": "2026-09-25",
-      "time": "16:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Garibaldi at InterContinental San Diego",
-      "url": "https://www.kpbs.org/events/ongoing/explore-italy-at-garibaldis-fall-sip-savor-series",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-oktoberfest-in-el-cajon",
-      "title": "Oktoberfest in El Cajon",
-      "date": "2026-09-25",
-      "time": "16:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$5.00",
-      "description": "German American Societies",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/oktoberfest-in-el-cajon-9a285a50/?et=365587",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-american-mahjong-social-open-play",
-      "title": "American Mahjong Social: Open Play",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$15.00",
-      "description": "AR Workshop Coronado",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/mahjong-open-play-american-mahjong--e13b979a/?et=364910",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-cruisin-grand",
-      "title": "Cruisin' Grand",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Maple Street Plaza",
-      "url": "https://www.sandiegoreader.com/events/ongoing/cruisin-grand-15f512a4/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-david-shyde",
-      "title": "David Shyde",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Marzul",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/david-shyde-eba51e42/?et=364038",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-noches-de-lucha-libre",
-      "title": "Noches de Lucha Libre",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "McDonald’s",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/mcdonalds-of-southern-california-pr-3a18ca76/?et=365889",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-painting-party",
-      "title": "Painting Party",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$40.00",
-      "description": "Art Scene West",
-      "url": "https://www.sandiegoreader.com/events/ongoing/painting-party-with-art-scene-west--1fe7cb30/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-san-diego-chinese-food-tour",
-      "title": "San Diego Chinese Food Tour",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$79.00",
-      "description": "Asian Cultural District along Convoy Street",
-      "url": "https://www.sandiegoreader.com/events/ongoing/san-diego-chinese-food-tour-30a79588/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "urbanmos-2026-09-25-skyy-bottle-service-special",
-      "title": "SKYY Bottle Service Special",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "",
-      "description": "",
-      "url": "https://urbanmos.com/event/skyy-bottle-service-special/2026-09-25/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-trevor-davis",
-      "title": "Trevor Davis",
-      "date": "2026-09-25",
-      "time": "17:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Gaylord Pacific",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/trevor-davis-b4790e62/?et=364039",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-geoff-nigl",
-      "title": "Geoff Nigl",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Galpão Gaucho Brazilian Steakhouse",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/geoff-nigl-5b515a30/?et=364041",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-le-petit-chef",
-      "title": "Le Petit Chef",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Hilton San Diego Gaslamp Quarter",
-      "url": "https://www.sandiegoreader.com/events/ongoing/le-petit-chef-at-hilton-san-diego-g/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-linda-may-han-oh-trio",
-      "title": "Linda May Han Oh Trio",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "JAI at the Conrad",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/linda-may-han-oh-trio/?et=362460",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-matt-heinecke",
-      "title": "Matt Heinecke",
-      "date": "2026-09-25",
-      "time": "17:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Rancho Valencia",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/matt-heinecke-1375b2bc/?et=364040",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-dancing-in-the-street-series-line-dancin",
-      "title": "Dancing in the Street Series: Line Dancing",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "North City",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/north-citys-dancing-in-the-street-s-15a774d4/?et=366585",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "urbanmos-2026-09-25-dinner-with-dolly-friends",
-      "title": "Dinner with Dolly & Friends",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "$25",
-      "description": "",
-      "url": "https://urbanmos.com/event/dinner-with-dolly-friends/",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "sdreader-2026-09-25-fercho",
-      "title": "Fercho",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Junkyard Sports Bar",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/fercho-e37f30a4/?et=364042",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-italian-classes-for-adults-beginner-inte",
-      "title": "Italian Classes For Adults: Beginner & Intermediate",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$468.00",
-      "description": "San Dieguito United Methodist Church",
-      "url": "https://www.sandiegoreader.com/events/ongoing/italian-classes-for-adults-in-encin/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-jason-graham",
-      "title": "Jason Graham",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Barefoot Bar and Grill",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/jason-graham-8877f744/?et=364045",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-jonny-tarr",
-      "title": "Jonny Tarr",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Shake Bar &amp; Lounge",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/jonny-tarr-f79d0582/?et=364043",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-keni-yarbro",
-      "title": "Keni Yarbro",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "La Valencia Hotel",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/keni-yarbro-at-la-valencia-41833e5e/?et=364044",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-kevin-ryan",
-      "title": "Kevin Ryan",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Estancia La Jolla Hotel and Spa",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/kevin-ryan/?et=364046",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "heartob-2026-09-25-phosphene-tick-stuck-here-uncl",
-      "title": "Phosphene | Tick | Stuck Here | Uncle Tims | Right Of Way",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "The Heart OB",
-      "category": "heartob",
-      "price": "",
-      "description": "",
-      "url": "https://www.theheartob.com/event-details/phosphene-tick-stuck-here-uncle-tims-right-of-way",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "kpbs-2026-09-25-the-shores-restaurant-launches",
-      "title": "The Shores Restaurant Launches $19 Padres Game-Time Special",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "The Shores Restaurant",
-      "url": "https://www.kpbs.org/events/ongoing/the-shores-restaurant-launches-19-padres-game-time-special",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-the-soto-six",
-      "title": "The Soto Six",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Baba Coffee",
-      "url": "https://www.sandiegoreader.com/events/ongoing/the-soto-six-99fac386/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-zootopia-free-movie-night",
-      "title": "Zootopia Free Movie Night",
-      "date": "2026-09-25",
-      "time": "18:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Carnitas&#x27; Snack Shack — Embarcadero",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/zootopia-free-movie-night-at-carnit/?et=365426",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-love-isn-t-blind-a-live-comedy-dating-sh",
-      "title": "Love Isn't Blind: A Live Comedy/Dating Show",
-      "date": "2026-09-25",
-      "time": "18:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$23.73",
-      "description": "Hilton San Diego Gaslamp Quarter",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/love-isnt-blind-a-live-comedydating-3e49f0a0/?et=364999",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-queer-salsa-social-golden-summer",
-      "title": "Queer Salsa Social: Golden Summer",
-      "date": "2026-09-25",
-      "time": "18:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$15.00",
-      "description": "Studio K Dance and Fitness",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/queer-salsa-social-golden-summer/?et=365958",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-the-haunted-trail",
-      "title": "The Haunted Trail",
-      "date": "2026-09-25",
-      "time": "18:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Balboa Park",
-      "url": "https://www.sandiegoreader.com/events/ongoing/the-haunted-trail/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "balboapark-2026-09-25-trust-the-universe-the-philosophy-of",
-      "title": "Trust the Universe: The Philosophy of Alan Watts",
-      "date": "2026-09-25",
-      "time": "18:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/trust-the-universe-the-philosophy-of-alan-watts/2026-09-25/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-san-diego-padres-vs-arizona-diamondbacks",
-      "title": "San Diego Padres vs. Arizona Diamondbacks",
-      "date": "2026-09-25",
-      "time": "18:40",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Petco Park",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/san-diego-padres-vs-arizona-diamond-d8e579d8/?et=353416",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-9-to-5-at-rooftop-cinema-club-dolly-part",
-      "title": "9 to 5 at Rooftop Cinema Club (Dolly Parton Tribute)",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$11.00",
-      "description": "Porto Vista Hotel, 1835 Columbia Street, San Diego, CA 92101",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/9-to-5-at-rooftop-cinema-club-atop-/?et=366198",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-a-black-billed-cuckoo",
-      "title": "A Black-billed Cuckoo",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Mandell Weiss Forum",
-      "url": "https://www.sandiegoreader.com/events/ongoing/a-black-billed-cuckoo/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-a-midsummer-night-s-dream",
-      "title": "A Midsummer Night's Dream",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$17.00",
-      "description": "MiraCosta College",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/a-midsummer-nights-dream-ee8ce6a4/?et=364700",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "blindlady-2026-09-25-andrew-mcgranahan-mike-turi",
-      "title": "Andrew Mcgranahan & Mike Turi",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Blind Lady Ale House",
-      "category": "blindlady",
-      "price": "",
-      "description": "Pizza: 3pm-10pm Beer: 3pm-Midnight $6 UNTIL 6 Every Friday & Saturday ALL beers are just $6 until 6pm featuring SD FREAKOUT with ANDREW MCGR",
-      "url": "https://www.blindladyalehouse.com",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "sdreader-2026-09-25-arts-unite-in-the-heights-film-screening",
-      "title": "Arts Unite: In The Heights Film Screening",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Sunshine Brooks Theatre",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/arts-unite-in-the-heights-film-scre/?et=364784",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-begin-again",
-      "title": "Begin Again",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Old Globe - Donald &amp; Darlene Shiley Stage",
-      "url": "https://www.sandiegoreader.com/events/ongoing/begin-again/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "moonshineflats-2026-09-25-401056514804",
-      "title": "Cassie B",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Moonshine Flats",
-      "category": "moonshineflats",
-      "price": "",
-      "description": "",
-      "url": "https://moonshinebeachsd.com/event/?id=401056514804&dt=260925&ve=flats&rm=0",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "cygnet-2026-09-25-dear-evan-hansen",
-      "title": "Dear Evan Hansen",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Cygnet Theatre",
-      "category": "cygnet",
-      "price": "",
-      "description": "",
-      "url": "https://cygnettheatre.org/show/season26-27/dear-evan-hansen/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "sdreader-2026-09-25-do-black-patent-leather-shoes-really-ref",
-      "title": "Do Black Patent Leather Shoes Really Reflect Up?",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$16.00",
-      "description": "Innovation Family Community Theatre",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/do-black-patent-leather-shoes-realy/?et=366079",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-fraxures-and-tigers-in-cairo",
-      "title": "Fraxures and Tigers in Cairo",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Banshee Bar",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/fraxures-and-tigers-in-cairo/?et=363820",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "banshee-2026-09-25-42C6AC9CB8E1E0DD",
-      "title": "Fraxures, Tigers in Cairo, and Once Loved",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Banshee Bar",
-      "category": "banshee",
-      "price": "$13.60",
-      "description": "",
-      "url": "https://link.dice.fm/Y3932737e7ab",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-good-night-oscar",
-      "title": "Good Night, Oscar",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$63.50",
-      "description": "North Coast Repertory Theatre",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/good-night-oscar-at-north-coast-rep/?et=365927",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-howl-o-scream-san-diego",
-      "title": "Howl-O-Scream San Diego",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "SeaWorld",
-      "url": "https://www.sandiegoreader.com/events/ongoing/howl-o-scream-san-diego/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "houseofblues-2026-09-25-jesse-baez",
-      "title": "Jesse Baez",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "House of Blues",
-      "category": "houseofblues",
-      "price": "",
-      "description": "House of Blues San Diego",
-      "url": "https://www.ticketmaster.com/jesse-baez-san-diego-california-09-25-2026/event/0A00643C5A032834",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "moonshinebeach-2026-09-25-401069737078",
-      "title": "KIKI",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Moonshine Beach",
-      "category": "moonshinebeach",
-      "price": "",
-      "description": "",
-      "url": "https://moonshinebeachsd.com/event/?id=401069737078&dt=260925&ve=beach&rm=0",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "sdreader-2026-09-25-little-fish-comic-savvy",
-      "title": "Little Fish Comic Savvy",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Little Fish Comic Book Studio",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/little-fish-comic-savvy-823daaa4/?et=366139",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "houseofblues-2026-09-25-melanie-c-world-tour",
-      "title": "Melanie C World Tour",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "House of Blues",
-      "category": "houseofblues",
-      "price": "",
-      "description": "House of Blues San Diego",
-      "url": "https://www.ticketmaster.com/melanie-c-world-tour-san-diego-california-09-25-2026/event/0A00646B73474D42",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "ccae-2026-09-25-m-sica-en-la-plaza-manny-cepeda-orch",
-      "title": "Música en la Plaza: Manny Cepeda Orchestra",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "Free",
-      "description": "",
-      "url": "https://artcenter.org/event/musica-en-la-plaza-manny-cepeda-orchestra-2/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "winstons-2026-09-25-rosy-dawn-and-oversoul",
-      "title": "Rosy Dawn and Oversoul",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/rosy-dawn-and-oversoul",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "observatory-2026-09-25-waylon-wyatt-dustpiles-world-tour",
-      "title": "Waylon Wyatt - Dustpiles World Tour",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "Observatory North Park",
-      "category": "observatory",
-      "price": "",
-      "description": "The Observatory North Park",
-      "url": "https://www.ticketmaster.com/waylon-wyatt-dustpiles-world-tour-san-diego-california-09-25-2026/event/0B0064AC8F0C294C",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-zb-savoy-songs-of-willie-nelson",
-      "title": "ZB Savoy: Songs of Willie Nelson",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$35.00",
-      "description": "Bornemann",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/zb-savoy-songs-of-willie-nelson-843d0096/?et=362159",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-24k-magic",
-      "title": "24k Magic",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Thornton Winery",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/24k-magic-bed021d6/?et=360579",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "humphreys-171229",
-      "title": "Collective Soul",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "Humphrey's Concerts",
-      "category": "humphreys",
-      "price": "",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/0A0064AB27E9F814",
-      "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "sdreader-2026-09-25-don-west",
-      "title": "Don West",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Belly Up Tavern",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/don-west/?et=359008",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-everybody-staged-reading",
-      "title": "Everybody: Staged Reading",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$10.00",
-      "description": "Prebys Stage",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/everybody-staged-reading/?et=365870",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-get-the-led-out",
-      "title": "Get the Led Out",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Magnolia Performing Arts Center",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/get-the-led-out-e226910a/?et=361634",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "epstein-2026-09-25-ghostbusters-in-concert",
-      "title": "Ghostbusters in Concert",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "Epstein Amphitheater",
-      "category": "epstein",
-      "price": "",
-      "description": "",
-      "url": "https://amphitheater.ucsd.edu/event/ghostbusters-in-concert/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "holdingco-2026-09-25-julius-ulrich-mezzoa-whole-hog",
-      "title": "Julius Ulrich, Mezzoa, Whole Hog",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "$10",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/julius-ulrich/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-karaoke-night",
-      "title": "Karaoke Night",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "710 Beach Club",
-      "url": "https://www.sandiegoreader.com/events/ongoing/karaoke-night-4ffc8dae/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-melanie-c",
-      "title": "Melanie C",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "House of Blues",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/melanie-c/?et=358011",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-melt-banana",
-      "title": "Melt Banana",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Casbah",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/melt-banana-917f1512/?et=363811",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-pearl-the-oysters",
-      "title": "Pearl & The Oysters",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Soda Bar",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/pearl-the-oysters-7f7ca908/?et=363128",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sodabar-2026-09-25-6EC50DCAC48BA5A1",
-      "title": "Pearl & The Oysters, Sugar Candy Mountain",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$30.39",
-      "description": "",
-      "url": "https://link.dice.fm/S7709c304a76",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "sdreader-2026-09-25-songwriter-sanctuary",
-      "title": "Songwriter Sanctuary",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Normal Heights United Methodist Church",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/songwriter-sanctuary-90d36594/?et=355186",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-sonic-live-in-concert",
-      "title": "Sonic Live in Concert",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "San Diego Civic Theatre",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/sonic-live-in-concert/?et=363798",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "ccae-2026-09-25-teada",
-      "title": "Teada",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "",
-      "description": "",
-      "url": "https://artcenter.org/event/teada/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-tick-tick-boom-",
-      "title": "Tick, Tick…Boom!",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Diversionary Theatre",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/tick-tickboom/?et=365403",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-t-ada",
-      "title": "Téada",
-      "date": "2026-09-25",
-      "time": "19:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$36.00",
-      "description": "California Center for the Arts, Escondido",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/teada-69f92ed2/?et=365030",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "newvillage-2026-09-25-improv-comedy-show",
-      "title": "Improv Comedy Show",
-      "date": "2026-09-25",
-      "time": "19:45",
-      "venue": "New Village Arts",
-      "category": "newvillage",
-      "price": "",
-      "description": "",
-      "url": "https://newvillagearts.org/event/improv-comedy-show-2/2026-09-25/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "towerbar-2026-09-25-adversarial-productions-presents-a",
-      "title": "Adversarial Productions presents Amarok, Abyssal, Plagued, Esteban I. Flores",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Tower Bar",
-      "category": "towerbar",
-      "price": "",
-      "description": "",
-      "url": "https://www.thetowerbar.com/calendar/adversarial-productions-presents-amarok/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "bellyup-14988953",
-      "title": "Atomic Groove",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/atomic-grooves-parents-nite-out-belly-up-tickets/14988953?REFID=bupwebsite&theme=bellyup",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "calcoast-2026-09-25-codiciado-as-es-la-vida-tour",
-      "title": "Codiciado Así Es La Vida Tour",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Cal Coast Open Air Theatre",
-      "category": "calcoast",
-      "price": "",
-      "description": "",
-      "url": "https://as.sdsu.edu/calcoast/events",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sdreader-2026-09-25-come-from-away",
-      "title": "Come From Away",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Moonlight Amphitheatre in Brengle Terrace Park",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/come-from-away/?et=360162",
-      "added": "2026-09-25 15:03"
-    },
-    {
       "id": "mcg-s0i3",
       "title": "DIEGO DEAD",
       "date": "2026-09-25",
@@ -1476,690 +300,6 @@
       "description": "MIDNIGHT SPECIAL · FALLOUT SHELTER · (GRATEFUL DEAD TRIBUTE) · As listed: FRI SEPT 25/8pm",
       "url": null,
       "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "sdreader-2026-09-25-fourth-friday-jazz-series-voices-of-jazz",
-      "title": "Fourth Friday Jazz Series: Voices of Jazz",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$23.00",
-      "description": "La Jolla Community Center",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/fourth-friday-jazz-series-september/?et=363515",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "musicbox-14202314",
-      "title": "Fu Manchu",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Music Box",
-      "category": "musicbox",
-      "price": "",
-      "description": "With SUNBENDR",
-      "url": "https://musicboxsd.com/event/14202314/fu-manchu-sunbendr/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "kpbs-2026-09-25-prohibition-a-memorable-padres",
-      "title": "Prohibition, a memorable Padres post-game spot",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Prohibition Lounge",
-      "url": "https://www.kpbs.org/events/ongoing/prohibition-a-memorable-padres-post-game-spot",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-sin-bandera",
-      "title": "Sin Bandera",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "",
-      "description": "Rady Shell at Jacobs Park",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/sin-bandera-bfd29f06/?et=363527",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "humpbackstage-2026-09-25-toga-party-band",
-      "title": "Toga Party Band",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/toga-party/2026-09-25/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "bellyup-14918043",
-      "title": "Waylon Wyatt",
-      "date": "2026-09-25",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "Zandi Holup",
-      "url": "https://www.ticketweb.com/event/waylon-wyatt-dustpiles-the-observatory-north-park-tickets/14918043?REFID=bupwebsite",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "casbah-699413",
-      "title": "Melt Banana, Moon Destroys, RX Pink Noise",
-      "date": "2026-09-25",
-      "time": "20:30",
-      "venue": "Casbah",
-      "category": "casbah",
-      "price": "$30.00",
-      "description": "Punk · 21+",
-      "url": "https://wl.seetickets.us/event/melt-banana-moon-destroys-rx-pink-noise/699413?afflky=Casbah",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "urbanmos-2026-09-25-out-abt-queer-house-dance-party",
-      "title": "Out & Abt: Queer House Dance Party",
-      "date": "2026-09-25",
-      "time": "21:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "",
-      "description": "",
-      "url": "https://urbanmos.com/event/out-abt-queer-house-dance-party/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "urbanmos-2026-09-25-rawr-w-jinx-mirage",
-      "title": "RAWR: w/ Jinx Mirage",
-      "date": "2026-09-25",
-      "time": "21:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "",
-      "description": "",
-      "url": "https://urbanmos.com/event/rawr-w-jinx-mirage/2026-09-25/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "whistlestop-2026-09-25-wild-planet80s-night",
-      "title": "WILD PLANET80s NIGHT",
-      "date": "2026-09-25",
-      "time": "21:00",
-      "venue": "Whistle Stop",
-      "category": "whistlestop",
-      "price": "",
-      "description": "",
-      "url": "https://whistlestopbar.com/event/wild-planet80s-night/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-gary-michael-anderson",
-      "title": "Gary Michael Anderson",
-      "date": "2026-09-25",
-      "time": "21:30",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$10.00",
-      "description": "National Lampoon: The Yellow Door",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/a-comedy-show-yellow-door-comedy-cl-c5eb2a96/?et=364814",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "winstons-2026-09-25-karaoke",
-      "title": "KARAOKE",
-      "date": "2026-09-25",
-      "time": "21:30",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/karaoke",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-get-out-at-rooftop-cinema-club",
-      "title": "Get Out at Rooftop Cinema Club",
-      "date": "2026-09-25",
-      "time": "22:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$11.00",
-      "description": "Porto Vista Hotel &amp; Suites",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/get-out-at-rooftop-cinema-club-atop/?et=366199",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "sdreader-2026-09-25-interactive-comedy-show",
-      "title": "Interactive Comedy Show",
-      "date": "2026-09-25",
-      "time": "22:00",
-      "venue": "SD Reader picks",
-      "category": "sdreader",
-      "price": "$15.00",
-      "description": "Finest City Improv",
-      "url": "https://www.sandiegoreader.com/events/2026/sep/25/dad-skeleton-presents-you-in-intera/?et=365915",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "urbanmos-2026-09-26-omg-a-gay-afters",
-      "title": "OMG: A Gay Afters",
-      "date": "2026-09-26",
-      "time": "02:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "",
-      "description": "",
-      "url": "https://urbanmos.com/event/omg-a-gay-afters/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "newvillage-2026-09-26-improv-for-everyone-intro-to-improv",
-      "title": "Improv for Everyone | Intro to Improv",
-      "date": "2026-09-26",
-      "time": "09:00",
-      "venue": "New Village Arts",
-      "category": "newvillage",
-      "price": "",
-      "description": "",
-      "url": "https://newvillagearts.org/event/intro2improv26/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-26-art-mart",
-      "title": "Art Mart",
-      "date": "2026-09-26",
-      "time": "10:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "Free",
-      "description": "",
-      "url": "https://balboapark.org/event/artmart/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "batesnut-2026-09-26-celebrating-farm-life-farm-edu",
-      "title": "Celebrating Farm Life, Farm Education and Youth Day",
-      "date": "2026-09-26",
-      "time": "10:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: 10:00am - 4:00pm Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "batesnut-2026-09-26-kids-market-valley-center",
-      "title": "Kids Market Valley Center",
-      "date": "2026-09-26",
-      "time": "10:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: 10:00am - 4:00pm Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "panama66-2026-09-26-old-globe-gala-no-music",
-      "title": "Old Globe Gala No Music",
-      "date": "2026-09-26",
-      "time": "10:00",
-      "venue": "Panama 66",
-      "category": "panama66",
-      "price": "",
-      "description": "Food 10am-1:30pm / Bar 10am-3pm OLD GLOBE GALA NO MUSIC",
-      "url": "https://www.panama66.com/livemusic",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "urbanmos-2026-09-26-bubbles-for-brunch",
-      "title": "Bubbles for Brunch",
-      "date": "2026-09-26",
-      "time": "11:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "$25",
-      "description": "",
-      "url": "https://urbanmos.com/event/bubbles-for-brunch-16/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-26-house-of-korea-lawn-program",
-      "title": "House of Korea Lawn Program",
-      "date": "2026-09-26",
-      "time": "11:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "Free",
-      "description": "",
-      "url": "https://balboapark.org/event/house-of-korea-lawn-program/",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "newvillage-2026-09-26-improv-level-ii-the-game-of-the-scen",
-      "title": "Improv Level II: The Game of the Scene",
-      "date": "2026-09-26",
-      "time": "11:15",
-      "venue": "New Village Arts",
-      "category": "newvillage",
-      "price": "",
-      "description": "",
-      "url": "https://newvillagearts.org/event/improv2-26/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "pechanga-2026-09-26-hot-wheels-monster-trucks-live-glow-",
-      "title": "Hot Wheels Monster Trucks Live: Glow-N-Fire",
-      "date": "2026-09-26",
-      "time": "11:30",
-      "venue": "Pechanga Arena",
-      "category": "pechanga",
-      "price": "",
-      "description": "Hot Wheels Monster Trucks Live: Glow N Fire is coming to Pechanga Arena September 26-27!",
-      "url": "https://pechangaarenasd.com/event/hot-wheels-monster-trucks-live-glow-n-fire/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "batesnut-2026-09-26-whiskey-heat-live-music",
-      "title": "Whiskey Heat | Live Music",
-      "date": "2026-09-26",
-      "time": "12:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: 12:00pm - 3:00pm Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "holdingco-2026-09-26-arkane-big-tooth-comb-and-the-taz-ta",
-      "title": "ArKane, Big Tooth Comb and The Taz Taylor Band",
-      "date": "2026-09-26",
-      "time": "13:30",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "$5",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/arkane-big-tooth-comb-and-the-taz-taylor-band/",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "urbanmos-2026-09-26--10-pitchers",
-      "title": "$10 Pitchers",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "$6.50",
-      "description": "",
-      "url": "https://urbanmos.com/event/6-50-well-cocktails-2/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "cygnet-2026-09-26-dear-evan-hansen",
-      "title": "Dear Evan Hansen",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "venue": "Cygnet Theatre",
-      "category": "cygnet",
-      "price": "",
-      "description": "",
-      "url": "https://cygnettheatre.org/show/season26-27/dear-evan-hansen/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "spin-2026-09-26-grown-folks-saturdays",
-      "title": "Grown Folks Saturdays",
-      "date": "2026-09-26",
-      "time": "15:00",
-      "venue": "SPIN",
-      "category": "spin",
-      "price": "$28.52",
-      "description": "",
-      "url": "https://www.eventbrite.com/e/grown-folks-saturdays-tickets-2000521696246",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "whistlestop-2026-09-26-john-meeks-please-ask-for-paul-matin",
-      "title": "JOHN MEEKS & PLEASE ASK FOR PAUL Matinee Show",
-      "date": "2026-09-26",
-      "time": "16:00",
-      "venue": "Whistle Stop",
-      "category": "whistlestop",
-      "price": "",
-      "description": "",
-      "url": "https://whistlestopbar.com/event/john-meeks-please-ask-for-paul-matinee-show/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "winstons-2026-09-26-nuntrucker-the-fever-vault-and-boo",
-      "title": "NunTrucker, the Fever Vault and BOO!",
-      "date": "2026-09-26",
-      "time": "16:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/nuntrucker-fever-vault-and-boo",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "humpbackstage-2026-09-26-manzanita-blues-band",
-      "title": "Manzanita Blues Band",
-      "date": "2026-09-26",
-      "time": "17:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/manzanita-blues-band/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-26-the-party-in-the-park",
-      "title": "The Party in the Park",
-      "date": "2026-09-26",
-      "time": "17:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/the-party-in-the-park/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-26-the-old-globe-gala",
-      "title": "The Old Globe Gala",
-      "date": "2026-09-26",
-      "time": "17:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/the-old-globe-gala/",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "holdingco-2026-09-26-mattfest-a-birthday-party",
-      "title": "MattFest – A Birthday Party",
-      "date": "2026-09-26",
-      "time": "18:00",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "$10",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/mattfest-a-birthday-party/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "epstein-2026-09-26-sugar-skull-a-d-a-de-muertos-musical",
-      "title": "SUGAR SKULL! | A Día de Muertos Musical Adventure",
-      "date": "2026-09-26",
-      "time": "18:00",
-      "venue": "Epstein Amphitheater",
-      "category": "epstein",
-      "price": "",
-      "description": "",
-      "url": "https://amphitheater.ucsd.edu/event/sugar-skull/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "heartob-2026-09-26-wysteria-nthau",
-      "title": "Wysteria | NTHAU",
-      "date": "2026-09-26",
-      "time": "18:00",
-      "venue": "The Heart OB",
-      "category": "heartob",
-      "price": "",
-      "description": "",
-      "url": "https://www.theheartob.com/event-details/wysteria-nthau",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "balboapark-2026-09-26-mesmerica",
-      "title": "Mesmerica",
-      "date": "2026-09-26",
-      "time": "18:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/mesmerica/2026-09-26/",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "kpbs-2026-09-26-90s-brunch-at-werewolf",
-      "title": "90s Brunch at Werewolf",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Werewolf American Pub",
-      "url": "https://www.kpbs.org/events/2026/09/26/90s-brunch-at-werewolf",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "moonshineflats-2026-09-26-401056515101",
-      "title": "Cassie B",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "Moonshine Flats",
-      "category": "moonshineflats",
-      "price": "",
-      "description": "",
-      "url": "https://moonshinebeachsd.com/event/?id=401056515101&dt=260926&ve=flats&rm=0",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "kpbs-2026-09-26-celebrate-national-bunny-day-w",
-      "title": "Celebrate National Bunny Day with Bunnies & Brunch at Wild Hare Bar Garden",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Hilton San Diego Gaslamp Quarter",
-      "url": "https://www.kpbs.org/events/2026/09/26/celebrate-national-bunny-day-with-bunnies-brunch-at-wild-hare-bar-garden",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "kpbs-2026-09-26-continental-cup-usa-vs-mexico",
-      "title": "Continental Cup USA vs Mexico",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Frontwave Arena",
-      "url": "https://www.kpbs.org/events/2026/09/26/continental-cup-usa-vs-mexico",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "moonshinebeach-2026-09-26-401078318537",
-      "title": "KIKI",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "Moonshine Beach",
-      "category": "moonshinebeach",
-      "price": "",
-      "description": "",
-      "url": "https://moonshinebeachsd.com/event/?id=401078318537&dt=260926&ve=beach&rm=0",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "kpbs-2026-09-26-march-to-save-the-dogs",
-      "title": "March to Save the Dogs",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Presidents Way Lawn",
-      "url": "https://www.kpbs.org/events/2026/09/26/march-to-save-the-dogs",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-26-mariachi-usa",
-      "title": "MARIACHI USA",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "The Rady Shell at Jacobs Park",
-      "url": "https://www.kpbs.org/events/2026/09/26/mariachi-usa",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "kpbs-2026-09-26-san-diego-vegfest",
-      "title": "San Diego VegFest",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Presidents Way Lawn",
-      "url": "https://www.kpbs.org/events/2026/09/26/san-diego-vegfest",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-26-swells-sourdough-bakery-openin",
-      "title": "Swells Sourdough Bakery Opening",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Swells Sourdough Bakery",
-      "url": "https://www.kpbs.org/events/2026/10/01/swells-sourdough-bakery-opening",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "houseofblues-2026-09-26-wesghost-red-leather-redghost-tour",
-      "title": "WesGhost & Red Leather - RedGhost Tour",
-      "date": "2026-09-26",
-      "time": "19:00",
-      "venue": "House of Blues",
-      "category": "houseofblues",
-      "price": "",
-      "description": "House of Blues San Diego",
-      "url": "https://www.ticketmaster.com/wesghost-red-leather-redghost-tour-san-diego-california-09-26-2026/event/0A0064BCBD15A4D1",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "sodabar-2026-09-26-4D28A2BE69CF8E62",
-      "title": "Dent May, Lenny Zen",
-      "date": "2026-09-26",
-      "time": "19:30",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$24.72",
-      "description": "",
-      "url": "https://link.dice.fm/v98a952d1fbc",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "towerbar-2026-09-26-the-wulfeater-closing-party-featur",
-      "title": "The wulfeater Closing Party featuring The Little Patriotic Ladies of Cleveland & Guests",
-      "date": "2026-09-26",
-      "time": "19:30",
-      "venue": "Tower Bar",
-      "category": "towerbar",
-      "price": "",
-      "description": "",
-      "url": "https://www.thetowerbar.com/calendar/the-little-patriotic-ladies-of-cleveland/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "kpbs-2026-09-26-2026-concert-of-hope-featuring",
-      "title": "2026 Concert Of Hope featuring Tom Petty Tribute Band, The Pettybreakers",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "California Center for the Arts: Escondido",
-      "url": "https://www.kpbs.org/events/2026/09/26/2026-concert-of-hope-featuring-tom-petty-tribute-band-the-pettybreakers",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "humpbackstage-2026-09-26-detroit-underground",
-      "title": "Detroit Underground",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/detroit-underground-39/2026-09-26/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "ccae-2026-09-26-doors-of-change-concert-of-hope-2026",
-      "title": "Doors of Change, Concert of Hope 2026 – The Pettybreakers",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "",
-      "description": "",
-      "url": "https://artcenter.org/event/concertofhope_thepettybreakers/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "calcoast-2026-09-26-erykah-badu-smino-the-alchemis",
-      "title": "Erykah Badu + Smino & The Alchemist",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "Cal Coast Open Air Theatre",
-      "category": "calcoast",
-      "price": "",
-      "description": "",
-      "url": "https://as.sdsu.edu/calcoast/events",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "sycuan-2026-09-26-loves-and-memories-tinh-yeu-va",
-      "title": "Loves and Memories – Tinh Yeu Va Ky Uc",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "Sycuan Casino",
-      "category": "sycuan",
-      "price": "",
-      "description": "Sycuan Casino Resort",
-      "url": "https://www.sycuan.com/entertainment/",
-      "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "bellyup-14894363",
-      "title": "RHCP Tribute - The Red NOT Chili Peppers",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "Babes Against The Machine (Tribute to Rage Against The Machine)",
-      "url": "https://www.ticketweb.com/event/rhcp-tribute-the-belly-up-tickets/14894363?REFID=bupwebsite&theme=bellyup",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "musicbox-14320054",
-      "title": "salute",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "venue": "Music Box",
-      "category": "musicbox",
-      "price": "",
-      "description": "FNGRS CRSSD x CRSSD FESTIVAL present · With Faster Horses",
-      "url": "https://musicboxsd.com/event/14320054/fngrs-crssd-x-crssd-festival-present-salute-faster-horses/",
-      "added": "2026-09-25 15:03"
     },
     {
       "id": "kensington-2026-09-26-soul-buzz",
@@ -2186,246 +326,6 @@
       "added": "2026-09-04 07:32"
     },
     {
-      "id": "casbah-693572",
-      "title": "Dana and Alden, Ania Hoo",
-      "date": "2026-09-26",
-      "time": "20:30",
-      "venue": "Casbah",
-      "category": "casbah",
-      "price": "$25.00-$30.00",
-      "description": "Papa’s Boat Tour · Indie · 21+",
-      "url": "https://wl.seetickets.us/event/dana-and-alden-ania-hoo/693572?afflky=Casbah",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "kpbs-2026-09-26-improv-vs-stand-up",
-      "title": "Improv VS Stand Up",
-      "date": "2026-09-26",
-      "time": "20:30",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Mockingbird Improv",
-      "url": "https://www.kpbs.org/events/ongoing/improv-vs-stand-up",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "batesnut-2026-09-26-early-days-gas-engine-tractor-",
-      "title": "Early Days Gas Engine & Tractor Association Regional Show",
-      "date": "2026-09-26",
-      "time": "21:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: 9/26 | 9:00am - 5:00pm 9/27 | 9:00am - 4:00pm Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "winstons-2026-09-26-fish-and-the-seaweeds-with-tribute",
-      "title": "Fish and the Seaweeds with Tributes to  Santana / Allman Bros",
-      "date": "2026-09-26",
-      "time": "21:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/fish-and-seaweeds-tributes-santana-allman-bros",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "banshee-2026-09-26-2ACA4CEAEB2C0F10",
-      "title": "Other Voices: Dark Dance Night",
-      "date": "2026-09-26",
-      "time": "21:00",
-      "venue": "Banshee Bar",
-      "category": "banshee",
-      "price": "",
-      "description": "",
-      "url": "https://link.dice.fm/H7d0b7ef509e",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "humpbackstage-2026-09-27-concert-night",
-      "title": "Concert Night",
-      "date": "2026-09-27",
-      "time": "00:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/concert-night-4/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "panama66-2026-09-27-claudia-gomez-tap-jam",
-      "title": "Claudia Gomez & Tap Jam",
-      "date": "2026-09-27",
-      "time": "05:00",
-      "venue": "Panama 66",
-      "category": "panama66",
-      "price": "",
-      "description": "Food 10am-7pm / Bar 8pm CLAUDIA GOMEZ & TAP JAM , 5-7pm",
-      "url": "https://www.panama66.com/livemusic",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "balboapark-2026-09-27-a-space-for-all-of-us",
-      "title": "A Space for All of Us",
-      "date": "2026-09-27",
-      "time": "10:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/a-space-for-all-of-us-2/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-27-art-mart",
-      "title": "Art Mart",
-      "date": "2026-09-27",
-      "time": "10:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "Free",
-      "description": "",
-      "url": "https://balboapark.org/event/art-mart/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "worldbeat-2026-09-27-seeds-of-herbalism-an-introduction-t",
-      "title": "Seeds of Herbalism – An Introduction to the Art & Science of Herbalism",
-      "date": "2026-09-27",
-      "time": "10:00",
-      "venue": "Worldbeat Center",
-      "category": "worldbeat",
-      "price": "",
-      "description": "",
-      "url": "https://www.worldbeatcenter.org/event/seeds-of-herbalism-an-introduction-to-the-art-science-of-herbalism-2/2026-09-27/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "winstons-2026-09-27-washington-commanders-vs-seattle-s",
-      "title": "Washington Commanders vs Seattle Seahawks",
-      "date": "2026-09-27",
-      "time": "10:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/washington-commanders-vs-seattle-seahawks",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "balboapark-2026-09-27-house-of-puerto-rico-lawn-program",
-      "title": "House of Puerto Rico Lawn Program",
-      "date": "2026-09-27",
-      "time": "11:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "Free",
-      "description": "",
-      "url": "https://balboapark.org/event/house-of-puerto-rico-lawn-program/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "ccae-2026-09-27-sound-meditation-and-body-movement-w",
-      "title": "Sound Meditation and Body Movement with Noriko Whitfield",
-      "date": "2026-09-27",
-      "time": "11:00",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "$35",
-      "description": "",
-      "url": "https://artcenter.org/event/sound-meditation-and-body-movement-with-noriko-whitfield-18/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "batesnut-2026-09-27-steal-dawn-live-music",
-      "title": "Steal Dawn - Live Music",
-      "date": "2026-09-27",
-      "time": "12:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: 12:00pm - 3:00pm Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "sodabar-2026-09-27-A389173E1A82E344",
-      "title": "Teenage Burritos, Permissive Rot",
-      "date": "2026-09-27",
-      "time": "13:00",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$6.70",
-      "description": "",
-      "url": "https://link.dice.fm/J0852235c66a",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "pechanga-2026-09-27-hot-wheels-monster-trucks-live-glow-",
-      "title": "Hot Wheels Monster Trucks Live: Glow-N-Fire",
-      "date": "2026-09-27",
-      "time": "13:30",
-      "venue": "Pechanga Arena",
-      "category": "pechanga",
-      "price": "",
-      "description": "Hot Wheels Monster Trucks Live: Glow N Fire is coming to Pechanga Arena September 26-27!",
-      "url": "https://pechangaarenasd.com/event/hot-wheels-monster-trucks-live-glow-n-fire-3/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "holdingco-2026-09-27-smooth-operator-sade-tribute-",
-      "title": "Smooth Operator (Sade Tribute)",
-      "date": "2026-09-27",
-      "time": "13:30",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "$10",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/smooth-operator-sade-tribute/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "cygnet-2026-09-27-dear-evan-hansen",
-      "title": "Dear Evan Hansen",
-      "date": "2026-09-27",
-      "time": "14:00",
-      "venue": "Cygnet Theatre",
-      "category": "cygnet",
-      "price": "",
-      "description": "",
-      "url": "https://cygnettheatre.org/show/season26-27/dear-evan-hansen/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "urbanmos-2026-09-27-sassy-sunday-funday",
-      "title": "Sassy Sunday Funday",
-      "date": "2026-09-27",
-      "time": "14:00",
-      "venue": "Urban MO's",
-      "category": "urbanmos",
-      "price": "",
-      "description": "",
-      "url": "https://urbanmos.com/event/sassy-sunday-funday-19-4/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "balboapark-2026-09-27-sunday-concert",
-      "title": "Sunday Concert",
-      "date": "2026-09-27",
-      "time": "14:00",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "Free",
-      "description": "",
-      "url": "https://balboapark.org/event/sunday-concert/2026-09-27/",
-      "added": "2026-08-08 11:30"
-    },
-    {
       "id": "spreckels-2026-09-27-sunday-concert",
       "title": "Sunday Organ Concert",
       "date": "2026-09-27",
@@ -2436,18 +336,6 @@
       "description": "Weekly civic organ concert at the Spreckels Organ Pavilion, Balboa Park. Every Sunday, 2 PM, free — a tradition since 1917.",
       "url": "https://spreckelsorgan.org/sundays",
       "added": "2026-07-19"
-    },
-    {
-      "id": "winstons-2026-09-27-punk-rock-sunday-w-disauthority-an",
-      "title": "Punk Rock Sunday w/ Disauthority and Strangely Strange",
-      "date": "2026-09-27",
-      "time": "15:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/punk-rock-sunday-w-disauthority-and-strangely-strange",
-      "added": "2026-09-03 16:18"
     },
     {
       "id": "mcg-s0i6",
@@ -2462,30 +350,6 @@
       "added": "2026-09-04 07:32"
     },
     {
-      "id": "towerbar-2026-09-27-noise-agents-one-square-mile-me-gr",
-      "title": "Noise Agents, One Square Mile, Me, Grimlock!, Blue Elephant and the Seven Snakes, Quid Punk Quo, Eye Mind Matinee",
-      "date": "2026-09-27",
-      "time": "16:00",
-      "venue": "Tower Bar",
-      "category": "towerbar",
-      "price": "",
-      "description": "",
-      "url": "https://www.thetowerbar.com/calendar/me-grimlock-strychnine-ninety-nine-one-square-mile-quid-punk-quo-eye-mind-matinee/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "balboapark-2026-09-27-trivia-night-at-the-timken-wine-wisd",
-      "title": "Trivia Night at the Timken: Wine & Wisdom",
-      "date": "2026-09-27",
-      "time": "16:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/trivia-night-at-the-timken-wine-wisdom/",
-      "added": "2026-08-08 11:30"
-    },
-    {
       "id": "qb-2026-09-27-salsa-sunday",
       "title": "Salsa Sunday",
       "date": "2026-09-27",
@@ -2498,126 +362,6 @@
       "added": null
     },
     {
-      "id": "banshee-2026-09-27-4495F1B734EFC377",
-      "title": "Moss, Nick Moon, Prune, and meanstoanend",
-      "date": "2026-09-27",
-      "time": "18:00",
-      "venue": "Banshee Bar",
-      "category": "banshee",
-      "price": "$4.99",
-      "description": "",
-      "url": "https://link.dice.fm/Mbe5626f76a1",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "balboapark-2026-09-27-trust-the-universe-the-philosophy-of",
-      "title": "Trust the Universe: The Philosophy of Alan Watts",
-      "date": "2026-09-27",
-      "time": "18:30",
-      "venue": "Balboa Park",
-      "category": "balboapark",
-      "price": "",
-      "description": "",
-      "url": "https://balboapark.org/event/trust-the-universe-the-philosophy-of-alan-watts/2026-09-27/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "kpbs-2026-09-27-10th-annual-san-diego-sake-fes",
-      "title": "10th Annual San Diego SAKE Festival",
-      "date": "2026-09-27",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "JULEP Venue",
-      "url": "https://www.kpbs.org/events/2026/09/27/10th-annual-san-diego-sake-festival",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "kpbs-2026-09-27-3rd-annual-taste-of-college-ar",
-      "title": "3rd Annual Taste of College Area",
-      "date": "2026-09-27",
-      "time": "19:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "College Area / Rolando Neighborhoods",
-      "url": "https://www.kpbs.org/events/2026/09/27/3rd-annual-taste-of-college-area",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "observatory-2026-09-27-geoff-tate-operation-mindcrime-the-final",
-      "title": "Geoff Tate Operation: Mindcrime - The Final Chapter",
-      "date": "2026-09-27",
-      "time": "19:00",
-      "venue": "Observatory North Park",
-      "category": "observatory",
-      "price": "",
-      "description": "The Observatory North Park",
-      "url": "https://www.ticketmaster.com/geoff-tate-operation-mindcrime-the-final-san-diego-california-09-27-2026/event/0B006471C53E55CF",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "houseofblues-2026-09-27-porch-light-hush-tour",
-      "title": "Porch Light - Hush Tour",
-      "date": "2026-09-27",
-      "time": "19:00",
-      "venue": "House of Blues",
-      "category": "houseofblues",
-      "price": "",
-      "description": "House of Blues San Diego",
-      "url": "https://www.ticketmaster.com/porch-light-hush-tour-san-diego-california-09-27-2026/event/0A0064E8D08BAC48",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "sodabar-2026-09-27-0619696434D9F3CA",
-      "title": "The Saxophones, Simians",
-      "date": "2026-09-27",
-      "time": "19:00",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$24.72",
-      "description": "",
-      "url": "https://link.dice.fm/Qbed684ed6b1",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "ccae-2026-09-27-stick-men",
-      "title": "STICK MEN",
-      "date": "2026-09-27",
-      "time": "19:30",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "",
-      "description": "",
-      "url": "https://artcenter.org/event/stick-men/",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "humpbackstage-2026-09-27-cynthia-gonzalez-band",
-      "title": "Cynthia Gonzalez Band",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "Humphrey's Backstage",
-      "category": "humpbackstage",
-      "price": "",
-      "description": "",
-      "url": "https://www.humphreysbackstagelive.com/event/cynthia-gonzales-band/2026-09-27/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "thesound-14990133",
-      "title": "Dogstar",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "The Sound",
-      "category": "thesound",
-      "price": "",
-      "description": "The Backfires",
-      "url": "https://www.ticketweb.com/event/dogstar-all-in-the-sound-tickets/14990133?pl=The_Sound&REFID=TheSoundWS",
-      "added": "2026-08-08 11:30"
-    },
-    {
       "id": "mcg-s0i7",
       "title": "HUGHES TAYLOR BAND",
       "date": "2026-09-27",
@@ -2628,78 +372,6 @@
       "description": "(Rock n Roll) · As listed: SUN SEPT 27/8pm",
       "url": null,
       "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "musicbox-14320094",
-      "title": "Mathame",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "Music Box",
-      "category": "musicbox",
-      "price": "",
-      "description": "FNGRS CRSSD x CRSSD FESTIVAL present · With Fahlberg",
-      "url": "https://musicboxsd.com/event/14320094/fngrs-crssd-x-crssd-festival-present-mathame-fahlberg/",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "winstons-2026-09-27-oboke-karaoke",
-      "title": "OBoke Karaoke",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "Winston's",
-      "category": "winstons",
-      "price": "",
-      "description": "",
-      "url": "https://winstonsob.com/calendar/week/oboke-karaoke",
-      "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "humphreys-171183",
-      "title": "The Concert: A Tribute to ABBA",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "Humphrey's Concerts",
-      "category": "humphreys",
-      "price": "",
-      "description": "",
-      "url": "https://www.ticketmaster.com/event/0A00645423266081",
-      "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "bellyup-14953493",
-      "title": "The Lone Bellow",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "venue": "Belly Up",
-      "category": "bellyup",
-      "price": "",
-      "description": "Grizfolk",
-      "url": "https://www.ticketweb.com/event/the-lone-bellow-belly-up-tickets/14953493?REFID=bupwebsite&theme=bellyup",
-      "added": "2026-08-08 11:30"
-    },
-    {
-      "id": "whistlestop-2026-09-27-sweat-biz-vapor-wave-dance-party",
-      "title": "SWEAT.BIZ Vapor Wave Dance Party",
-      "date": "2026-09-27",
-      "time": "21:00",
-      "venue": "Whistle Stop",
-      "category": "whistlestop",
-      "price": "",
-      "description": "",
-      "url": "https://whistlestopbar.com/event/sweat-biz-vapor-wave-dance-party-7/",
-      "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "blindlady-2026-09-27-blahktoberfest",
-      "title": "Blahktoberfest",
-      "date": "2026-09-27",
-      "time": "22:00",
-      "venue": "Blind Lady Ale House",
-      "category": "blindlady",
-      "price": "",
-      "description": "Pizza: Noon-10pm Beer: Noon-11pm & BLAHKTOBERFEST",
-      "url": "https://www.blindladyalehouse.com",
-      "added": "2026-09-03 16:18"
     },
     {
       "id": "humpbackstage-2026-09-28-concert-night",
@@ -2726,6 +398,66 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "kpbs-2026-09-28-celebrate-hispanic-heritage-mo",
+      "title": "Celebrate Hispanic Heritage Month On Third Avenue",
+      "date": "2026-09-28",
+      "time": "07:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Third Avenue",
+      "url": "https://www.kpbs.org/events/ongoing/celebrate-hispanic-heritage-month-on-third-avenue",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-09-28-bates-nut-farm-pumpkin-patch-2",
+      "title": "Bates Nut Farm Pumpkin Patch 2026",
+      "date": "2026-09-28",
+      "time": "09:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Bates Nut Farm",
+      "url": "https://www.kpbs.org/events/ongoing/bates-nut-farm-pumpkin-patch-2026",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-09-28-goff-family-pumpkin-patch-at-l",
+      "title": "Goff Family Pumpkin Patch at Liberty Station",
+      "date": "2026-09-28",
+      "time": "09:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Goff Family Pumpkin Patch",
+      "url": "https://www.kpbs.org/events/ongoing/goff-family-pumpkin-patch-at-liberty-station-2026",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-09-28-pumpkin-patch-at-mountain-vall",
+      "title": "Pumpkin Patch at Mountain Valley Ranch",
+      "date": "2026-09-28",
+      "time": "09:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Mountain Valley Ranch",
+      "url": "https://www.kpbs.org/events/ongoing/pumpkin-patch-at-mountain-valley-ranch",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-09-28-zip-zoom-ziplines-at-la-jolla-",
+      "title": "Zip Zoom Ziplines at La Jolla Indian Adventure Park",
+      "date": "2026-09-28",
+      "time": "09:30",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Zip Zoom Ziplines",
+      "url": "https://www.kpbs.org/events/ongoing/zip-zoom-ziplines-at-la-jolla-indian-adventure-park",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "ccae-2026-09-28-watercolor-classes-with-kene-lohmann",
       "title": "Watercolor Classes with Kene Lohmann",
       "date": "2026-09-28",
@@ -2736,6 +468,90 @@
       "description": "",
       "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-24/",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "kpbs-2026-09-28-draft-belmont-park-debuts-new-",
+      "title": "Draft Belmont Park Debuts New Menu with Birria Mac & Cheese, New Burgers + More",
+      "date": "2026-09-28",
+      "time": "12:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Draft at Belmont Park",
+      "url": "https://www.kpbs.org/events/ongoing/draft-belmont-park-debuts-new-menu-with-birria-mac-cheese-new-burgers-more",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-alzheimer-s-sd-safety-at-home",
+      "title": "Alzheimer’s SD: Safety at Home",
+      "date": "2026-09-28",
+      "time": "13:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "San Diego Oasis at Rancho Bernardo",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/alzheimers-sd-safety-at-home/?et=364400",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-becoming-heirlooms-a-craft-desert-exhibi",
+      "title": "Becoming Heirlooms: A Craft Desert Exhibition",
+      "date": "2026-09-28",
+      "time": "13:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Central Library",
+      "url": "https://www.sandiegoreader.com/events/ongoing/becoming-heirlooms-a-craft-desert-e/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-san-diego-chinese-food-tour",
+      "title": "San Diego Chinese Food Tour",
+      "date": "2026-09-28",
+      "time": "13:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$79.00",
+      "description": "Asian Cultural District along Convoy Street",
+      "url": "https://www.sandiegoreader.com/events/ongoing/san-diego-chinese-food-tour-30a79588/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-09-28-boo-bash-escondido-san-diego-s",
+      "title": "Boo Bash Escondido: San Diego’s New 100,000-Square-Foot Pumpkin Patch",
+      "date": "2026-09-28",
+      "time": "15:30",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Mershops North County Mall",
+      "url": "https://www.kpbs.org/events/ongoing/boo-bash-escondido-san-diegos-new-100-000-square-foot-pumpkin-patch",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-italian-classes-for-kids-tk-through-5th-",
+      "title": "Italian Classes For Kids TK Through 5th Grade",
+      "date": "2026-09-28",
+      "time": "16:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$1767.00",
+      "description": "San Dieguito United Methodist Church",
+      "url": "https://www.sandiegoreader.com/events/ongoing/italian-classes-for-kids-in-encinit/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-beginning-sewing-after-school-art-class",
+      "title": "Beginning Sewing: After School Art Class",
+      "date": "2026-09-28",
+      "time": "16:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$180.00",
+      "description": "ArtReach",
+      "url": "https://www.sandiegoreader.com/events/ongoing/beginning-sewing-after-school-art-c/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "balboapark-2026-09-28-fall-educator-night",
@@ -2762,6 +578,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "sdreader-2026-09-28-jesse-ray-smith",
+      "title": "Jesse Ray Smith",
+      "date": "2026-09-28",
+      "time": "17:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Rancho Valencia",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/jesse-ray-smith-02f0735c/?et=364060",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "blindlady-2026-09-28-meatless-monday",
       "title": "Meatless Monday",
       "date": "2026-09-28",
@@ -2772,6 +600,66 @@
       "description": "Pizza: 5pm-10pm Beer: 5pm-11pm MEATLESS MONDAY Every Monday our Specials Boards go Meat Less with ALL Veg & Vegan Specials. Plus, Vegan Truf",
       "url": "https://www.blindladyalehouse.com",
       "added": "2026-09-03 16:18"
+    },
+    {
+      "id": "sdreader-2026-09-28-tyler-f-simmons",
+      "title": "Tyler F. Simmons",
+      "date": "2026-09-28",
+      "time": "17:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "L&#x27;Auberge Del Mar",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/tyler-f-simmons-65377894/?et=364061",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-kristi-krause",
+      "title": "Kristi Krause",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Estancia La Jolla Hotel and Spa",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/kristi-krause-b5fb0f50/?et=364062",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-line-dance-lessons",
+      "title": "Line Dance Lessons",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "BNS Brewing &amp; Distilling",
+      "url": "https://www.sandiegoreader.com/events/ongoing/line-dance-lessons/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-middle-eastern-drumming-class",
+      "title": "Middle-Eastern Drumming Class",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$15.00",
+      "description": "WorldBeat Cultural Center",
+      "url": "https://www.sandiegoreader.com/events/ongoing/middle-eastern-drumming-class-80fcc3ea/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-restore-your-writing-yoga-journaling",
+      "title": "Restore Your Writing: Yoga & Journaling",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$35.00",
+      "description": "Inspirations Gallery",
+      "url": "https://www.sandiegoreader.com/events/ongoing/restore-your-writing-yoga-journalin/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "whistlestop-2026-09-28-the-blue-hour-w-the-ta-tomlinson-ban",
@@ -2786,6 +674,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "sdreader-2026-09-28-the-blue-hour-the-ta-tomlinson-band",
+      "title": "The Blue Hour: The TA Tomlinson Band",
+      "date": "2026-09-28",
+      "time": "18:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Whistle Stop Bar",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/the-blue-hour-and-the-ta-tomlinson-band/?et=362771",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "soma-2026-09-28-burndown-tour-2026",
       "title": "BurnDown Tour 2026",
       "date": "2026-09-28",
@@ -2794,7 +694,7 @@
       "category": "soma",
       "price": "",
       "description": "Doors 6:30 pm - Sidestage",
-      "url": "https://www.ticketweb.com/event/burndown-tour-2026-soma-sidestage-tickets/15020433?pl=soma",
+      "url": "https://bit.ly/4xSpXVk",
       "added": "2026-08-25 16:57"
     },
     {
@@ -2808,6 +708,30 @@
       "description": "",
       "url": "",
       "added": "2026-08-25 16:57"
+    },
+    {
+      "id": "sdreader-2026-09-28-line-dancing",
+      "title": "Line Dancing",
+      "date": "2026-09-28",
+      "time": "18:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Full Circle Saloon",
+      "url": "https://www.sandiegoreader.com/events/ongoing/line-dancing-bf45ca70/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-adult-improv-classes",
+      "title": "Adult Improv Classes",
+      "date": "2026-09-28",
+      "time": "19:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$245.00",
+      "description": "National Comedy Theatre",
+      "url": "https://www.sandiegoreader.com/events/ongoing/national-comedy-theatre-adult-impro/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "houseofblues-2026-09-28-cardinals",
@@ -2834,13 +758,13 @@
       "added": "2026-09-13 09:51"
     },
     {
-      "id": "sodabar-2026-09-28-C6C23CE3ACC661F9",
+      "id": "sodabar-2026-09-28-A11B9DAB6DC8EDEF",
       "title": "DOOM GONG, The Psychlops",
       "date": "2026-09-28",
       "time": "19:00",
       "venue": "Soda Bar",
       "category": "sodabar",
-      "price": "$18.54",
+      "price": "$24.72",
       "description": "",
       "url": "https://link.dice.fm/D7a24bdafd0b",
       "added": "2026-09-25 15:03"
@@ -2870,6 +794,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "sdreader-2026-09-28-billy-strings",
+      "title": "Billy Strings",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Pechanga Arena San Diego",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/billy-strings-4926a07c/?et=358985",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "pechanga-2026-09-28-billy-strings-fall-2026",
       "title": "Billy Strings Fall 2026",
       "date": "2026-09-28",
@@ -2880,6 +816,54 @@
       "description": "Billy Strings is coming to Pechanga Arena San Diego on September 28, 2026.",
       "url": "https://pechangaarenasd.com/event/billy-strings/",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "sdreader-2026-09-28-doom-gong",
+      "title": "Doom Gong",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Soda Bar",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/doom-gong/?et=363537",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-industry-night",
+      "title": "Industry Night",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "1st Street Bar",
+      "url": "https://www.sandiegoreader.com/events/ongoing/comedy-open-mic-night-8b0e55f2/",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-robert-plant-with-rosie-flores",
+      "title": "Robert Plant with Rosie Flores",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Humphreys by the Bay",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/robert-plant-3266b3e2/?et=362383",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sdreader-2026-09-28-weedeater-and-royal-thunder",
+      "title": "Weedeater and Royal Thunder",
+      "date": "2026-09-28",
+      "time": "19:30",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Casbah",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/weedeater-and-royal-thunder/?et=363482",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "mcg-s0i8",
@@ -2918,6 +902,18 @@
       "added": "2026-09-25 15:03"
     },
     {
+      "id": "sdreader-2026-09-28-karaoke",
+      "title": "Karaoke",
+      "date": "2026-09-28",
+      "time": "20:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "",
+      "description": "Pour House",
+      "url": "https://www.sandiegoreader.com/events/ongoing/karaoke-a6477428/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "bellyup-14971123",
       "title": "Live from Laurel Canyon",
       "date": "2026-09-28",
@@ -2930,6 +926,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "sdreader-2026-09-28-project-hail-mary-at-rooftop-cinema-club",
+      "title": "Project Hail Mary at Rooftop Cinema Club (open captions)",
+      "date": "2026-09-28",
+      "time": "20:00",
+      "venue": "SD Reader picks",
+      "category": "sdreader",
+      "price": "$11.00",
+      "description": "Porto Vista Hotel &amp; Suites",
+      "url": "https://www.sandiegoreader.com/events/2026/sep/28/project-hail-mary-at-rooftop-cinema-65695538/?et=366208",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "casbah-698528",
       "title": "Weedeater, Royal Thunder",
       "date": "2026-09-28",
@@ -2940,6 +948,18 @@
       "description": "Rock · 21+",
       "url": "https://wl.seetickets.us/event/weedeater-royal-thunder/698528?afflky=Casbah",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "whistlestop-2026-09-28-oscillate-wildly-a-smiths-morrissey-",
+      "title": "Oscillate Wildly | A Smiths & Morrissey Dance Party",
+      "date": "2026-09-28",
+      "time": "21:00",
+      "venue": "Whistle Stop",
+      "category": "whistlestop",
+      "price": "",
+      "description": "",
+      "url": "https://whistlestopbar.com/event/oscillate-wildly-a-smiths-morrissey-dance-party/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "humpbackstage-2026-09-29-open-no-live-music",
@@ -3048,18 +1068,6 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
-    },
-    {
-      "id": "sodabar-2026-09-29-6166652FB2E88F4D",
-      "title": "Carrie Nation & the Speakeasy",
-      "date": "2026-09-29",
-      "time": "19:00",
-      "venue": "Soda Bar",
-      "category": "sodabar",
-      "price": "$18.54",
-      "description": "",
-      "url": "https://link.dice.fm/I8da48aa5efa",
-      "added": "2026-08-25 16:57"
     },
     {
       "id": "mcg-s0i10",
@@ -3398,6 +1406,42 @@
       "added": "2026-09-13 09:51"
     },
     {
+      "id": "kpbs-2026-10-01-kids-free-in-october-2026",
+      "title": "Kids Free in October 2026",
+      "date": "2026-10-01",
+      "time": "08:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Multiple locations",
+      "url": "https://www.kpbs.org/events/ongoing/kids-free-in-october-2026",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-10-01-oma-s-pumpkin-patch-2026",
+      "title": "Oma’s Pumpkin Patch 2026",
+      "date": "2026-10-01",
+      "time": "09:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Oma’s Pumpkin Patch",
+      "url": "https://www.kpbs.org/events/ongoing/omas-pumpkin-patch-2026",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-10-01-pumpkin-patch-at-summers-past-",
+      "title": "Pumpkin Patch at Summers Past Farms",
+      "date": "2026-10-01",
+      "time": "09:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Summers Past Farms",
+      "url": "https://www.kpbs.org/events/ongoing/pumpkin-patch-at-summers-past-farms",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "balboapark-2026-10-01-volcanoes-the-fires-of-creation",
       "title": "Volcanoes: The Fires of Creation",
       "date": "2026-10-01",
@@ -3638,8 +1682,8 @@
       "added": "2026-09-25 15:03"
     },
     {
-      "id": "whistlestop-2026-10-01-acid-mothers-temple",
-      "title": "ACID MOTHERS TEMPLE",
+      "id": "whistlestop-2026-10-01-acid-mothers-temple-magick-potion-se",
+      "title": "Acid Mothers Temple, Magick Potion, Sen K",
       "date": "2026-10-01",
       "time": "21:00",
       "venue": "Whistle Stop",
@@ -3647,7 +1691,19 @@
       "price": "",
       "description": "",
       "url": "https://whistlestopbar.com/event/acid-mothers-temple/",
-      "added": "2026-08-08 11:30"
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-10-02-harvest-fest-2026-at-julian-fa",
+      "title": "Harvest Fest 2026 at Julian Farm and Orchard",
+      "date": "2026-10-02",
+      "time": "10:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Julian Farm and Orchard",
+      "url": "https://www.kpbs.org/events/ongoing/harvest-fest-2026-at-julian-farm-and-orchard",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "lamesa-2026-10-02-no-farmers-market",
@@ -3660,6 +1716,18 @@
       "description": "",
       "url": "https://www.lamesavillageassociation.org/la-mesa-village-calendar-of-events",
       "added": "2026-09-03 16:18"
+    },
+    {
+      "id": "kpbs-2026-10-02-oktoberfest-in-el-cajon",
+      "title": "Oktoberfest in El Cajon",
+      "date": "2026-10-02",
+      "time": "16:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "German American Societies of San Diego",
+      "url": "https://www.kpbs.org/events/ongoing/oktoberfest-in-el-cajon-2026",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "humpbackstage-2026-10-02-hep-tights",
@@ -3866,8 +1934,8 @@
       "added": "2026-09-03 16:18"
     },
     {
-      "id": "sodabar-2026-10-02-056C8CA460B2B31C",
-      "title": "Unto Others, Wraith Knight, Meldamor",
+      "id": "sodabar-2026-10-02-93EB8F0F254861EC",
+      "title": "Unto Others, Wraith Knight",
       "date": "2026-10-02",
       "time": "19:00",
       "venue": "Soda Bar",
@@ -3875,7 +1943,7 @@
       "price": "$30.90",
       "description": "",
       "url": "https://link.dice.fm/m5ed2e27c0b5",
-      "added": "2026-08-25 16:57"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "casbah-691587",
@@ -3998,6 +2066,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "balboapark-2026-10-03-aerofest",
+      "title": "Aerofest",
+      "date": "2026-10-03",
+      "time": "09:00",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "Free – $12.00",
+      "description": "",
+      "url": "https://balboapark.org/event/aerofest/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "newvillage-2026-10-03-improv-for-everyone-intro-to-improv",
       "title": "Improv for Everyone | Intro to Improv",
       "date": "2026-10-03",
@@ -4020,6 +2100,30 @@
       "description": "Time: 9:00am - 5:00pm Learn",
       "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-09-13 09:51"
+    },
+    {
+      "id": "kpbs-2026-10-03-julian-autumn-jubilee-2026",
+      "title": "Julian Autumn Jubilee 2026",
+      "date": "2026-10-03",
+      "time": "10:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Fort Cross Old Timey Adventures",
+      "url": "https://www.kpbs.org/events/ongoing/julian-autumn-jubilee-2026",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "kpbs-2026-10-03-the-count-s-halloween-spooktac",
+      "title": "The Count’s Halloween Spooktacular",
+      "date": "2026-10-03",
+      "time": "10:00",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Sesame Place San Diego",
+      "url": "https://www.kpbs.org/events/ongoing/the-counts-halloween-spooktacular-2026",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "urbanmos-2026-10-03-bubbles-for-brunch",
@@ -4250,6 +2354,18 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "quartyard-698827",
+      "title": "Anamanaguchi, Covet, Geotic",
+      "date": "2026-10-03",
+      "time": "18:00",
+      "venue": "Quartyard",
+      "category": "quartyard",
+      "price": "$29.50-$35.00",
+      "description": "Anamanguchi x Covet · Indie · All Ages",
+      "url": "https://wl.seetickets.us/event/anamanaguchi-covet-geotic/698827?afflky=Casbah",
+      "added": "2026-09-25 15:03"
+    },
+    {
       "id": "blindlady-2026-10-03-any-wave-blahktoberfest-the-be",
       "title": "Any Wave & Blahktoberfest The Beer Mugs",
       "date": "2026-10-03",
@@ -4284,18 +2400,6 @@
       "description": "House of Blues San Diego",
       "url": "https://www.ticketmaster.com/peelingflesh-san-diego-california-10-03-2026/event/0A0064FDD410F030",
       "added": "2026-09-13 09:51"
-    },
-    {
-      "id": "quartyard-698827",
-      "title": "Anamanaguchi, Covet, Geotic",
-      "date": "2026-10-03",
-      "time": "18:30",
-      "venue": "Quartyard",
-      "category": "quartyard",
-      "price": "$29.50-$35.00",
-      "description": "Anamanguchi x Covet · Indie · All Ages",
-      "url": "https://wl.seetickets.us/event/anamanaguchi-covet-geotic/698827?afflky=Casbah",
-      "added": "2026-09-25 15:03"
     },
     {
       "id": "sodabar-2026-10-03-2A44E66D1DA2436B",
@@ -4572,6 +2676,18 @@
       "description": "Billy Shaddox Band",
       "url": "https://www.ticketweb.com/event/the-mother-hips-billy-shaddox-belly-up-tickets/14739473?REFID=bupwebsite&theme=bellyup",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "kpbs-2026-10-03-improv-vs-stand-up",
+      "title": "Improv VS Stand Up",
+      "date": "2026-10-03",
+      "time": "20:30",
+      "venue": "KPBS calendar",
+      "category": "kpbs",
+      "price": "",
+      "description": "Mockingbird Improv",
+      "url": "https://www.kpbs.org/events/ongoing/improv-vs-stand-up",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "banshee-2026-10-03-9231F0A57E3DD9E0",
@@ -5144,7 +3260,7 @@
       "time": "20:00",
       "venue": "Casbah",
       "category": "casbah",
-      "price": "$50.00-$125.00",
+      "price": "$50.00",
       "description": "2nd night added by popular demand! · Rock · 21+",
       "url": "https://wl.seetickets.us/event/l7-the-last-hurrah-tour-2026-vial/692738?afflky=Casbah",
       "added": "2026-09-13 09:51"
@@ -5408,7 +3524,7 @@
       "time": "20:30",
       "venue": "Casbah",
       "category": "casbah",
-      "price": "$50.00-$125.00",
+      "price": "$50.00",
       "description": "Rock · 21+",
       "url": "https://wl.seetickets.us/event/l7-the-last-hurrah-tour-2026-vial/692058?afflky=Casbah",
       "added": "2026-09-13 09:51"
@@ -5498,18 +3614,6 @@
       "added": "2026-08-08 11:30"
     },
     {
-      "id": "holdingco-2026-10-08-cascade-effect-stretcher",
-      "title": "Cascade Effect, Stretcher",
-      "date": "2026-10-08",
-      "time": "18:30",
-      "venue": "The Holding Company",
-      "category": "holdingco",
-      "price": "$10",
-      "description": "",
-      "url": "https://theholdingcompanyob.com/show/skinlab-cemetery-legacy-cascade-effect-stretcher/",
-      "added": "2026-09-25 15:03"
-    },
-    {
       "id": "observatory-2026-10-08-blonde-redhead",
       "title": "Blonde Redhead",
       "date": "2026-10-08",
@@ -5580,6 +3684,18 @@
       "description": "Doors 7pm - Mainstage",
       "url": "https://bit.ly/4w4AHyK",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "holdingco-2026-10-08-so-petty",
+      "title": "So Petty",
+      "date": "2026-10-08",
+      "time": "19:00",
+      "venue": "The Holding Company",
+      "category": "holdingco",
+      "price": "$20, $10",
+      "description": "",
+      "url": "https://theholdingcompanyob.com/show/sopetty/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "houseofblues-2026-10-08-tinlicker-north-america-2026",
@@ -5726,8 +3842,8 @@
       "added": "2026-08-08 11:30"
     },
     {
-      "id": "batesnut-2026-10-09-nitro-express-band-live-music",
-      "title": "Nitro Express Band | Live Music",
+      "id": "batesnut-2026-10-09-nitro-express-band-live-music-",
+      "title": "Nitro Express Band | Live Music on Fridays",
       "date": "2026-10-09",
       "time": "15:30",
       "venue": "Bates Nut Farm",
@@ -5735,7 +3851,7 @@
       "price": "",
       "description": "Time: 3:30pm - 6:30pm Learn",
       "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-09-25 15:03"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "humpbackstage-2026-10-09-gainsville-the-band",
@@ -6026,6 +4142,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "balboapark-2026-10-10-pumpkin-chunkin-",
+      "title": "Pumpkin Chunkin’",
+      "date": "2026-10-10",
+      "time": "10:00",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "Free",
+      "description": "",
+      "url": "https://balboapark.org/event/pumpkin-chunkin/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "urbanmos-2026-10-10-bubbles-for-brunch",
       "title": "Bubbles for Brunch",
       "date": "2026-10-10",
@@ -6132,6 +4260,18 @@
       "description": "",
       "url": "https://balboapark.org/event/gyotaku/",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "spin-2026-10-10-grown-folks-saturdays",
+      "title": "Grown Folks Saturdays",
+      "date": "2026-10-10",
+      "time": "15:00",
+      "venue": "SPIN",
+      "category": "spin",
+      "price": "$12.51",
+      "description": "",
+      "url": "https://www.eventbrite.com/e/grown-folks-saturdays-tickets-2002245830177",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "kpbs-2026-10-10-la-costa-wine-co-s-annual-gran",
@@ -6300,6 +4440,18 @@
       "description": "Mainstage - 7pm",
       "url": "https://bit.ly/4l5EGHm",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "observatory-2026-10-10-stan-society-presents-olivia-rodrigo-nig",
+      "title": "Stan Society Presents Olivia Rodrigo Night (18+ W/ ID)",
+      "date": "2026-10-10",
+      "time": "19:45",
+      "venue": "Observatory North Park",
+      "category": "observatory",
+      "price": "",
+      "description": "The Observatory North Park",
+      "url": "https://www.ticketmaster.com/stan-society-presents-olivia-rodrigo-night-san-diego-california-10-10-2026/event/0B006536A9BB40F3",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "musicbox-14309124",
@@ -6662,6 +4814,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "houseofblues-2026-10-11-the-rasmus-w-saint-agnes-and-death-valle",
+      "title": "The Rasmus w/ Saint Agnes and Death Valley Dreams",
+      "date": "2026-10-11",
+      "time": "18:30",
+      "venue": "House of Blues",
+      "category": "houseofblues",
+      "price": "",
+      "description": "House of Blues San Diego",
+      "url": "https://www.ticketmaster.com/the-rasmus-w-saint-agnes-and-san-diego-california-10-11-2026/event/0A0064E2EEDCB9F0",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "newvillage-2026-10-11-an-evening-with-mandobasso",
       "title": "An Evening with MandoBasso",
       "date": "2026-10-11",
@@ -6696,6 +4860,18 @@
       "description": "",
       "url": "https://artcenter.org/event/john-green/",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "houseofblues-2026-10-11-michigander",
+      "title": "Michigander",
+      "date": "2026-10-11",
+      "time": "19:00",
+      "venue": "House of Blues",
+      "category": "houseofblues",
+      "price": "",
+      "description": "House of Blues San Diego",
+      "url": "https://www.ticketmaster.com/michigander-san-diego-california-10-11-2026/event/0A0064A129FAC4B7",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "sodabar-2026-10-11-D51F212055C972BD",
@@ -6818,6 +4994,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "houseofblues-2026-10-12-domi-jd-beck-who-asked-north-america-tou",
+      "title": "DOMi & JD BECK - WHO ASKED? NORTH AMERICA TOUR",
+      "date": "2026-10-12",
+      "time": "19:00",
+      "venue": "House of Blues",
+      "category": "houseofblues",
+      "price": "",
+      "description": "House of Blues San Diego",
+      "url": "https://www.ticketmaster.com/domi-jd-beck-who-asked-north-san-diego-california-10-12-2026/event/0A0064EEC420A274",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "soma-2026-10-12-esdeekid",
       "title": "EsDeeKid",
       "date": "2026-10-12",
@@ -6840,6 +5028,18 @@
       "description": "",
       "url": "https://newvillagearts.org/event/improv-jam-oct-12/",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "houseofblues-2026-10-12-maddie-zahm-everything-all-the-time-tour",
+      "title": "MADDIE ZAHM: Everything All The Time Tour",
+      "date": "2026-10-12",
+      "time": "19:00",
+      "venue": "House of Blues",
+      "category": "houseofblues",
+      "price": "",
+      "description": "House of Blues San Diego",
+      "url": "https://www.ticketmaster.com/maddie-zahm-everything-all-the-time-san-diego-california-10-12-2026/event/0A0064C3C3B8B16E",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "kpbs-2026-10-12-write-out-loud-celebrates-20-y",
@@ -7587,7 +5787,7 @@
     },
     {
       "id": "batesnut-2026-10-16-ash-street-ramblers-live-music",
-      "title": "Ash Street Ramblers | Live Music",
+      "title": "Ash Street Ramblers | Live Music on Fridays",
       "date": "2026-10-16",
       "time": "15:30",
       "venue": "Bates Nut Farm",
@@ -7595,7 +5795,7 @@
       "price": "",
       "description": "Time: 3:30pm - 6:30pm Learn",
       "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-09-25 15:03"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "humpbackstage-2026-10-16-mango-bay",
@@ -7763,18 +5963,6 @@
       "price": "$22.66",
       "description": "",
       "url": "https://link.dice.fm/He23d7437318",
-      "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "observatory-2026-10-16-stan-society-presents-olivia-rodrigo-nig",
-      "title": "Stan Society Presents Olivia Rodrigo Night (18+ W/ ID)",
-      "date": "2026-10-16",
-      "time": "19:45",
-      "venue": "Observatory North Park",
-      "category": "observatory",
-      "price": "",
-      "description": "The Observatory North Park",
-      "url": "https://www.ticketmaster.com/stan-society-presents-olivia-rodrigo-night-san-diego-california-10-16-2026/event/0B006536A9BB40F3",
       "added": "2026-09-25 15:03"
     },
     {
@@ -8354,8 +6542,8 @@
       "added": "2026-09-25 15:03"
     },
     {
-      "id": "holdingco-2026-10-18-house-of-dawn-khymera-mister-kenova-",
-      "title": "House of Dawn, Khymera, Mister Kenova, YAS33",
+      "id": "holdingco-2026-10-18-house-of-dawn-khymera-dazr-mister-ke",
+      "title": "House of Dawn, Khymera, DAZR, Mister Kenova, YAS33",
       "date": "2026-10-18",
       "time": "13:30",
       "venue": "The Holding Company",
@@ -8363,7 +6551,7 @@
       "price": "$10",
       "description": "",
       "url": "https://theholdingcompanyob.com/show/house-of-dawn/",
-      "added": "2026-09-03 16:18"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "newvillage-2026-10-18-as-you-like-it-previews",
@@ -8484,6 +6672,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/glaive-god-save-the-three-tour-san-diego-california-10-18-2026/event/0B0064A4AC6F7031",
       "added": "2026-09-13 09:51"
+    },
+    {
+      "id": "balboapark-2026-10-18-trust-the-universe",
+      "title": "Trust the Universe",
+      "date": "2026-10-18",
+      "time": "18:30",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "",
+      "description": "",
+      "url": "https://balboapark.org/event/trust-the-universe/2026-10-18/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "loulous-693311",
@@ -8853,8 +7053,8 @@
       "venue": "Belly Up",
       "category": "bellyup",
       "price": "",
-      "description": "",
-      "url": "https://www.ticketweb.com/event/melvins-belly-up-tickets/14264734?REFID=bupwebsite&theme=bellyup",
+      "description": "Headsend",
+      "url": "https://www.ticketweb.com/event/melvins-headsend-belly-up-tickets/14264734?REFID=bupwebsite&theme=bellyup",
       "added": "2026-08-08 11:30"
     },
     {
@@ -9350,6 +7550,18 @@
       "added": "2026-09-13 09:51"
     },
     {
+      "id": "batesnut-2026-10-23-alias-live-music-on-fridays",
+      "title": "Alias | Live Music on Fridays",
+      "date": "2026-10-23",
+      "time": "15:30",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 3:30pm - 6:30pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "humpbackstage-2026-10-23-hillandale-drive",
       "title": "Hillandale Drive",
       "date": "2026-10-23",
@@ -9384,6 +7596,18 @@
       "description": "The Observatory North Park",
       "url": "https://www.ticketmaster.com/the-aquabats-san-diego-california-10-23-2026/event/0B0064E6E99E4961",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "balboapark-2026-10-23-circle-of-light",
+      "title": "Circle of Light",
+      "date": "2026-10-23",
+      "time": "18:30",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "",
+      "description": "",
+      "url": "https://balboapark.org/event/circle-of-light/2026-10-23/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "quartyard-2026-10-2318:30",
@@ -9698,6 +7922,18 @@
       "added": "2026-09-25 15:03"
     },
     {
+      "id": "batesnut-2026-10-24-the-smokin-guns-live-music",
+      "title": "The Smokin Guns | Live Music",
+      "date": "2026-10-24",
+      "time": "12:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 12:00pm - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "ccae-2026-10-24-kintsugi-workshop",
       "title": "Kintsugi Workshop",
       "date": "2026-10-24",
@@ -9950,8 +8186,8 @@
       "added": "2026-08-08 11:30"
     },
     {
-      "id": "towerbar-2026-10-24-the-fictitious-dishes",
-      "title": "The Fictitious Dishes",
+      "id": "towerbar-2026-10-24-the-fictitious-dishes-dream-burgla",
+      "title": "The Fictitious Dishes, Dream Burglar, Shy Deer  Acotar Book 6 Pre-party",
       "date": "2026-10-24",
       "time": "20:00",
       "venue": "Tower Bar",
@@ -9959,7 +8195,7 @@
       "price": "",
       "description": "",
       "url": "https://www.thetowerbar.com/calendar/the-fictitious-dishes/",
-      "added": "2026-08-08 11:30"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-14262524",
@@ -9972,6 +8208,18 @@
       "description": "",
       "url": "https://www.ticketweb.com/event/war-50th-anniversary-belly-up-tickets/14262524?REFID=bupwebsite&theme=bellyup",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "casbah-698722",
+      "title": "City of the Sun",
+      "date": "2026-10-24",
+      "time": "20:30",
+      "venue": "Casbah",
+      "category": "casbah",
+      "price": "$22.00-$25.00",
+      "description": "Indie · 21+",
+      "url": "https://wl.seetickets.us/event/city-of-the-sun/698722?afflky=Casbah",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "sodabar-2026-10-24-D162F4B12C0963FF",
@@ -10058,6 +8306,18 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "batesnut-2026-10-25-cool-rush-band-live-music",
+      "title": "Cool Rush Band | Live Music",
+      "date": "2026-10-25",
+      "time": "12:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 12:00pm - 4:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "holdingco-2026-10-25-elder-emo-co-presents-the-wasting-li",
       "title": "Elder Emo Co Presents: The Wasting Light, Ivy Pacific, Nights Like Thieves, RoseThorne, Taken Days, Born To Run, Post Season, Northbound",
       "date": "2026-10-25",
@@ -10116,6 +8376,18 @@
       "description": "",
       "url": "https://artcenter.org/event/celticthunder/",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "towerbar-2026-10-25-evil-order-and-idle-hour-monster-m",
+      "title": "Evil Order and Idle Hour Monster Mash Motorcycle Show",
+      "date": "2026-10-25",
+      "time": "16:00",
+      "venue": "Tower Bar",
+      "category": "towerbar",
+      "price": "",
+      "description": "",
+      "url": "https://www.thetowerbar.com/calendar/monster-mash-motorcycle-show/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "balboapark-2026-10-25-art-in-the-evening-the-moods-of-earl",
@@ -10190,6 +8462,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "balboapark-2026-10-25-circle-of-light",
+      "title": "Circle of Light",
+      "date": "2026-10-25",
+      "time": "18:30",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "",
+      "description": "",
+      "url": "https://balboapark.org/event/circle-of-light/2026-10-25/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "sodabar-2026-10-25-9F2C37F8CCA60168",
       "title": "REZN - Cycles in the Infinite Dream Tour",
       "date": "2026-10-25",
@@ -10224,6 +8508,18 @@
       "description": "Gorillaz- The Mountain Tour 2026 is coming to Pechanga Arena San Diego on October 25, 2026.",
       "url": "https://pechangaarenasd.com/event/gorillaz-the-mountain-tour-2026/",
       "added": "2026-08-08 11:30"
+    },
+    {
+      "id": "casbah-696107",
+      "title": "Frog, Mildred",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "venue": "Casbah",
+      "category": "casbah",
+      "price": "$25.00",
+      "description": "Indie · 21+",
+      "url": "https://wl.seetickets.us/event/frog-mildred/696107?afflky=Casbah",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-14890173",
@@ -10346,6 +8642,18 @@
       "added": "2026-09-04 07:32"
     },
     {
+      "id": "casbah-700621",
+      "title": "Hayden Everett, Jackson Lundy",
+      "date": "2026-10-26",
+      "time": "20:00",
+      "venue": "Casbah",
+      "category": "casbah",
+      "price": "$15.00-$18.00",
+      "description": "Indie · 21+",
+      "url": "https://wl.seetickets.us/event/hayden-everett-jackson-lundy/700621?afflky=Casbah",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "bellyup-14262304",
       "title": "Michael Franti",
       "date": "2026-10-26",
@@ -10428,6 +8736,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "moonshinebeach-2026-10-27-1754733",
+      "title": "Line Dance Lessons",
+      "date": "2026-10-27",
+      "time": "19:00",
+      "venue": "Moonshine Beach",
+      "category": "moonshinebeach",
+      "price": "",
+      "description": "",
+      "url": "https://moonshinebeachsd.com/event/?id=1754733&dt=261027&ve=beach&rm=0",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "sodabar-2026-10-27-92DDA07FA33AAF72",
@@ -11013,7 +9333,7 @@
       "venue": "Bates Nut Farm",
       "category": "batesnut",
       "price": "",
-      "description": "Time: Coming Soon Learn",
+      "description": "Time: 10:00am Learn",
       "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-09-13 09:51"
     },
@@ -11028,18 +9348,6 @@
       "description": "",
       "url": "https://batesnutfarm.biz/pages/events",
       "added": "2026-09-25 15:03"
-    },
-    {
-      "id": "batesnut-2026-10-31-howl-o-ween-doggie-costume-con",
-      "title": "Howl-o-ween Doggie Costume Contest",
-      "date": "2026-10-31",
-      "time": "10:00",
-      "venue": "Bates Nut Farm",
-      "category": "batesnut",
-      "price": "",
-      "description": "Time: Coming Soon Learn",
-      "url": "https://batesnutfarm.biz/pages/events",
-      "added": "2026-09-13 09:51"
     },
     {
       "id": "urbanmos-2026-10-31-bubbles-for-brunch-halloween-special",
@@ -11076,6 +9384,30 @@
       "description": "",
       "url": "https://newvillagearts.org/event/improv-level-iii/2026-10-31/",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "batesnut-2026-10-31-alias-live-at-bates-on-hallowe",
+      "title": "Alias | Live at Bates on Halloween",
+      "date": "2026-10-31",
+      "time": "12:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 12:00pm - 3:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "batesnut-2026-10-31-howl-o-ween-doggie-costume-con",
+      "title": "Howl-o-ween Doggie Costume Contest",
+      "date": "2026-10-31",
+      "time": "13:00",
+      "venue": "Bates Nut Farm",
+      "category": "batesnut",
+      "price": "",
+      "description": "Time: 1:00pm Learn",
+      "url": "https://batesnutfarm.biz/pages/events",
+      "added": "2026-09-13 09:51"
     },
     {
       "id": "urbanmos-2026-10-31--10-pitchers",
@@ -11546,6 +9878,18 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "sodabar-2026-11-01-6053CE8BEBA4FF12",
+      "title": "Surprise Chef",
+      "date": "2026-11-01",
+      "time": "18:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$31.42",
+      "description": "",
+      "url": "https://link.dice.fm/Ee911e670b74",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "mcg-s2i0",
       "title": "PRIMAL WRESTLING",
       "date": "2026-11-01",
@@ -11556,6 +9900,30 @@
       "description": "As listed: SUN NOV 1, 6:30 pm",
       "url": null,
       "added": "2026-09-13 09:51"
+    },
+    {
+      "id": "observatory-2026-11-01-casbah-belly-up-desert-daze-present-the-",
+      "title": "Casbah/Belly Up/Desert Daze Present: The Black Angels",
+      "date": "2026-11-01",
+      "time": "19:00",
+      "venue": "Observatory North Park",
+      "category": "observatory",
+      "price": "",
+      "description": "The Observatory North Park",
+      "url": "https://www.ticketmaster.com/casbahbelly-updesert-daze-present-the-black-san-diego-california-11-01-2026/event/0B006489B3AA4759",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "sodabar-2026-11-01-8B6A4F3E93B7ABAB",
+      "title": "Desire, Mothermary, Johnny Jewel",
+      "date": "2026-11-01",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$30.39",
+      "description": "",
+      "url": "https://link.dice.fm/g3abe76ced82",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "musicbox-14204764",
@@ -11642,6 +10010,30 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "sodabar-2026-11-02-F23A7BD7C1ABB017",
+      "title": "Clyde McGee (Bridge City Sinners), Bosko Baker",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$15.97",
+      "description": "",
+      "url": "https://link.dice.fm/u64891b7c1ba",
+      "added": "2026-09-28 14:42"
+    },
+    {
+      "id": "observatory-2026-11-02-medium-build-presents-the-king-of-having",
+      "title": "Medium Build Presents The King of Having Fun on Tour",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "venue": "Observatory North Park",
+      "category": "observatory",
+      "price": "",
+      "description": "The Observatory North Park",
+      "url": "https://www.ticketmaster.com/medium-build-presents-the-king-of-san-diego-california-11-02-2026/event/0B0064D6DD254796",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "balboapark-2026-11-02-argentine-tango-class",
       "title": "Argentine Tango Class",
       "date": "2026-11-02",
@@ -11724,6 +10116,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": null
+    },
+    {
+      "id": "sodabar-2026-11-03-7ADABCCF80DCB23A",
+      "title": "Marci, The Booyah! Kids",
+      "date": "2026-11-03",
+      "time": "19:00",
+      "venue": "Soda Bar",
+      "category": "sodabar",
+      "price": "$20.09",
+      "description": "",
+      "url": "https://link.dice.fm/Ha7e5abc509d",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-14221724",
@@ -11844,18 +10248,6 @@
       "description": "Sidestage - 7pm",
       "url": "https://bit.ly/4gtTYnM",
       "added": "2026-08-25 16:57"
-    },
-    {
-      "id": "ccae-2026-11-04-first-wednesdays-miracosta-oceanside",
-      "title": "First Wednesdays – Miracosta Oceanside Jazz Orchestra",
-      "date": "2026-11-04",
-      "time": "19:00",
-      "venue": "CCA Escondido",
-      "category": "ccae",
-      "price": "",
-      "description": "",
-      "url": "https://artcenter.org/event/first-wednesdays-miracosta-oceanside-jazz-orchestra/",
-      "added": "2026-09-25 15:03"
     },
     {
       "id": "ccae-2026-11-04-first-wednesdays-miracosta-jazz-coll",
@@ -12062,18 +10454,6 @@
       "added": "2026-09-25 15:03"
     },
     {
-      "id": "mcg-s2i4",
-      "title": "WESLEY OF THE WOLVES",
-      "date": "2026-11-05",
-      "time": "20:00",
-      "venue": "McGuffie's Live",
-      "category": "mcguffies",
-      "price": "$5 COVER",
-      "description": "(Acoustic Covers) · As listed: THUR NOV 5, 8pm",
-      "url": null,
-      "added": "2026-09-04 07:32"
-    },
-    {
       "id": "newvillage-2026-11-06-free-spirits-go-west",
       "title": "Free Spirits Go West",
       "date": "2026-11-06",
@@ -12120,6 +10500,18 @@
       "description": "During live racing season — gate times on dmtc.com",
       "url": "https://www.dmtc.com/calendar/detail/wine-down-fridays",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "balboapark-2026-11-06-felt-together",
+      "title": "Felt Together",
+      "date": "2026-11-06",
+      "time": "17:00",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "$45.00 – $55.00",
+      "description": "",
+      "url": "https://balboapark.org/event/felt-together/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "humpbackstage-2026-11-06-retro-x",
@@ -13886,6 +12278,18 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "balboapark-2026-11-15-trust-the-universe",
+      "title": "Trust the Universe",
+      "date": "2026-11-15",
+      "time": "18:30",
+      "venue": "Balboa Park",
+      "category": "balboapark",
+      "price": "",
+      "description": "",
+      "url": "https://balboapark.org/event/trust-the-universe/2026-11-15/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "banshee-2026-11-15-192431EF9E87D7D8",
       "title": "Cherokee Social, Peach Cooler, and Stovetop Gemini",
       "date": "2026-11-15",
@@ -13929,8 +12333,8 @@
       "venue": "Music Box",
       "category": "musicbox",
       "price": "",
-      "description": "",
-      "url": "https://musicboxsd.com/event/15041553/noel-tsoukalas/",
+      "description": "With Isabella Erardi, Tinika Wyatt",
+      "url": "https://musicboxsd.com/event/15041553/noel-tsoukalas-isabella-erardi-tinika-wyatt/",
       "added": "2026-08-25 16:57"
     },
     {
@@ -14016,18 +12420,6 @@
       "description": "FREE POOL TABLES, FOOSBALL, · PING PONG, DARTS · As listed: MON NOV 16, 8pm",
       "url": null,
       "added": "2026-09-04 07:32"
-    },
-    {
-      "id": "loulous-46423",
-      "title": "Nourished by Time",
-      "date": "2026-11-16",
-      "time": "20:00",
-      "venue": "Lou Lou's Jungle Room",
-      "category": "loulous",
-      "price": "$25.00",
-      "description": "R&B · 21+",
-      "url": "https://loulous.turntabletickets.com/p/46423?invite=GQa3eFanzn",
-      "added": "2026-09-13 09:51"
     },
     {
       "id": "humpbackstage-2026-11-17-open-no-live-music",
@@ -14379,15 +12771,15 @@
     },
     {
       "id": "mcg-s2i20",
-      "title": "BRENDA GAIL BAND",
+      "title": "BRENDA GAIL",
       "date": "2026-11-19",
       "time": "20:00",
       "venue": "McGuffie's Live",
       "category": "mcguffies",
       "price": "$5 COVER",
-      "description": "(Blues/Rock) · As listed: THUR NOV 19, 8pm",
+      "description": "& THE TWELVE BARS · (Americana Blues/Rock) · As listed: THUR NOV 19, 8pm",
       "url": null,
-      "added": "2026-09-04 07:32"
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-14288634",
@@ -14606,6 +12998,18 @@
       "added": "2026-08-25 16:57"
     },
     {
+      "id": "mcg-s2i21",
+      "title": "SEEDHEADS",
+      "date": "2026-11-20",
+      "time": "20:00",
+      "venue": "McGuffie's Live",
+      "category": "mcguffies",
+      "price": "$10 COVER",
+      "description": "As listed: FRI NOV 20, 8pm",
+      "url": null,
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "musicbox-14995773",
       "title": "Takuya Nakamura",
       "date": "2026-11-20",
@@ -14616,18 +13020,6 @@
       "description": "Minty Boi Presents",
       "url": "https://musicboxsd.com/event/14995773/takuya-nakamura/",
       "added": "2026-09-03 16:18"
-    },
-    {
-      "id": "mcg-s2i21",
-      "title": "TBA",
-      "date": "2026-11-20",
-      "time": "20:00",
-      "venue": "McGuffie's Live",
-      "category": "mcguffies",
-      "price": "$10 COVER",
-      "description": "As listed: FRI NOV 20, 8pm",
-      "url": null,
-      "added": "2026-09-04 07:32"
     },
     {
       "id": "whistlestop-2026-11-20-f-kin-in-the-bushes",
@@ -14856,6 +13248,18 @@
       "description": "Brendan Clemente",
       "url": "https://www.ticketweb.com/event/kbong-johnny-cosmic-brendan-clemente-belly-up-tickets/14250254?REFID=bupwebsite&theme=bellyup",
       "added": "2026-08-25 16:57"
+    },
+    {
+      "id": "sycuan-2026-11-21-michael-carbonaro-wonderboy",
+      "title": "Michael Carbonaro: Wonderboy",
+      "date": "2026-11-21",
+      "time": "20:00",
+      "venue": "Sycuan Casino",
+      "category": "sycuan",
+      "price": "",
+      "description": "Sycuan Casino Resort",
+      "url": "https://www.sycuan.com/entertainment/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "musicbox-14891433",
@@ -19214,6 +17618,18 @@
       "added": "2026-09-25 15:03"
     },
     {
+      "id": "ccae-2027-01-20-wild-kratts-live-2-0",
+      "title": "Wild Kratts LIVE! 2.0",
+      "date": "2027-01-20",
+      "time": "15:30",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/wild-kratts-live-2-0-3/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "newvillage-2027-01-20-drop-in-improv-with-patrick-mcinnis",
       "title": "Drop-in Improv with Patrick McInnis",
       "date": "2027-01-20",
@@ -19394,6 +17810,18 @@
       "added": "2026-09-25 15:03"
     },
     {
+      "id": "ccae-2027-01-25-watercolor-classes-with-kene-lohmann",
+      "title": "Watercolor Classes with Kene Lohmann",
+      "date": "2027-01-25",
+      "time": "10:00",
+      "venue": "CCA Escondido",
+      "category": "ccae",
+      "price": "",
+      "description": "",
+      "url": "https://artcenter.org/event/watercolor-classes-with-kene-lohmann-38/",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "urbanmos-2027-01-25-gayme-night",
       "title": "Gayme Night",
       "date": "2027-01-25",
@@ -19404,6 +17832,18 @@
       "description": "",
       "url": "https://urbanmos.com/event/gayme-night-2/2027-01-25/",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "whistlestop-2027-01-25-the-blue-hour-w-the-ta-tomlinson-ban",
+      "title": "The Blue Hour w/ The TA Tomlinson Band and Special Guests",
+      "date": "2027-01-25",
+      "time": "18:00",
+      "venue": "Whistle Stop",
+      "category": "whistlestop",
+      "price": "",
+      "description": "",
+      "url": "https://whistlestopbar.com/event/the-blue-hour-w-the-ta-tomlinson-band-and-special-guests-25/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "urbanmos-2027-01-26--8-all-you-can-eat-spaghetti",
@@ -19440,6 +17880,18 @@
       "description": "Weekly blues jam hosted by John Frazier. Every Tuesday, 7–10PM.",
       "url": null,
       "added": "2026-08-08 11:27"
+    },
+    {
+      "id": "pechanga-2027-01-26-san-diego-gulls-vs-bakersfield-condo",
+      "title": "San Diego Gulls vs. Bakersfield Condors",
+      "date": "2027-01-26",
+      "time": "19:00",
+      "venue": "Pechanga Arena",
+      "category": "pechanga",
+      "price": "",
+      "description": "San Diego Gulls vs. Bakersfield Condors at Pechanga Arena San Diego on January 26, 2027.",
+      "url": "https://pechangaarenasd.com/event/san-diego-gulls-vs-bakersfield-condors-1-26-2027/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-14236474",
@@ -19488,6 +17940,18 @@
       "description": "Sammy Listoe Band",
       "url": "https://www.ticketweb.com/event/the-pettybreakers-a-belly-up-tickets/14288964?REFID=bupwebsite&theme=bellyup",
       "added": "2026-09-25 15:03"
+    },
+    {
+      "id": "urbanmos-2027-01-29-rawr-w-jinx-mirage",
+      "title": "RAWR: w/ Jinx Mirage",
+      "date": "2027-01-29",
+      "time": "21:00",
+      "venue": "Urban MO's",
+      "category": "urbanmos",
+      "price": "",
+      "description": "",
+      "url": "https://urbanmos.com/event/rawr-w-jinx-mirage-3/2027-01-29/",
+      "added": "2026-09-28 14:42"
     },
     {
       "id": "bellyup-2027-01-30-closed-for-private-party",
@@ -19982,6 +18446,18 @@
       "added": "2026-08-08 11:30"
     },
     {
+      "id": "bellyup-14313814",
+      "title": "Pete Yorn",
+      "date": "2027-03-07",
+      "time": "20:00",
+      "venue": "Belly Up",
+      "category": "bellyup",
+      "price": "",
+      "description": "",
+      "url": "https://www.ticketweb.com/event/pete-yorn-solo-acoustic-belly-up-tickets/14313814?REFID=bupwebsite&theme=bellyup",
+      "added": "2026-09-28 14:42"
+    },
+    {
       "id": "musicbox-15043003",
       "title": "Lunasa",
       "date": "2027-03-10",
@@ -20186,18 +18662,6 @@
       "added": "2026-08-08 11:30"
     },
     {
-      "id": "kpbs-2027-05-13-metallica-at-snapdragon-stadiu",
-      "title": "Metallica at SnapDragon Stadium",
-      "date": "2027-05-13",
-      "time": "18:00",
-      "venue": "KPBS calendar",
-      "category": "kpbs",
-      "price": "",
-      "description": "Snapdragon Stadium",
-      "url": "https://www.kpbs.org/events/2027/05/13/metallica-at-snapdragon-stadium",
-      "added": "2026-09-25 15:03"
-    },
-    {
       "id": "kpbs-2027-05-13-ruby-ibarra-and-the-balikbayan",
       "title": "Ruby Ibarra and The Balikbayans Live in San Diego",
       "date": "2027-05-13",
@@ -20236,17 +18700,17 @@
   ],
   "flyers": [
     {
-      "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/ChatGPT%20Image%20Sep%2021%2C%202026%2C%2010_44_53%20AM.png/:/rs=w:2480,cg:true,m",
+      "source": "https://img1.wsimg.com/isteam/ip/dacbddb2-8c9d-48e4-b193-c142995a101b/ChatGPT%20Image%20Sep%2028%2C%202026%2C%2010_19_33%20AM.png/:/rs=w:2480,cg:true,m",
       "page": "https://deanospub.com/",
-      "fetched": "2026-09-25 15:03",
+      "fetched": "2026-09-28 14:43",
       "image": "data/deanos-flyer.jpg",
-      "bytes": 509717,
+      "bytes": 548153,
       "venue": "Deano's Pub"
     },
     {
       "source": "https://blackcatbar.wordpress.com/wp-content/uploads/2026/09/bcbseptember2026.jpg?w=2000",
       "page": "https://blackcatbar.wordpress.com/calendar/",
-      "fetched": "2026-09-25 15:03",
+      "fetched": "2026-09-28 14:43",
       "image": "data/blackcat-flyer.jpg",
       "label": "this month's calendar",
       "bytes": 711510,
